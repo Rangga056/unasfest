@@ -3,7 +3,7 @@ import Hero from "@/components/shared/Hero/Hero";
 
 export default function Home() {
   return (
-    <>
+    <main>
       {/* Hero  */}
       <Hero />
       {/* Banner Component  */}
@@ -14,6 +14,6 @@ export default function Home() {
       {/* FAQ Component   */}
       {/* Timeline Component */}
       {/* Contact Component  */}
-    </>
+    </main>
   );
 }
