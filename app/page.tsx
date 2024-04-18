@@ -1,8 +1,19 @@
+import AutoScrollBanner from "@/components/shared/AutoScrollBanner/AutoScrollBanner";
+import Hero from "@/components/shared/Hero/Hero";
+
 export default function Home() {
   return (
     <>
-      <h1>Unasfest website </h1>
-      <p>Landing page</p>
+      {/* Hero  */}
+      <Hero />
+      {/* Banner Component  */}
+      <AutoScrollBanner />
+      {/* Activities  */}
+      {/* Benefit  */}
+      {/* Gallery Component  */}
+      {/* FAQ Component   */}
+      {/* Timeline Component */}
+      {/* Contact Component  */}
     </>
   );
 }
