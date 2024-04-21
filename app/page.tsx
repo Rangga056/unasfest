@@ -1,5 +1,7 @@
 import AutoScrollBanner from "@/components/shared/AutoScrollBanner/AutoScrollBanner";
 import Hero from "@/components/shared/Hero/Hero";
+import Benefit from './../components/shared/Benefit/Benerfit';
+
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <AutoScrollBanner />
       {/* Activities  */}
       {/* Benefit  */}
+      <Benefit />
       {/* Gallery Component  */}
       {/* FAQ Component   */}
       {/* Timeline Component */}

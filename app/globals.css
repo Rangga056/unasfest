@@ -75,4 +75,36 @@
   }
 }
 
+@layer components {
+  .nav,
+  .nav-active {
+    @apply relative cursor-pointer;
+  }
+
+  .nav {
+    @apply text-black opacity-60 font-medium;
+  }
+
+  .nav-active {
+    @apply text-active-blue font-bold;
+  }
+
+  .nav:hover {
+    @apply text-active-blue opacity-100;
+  }
+
+  .nav::after {
+    @apply content-[''] absolute bg-active-blue h-1 w-[0%] left-0 -bottom-2 rounded-sm duration-300;
+  }
+
+  .nav:hover::after {
+    @apply w-[90%];
+  }
+
+  .nav-active::after {
+    @apply content-[''] absolute bg-active-blue h-1 w-[90%] left-0 -bottom-2 rounded-sm duration-100;
+  }
+}
+
+
 /* Animation */
