@@ -17,7 +17,7 @@ import {
     children?: React.ReactNode;
   }
   
-  function TimelineCard({ title, description, posterDatas, children }: Props) {
+  function PosterCard({ title, description, posterDatas, children }: Props) {
     return (
       <section className="relative mt-20 w-full max-w-screen-xl m-auto lg:w-[90%] mb-12">
         <Card className="pb-2 text-center overflow-hidden">
@@ -39,5 +39,5 @@ import {
     );
   }
   
-  export default TimelineCard;
+  export default PosterCard;
   

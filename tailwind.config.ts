@@ -34,6 +34,9 @@ const config = {
     },
 
     extend: {
+      color: {
+        "all": "#FFFAF0",
+      },
       width: {
         "323" : "20.188rem",
       },

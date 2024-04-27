@@ -12,7 +12,7 @@ import "../styles/poster.css";
 // import required modules
 import Image, { StaticImageData } from "next/image";
 import { Button } from "./button";
-import Pagination from './pagination';
+import Pagination from "./pagination";
 // import { Pagination } from 'swiper/modules';
 
 export interface posterDatasProps {
@@ -22,10 +22,10 @@ export interface posterDatasProps {
   }>;
 }
 
-const PosterLomba = ({ posterDatas }: posterDatasProps) => {
+const PosterSwipe = ({ posterDatas }: posterDatasProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleSlideChange = (index : number) => {
+  const handleSlideChange = (index: number) => {
     setActiveIndex(index);
   };
 
@@ -36,10 +36,10 @@ const PosterLomba = ({ posterDatas }: posterDatasProps) => {
           0: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
-          1440: { slidesPerView: 4 },
+          1440: { slidesPerView: 3 },
         }}
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
-        spaceBetween={30}
+        spaceBetween={10}
         pagination={{
           clickable: true,
         }}
@@ -51,35 +51,33 @@ const PosterLomba = ({ posterDatas }: posterDatasProps) => {
             <SwiperSlide
               id="slides"
               key={index}
-              className="poster-slide mx-2"
-              style={{
-                width: "100%",
-                height: "100%",
-              }}
+              className="poster-slide h-32 w-[4px] relative"
             >
-              <div className="flex flex-col w-72 justify-center items-center align-center relative bg-red-400">
-              <Image
-                src={poster.image}
-                alt={poster.name}
-                layout="responsive"
-              className="object-cover"
-              />
-              <Button size="poster" className="absolute bottom-0 left-1/2 -translate-x-1/2 right-0 p-4 text-center">
-                see more
-              </Button>
+              <div className="flex flex-col justify-center items-center align-center relative ">
+                <Image
+                  src={poster.image}
+                  alt={poster.name}
+                  layout="fixed"
+                  className="object-fill"
+                />
+                <Button
+                  size="poster"
+                  className="absolute w-[87.5%] bottom-0 left-1/2 -translate-x-1/2 right-0 p-4 text-center inline-block"
+                >
+                  see more
+                </Button>
               </div>
-              
             </SwiperSlide>
           );
         })}
       </Swiper>
-      <Pagination 
-      activeIndex={activeIndex}
-      totalSlides={posterDatas.length}
-      onSlideChange={handleSlideChange}
+      <Pagination
+        activeIndex={activeIndex}
+        totalSlides={posterDatas.length}
+        onSlideChange={handleSlideChange}
       />
     </>
   );
 };
 
-export default PosterLomba;
+export default PosterSwipe;

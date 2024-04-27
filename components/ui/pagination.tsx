@@ -33,7 +33,7 @@ const CustomPagination = ({ activeIndex, totalSlides, onSlideChange }: any) => {
         <div
         key={index}
         className={`w-3 h-3 cursor-pointer ${
-          index === activeIndex ? "bg-black w-20" : "bg-gray-300"
+          index === activeIndex ? "bg-black w-14" : "bg-gray-300"
         }`}
         onClick={() => onSlideChange(index)}
       />
@@ -44,3 +44,5 @@ const CustomPagination = ({ activeIndex, totalSlides, onSlideChange }: any) => {
 };
 
 export default CustomPagination;
+
+

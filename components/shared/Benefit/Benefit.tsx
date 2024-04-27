@@ -6,8 +6,7 @@ const Benefit = () => {
     <div className="w-full">
       <div className="flex items-center gap-2">
         <BenefitCard
-          title="BENEFIT OF THE UNAS FEST 2024"
-          title2="COMPETENCY"
+          title="BENEFIT OF THE UNAS FEST 2024" competency={<div>COMPETENCY</div>}
         //   posterDatas={posterData}
         />
       </div>
