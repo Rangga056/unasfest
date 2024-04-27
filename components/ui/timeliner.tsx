@@ -38,7 +38,7 @@
 //   //             <TimelineContent className="bg-blue-700">
 //   //               <div className={`relative ${index % 2 === 1 ? "transform scale-x-[-1]" : ""} ${isLgOrMdScreen ? "" : "transform scale-x-[1]"}`}>
 //   //                 <svg
-                  
+
 //   //                   width="100%"
 //   //                   height="auto"
 //   //                   viewBox="0 0 571 225"
@@ -123,3 +123,14 @@
 
 // export default Timeliner;
 
+import "@/components/styles/timelines.module.css";
+
+const Timeliner = () => {
+  return (
+    <div>
+      <h1 className={}></h1>
+    </div>
+  );
+};
+
+export default Timeliner;

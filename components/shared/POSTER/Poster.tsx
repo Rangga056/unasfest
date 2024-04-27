@@ -1,4 +1,4 @@
-import posterDatas from "@/components/constants/posterDatas";
+import posterDatas from "@/constants/posterDatas";
 import PosterCard from "@/components/ui/PosterCard";
 
 const Poster = () => {

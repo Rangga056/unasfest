@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { navMenu } from "../../constants/navMenu";
+import { navMenu } from "@/constants/navMenu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
