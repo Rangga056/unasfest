@@ -10,6 +10,21 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      sm: "320px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1280px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1440px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1920px",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -19,11 +34,18 @@ const config = {
     },
 
     extend: {
+      color: {
+        "all": "#FFFAF0",
+      },
+      width: {
+        "323" : "20.188rem",
+      },
       fontFamily: {
         inter: ["var(--font-inter)"],
         bungee: ["var(--font-bungee)"],
       },
       colors: {
+        "active-blue": "#004AAD",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
