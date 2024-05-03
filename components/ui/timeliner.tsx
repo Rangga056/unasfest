@@ -123,14 +123,15 @@
 
 // export default Timeliner;
 
-import "@/components/styles/timelines.module.css";
+import styles from "@/components/styles/timelines.module.css";
 
 const Timeliner = () => {
   return (
     <div>
-      <h1 className={}></h1>
+      <h1 className={styles.anjayadi}>alskdfja;lsdf</h1>
     </div>
   );
 };
 
 export default Timeliner;
+
