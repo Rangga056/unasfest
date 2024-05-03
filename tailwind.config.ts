@@ -14,7 +14,7 @@ const config = {
       sm: "320px",
       // => @media (min-width: 640px) { ... }
 
-      md: "768px",
+      md: "769px",
       // => @media (min-width: 768px) { ... }
 
       lg: "1280px",
@@ -35,7 +35,7 @@ const config = {
 
     extend: {
       color: {
-        "all": "#FFFAF0",
+        "all": "#1F1E23",
       },
       width: {
         "323" : "20.188rem",

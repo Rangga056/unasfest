@@ -3,7 +3,7 @@ import indo from "@/public/img/home/posters/indo2.png";
 import movie from "@/public/img/home/posters/movie2.png";
 import SCP from "@/public/img/home/posters/SCP2.png";
 
-const posterDatas = [
+export const postersData = [
     {
         image: english,
         name: "English Poster",
@@ -21,5 +21,3 @@ const posterDatas = [
         name: "SCP Poster"
     }
 ];
-
-export default posterDatas;

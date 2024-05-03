@@ -1,37 +1,37 @@
 export const navMenu = [
     {
       path: "/",
-      title: "Beranda",
+      title: "Home",
     },
     {
-      path: "/kegiatan",
-      title: "Kegiatan",
+      path: "/Competition",
+      title: "Competition",
       child: [
         {
           name: "Kompetisi Debat Bahasa Indonesia (KDBI)",
-          href: "/kegiatan/KDBI",
+          href: `/Competition/KDBI`,
         },
         {
           name: "English Debate Competition (EDC)",
-          href: "/kegiatan/EDC",
+          href: "/Competition/EDC",
         },
         {
           name: "Lomba Karya Tulis Ilmiah",
-          href: "/kegiatan/LKTI",
+          href: "/Competition/SPC",
         },
         {
           name: "Seminar Nasional",
-          href: "/kegiatan/SEMNAS",
+          href: "/Competition/SEMNAS",
         },
         {
           name: "Short Movie",
-          href: "/kegiatan/ShortMovie",
+          href: "/Competition/ShortMovie",
         },
       ],
     },
     {
-      path: "/galeri",
-      title: "Galeri",
+      path: "/Gallery",
+      title: "Gallery",
     },
     {
       path: "/sponsorship",

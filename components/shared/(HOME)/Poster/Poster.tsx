@@ -1,4 +1,4 @@
-import posterDatas from "@/constants/posterDatas";
+import {postersData} from "@/constants/posterDatas";
 import PosterCard from "@/components/ui/PosterCard";
 
 const Poster = () => {
@@ -6,9 +6,9 @@ const Poster = () => {
     <div className="w-full">
       <div className="flex items-center gap-2">
         <PosterCard
-          title="Auto Scroll"
-          description="Scroll automatically when you reach the end of the page"
-          posterDatas={posterDatas}
+          title="Our Competition"
+          description="UNAS FEST 2024 Competition List"
+          posterDatas={postersData}
         />
       </div>
     </div>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Bungee, Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar/Navbar";
-import Footer from "@/components/shared/Footer/Footer";
+import Navbar from "@/components/shared/(HOME)/Navbar/Navbar";
+import Footer from "@/components/shared/(HOME)/Footer/Footer";
 
 const bungee = Bungee({
   subsets: ["latin"],

@@ -1,11 +1,12 @@
-export const timelinesHomes = [
+export const timelinesEDC = [
     {
+      
       title: "OPENING UNAS FEST 2024",
       description: "Opening of UNAS FEST 2024 and Implementation of National Seminars",
       month: "DEC",
       date: "4",
       year: "2024",
-      color: "#2A9763"
+      color: "#004AAD"
     },
     {
       title: "IMPLEMENTATION OF UNAS FEST 2024 ACTIVITIES",
@@ -13,7 +14,7 @@ export const timelinesHomes = [
       month: "DEC",
       date: "5-7",
       year: "2024",
-      color: "#1F1E23"
+      color: "#004AAD"
 
     },
     {
@@ -22,7 +23,7 @@ export const timelinesHomes = [
       month: "DEC",
       date: "19",
       year: "2024",
-      color: "#1F1E23"
+      color: "#004AAD"
 
     },
     {
@@ -31,7 +32,7 @@ export const timelinesHomes = [
       month: "DEC",
       date: "20",
       year: "2024",
-      color: "#1F1E23"
+      color: "#004AAD"
 
     },
     {
@@ -40,8 +41,7 @@ export const timelinesHomes = [
       month: "DEC",
       date: "20",
       year: "2024",
-      color: "#1F1E23"
+      color: "#004AAD"
 
     },
   ];
-  

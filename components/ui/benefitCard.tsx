@@ -1,5 +1,7 @@
 "use client";
-import { Banknote, Newspaper } from "lucide-react";
+import certificate from "@/public/img/home/certificate.png"
+import money from "@/public/img/home/money.png"
+import Image from "next/image";
 
 import {
   Card,
@@ -27,11 +29,11 @@ function BenefitCard({ title, competency, children }: benefitProps) {
         </CardTitle>
         <CardContent className="w-full h-full flex justify-around align-center p-20 text-xl">
             <div className="space-y-5 flex flex-col items-center">
-              <Banknote size={84} />
+              <Image src={certificate} alt="Certificate"/>
               <h1 className=""> E-CERTIFICATE</h1>
             </div>
             <div className="space-y-5 flex flex-col items-center">
-              <Newspaper size={84} />
+              <Image src={money} alt="Money"/>
               <h1 className=""> MILIONS OF RUPIAH</h1>
             </div>
         </CardContent>
