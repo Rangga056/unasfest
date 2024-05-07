@@ -35,10 +35,10 @@ const config = {
 
     extend: {
       color: {
-        "all": "#FFFAF0",
+        all: "#FFFAF0",
       },
       width: {
-        "323" : "20.188rem",
+        "323": "20.188rem",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
@@ -78,6 +78,9 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        page: {
+          green: "#2A9763",
         },
       },
       borderRadius: {
