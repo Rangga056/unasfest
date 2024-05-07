@@ -5,6 +5,7 @@ import Gallery from '@/components/shared/(HOME)/Gallery/Gallery';
 import Timeline from "@/components/shared/(HOME)/Timeline/Timeline";
 import Faq from "@/components/shared/(HOME)/Faq/Faq";
 import Contact from "@/components/shared/(HOME)/Contact/Contact"
+import AutoScrollComponent from "@/components/shared/(HOME)/AutoScroll/AutoScrollComponent";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       {/* Banner Component  */}
       <Poster />
       {/* Activities  */}
+      <AutoScrollComponent />
       {/* Benefit  */}
       <Benefit />
       {/* Gallery Component  */}

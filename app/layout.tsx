@@ -30,7 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${bungee.variable} bg-[#FFFAF0] container`}>
+      <body
+        className={`${inter.variable} ${bungee.variable} bg-[#FFFAF0] overflow-x-hidden`}
+      >
         {/* Navbar */}
         <Navbar />
         {children}

@@ -85,7 +85,7 @@ export const competitionsData = [
 
 
     {
-        path: "SCP",
+        path: "SPC",
         coverImage : scpCover,
         description: "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
         timeline: timelinesSCP,
