@@ -1,4 +1,4 @@
-import AutoScrollComponent from "@/components/shared/AutoScrollComponent";
+import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent";
 import Hero from "@/components/shared/activities/Hero";
 
 const IndonesianDebatePage = () => {
@@ -9,9 +9,7 @@ const IndonesianDebatePage = () => {
       <div className="container">
         <Hero />
       </div>
-      <div className="w-screen">
-        <AutoScrollComponent />
-      </div>
+      <InfiniteSlidingComponent />
     </div>
   );
 };
