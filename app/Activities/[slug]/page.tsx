@@ -1,4 +1,4 @@
-import { Activities } from "@/constants/Activites"; // Pastikan nama modul sesuai dengan struktur proyek Anda
+import { Activities } from "@/constants/Activites";
 import Image from "next/image";
 import {
   Card,
