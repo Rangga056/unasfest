@@ -9,23 +9,23 @@ export const navMenu = [
       child: [
         {
           name: "Kompetisi Debat Bahasa Indonesia (KDBI)",
-          href: `/Competition/KDBI`,
+          href: `/Activities/KDBI`,
         },
         {
           name: "English Debate Competition (EDC)",
-          href: "/Competition/EDC",
+          href: "/Activities/EDC",
         },
         {
           name: "Science Paper Competition (SPC)",
-          href: "/Competition/SPC",
+          href: "/Activities/SPC",
         },
         {
           name: "Seminar Nasional",
-          href: "/Competition/SEMNAS",
+          href: "/Activities/SEMNAS",
         },
         {
           name: "Short Movie",
-          href: "/Competition/SMC",
+          href: "/Activities/SMC",
         },
       ],
     },
