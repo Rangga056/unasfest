@@ -6,6 +6,7 @@ import Timeline from "@/components/shared/Timeline/Timeline";
 import Faq from "@/components/shared/Faq/Faq";
 import Contact from "@/components/shared/Contact/Contact"
 import AutoScrollComponent from "@/components/shared/AutoScroll/AutoScrollComponent";
+import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent";
 import { postersData } from "@/constants/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 
@@ -19,7 +20,8 @@ export default function Home() {
       {/* Banner Component  */}
       <Poster title="Our Competition" description="UNAS FEST 2024 Competition List" posterDatas={postersData}/>
       {/* Activities  */}
-      <AutoScrollComponent />
+      {/* <AutoScrollComponent /> */}
+      <InfiniteSlidingComponent />
       {/* Benefit  */}
       <Benefit />
       {/* Gallery Component  */}
