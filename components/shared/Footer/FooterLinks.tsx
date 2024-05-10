@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { activitiesLinks, contactLinks, quickLinks } from "@/constants/Footer";
+import Image from "next/image";
 
 const FooterLinks = () => {
   return (
@@ -28,13 +29,23 @@ const FooterLinks = () => {
         <h3 className="font-semibold">Contact</h3>
         <div className="flex flex-col lg:text-left gap-6">
           {contactLinks.map((item) => (
-            <Link
-              key={item.title}
-              href={item.url}
-              className="max-w-[311px] text-wrap"
-            >
-              {item.title}
-            </Link>
+            <div className="flex items-start gap-2">
+              <Image
+                src={item.icon}
+                alt={item.title}
+                width={20}
+                height={20}
+                className="pt-1"
+              />
+              <Link
+                key={item.title}
+                href={item.url}
+                className="max-w-[311px] text-wrap"
+                target="_blank"
+              >
+                {item.title}
+              </Link>
+            </div>
           ))}
         </div>
       </div>
