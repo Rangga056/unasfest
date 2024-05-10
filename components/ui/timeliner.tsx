@@ -126,12 +126,7 @@
 import styles from "@/components/styles/timelines.module.css";
 
 const Timeliner = () => {
-  return (
-    <div>
-      <h1 className={styles.anjayadi}>alskdfja;lsdf</h1>
-    </div>
-  );
+  return <div>timeLine</div>;
 };
 
 export default Timeliner;
-

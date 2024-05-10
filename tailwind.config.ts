@@ -81,6 +81,8 @@ const config = {
         },
         page: {
           green: "#2A9763",
+          white: "#fff7e8",
+          black: "#1f1e23",
         },
       },
       borderRadius: {
