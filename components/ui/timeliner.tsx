@@ -1,16 +1,5 @@
 import styles from "@/components/styles/timelines.module.css";
-
-
-export interface timelinesDatasProps {
-  timelines: Array<{
-    title: string;
-    description: string;
-    month: string;
-    date: string;
-    year: string;
-    color: string;
-  }>;
-}
+import { timelinesDatasProps } from "@/lib/types/timeline";
 
 const Timeliner = ({ timelines }: timelinesDatasProps) => {
   return (

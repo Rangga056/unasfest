@@ -1,11 +1,14 @@
-import Poster from "@/components/shared/(HOME)/Poster/Poster";
-import Hero from "@/components/shared/(HOME)/Hero/Hero";
-import Benefit from '@/components/shared/(HOME)/Benefit/Benefit';
-import Gallery from '@/components/shared/(HOME)/Gallery/Gallery'; 
-import Timeline from "@/components/shared/(HOME)/Timeline/Timeline";
-import Faq from "@/components/shared/(HOME)/Faq/Faq";
-import Contact from "@/components/shared/(HOME)/Contact/Contact"
-import AutoScrollComponent from "@/components/shared/(HOME)/AutoScroll/AutoScrollComponent";
+import Poster from "@/components/shared/Poster/Poster";
+import Hero from "@/components/shared/Hero/Hero";
+import Benefit from '@/components/shared/Benefit/Benefit';
+import Gallery from '@/components/shared/Gallery/Gallery'; 
+import Timeline from "@/components/shared/Timeline/Timeline";
+import Faq from "@/components/shared/Faq/Faq";
+import Contact from "@/components/shared/Contact/Contact"
+import AutoScrollComponent from "@/components/shared/AutoScroll/AutoScrollComponent";
+import { postersData } from "@/constants/posterDatas";
+import { faqsData } from "@/constants/Faqs";
+
 
 
 export default function Home() {
@@ -14,7 +17,7 @@ export default function Home() {
       {/* Hero  */}
       <Hero />
       {/* Banner Component  */}
-      <Poster />
+      <Poster title="Our Competition" description="UNAS FEST 2024 Competition List" posterDatas={postersData}/>
       {/* Activities  */}
       <AutoScrollComponent />
       {/* Benefit  */}
@@ -24,7 +27,7 @@ export default function Home() {
       {/* Timeline Component */}
       <Timeline />
       {/* FAQ Component   */}
-      <Faq />
+      <Faq title="frequently asked questions" faqsData={faqsData}/>
       {/* Contact Component  */}
       <Contact />
     </main>

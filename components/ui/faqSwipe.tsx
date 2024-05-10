@@ -1,19 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import styles from "@/components/styles/faq.module.css";
 import 'swiper/css';
-import Pagination from "./pagination";
-export interface faqsDataProps {
-  faqsData: Array<{
-    quetion: string;
-    answer: string;
-  }>;
-}
+import Pagination from "../shared/pagination/pagination";
+import { faqsDataProps } from "@/lib/types/Faq";
 
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
   const [activeIndex, setActiveIndex] = useState(0);

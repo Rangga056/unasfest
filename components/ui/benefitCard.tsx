@@ -1,6 +1,6 @@
 "use client";
-import certificate from "@/public/img/home/certificate.png"
-import money from "@/public/img/home/money.png"
+import certificate from "@/public/assets/images/home/certificate.png"
+import money from "@/public/assets/images/home/money.png"
 import Image from "next/image";
 
 import {

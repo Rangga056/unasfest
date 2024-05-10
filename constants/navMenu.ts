@@ -4,8 +4,8 @@ export const navMenu = [
       title: "Home",
     },
     {
-      path: "/Competition",
-      title: "Competition",
+      path: "/Activities",
+      title: "Activities",
       child: [
         {
           name: "Kompetisi Debat Bahasa Indonesia (KDBI)",
@@ -16,7 +16,7 @@ export const navMenu = [
           href: "/Competition/EDC",
         },
         {
-          name: "Lomba Karya Tulis Ilmiah",
+          name: "Science Paper Competition (SPC)",
           href: "/Competition/SPC",
         },
         {
@@ -25,7 +25,7 @@ export const navMenu = [
         },
         {
           name: "Short Movie",
-          href: "/Competition/ShortMovie",
+          href: "/Competition/SMC",
         },
       ],
     },
@@ -38,8 +38,8 @@ export const navMenu = [
       title: "Sponsorship",
     },
     {
-      path: "/tentang",
-      title: "Tentang",
+      path: "/About",
+      title: "About",
     },
   ];
   

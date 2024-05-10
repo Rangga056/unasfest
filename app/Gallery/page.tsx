@@ -1,4 +1,4 @@
-import Faq from "@/components/shared/(HOME)/Faq/Faq"
+import Faq from "@/components/shared/Faq/Faq"
 
 export default function Gallery(){
     return(

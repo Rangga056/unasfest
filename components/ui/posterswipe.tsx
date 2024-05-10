@@ -1,26 +1,16 @@
 "use client";
 
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "../styles/poster.css";
 
-// import required modules
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { Button } from "./button";
-import Pagination from "./pagination";
-// import { Pagination } from 'swiper/modules';
-
-export interface posterDatasProps {
-  posterDatas: Array<{
-    image: StaticImageData | string;
-    name: string;
-  }>;
-}
+import Pagination from "../shared/pagination/pagination";
+import { posterDatasProps } from "@/lib/types/Poster";
 
 const PosterSwipe = ({ posterDatas }: posterDatasProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
