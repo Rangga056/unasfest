@@ -42,7 +42,42 @@ export const Activities = [
                 provision : "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities.."
 
             },
-        ]
+        ],
+        judgesData : [
+            {
+                name: "Judge kdbi 1",
+                lastEducation: "University of Indonesia",
+                description: "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+                achievment : [
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                ],
+            },
+            {
+                name: "Judge kdbi 2",
+                lastEducation: "University of Indonesia",
+                description: "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+                achievment : [
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                ],
+            },
+            {
+                name: "Judge kdbi 3",
+                lastEducation: "University of Indonesia",
+                description: "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+                achievment : [
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "Mollit quis sint ad pariatur aliquip anim amet.",
+                    "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                ],
+            },
+        ],
 
     },
 

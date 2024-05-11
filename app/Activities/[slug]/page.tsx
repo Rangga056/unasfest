@@ -27,7 +27,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   }
 
   return (
-    <section className="relative w-full m-auto lg:w-[90%] mb-12">
+    <section className="relative w-full m-auto mb-12">
       {/* HERO */}
       <Card
         className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center"
@@ -36,13 +36,16 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
           {competition.title}
         </CardTitle>
-        <CardContent className="w-[85%] h-full ">
+        <div className="flex flex-col justify-center items-center">
+        <CardContent className="w-[80%]">
           <Image
             src={competition.coverImage}
             alt={competition.title}
-            width={1200}
-            height={1200}
-          />
+            width={1400}
+            height={1400}
+          >
+            
+          </Image>
           <CardDescription className="text-start mt-10">
             {competition.description}
           </CardDescription>
@@ -55,10 +58,11 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             </Button>
           </div>
         </CardContent>
+        </div>
       </Card>
 
       {/* INFINITE SLIDING */}
-      <Card className="pb-10">
+      <Card className="pb-10 lg:w-[100%]">
         <InfiniteSliding />
       </Card>
 
@@ -73,7 +77,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
           {competition.requirementsTitle}
         </CardDescription>
-        <CardContent>
+        <CardContent className="ml-36">
           <RequirementsSwipe requirements={competition.requirements} />
         </CardContent>
       </Card>
