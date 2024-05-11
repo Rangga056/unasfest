@@ -25,7 +25,7 @@ const InfiniteSlidingComponent = () => {
           x: ["-100%", "0%"],
           transition: {
             ease: "linear",
-            duration: 5,
+            duration: 8,
             repeat: Infinity,
           },
         }}
@@ -38,7 +38,7 @@ const InfiniteSlidingComponent = () => {
             style={{ width: `${100 / slides.length}%` }}
           >
             <div className="flex flex-col items-center justify-center h-full text-6xl">
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 font-bungee">
                 <span>{slide.number}</span>
                 <span>{slide.text}</span>
               </div>

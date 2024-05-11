@@ -5,7 +5,7 @@ import scpCover from "@/public/assets/images/competition/scpCover.png"
 import smcCover from "@/public/assets/images/competition/smcCover.png"
 
 //timeline
-import {timelinesEDC, timelinesKDBI, timelinesSCP, timelinesSMC} from "@/constants/Timeline"
+import {timelinesEDC, timelinesKDBI, timelinesSPC, timelinesSMC} from "@/constants/Timeline"
 export const Activities = [
     {
         path: "kdbi",
@@ -91,9 +91,9 @@ export const Activities = [
         path: "spc",
         title: "scintific paper competition",
         coverImage : scpCover,
-        color: "#E27817",
+        color: "#C02424",
         description: "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
-        timeline: timelinesSCP,
+        timeline: timelinesSPC,
         guideBook : "https://ufest.unas.ac.id/",
         requirementsTitle: "Indonesian Deabte Competition requirements",
 
@@ -132,7 +132,7 @@ export const Activities = [
         path: "smc",
         title: "short movie competition",
         coverImage : smcCover,
-        color: "#C02424",
+        color: "#E27817",
         description: "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
         timeline: timelinesSMC,
         guideBook : "https://ufest.unas.ac.id/",

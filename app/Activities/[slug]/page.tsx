@@ -9,6 +9,7 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/AutoScroll/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
+import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -27,6 +28,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
   return (
     <section className="relative w-full m-auto lg:w-[90%] mb-12">
+      {/* HERO */}
       <Card
         className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center"
         style={{ backgroundColor: competition.color }}
@@ -55,10 +57,12 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </CardContent>
       </Card>
 
-      <Card>
+      {/* INFINITE SLIDING */}
+      <Card className="pb-10">
         <InfiniteSliding />
       </Card>
 
+      {/* REQUIREMENTS */}
       <Card
         className="pb-2 text-center overflow-hidden rounded-none"
         style={{ backgroundColor: competition.color }}
@@ -74,6 +78,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </CardContent>
       </Card>
 
+      {/* DOWNLOAD GUIDE BOOK */}
       <Card
         className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden"
         style={{ backgroundColor: competition.color }}
@@ -89,6 +94,13 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <Button className="w-32 rounded-none">Download</Button>
         </Link>
       </Card>
+
+      {/* TIMELINE */}
+      <TimelineCards
+          title="Competition Timeline"
+          description="Pay attention to the time and date of the race"
+          timelines={competition.timeline}
+        />
     </section>
   );
 }
