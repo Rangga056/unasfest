@@ -7,7 +7,7 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import { activitiesData } from "@/lib/types/Activities";
-import AutoScrollComponent from "@/components/shared/AutoScroll/AutoScrollComponent";
+import InfiniteSliding from "@/components/shared/AutoScroll/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -56,7 +56,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       </Card>
 
       <Card>
-        <AutoScrollComponent />
+        <InfiniteSliding />
       </Card>
 
       <Card

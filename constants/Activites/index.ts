@@ -8,7 +8,7 @@ import smcCover from "@/public/assets/images/competition/smcCover.png"
 import {timelinesEDC, timelinesKDBI, timelinesSCP, timelinesSMC} from "@/constants/Timeline"
 export const Activities = [
     {
-        path: "KDBI",
+        path: "kdbi",
         title: "Competisi Debat Bahasa Indonesia",
         coverImage : kdbiCover,
         color: "#2A9763",
@@ -48,7 +48,7 @@ export const Activities = [
 
 
     {
-        path: "EDC",
+        path: "edc",
         title: "english debate competition",
         coverImage : edcCover,
         color: "#004AAD",
@@ -88,7 +88,7 @@ export const Activities = [
 
 
     {
-        path: "SPC",
+        path: "spc",
         title: "scintific paper competition",
         coverImage : scpCover,
         color: "#E27817",
@@ -129,7 +129,7 @@ export const Activities = [
 
 
     {
-        path: "SMC",
+        path: "smc",
         title: "short movie competition",
         coverImage : smcCover,
         color: "#C02424",
