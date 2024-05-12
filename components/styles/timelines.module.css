@@ -1,4 +1,87 @@
-.anjayadi {
-  font-size: 100px;
-  color: Tomato;
+.container::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background-color: black;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.timeline {
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.leftTimeline {
+  left: 0;
+}
+
+.rightTimeline {
+  left: 50%;
+}
+
+.leftTimeline .arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 26px;
+  z-index: -1;
+  border-bottom: 40px solid ;
+  border-right: 50px solid transparent;
+  right: -35px;
+  border-radius: 10%;
+}
+
+.rightTimeline .arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 26px;
+  z-index: -1;
+  border-bottom: 40px solid;
+  border-left: 50px solid transparent;
+  border-radius: 2px;
+  left: -35px;
+}
+
+@media screen and (max-width : 769px) {
+    .container::after{
+        left: 10px;
+    }
+    .rightTimeline{
+        left: 0;
+    }
+    .leftTimeline .arrow{
+        border-bottom: 30px solid;
+        border-left: 50px solid transparent;
+        left: -30px;
+    }
+    .rightTimeline .arrow{
+        border-bottom: 30px solid;
+        border-left: 50px solid transparent;
+        left: -30px;
+    }
+
 }

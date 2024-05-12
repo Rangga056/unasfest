@@ -1,9 +1,9 @@
 "use client";
 
-import photo1 from "@/public/img/home/gallery/gkotak.jpg";
-import photo2 from "@/public/img/home/gallery/gkotak.jpg";
-import photo3 from "@/public/img/home/gallery/gkotak.jpg";
-import photo4 from "@/public/img/home/gallery/gpanjang.jpg";
+import photo1 from "@/public/assets/images/home/gallery/gkotak.jpg";
+import photo2 from "@/public/assets/images/home/gallery/gkotak.jpg";
+import photo3 from "@/public/assets/images/home/gallery/gkotak.jpg";
+import photo4 from "@/public/assets/images/home/gallery/gpanjang.jpg";
 
 import Image from "next/image";
 import { Card } from "@/components/ui/card";

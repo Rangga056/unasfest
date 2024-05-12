@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
+    <Card className="relative mt-20 w-full max-w-screen-xl m-auto mb-12">
     <div className="md:flex item-center md:px-[100px] py-8">
       {/* Left Section */}
       <div className="flex flex-col w-1/2 gap-[1em]">
@@ -32,6 +34,7 @@ const Hero = () => {
         />
       </div>
     </div>
+    </Card>
   );
 };
 
