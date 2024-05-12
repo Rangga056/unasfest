@@ -30,13 +30,6 @@ const FooterLinks = () => {
         <div className="flex flex-col lg:text-left gap-6">
           {contactLinks.map((item) => (
             <div className="flex items-start gap-2">
-              <Image
-                src={item.icon}
-                alt={item.title}
-                width={20}
-                height={20}
-                className="pt-1"
-              />
               <Link
                 key={item.title}
                 href={item.url}

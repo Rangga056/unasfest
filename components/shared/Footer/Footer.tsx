@@ -12,21 +12,21 @@ const Footer = () => {
     <footer className="container mt-24 pb-32">
       <div className="w-full flex md:flex-row flex-col gap-y-6 items-start lg:justify-between justify-center">
         {/* Left section of the footer */}
-        <div className="flex flex-col items-center gap-y-6 w-[218px] mx-auto md:mx-0">
+        <div className="flex flex-col items-center gap-y-6 w-[336px] mx-auto md:mx-0">
           {/* Unasfest Logo */}
           <div className="flex items-center gap-1">
-            <Image src={unafestIconLogo} alt="logo" width={57} height={57} />
-            <Image src={unafestIconText} alt="logo" width={150} height={57} />
+            <Image src={unafestIconLogo} alt="logo" width={80} height={80} />
+            <Image src={unafestIconText} alt="logo" width={193} height={80} />
           </div>
           {/* Footer Social Media Links */}
-          <div className="flex w-[200px] items-center justify-between">
+          <div className="flex w-[250px] items-center justify-between">
             {socialLinks.map((link) => (
               <Link href={link.link} key={link.title}>
                 <Image
                   src={link.icon}
                   alt={link.title}
                   height={30}
-                  width={37}
+                  width={30}
                   className="oject-contain"
                 />
               </Link>
@@ -38,8 +38,8 @@ const Footer = () => {
       </div>
       {/* Separator liine */}
       <Separator className="w-full my-10 bg-page-black" />
-      <p className="text-xl text-center md:text-left">
-        @Copyright UnasFest 2023
+      <p className="text-xl md:pl-7 text-center md:text-left">
+        © Copyright UnasFest
       </p>
     </footer>
   );
