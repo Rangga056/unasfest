@@ -9,6 +9,7 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
+import Dialog from "@/components/ui/dialog";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -90,8 +91,11 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
+            
           </CardDescription>
+          <Dialog />
           <Link href={competition.guideBook}>
+            
             <Button className="w-32 rounded-none">Download</Button>
           </Link>
         </Card>
@@ -103,6 +107,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         description="Pay attention to the time and date of the race"
         timelines={competition.timeline}
       />
+
+
     </section>
   );
 }
