@@ -18,7 +18,7 @@ import {
   function PosterCard({ title, description, timelines, children }: Props) {
     return (
       <section className="relative mt-20 w-full max-w-screen-xl m-auto lg:w-[90%] mb-12">
-        <Card className="pb-2 text-center overflow-hidden">
+        <Card className="pb-2 text-center overflow-hidden ">
           <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
             {title}
           </CardTitle>

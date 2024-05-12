@@ -78,12 +78,10 @@ export const activitiesLinks = [
 //TODO: ADD LINK FOR CONTACTS
 export const contactLinks = [
   {
-    icon: gmailIcon,
     title: "Unasfest@gmail.com",
     url: "mailto:Unasfest@gmail.com",
   },
   {
-    icon: locationIcon,
     title:
       "Jl. Sawo Manila No.61, RT.14/RW.7, Pejaten Bar., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520",
     url: "https://maps.app.goo.gl/XDcCjiNwAqzMr5RF6",

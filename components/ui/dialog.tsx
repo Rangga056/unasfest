@@ -18,4 +18,4 @@ const dialog = () => {
     )
 }
 
-export default dialog
+export default dialog;
