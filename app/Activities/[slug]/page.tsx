@@ -7,7 +7,7 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import { activitiesData } from "@/lib/types/Activities";
-import InfiniteSliding from "@/components/shared/AutoScroll/InfiniteSlidingComponent";
+import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
@@ -31,7 +31,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       {/* HERO */}
       <Card
         className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center"
-        style={{ backgroundColor: competition.color }}
+        style={{ backgroundColor: competition.color }} 
       >
         <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
           {competition.title}
@@ -97,10 +97,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       {/* TIMELINE */}
       <TimelineCards
-          title="Competition Timeline"
-          description="Pay attention to the time and date of the race"
-          timelines={competition.timeline}
-        />
+        title="Competition Timeline"
+        description="Pay attention to the time and date of the race"
+        timelines={competition.timeline}
+      />
     </section>
   );
 }
