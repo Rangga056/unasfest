@@ -16,13 +16,14 @@ import {
   NavigationMenuTrigger,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
+import unasfestLogoIcon from "@/public/assets/icons/unasfest-icon-logo.png";
+import unasfestLogoText from "@/public/assets/icons/unasfest-logo-text.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [visible, setVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const pathname = usePathname();
-
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
@@ -52,23 +53,21 @@ export default function Navbar() {
         <div className="w-4/5 h-full max-w-screen-xl z-50 flex m-auto justify-between items-center">
           <div className="flex items-center gapp-4">
             <Image
-              src="/public/logo-unasfest.webp"
+              src={unasfestLogoIcon}
               alt="Logo"
-              width={10}
-              height={10}
-              className="w-[60px] object-cover aspect-auto md:block"
+              width={57}
+              height={57}
+              className=" object-contain"
             />
             <Image
-              src="/public/logo-unasfest.webp"
+              src={unasfestLogoText}
               alt="Logo"
-              width={10}
-              height={10}
-              className="w-[60px] object-cover aspect-auto md:block"
+              width={138}
+              height={57}
+              className="object-contain"
             />
           </div>
           <div className="hidden md:flex">
-            {/* Desktop Nav */}
-            <nav>Usernav</nav>
             {/* Mobile Nav */}
             <div
               className="lg:hidden"
