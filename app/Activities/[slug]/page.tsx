@@ -9,7 +9,6 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
-// import Dialog from "@/components/ui/dialog";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -31,10 +30,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
     <section>
       <div style={{ backgroundColor: competition.color }}>
         {/* HERO */}
-        <Card
-          className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12"
-          
-        >
+        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
           <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
             {competition.title}
           </CardTitle>
@@ -67,9 +63,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* REQUIREMENTS */}
-        <Card
-          className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12"
-        >
+        <Card className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
           <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
             Competition Requirements
           </CardTitle>
@@ -82,20 +76,15 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* DOWNLOAD GUIDE BOOK */}
-        <Card
-          className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12"
-        >
+        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
           <CardTitle className="text-4xl mb-5 tracking-wide font-semibold leading-normal lg:text-5xl">
             download guidebook
           </CardTitle>
           <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
-            
           </CardDescription>
-          {/* <Dialog /> */}
           <Link href={competition.guideBook}>
-            
             <Button className="w-32 rounded-none">Download</Button>
           </Link>
         </Card>
@@ -108,7 +97,26 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         timelines={competition.timeline}
       />
 
-
+      <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
+        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
+          competition judges
+        </CardTitle>
+        <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
+          Competition Judges List
+        </CardDescription>
+        <CardContent className="w-full h-full flex justify-around">
+          {competition.judgesData.map((judge, index) => (
+            <div key={index} className="flex">
+              <Image
+                src={judge.image}
+                alt={judge.name}
+                width={400}
+                height={400}
+              />
+            </div>
+          ))}
+        </CardContent>
+      </Card>
     </section>
   );
 }
