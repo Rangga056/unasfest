@@ -141,7 +141,7 @@ function NestedNav({ title, path, menu, closeMenu }: NestedNav) {
     >
       <NavigationMenuTrigger>{title}</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <ul className="w-[300px]">
+        <ul className="w-[300px] text-left">
           {menu.map(({ name, href }, index) => (
             <NavigationMenuLink key={index} onClick={closeMenu}>
               <Link
