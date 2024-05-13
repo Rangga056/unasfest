@@ -9,7 +9,7 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
-import Dialog from "@/components/ui/dialog";
+// import Dialog from "@/components/ui/dialog";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -93,7 +93,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             of the National University Festival debate competition
             
           </CardDescription>
-          <Dialog />
+          {/* <Dialog /> */}
           <Link href={competition.guideBook}>
             
             <Button className="w-32 rounded-none">Download</Button>

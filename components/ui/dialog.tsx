@@ -20,5 +20,3 @@ const dialog = () => {
     </Dialog.Root>
   );
 };
-
-export default dialog;
