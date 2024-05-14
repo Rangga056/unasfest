@@ -9,6 +9,7 @@ const bungee = Bungee({
   weight: ["400"],
   variable: "--font-bungee",
   display: "swap",
+  adjustFontFallback: false,
 });
 
 const inter = Inter({
@@ -16,6 +17,7 @@ const inter = Inter({
   weight: ["400"],
   variable: "--font-inter",
   display: "swap",
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {

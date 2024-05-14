@@ -17,7 +17,7 @@ const InfiniteSlidingComponent = () => {
   const duplicatedSlides = [...slides, ...slides];
 
   return (
-    <div className="relative w-full h-20 py-12 bg-white flex items-center overflow-hidden mt-20 -rotate-3">
+    <div className="relative w-[110%] h-20 py-12 bg-white flex items-center overflow-hidden mt-20 -rotate-3">
       {/* Wrapping div for seamless looping */}
       <motion.div
         className="flex"
