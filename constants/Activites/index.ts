@@ -83,7 +83,28 @@ export const Activities = [
                 ],
             },
         ],
-
+        faqs: [
+            {
+                question: "What Is Unas Fest?",
+                answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions"
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+        ],
     },
 
 
@@ -159,6 +180,28 @@ export const Activities = [
                     "Mollit quis sint ad pariatur aliquip anim amet.",
                     "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 ],
+            },
+        ],
+        faqs: [
+            {
+                question: "What Is Unas Fest?",
+                answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions"
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
             },
         ],
 
@@ -240,6 +283,28 @@ export const Activities = [
                 ],
             },
         ],
+        faqs: [
+            {
+                question: "What Is Unas Fest?",
+                answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions"
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+        ],
 
     },
 
@@ -317,6 +382,28 @@ export const Activities = [
                     "Mollit quis sint ad pariatur aliquip anim amet.",
                     "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 ],
+            },
+        ],
+        faqs: [
+            {
+                question: "What Is Unas Fest?",
+                answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions"
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
+            },
+            {
+                question: "When Does Unas Fest 2024 Start?",
+                answer: "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website."
             },
         ],
 

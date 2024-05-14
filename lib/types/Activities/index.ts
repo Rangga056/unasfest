@@ -27,4 +27,8 @@ export interface activitiesData {
     description: string;
     achievements: string[];
   }[];
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
 }

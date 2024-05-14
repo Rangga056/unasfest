@@ -9,6 +9,7 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import RequirementsSwipe from "@/components/ui/requirementsSwipe";
+import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -115,6 +116,15 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
               />
             </div>
           ))}
+        </CardContent>
+      </Card>
+
+      <Card className=" rounded-none align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
+        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
+          frequently asked questions
+        </CardTitle>
+        <CardContent className="md:w-[60%]">
+          <FaqActivities faqs={competition.faqs} />
         </CardContent>
       </Card>
     </section>
