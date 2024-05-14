@@ -8,11 +8,11 @@ import {
 } from "@/components/ui/card";
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
-import RequirementsSwipe from "@/components/ui/requirementsSwipe";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Slider from "@/components/shared/Slider/Slider";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
@@ -20,12 +20,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
   console.log("params", params.slug);
   const competition: activitiesData | undefined = Activities.find(
-    (comp) => comp.path === params.slug
+    (comp) => comp.path === params.slug,
   );
 
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
   }
+
+  const data = competition.requirements;
 
   return (
     <section>
@@ -72,7 +74,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             {competition.requirementsTitle}
           </CardDescription>
           <CardContent className="ml-36">
-            <RequirementsSwipe requirements={competition.requirements} />
+            {/* <RequirementsSwipe requirements={competition.requirements} /> */}
+            <Slider props={data} />
           </CardContent>
         </Card>
 

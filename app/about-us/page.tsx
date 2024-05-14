@@ -2,7 +2,8 @@ import Image from "next/image";
 import AboutUsBanner from "@/public/assets/images/about-us/about-us-banner.png";
 import { Button } from "@/components/ui/button";
 import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
-import MissionsSlider from "@/components/shared/AboutUs/MissionsSlider";
+import Slider from "@/components/shared/Slider/Slider";
+import { missions } from "@/constants/About";
 
 const AboutUsPage = () => {
   return (
@@ -19,7 +20,7 @@ const AboutUsPage = () => {
       </div>
 
       {/* Vision and Mission */}
-      <div className="bg-page-black mt-20 text-page-white">
+      <div className="bg-page-black mt-20 pb-10 text-page-white">
         <Image
           src={AboutUsBanner}
           alt="banner image"
@@ -66,7 +67,7 @@ const AboutUsPage = () => {
           </h1>
           {/* Missions Slider */}
           <div className="w-full pb-8 mt-10">
-            <MissionsSlider />
+            <Slider props={missions} />
           </div>
           <p></p>
         </div>
