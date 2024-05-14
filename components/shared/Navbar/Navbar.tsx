@@ -51,7 +51,7 @@ export default function Navbar() {
       {/* Logo */}
       <div className="w-full h-[80px] duration-200 border-b-2 border-solid border-[rgba(0, 0, 0, 0.10)]">
         <div className="w-4/5 h-full max-w-screen-xl z-50 flex m-auto justify-between items-center">
-          <div className="flex items-center gapp-4">
+          <Link href="/" className="flex items-center gapp-4 cursor-pointer">
             <Image
               src={unasfestLogoIcon}
               alt="Logo"
@@ -66,7 +66,7 @@ export default function Navbar() {
               height={57}
               className="object-contain"
             />
-          </div>
+          </Link>
           <div className="hidden md:flex">
             {/* Mobile Nav */}
             <div
