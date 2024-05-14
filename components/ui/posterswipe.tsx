@@ -29,6 +29,7 @@ const PosterSwipe = ({ posterDatas }: posterDatasProps) => {
           1440: { slidesPerView: 3 },
         }}
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+        navigation
         spaceBetween={10}
         pagination={{
           clickable: true,
