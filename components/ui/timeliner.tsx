@@ -31,13 +31,16 @@ const Timeliner = ({ timelines }: timelinesDatasProps) => {
                   <h3 className="text-md font-semibold">{timeline.description}</h3>
                 </div>
                 <div className='w-3/12 flex flex-col justify-center items-center py-5 font-bungee -space-y-1.5 text-white' style={{backgroundColor : timeline.color}}>
-                <h2 className="text-xs md:text-sm ">{timeline.month}</h2>
+                  <h2 className="text-xs md:text-sm ">{timeline.month}</h2>
                   <h1 className="text-4xl md:text-5xl">{timeline.date}</h1>
                   <h3 className="text-xs">{timeline.year}</h3>
                 </div>
               </div>
             )}
-            <span className={`${styles.arrow}`}></span>
+            <span
+              className={`${styles.arrow}`}
+              style={{ borderBottomColor: timeline.color }}
+            ></span>
           </div>
         </div>
       ))}
