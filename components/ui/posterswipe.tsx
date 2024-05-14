@@ -49,7 +49,7 @@ const PosterSwipe = ({ posterDatas }: posterDatasProps) => {
                   src={poster.image}
                   alt={poster.name}
                   layout="fixed"
-                  className="object-fill"
+                  className="object-contain"
                 />
                 <Button
                   size="poster"

@@ -22,7 +22,6 @@ const Poster = ({ title, description }: Props) => {
         <CardContent className="w-full h-full">
             <PosterSwipe posterDatas={postersData} />
         </CardContent>
-        <CardFooter className="hidden lg:h-2 lg:p-0 lg:w-3/5 lg:m-auto"></CardFooter>
       </Card>
     </section>
   );

@@ -20,4 +20,15 @@ export interface activitiesData {
     no: string;
     provision: string;
   }[];
+  judgesData: {
+    name: string;
+    image: StaticImageData | string;
+    lastEducation: string;
+    description: string;
+    achievements: string[];
+  }[];
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
 }
