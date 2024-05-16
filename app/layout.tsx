@@ -8,7 +8,7 @@ const bungee = Bungee({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-bungee",
-  display: "swap",
+  display: "optional",
   adjustFontFallback: false,
 });
 
@@ -16,7 +16,7 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-inter",
-  display: "swap",
+  display: "optional",
   adjustFontFallback: false,
 });
 
