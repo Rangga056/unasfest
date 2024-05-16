@@ -17,23 +17,23 @@ const AboutUsPage = () => {
     <main>
       {/* Hero Section */}
       <div className="container">
-        <h1 className="text-[53px] text-center uppercase font-bungee font-medium  mt-20 leading-[70px]">
+        <h1 className="text-4xl lg:text-[53px] text-center uppercase font-bungee font-medium  mt-20 lg:leading-[70px]">
           voices and minds knit competitive rhythms at unas fest 2024
         </h1>
-        <p className="text-xl text-center mx-auto mt-4 w-3/5">
+        <p className="text-lg lg:text-xl text-center mx-auto mt-4 lg:w-3/5">
           Implementation of Technology in Blue Economy Policy to Optimize
           Sustainable Maritime Innovation in Indonesia.
         </p>
       </div>
 
       {/* Vision and Mission */}
-      <div className="bg-page-black mt-20 pb-10 text-page-white">
+      <div className="bg-page-black max-w-[1560px] mx-auto mt-20 pb-10 text-page-white">
         <Image
           src={AboutUsBanner}
           alt="banner image"
-          className="w-full h-full max-w-[1560px] mx-auto"
+          className="w-full h-48 md:h-full max-w-[1560px] mx-auto object-cover md:object-contain"
         />
-        <div className=" mt-16 mx-20">
+        <div className=" mt-16 mx-auto">
           <div className="container">
             <p className="text-xl font-medium">
               This activity is an open competition for the public at the student
@@ -49,14 +49,14 @@ const AboutUsPage = () => {
             <Button
               variant="secondary"
               size="lg"
-              className="rounded-none mt-4 text-xl font-semibold py-4 px-10"
+              className="rounded-none mt-6 text-xl font-semibold py-6 px-10"
             >
               See Our Competition
             </Button>
           </div>
         </div>
         {/* InfiniteSlidingText */}
-        <div className="z-10 w-120vw text-black">
+        <div className="w-full z-10 mt-20 text-black">
           <InfiniteSlidingComponent props={InfiniteSlidingProps} />
         </div>
         <div className="container mt-24">
@@ -86,7 +86,7 @@ const AboutUsPage = () => {
           <p className="text-xl capitalize">our logo definition</p>
         </div>
         {/* Logo */}
-        <div className="flex flex-col lg:flex-row items-center gap-x-10 mt-20">
+        <div className="flex flex-col md:flex-row items-center gap-x-10 mt-20">
           <Image
             src={UnasfestLogo}
             alt="unasfest logo"
@@ -94,7 +94,7 @@ const AboutUsPage = () => {
             height={380}
           />
           <div className="flex flex-col">
-            <h1 className="text-2xl font-bungee font-medium">
+            <h1 className="text-2xl font-bungee font-medium mt-10 md:mt-0">
               sawo manila fruit and leaves
             </h1>
             <p className="text-xl font-medium mt-6">
@@ -148,7 +148,7 @@ const AboutUsPage = () => {
             {mascots.map((item) => (
               <div
                 key={item.index}
-                className="flex flex-col lg:flex-row flex-1 items-center justify-between"
+                className="flex flex-col md:flex-row flex-1 items-center justify-between"
               >
                 <Image
                   src={item.img}
@@ -159,7 +159,7 @@ const AboutUsPage = () => {
                 />
                 <div className="flex flex-col gap-y-6 text-center lg:text-left">
                   <h1 className="text-5xl font-bold capitalize">{item.name}</h1>
-                  <p className="text-xl">{item.description}</p>
+                  <p className="text-xl text-left">{item.description}</p>
                 </div>
               </div>
             ))}
