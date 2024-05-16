@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import { MoveRight } from "lucide-react";
 
 type Prop = {
-  index: number;
-  detail: string;
+  index: number | undefined;
+  detail: string | undefined;
 };
 
 type Props = Prop[];
@@ -28,8 +28,8 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
           1024: { slidesPerView: 3 },
           1440: { slidesPerView: 3 },
         }}
-        slidesPerView={3}
-        spaceBetween={30}
+        slidesPerView={"auto"}
+        spaceBetween={20}
         pagination={{
           clickable: true,
           el: ".custom-pagination",
@@ -43,7 +43,7 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
       >
         {props.map((prop) => (
           <SwiperSlide key={prop.index} className="w-full h-full">
-            <Card className="w-full h-full py-8 bg-page-white text-page-black flex flex-col justify-between rounded-none flex-shrink-0 cursor-grab">
+            <Card className="w-full h-[279px] bg-page-white text-page-black flex flex-col justify-between rounded-none flex-shrink-0 cursor-grab">
               <CardContent className="flex flex-col gap-y-4 text-left">
                 <h1 className="text-5xl font-bungee font-semibold">
                   0{prop.index}

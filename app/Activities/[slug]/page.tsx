@@ -13,27 +13,34 @@ import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
+import InfiniteSlidingIcon from "@/public/assets/icons/star.png";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
   console.log("params", params.slug);
-  const competition: activitiesData | undefined = Activities.find(
-    (comp) => comp.path === params.slug,
-  );
+  const competition = Activities.find((comp) => comp.path === params.slug);
 
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
   }
 
-  const data = competition.requirements;
+  const requirementsData = competition.requirements;
+
+  const InfiniteSlidingProps = {
+    icon: InfiniteSlidingIcon.src,
+    text: "UNAS FEST 2024",
+  };
 
   return (
     <section>
-      <div style={{ backgroundColor: competition.color }}>
+      <div
+        style={{ backgroundColor: competition.color }}
+        className="text-page-white"
+      >
         {/* HERO */}
-        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
+        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center container relative mb-12">
           <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
             {competition.title}
           </CardTitle>
@@ -49,10 +56,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 {competition.description}
               </CardDescription>
               <div className="flex gap-5 mt-10">
-                <Button className="w-32 rounded-none bg-white text-black">
+                <Button
+                  size="xl"
+                  variant="secondary"
+                  className="text-page-black"
+                >
                   Sign Up
                 </Button>
-                <Button className="w-32 rounded-none  outline bg-transparent">
+                <Button size="xl" variant="outline" className="bg-transparant">
                   See More
                 </Button>
               </div>
@@ -61,21 +72,21 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* INFINITE SLIDING */}
-        <Card className="pb-10 lg:w-[100%]">
-          <InfiniteSliding />
+        <Card className="pb-10 w-full text-page-black">
+          <InfiniteSliding props={InfiniteSlidingProps} />
         </Card>
 
         {/* REQUIREMENTS */}
-        <Card className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
+        <Card className="pb-2 text-center overflow-hidden rounded-none container mx-auto relative mb-12">
           <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
             Competition Requirements
           </CardTitle>
-          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
+          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl text-page-white">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent className="ml-36">
+          <CardContent>
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
-            <Slider props={data} />
+            <Slider props={requirementsData} />
           </CardContent>
         </Card>
 
@@ -84,7 +95,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardTitle className="text-4xl mb-5 tracking-wide font-semibold leading-normal lg:text-5xl">
             download guidebook
           </CardTitle>
-          <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl">
+          <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl text-page-white">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
           </CardDescription>
