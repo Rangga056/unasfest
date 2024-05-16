@@ -29,11 +29,11 @@ const FooterLinks = () => {
         <h3 className="font-semibold">Contact</h3>
         <div className="flex flex-col lg:text-left gap-6">
           {contactLinks.map((item) => (
-            <div className="flex items-start gap-2">
+            <div className="flex items-center lg:items-start gap-2">
               <Link
                 key={item.title}
                 href={item.url}
-                className="max-w-[311px] text-wrap"
+                className="max-w-[311px] w-full text-wrap"
                 target="_blank"
               >
                 {item.title}

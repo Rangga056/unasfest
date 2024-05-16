@@ -8,11 +8,13 @@ import {
 } from "@/components/ui/card";
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
-import RequirementsSwipe from "@/components/ui/requirementsSwipe";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import TimelineCards from "@/components/ui/timelineCards";
+import Contact from "@/components/shared/Contact/Contact"
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Slider from "@/components/shared/Slider/Slider";
+import toa from "@/public/assets/images/competition/toa.png";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
@@ -26,6 +28,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
   }
+
+  const data = competition.requirements;
 
   return (
     <section>
@@ -72,7 +76,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             {competition.requirementsTitle}
           </CardDescription>
           <CardContent className="ml-36">
-            <RequirementsSwipe requirements={competition.requirements} />
+            {/* <RequirementsSwipe requirements={competition.requirements} /> */}
+            <Slider props={data} />
           </CardContent>
         </Card>
 
@@ -119,14 +124,25 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </CardContent>
       </Card>
 
-      <Card className=" rounded-none align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
-          frequently asked questions
-        </CardTitle>
-        <CardContent className="md:w-[60%]">
-          <FaqActivities faqs={competition.faqs} />
-        </CardContent>
-      </Card>
+      <div className="relative max-w-screen-xl m-auto">
+        <Card className="rounded-none min-h-60 pb-20 overflow-hidden w-full relative lg:w-[90%] mb-12">
+          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal md:w-3/5 lg:text-5xl">
+            frequently asked questions
+          </CardTitle>
+          <CardContent className="md:w-4/5">
+            <FaqActivities faqs={competition.faqs} />
+          </CardContent>
+        </Card>
+        <Image
+          src={toa}
+          alt="toa"
+          width={400}
+          height={400}
+          className="absolute -bottom-4 right-0"
+        />
+      </div>
+
+      <Contact contact={competition.contact} />
     </section>
   );
 }

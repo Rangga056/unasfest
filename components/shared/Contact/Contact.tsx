@@ -1,23 +1,28 @@
 import Image from "next/image";
-import ToContactImage from "@/public/assets/images/home/contactHome.png";
+import { activitiesData } from "@/lib/types/Activities";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
-const ToContact = () => {
-  return (
-<Card className="relative mt-20 w-full max-w-screen-xl m-auto lg:w-[90%] mb-12">
-  <div className="bg-[#FE672E] w-full h-[81%] absolute bottom-0 left-0 -z-10"></div>
-  <Image
-    src={ToContactImage}
-    alt="Picture of the author"
-    className="w-full"
-  />
-  <div className="absolute top-44 left-24 max-w-[700px]">
-    <h1 className="font-bungee tracking-wide text-white mb-10 md:text-5xl">can we help you?<br/>get in touch with our contact person!</h1>
-    <Button>Contact Us</Button>
-  </div>
-</Card>
+interface ContactProps {
+  contact: activitiesData["contact"];
+}
 
+const ToContact = ({ contact }: ContactProps) => {
+  return (
+    <Card className="relative mt-20 w-full max-w-screen-xl m-auto lg:w-[90%] mb-12">
+      <div className="w-full h-[81%] absolute bottom-0 left-0 -z-10" />
+      <div>
+        <Image src={contact} alt="Hubungi Kami" className="w-full" />
+          <div className="absolute top-56 left-24 max-w-3xl">
+            <h1 className="font-bungee tracking-wide leading-none text-white mb-10 md:text-5xl">
+              Bisakah kami membantu Anda? Hubungi kontak person kami!
+            </h1>
+            <Button size="xl" className="bg-white text-black md:text-xl hover:text-white">
+              Contact Us
+            </Button>
+          </div>
+      </div>
+    </Card>
   );
 };
 

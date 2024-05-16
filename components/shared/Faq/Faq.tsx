@@ -17,9 +17,7 @@ function faq({ title }: Props) {
           {title}
         </CardTitle>
         <CardContent className="w-full h-full">
-          <div className="">
             <FaqSwipe faqsData={faqsData}/>
-          </div>
         </CardContent>
       </Card>
     </section>

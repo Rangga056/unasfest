@@ -4,6 +4,7 @@ export interface activitiesData {
   path: string;
   title: string;
   coverImage: StaticImageData | string;
+  contact: StaticImageData | string;
   description: string;
   color: string;
   timeline: {
@@ -17,8 +18,8 @@ export interface activitiesData {
   guideBook: string;
   requirementsTitle: string;
   requirements: {
-    no: string;
-    provision: string;
+    index: number;
+    detail: string;
   }[];
   judgesData: {
     name: string;

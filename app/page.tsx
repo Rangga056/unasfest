@@ -6,7 +6,7 @@ import Timeline from "@/components/shared/Timeline/Timeline";
 import Faq from "@/components/shared/Faq/Faq";
 import Contact from "@/components/shared/Contact/Contact"
 import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
-import { postersData } from "@/constants/posterDatas";
+import { postersData } from "@/constants/Posters/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 
 

@@ -1,4 +1,4 @@
-import { postersData } from "@/constants/posterDatas";
+import { postersData } from "@/constants/Posters/posterDatas";
 import { Card, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import PosterSwipe from "@/components/ui/posterswipe";
 import { posterDatasProps } from "@/lib/types/Poster";
