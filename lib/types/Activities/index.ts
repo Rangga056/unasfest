@@ -17,12 +17,12 @@ export interface activitiesData {
   guideBook: string;
   requirementsTitle: string;
   requirements: {
-    no: string;
-    provision: string;
+    index: number;
+    detail: string;
   }[];
   judgesData: {
     name: string;
-    image: StaticImageData | string;
+    image: string;
     lastEducation: string;
     description: string;
     achievements: string[];

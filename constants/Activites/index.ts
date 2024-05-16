@@ -31,23 +31,23 @@ export const Activities = [
           "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
       },
       {
-        no: 2,
-        provision:
+        index: 2,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
       {
-        no: 0,
-        provision:
+        index: 3,
+        detail:
           "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
       },
       {
-        no: 4,
-        provision:
+        index: 4,
+        detail:
           "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
       },
       {
-        no: 5,
-        provision:
+        index: 5,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
     ],
@@ -134,27 +134,27 @@ export const Activities = [
     requirements: [
       {
         index: 1,
-        details:
+        detail:
           "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
       },
       {
-        no: 2,
-        provision:
+        index: 2,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
       {
-        no: 3,
-        provision:
+        index: 3,
+        detail:
           "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
       },
       {
-        no: 4,
-        provision:
+        index: 4,
+        detail:
           "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
       },
       {
-        no: 5,
-        provision:
+        index: 5,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
     ],
@@ -242,27 +242,27 @@ export const Activities = [
     requirements: [
       {
         index: 1,
-        details:
+        detail:
           "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
       },
       {
-        no: 2,
-        provision:
+        index: 2,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
       {
-        no: 3,
-        provision:
+        index: 3,
+        detail:
           "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
       },
       {
-        no: 4,
-        provision:
+        index: 4,
+        detail:
           "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
       },
       {
-        no: 5,
-        provision:
+        index: 5,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
     ],
@@ -350,27 +350,27 @@ export const Activities = [
     requirements: [
       {
         index: 1,
-        details:
+        detail:
           "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
       },
       {
-        no: 2,
-        provision:
+        index: 2,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
       {
-        no: 3,
-        provision:
+        index: 3,
+        detail:
           "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
       },
       {
-        no: 4,
-        provision:
+        index: 4,
+        detail:
           "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
       },
       {
-        no: 5,
-        provision:
+        index: 5,
+        detail:
           "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
       },
     ],
