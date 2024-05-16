@@ -1,17 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-const InfiniteSlidingComponent = () => {
+type Prop = {
+  icon: string;
+  text: string;
+};
+
+type PropType = {
+  props: Prop;
+};
+
+const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
   //NOTE: pass in props
   // Define the array of slides with numbers
-  const slides = [
-    { number: 1, text: "hello" },
-    { number: 2, text: "hello" },
-    { number: 3, text: "hello" },
-    { number: 4, text: "hello" },
-    { number: 5, text: "hello" },
-  ];
+
+  const changePropsToArray = (object: Prop) => {
+    let array = [];
+
+    for (let i = 0; i < 5; i++) {
+      array.push({ ...object });
+    }
+
+    return array;
+  };
+
+  let slides = changePropsToArray(props);
 
   // Duplicate the slides array to ensure seamless looping
   const duplicatedSlides = [...slides, ...slides];
@@ -31,16 +46,16 @@ const InfiniteSlidingComponent = () => {
         }}
       >
         {/* Render duplicated slides */}
-        {duplicatedSlides.map((slide, index) => (
+        {duplicatedSlides.map((item) => (
           <div
-            key={index}
+            key={item.text}
             className="flex-shrink-0"
             style={{ width: `${100 / slides.length}%` }}
           >
             <div className="flex flex-col items-center justify-center h-full text-6xl">
               <div className="flex items-center gap-4 font-bungee">
-                <span>{slide.number}</span>
-                <span>{slide.text}</span>
+                <Image src={item.icon} alt="icons" width={42} height={42} />
+                <span className="font-bungee">{item.text}</span>
               </div>
             </div>
           </div>
