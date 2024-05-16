@@ -13,7 +13,7 @@ import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
-import InfiniteSlidingIcon from "@/public/assets/icons/star.png";
+import InfiniteSlidingIcon from "@/public/assets/icons/megaphone.png";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
@@ -30,7 +30,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
   const InfiniteSlidingProps = {
     icon: InfiniteSlidingIcon.src,
-    text: "UNAS FEST 2024",
+    text: "INDONESIAN DEBATE",
   };
 
   return (
@@ -73,7 +73,12 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* INFINITE SLIDING */}
         <Card className="pb-10 w-full text-page-black">
-          <InfiniteSliding props={InfiniteSlidingProps} />
+          <InfiniteSliding
+            props={{
+              icon: InfiniteSlidingIcon.src,
+              text: competition.slidingText || competition.title,
+            }}
+          />
         </Card>
 
         {/* REQUIREMENTS */}

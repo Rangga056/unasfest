@@ -17,6 +17,7 @@ export const Activities = [
   {
     path: "kdbi",
     title: "Competisi Debat Bahasa Indonesia",
+    slidingText: "INDONESIAN DEBATE",
     coverImage: kdbiCover,
     color: "#2A9763",
     description:
@@ -124,6 +125,7 @@ export const Activities = [
   {
     path: "edc",
     title: "english debate competition",
+    slidingText: "ENGLISH DEBATE",
     coverImage: edcCover,
     color: "#004AAD",
     description:
@@ -231,6 +233,7 @@ export const Activities = [
   {
     path: "spc",
     title: "scintific paper competition",
+    slidingText: "SCIENTIFIC PAPER",
     coverImage: scpCover,
     color: "#C02424",
     description:
@@ -339,6 +342,7 @@ export const Activities = [
   {
     path: "smc",
     title: "short movie competition",
+    slidingText: "SHORT MOVIE",
     coverImage: smcCover,
     color: "#E27817",
     description:
@@ -444,4 +448,3 @@ export const Activities = [
     ],
   },
 ];
-
