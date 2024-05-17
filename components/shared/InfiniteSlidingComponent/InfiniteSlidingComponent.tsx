@@ -32,7 +32,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
   const duplicatedSlides = [...slides, ...slides];
 
   return (
-    <div className="relative w-screen h-36 py-8 bg-white flex items-center overflow-x-hidden -rotate-2 -ml-2">
+    <div className="relative w-screen h-20 bg-white flex items-center overflow-x-hidden -rotate-2 -ml-2">
       {/* Wrapping div for seamless looping */}
       <motion.div
         className="flex"
