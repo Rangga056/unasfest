@@ -13,7 +13,7 @@ import TimelineCards from "@/components/ui/timelineCards";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
-import InfiniteSlidingIcon from "@/public/assets/icons/star.png";
+import { Download } from "lucide-react";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
@@ -29,30 +29,33 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   const requirementsData = competition.requirements;
 
   const InfiniteSlidingProps = {
-    icon: InfiniteSlidingIcon.src,
-    text: "UNAS FEST 2024",
+    icon: competition.infiniteSlidingIcon.src,
+    text: competition.infiniteSlidingText,
   };
 
   return (
     <section>
+      <div className="container mx-auto mt-16">
+        <h1 className="text-4xl mb-9 tracking-wide font-semibold leading-normal text-left  lg:text-5xl font-bungee uppercase">
+          {competition.title}
+        </h1>
+        <Image
+          src={competition.coverImage}
+          alt={competition.title}
+          width={1400}
+          height={480}
+          className="mx-auto -mb-[200px]"
+        />
+      </div>
       <div
         style={{ backgroundColor: competition.color }}
-        className="text-page-white"
+        className="text-page-white max-w-[1560px] mx-auto pt-[200px]"
       >
         {/* HERO */}
         <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center container relative mb-12">
-          <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
-            {competition.title}
-          </CardTitle>
           <div className="flex flex-col justify-center items-center">
-            <CardContent className="w-[80%]">
-              <Image
-                src={competition.coverImage}
-                alt={competition.title}
-                width={1400}
-                height={1400}
-              />
-              <CardDescription className="text-start mt-10 text-white md:text-lg">
+            <CardContent>
+              <CardDescription className="text-start text-white text-xl">
                 {competition.description}
               </CardDescription>
               <div className="flex gap-5 mt-10">
@@ -72,7 +75,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* INFINITE SLIDING */}
-        <Card className="pb-10 w-full text-page-black">
+        <Card className="mb-10 w-full text-page-black">
           <InfiniteSliding props={InfiniteSlidingProps} />
         </Card>
 
@@ -92,15 +95,22 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* DOWNLOAD GUIDE BOOK */}
         <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-4xl mb-5 tracking-wide font-semibold leading-normal lg:text-5xl">
+          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
             download guidebook
           </CardTitle>
-          <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl text-page-white">
+          <CardDescription className="text-center tracking-wide font-normal mb-5 leading-normal text-xl text-page-white">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
           </CardDescription>
           <Link href={competition.guideBook}>
-            <Button className="w-32 rounded-none">Download</Button>
+            <Button
+              variant="secondary"
+              className="w-[235px] py-8 rounded-none mt-6 text-xl flex items-center gap-2"
+            >
+              <Download />
+              Download
+              <span></span>
+            </Button>
           </Link>
         </Card>
       </div>
