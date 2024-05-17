@@ -50,7 +50,7 @@ export default function Navbar() {
     >
       {/* Logo */}
       <div className="w-full h-[80px] duration-200 border-b-2 border-solid border-[rgba(0, 0, 0, 0.10)]">
-        <div className="w-4/5 h-full max-w-screen-xl z-50 flex m-auto justify-between items-center">
+        <div className=" container w-full h-full z-50 flex justify-between items-center">
           <Link href="/" className="flex items-center gapp-4 cursor-pointer">
             <Image
               src={unasfestLogoIcon}
@@ -67,10 +67,10 @@ export default function Navbar() {
               className="object-contain"
             />
           </Link>
-          <div className="flex lg:hidden">
+          <div className="flex md:hidden">
             {/* Mobile Nav */}
             <div
-              className="lg:hidden"
+              className="md:hidden"
               onClick={() => setMenuOpen((prev) => !prev)}
             >
               {menuOpen ? (
@@ -85,11 +85,11 @@ export default function Navbar() {
             </div>
           </div>
           <NavigationMenu
-            className={`absolute max-w-none w-full py-6 -z-50 bg-[#FFFAF0] left-0 justify-center duration-200 lg:z-0 lg:relative lg:justify-end lg:top-0 ${
+            className={`absolute max-w-none w-full py-6 -z-50 bg-[#FFFAF0] left-0 justify-center duration-200 md:z-0 md:relative md:justify-end md:top-0 ${
               menuOpen ? "top-24" : "-top-96"
             }`}
           >
-            <NavigationMenuList className="text-base flex-col lg:flex-row gap-6 lg:gap-16 lg:text-xl">
+            <NavigationMenuList className="flex-col md:flex-row gap-x-6 lg:gap-x-16 text-xl">
               {navMenu.map(({ title, path, child }) => {
                 if (child)
                   return (
