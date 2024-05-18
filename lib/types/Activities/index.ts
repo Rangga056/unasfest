@@ -22,6 +22,7 @@ export interface activitiesData {
     detail: string;
   }[];
   judgesData: {
+    index: number;
     name: string;
     image: StaticImageData | string;
     lastEducation: string;

@@ -9,8 +9,9 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
+import Judges from "@/components/shared/Judges/Judges";
 import TimelineCards from "@/components/ui/timelineCards";
-import Contact from "@/components/shared/Contact/Contact"
+import Contact from "@/components/shared/Contact/Contact";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
@@ -63,9 +64,9 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* INFINITE SLIDING */}
-        <Card className="pb-10 lg:w-[100%]">
+        {/* <Card className="pb-10 lg:w-[100%]">
           <InfiniteSliding />
-        </Card>
+        </Card> */}
 
         {/* REQUIREMENTS */}
         <Card className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
@@ -110,17 +111,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
           Competition Judges List
         </CardDescription>
-        <CardContent className="w-full h-full flex justify-around">
-          {competition.judgesData.map((judge, index) => (
-            <div key={index} className="flex">
-              <Image
-                src={judge.image}
-                alt={judge.name}
-                width={400}
-                height={400}
-              />
-            </div>
-          ))}
+        <CardContent className="w-full h-full">
+          <Judges judgesData={competition.judgesData} />
         </CardContent>
       </Card>
 

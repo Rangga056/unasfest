@@ -119,7 +119,7 @@
   --swiper-pagination-bullet-width: 12px;
   --swiper-pagination-bullet-height: 12px;
   --swiper-pagination-bullet-border-radius: none;
-  --swiper-pagination-bullet-inactive-color: gray;
+  --swiper-pagination-bullet-inactive-color: rgb(255, 255, 255);
   --swiper-pagination-bullet-inactive-opacity: 0.2;
   --swiper-pagination-bullet-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 10px;

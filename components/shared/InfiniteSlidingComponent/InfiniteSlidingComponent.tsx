@@ -19,7 +19,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
   const changePropsToArray = (object: Prop) => {
     let array = [];
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 3; i++) {
       array.push({ ...object });
     }
 
@@ -32,15 +32,19 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
   const duplicatedSlides = [...slides, ...slides];
 
   return (
-    <div className="relative w-screen h-36 py-8 bg-white flex items-center overflow-x-hidden -rotate-2 -ml-2">
+    <div
+      className="w-full h-20 bg-white flex items-center -rotate-2 overflow-x-hidden"
+      style={{ willChange: "transform" }}
+    >
       {/* Wrapping div for seamless looping */}
       <motion.div
-        className="flex"
+        className="flex h-full"
+        style={{ transform: "translateZ(0)" }}
         animate={{
           x: ["-100%", "0%"],
           transition: {
             ease: "linear",
-            duration: 10,
+            duration: 4,
             repeat: Infinity,
           },
         }}
@@ -49,13 +53,19 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
         {duplicatedSlides.map((item, index) => (
           <div
             key={index}
-            className="flex-shrink-0"
+            className="flex-shrink-0 h-full"
             style={{ width: `${100 / slides.length}%` }}
           >
-            <div className="flex flex-col items-center justify-center h-full text-6xl">
-              <div className="flex items-center gap-4 font-bungee">
-                <Image src={item.icon} alt="icons" width={42} height={42} />
-                <span className="font-bungee text-[38] font-medium whitespace-nowrap">
+            <div className="flex flex-col items-center justify-center h-full">
+              <div className="flex items-center gap-4 font-bungee h-full">
+                <Image
+                  src={item.icon}
+                  alt="icons"
+                  width={60}
+                  height={60}
+                  className="object-contain"
+                />
+                <span className="font-bungee text-4xl font-medium whitespace-nowrap">
                   {item.text}
                 </span>
               </div>

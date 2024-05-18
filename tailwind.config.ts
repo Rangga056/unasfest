@@ -15,7 +15,7 @@ const config = {
       // => @media (min-width: 640px) { ... }
 
       md: "769px",
-      // => @media (min-width: 768px) { ... }
+      // => @media (min-width: 769px) { ... }
 
       lg: "1280px",
       // => @media (min-width: 1024px) { ... }
@@ -84,6 +84,8 @@ const config = {
           white: "#fff7e8",
           black: "#1f1e23",
           blue: "#004AAD",
+          btnBlue: "#2380FC",
+          lightblue: "#E0FBFF",
         },
       },
       borderRadius: {

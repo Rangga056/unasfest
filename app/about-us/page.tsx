@@ -6,6 +6,8 @@ import Slider from "@/components/shared/Slider/Slider";
 import { logoDetails, mascots, missions } from "@/constants/About";
 //TODO:Import the icon for the InfiniteSlidingComponent
 import UnasfestLogo from "@/public/assets/icons/unasfest-icon-logo.png";
+import Unasfest2023Macsot from "@/public/assets/images/mascots/unasfest2023mascot.png";
+import Gallery from "@/components/shared/Gallery/Gallery";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -25,7 +27,6 @@ const AboutUsPage = () => {
           Sustainable Maritime Innovation in Indonesia.
         </p>
       </div>
-
       {/* Vision and Mission */}
       <div className="bg-page-black max-w-[1560px] mx-auto mt-20 pb-10 text-page-white">
         <Image
@@ -158,13 +159,55 @@ const AboutUsPage = () => {
                   className="object-contain"
                 />
                 <div className="flex flex-col gap-y-6 text-center lg:text-left">
-                  <h1 className="text-5xl font-bold capitalize">{item.name}</h1>
+                  <h1 className="text-5xl font-bold uppercase">{item.name}</h1>
                   <p className="text-xl text-left">{item.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
+        {/* Mascots documentation */}
+        <h1 className="uppercase font-bungee text-5xl font-medium text-center mt-20">
+          documentation of making <br className="hidden md:block" /> mascots
+        </h1>
+        <div className="container mt-10 flex items-center justify-center">
+          {/* Youtube video */}
+          <iframe
+            className="max-w-[1280px] w-full aspect-video"
+            src="https://www.youtube.com/embed/wy7yAUl3ROw?si=xRhSzihbUzwYgK8j"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      {/* Unasfest 2023 mascot */}
+      <div className="bg-page-lightblue mt-36 max-w-[1560px] min-h-[460px] mx-auto flex flex-col lg:flex-row gap-x-10 items-center relative px-32 py-10">
+        <div className="flex-[1]">
+          <Image
+            src={Unasfest2023Macsot}
+            alt="uansfest 2023 mascot"
+            width={520}
+            className="aspect-square object-contain lg:absolute left-0 bottom-10"
+          />
+        </div>
+        <div className="text-center flex flex-col gap-y-10 items-center justify-center flex-[2]">
+          <h1 className="text-5xl font-bungee font-medium">
+            unas fest 2023 mascot philosophy
+          </h1>
+          <p className="text-xl">
+            Megalodon has a philosophy as the largest predator, megalodon teeth
+            as a fossil that is found a lot can describe the UnasFest committee
+            as a responsible person consisting of 208 Members (Many),
+            Megalodon&apos;s big teeth also describe the great responsibility
+            and strong mentality of the Unas Fest 2023 committee.
+          </p>
+        </div>
+      </div>
+      {/* Gallery Component */}
+      <div className="container mt-20">
+        <Gallery />
       </div>
     </main>
   );
