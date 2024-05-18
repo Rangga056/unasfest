@@ -36,7 +36,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   return (
     <section>
       <div className="container mx-auto mt-16">
-        <h1 className="text-4xl mb-9 tracking-wide font-semibold leading-normal text-left  lg:text-5xl font-bungee uppercase">
+        <h1 className="text-4xl mb-9 tracking-wide font-semibold leading-normal text-left  lg:text-5xl font-bungee uppercase"
+            style={{ color: competition.color }}>
           {competition.title}
         </h1>
         <Image
