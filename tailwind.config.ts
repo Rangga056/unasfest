@@ -35,10 +35,10 @@ const config = {
 
     extend: {
       color: {
-        "all": "#1F1E23",
+        all: "#1F1E23",
       },
       width: {
-        "323" : "20.188rem",
+        "323": "20.188rem",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
@@ -83,6 +83,7 @@ const config = {
           green: "#2A9763",
           white: "#fff7e8",
           black: "#1f1e23",
+          blue: "#004AAD",
         },
       },
       borderRadius: {

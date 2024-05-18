@@ -19,7 +19,7 @@ import {
     return (
       <section className="relative mt-20 w-full max-w-screen-xl m-auto lg:w-[90%] mb-12">
         <Card className="pb-2 text-center overflow-hidden">
-          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
+          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
             {title}
           </CardTitle>
           <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">

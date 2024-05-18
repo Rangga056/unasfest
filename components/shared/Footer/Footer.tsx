@@ -10,7 +10,7 @@ import { socialLinks } from "@/constants/Footer";
 const Footer = () => {
   return (
     <footer className="container mt-24 pb-32">
-      <div className="w-full flex md:flex-row flex-col gap-y-6 items-start lg:justify-between justify-center">
+      <div className="w-full flex lg:flex-row flex-col gap-y-6 items-center lg:items-start lg:justify-between justify-center">
         {/* Left section of the footer */}
         <div className="flex flex-col items-center gap-y-6 w-[336px] mx-auto md:mx-0">
           {/* Unasfest Logo */}

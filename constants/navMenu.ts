@@ -5,7 +5,7 @@ export const navMenu = [
   },
   {
     path: "/activities",
-    title: "activities",
+    title: "Activities",
     child: [
       {
         name: "Kompetisi Debat Bahasa Indonesia (KDBI)",

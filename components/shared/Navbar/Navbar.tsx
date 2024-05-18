@@ -67,7 +67,7 @@ export default function Navbar() {
               className="object-contain"
             />
           </Link>
-          <div className="hidden md:flex">
+          <div className="flex lg:hidden">
             {/* Mobile Nav */}
             <div
               className="lg:hidden"

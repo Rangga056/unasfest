@@ -35,12 +35,12 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
     <section>
       <div style={{ backgroundColor: competition.color }}>
         {/* HERO */}
-        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-4xl mb-9 tracking-wide font-semibold leading-normal lg:text-5xl">
+        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
+          <CardTitle className="text-3xl mb-9 tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
             {competition.title}
           </CardTitle>
           <div className="flex flex-col justify-center items-center">
-            <CardContent className="w-[80%]">
+            <CardContent className="md:w-[80%]">
               <Image
                 src={competition.coverImage}
                 alt={competition.title}
@@ -69,13 +69,13 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* REQUIREMENTS */}
         <Card className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
-          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
+          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
             Competition Requirements
           </CardTitle>
           <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent className="ml-36">
+          <CardContent className="lg:ml-36">
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
             <Slider props={data} />
           </CardContent>
@@ -83,7 +83,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* DOWNLOAD GUIDE BOOK */}
         <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-4xl mb-5 tracking-wide font-semibold leading-normal lg:text-5xl">
+          <CardTitle className="text-3xl mb-3 tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
             download guidebook
           </CardTitle>
           <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl">
@@ -104,7 +104,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       />
 
       <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
+        <CardTitle className="text-3xl tracrking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
           competition judges
         </CardTitle>
         <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
@@ -126,10 +126,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       <div className="relative max-w-screen-xl m-auto">
         <Card className="rounded-none min-h-60 pb-20 overflow-hidden w-full relative lg:w-[90%] mb-12">
-          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal md:w-3/5 lg:text-5xl">
+          <CardTitle className="text-3xl text-center tracking-wide font-semibold leading-normal lg:w-3/5 md:text-4xl lg:text-5xl lg:text-start">
             frequently asked questions
           </CardTitle>
-          <CardContent className="md:w-4/5">
+          <CardContent className="lg:w-4/5 md:px-28 lg:px-0">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>
@@ -138,7 +138,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           alt="toa"
           width={400}
           height={400}
-          className="absolute -bottom-4 right-0"
+          className="absolute -bottom-4 right-0 sm:hidden lg:inline-block"
         />
       </div>
 
