@@ -33,7 +33,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
 
   return (
     <div
-      className="w-full h-20 bg-white flex items-center -rotate-2"
+      className="w-full h-20 bg-white flex items-center -rotate-2 overflow-x-hidden"
       style={{ willChange: "transform" }}
     >
       {/* Wrapping div for seamless looping */}
@@ -65,7 +65,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
                   height={60}
                   className="object-contain"
                 />
-                <span className="font-bungee text-4xl font-medium">
+                <span className="font-bungee text-4xl font-medium whitespace-nowrap">
                   {item.text}
                 </span>
               </div>

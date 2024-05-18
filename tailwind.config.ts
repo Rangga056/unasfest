@@ -84,6 +84,8 @@ const config = {
           white: "#fff7e8",
           black: "#1f1e23",
           blue: "#004AAD",
+          btnBlue: "#2380FC",
+          lightblue: "#E0FBFF",
         },
       },
       borderRadius: {
