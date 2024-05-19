@@ -34,7 +34,7 @@ const RequirementsSwipe: React.FC<RequirementsSwipeProps> = ({ requirements }) =
           >
             <div className="text-left flex flex-col justify-start items-center align-middle m-2 p-5 font-inter h-[250px] text-black rounded-sm bg-white">
               <div className="text-4xl w-full font-bungee mb-5">{requirement.no}</div>
-              <div className="text-lg w-full">{requirement.provision}</div>
+              <div className="text-lg w-full">{requirement.detail}</div>
             </div>
           </SwiperSlide>
         ))}
