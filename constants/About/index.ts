@@ -7,6 +7,10 @@ import starImg from "@/public/assets/icons/star.png";
 import younaImg from "@/public/assets/images/mascots/youna.png";
 import nassaImg from "@/public/assets/images/mascots/nassa.png";
 import alfestImg from "@/public/assets/images/mascots/alfest.png";
+// steeringCommittees img
+import rektorImg from "@/public/assets/images/steering-committees/rektor_unas.png";
+import wakilRektorAkademikImg from "@/public/assets/images/steering-committees/warek_akademik.png";
+import wakilRektorAdministrasiImg from "@/public/assets/images/steering-committees/warek_administrasi.png";
 
 export const missions = [
   {
@@ -79,5 +83,27 @@ export const mascots = [
     name: "alfest",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+];
+
+export const steeringCommittees = [
+  {
+    index: 1,
+    img: rektorImg,
+    name: "Dr. El Amry Bermawi Putera, M.a.",
+    position: "rektor unas",
+  },
+  {
+    index: 2,
+    img: wakilRektorAkademikImg,
+    name: "Prof. Dr. Suryono efendi, S.E., M.B.A., M.M.",
+    position:
+      "Wakil rektor Bidang Akademik, Kemahasiswaan dan Alumniroject Manager UNAS FEST 2023",
+  },
+  {
+    index: 3,
+    img: wakilRektorAdministrasiImg,
+    name: "prof. Dr. Drs. Eko Sugiyanto, M.si.",
+    position: "wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
   },
 ];

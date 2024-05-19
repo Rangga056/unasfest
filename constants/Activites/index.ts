@@ -29,7 +29,7 @@ import {
 export const Activities = [
   {
     path: "kdbi",
-    title: "Competisi Debat Bahasa Indonesia",
+    title: "Kompetisi Debat Bahasa Indonesia",
     coverImage: kdbiCover,
     contact: kdbiContact,
     color: "#2A9763",
@@ -156,7 +156,7 @@ export const Activities = [
 
   {
     path: "edc",
-    title: "english debate competition",
+    title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
     color: "#004AAD",
@@ -269,7 +269,7 @@ export const Activities = [
 
   {
     path: "spc",
-    title: "scintific paper competition",
+    title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
     color: "#E27817",
@@ -383,7 +383,7 @@ export const Activities = [
 
   {
     path: "smc",
-    title: "short movie competition",
+    title: "Short Movie Competition",
     coverImage: smcCover,
     contact: smcContact,
     color: "#C02424",
@@ -391,7 +391,7 @@ export const Activities = [
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSMC,
     guideBook: "https://ufest.unas.ac.id/",
-    infiniteSlidingText: "SHORT MOVIE COMPETITION",
+    infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
@@ -495,3 +495,4 @@ export const Activities = [
     ],
   },
 ];
+

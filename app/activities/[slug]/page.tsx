@@ -9,53 +9,68 @@ import {
 import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
-import Judges from "@/components/shared/Judges/Judges";
 import TimelineCards from "@/components/ui/timelineCards";
+import Judges from "@/components/shared/Judges/Judges"
 import Contact from "@/components/shared/Contact/Contact";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
 import toa from "@/public/assets/images/competition/toa.png";
+import { Download } from "lucide-react";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
   console.log("params", params.slug);
-  const competition: activitiesData | undefined = Activities.find(
-    (comp) => comp.path === params.slug
-  );
+  const competition = Activities.find((comp) => comp.path === params.slug);
 
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
   }
 
-  const data = competition.requirements;
+  const requirementsData = competition.requirements;
+
+  const InfiniteSlidingProps = {
+    icon: competition.infiniteSlidingIcon.src,
+    text: competition.infiniteSlidingText,
+  };
 
   return (
     <section>
-      <div style={{ backgroundColor: competition.color }}>
+      <div className="container mx-auto sm:mt-10 md:mt-16">
+        <h1 className="text-4xl mb-9 tracking-wide md:font-semibold leading-normal sm:text-center md:text-start lg:text-5xl font-bungee uppercase"
+            style={{ color: competition.color }}>
+          {competition.title}
+        </h1>
+        <Image
+          src={competition.coverImage}
+          alt={competition.title}
+          width={1400}
+          height={480}
+          className="mx-auto md:-mb-[200px]"
+        />
+      </div>
+      <div
+        style={{ backgroundColor: competition.color }}
+        className="text-page-white max-w-[1560px] mx-auto md:pt-[200px]"
+      >
         {/* HERO */}
-        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl mb-9 tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
-            {competition.title}
-          </CardTitle>
+        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center container relative mb-12">
           <div className="flex flex-col justify-center items-center">
-            <CardContent className="md:w-[80%]">
-              <Image
-                src={competition.coverImage}
-                alt={competition.title}
-                width={1400}
-                height={1400}
-              />
-              <CardDescription className="text-start mt-10 text-white md:text-lg">
+            <CardContent>
+              <CardDescription className="text-start text-white text-sm md:text-xl">
                 {competition.description}
               </CardDescription>
               <div className="flex gap-5 mt-10">
-                <Button className="w-32 rounded-none bg-white text-black">
+                <Button
+                  size="xl"
+                  variant="secondary"
+                  className="text-page-black"
+                >
                   Sign Up
                 </Button>
-                <Button className="w-32 rounded-none  outline bg-transparent">
+                <Button size="xl" variant="outline" className="bg-transparant">
                   See More
                 </Button>
               </div>
@@ -64,35 +79,42 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* INFINITE SLIDING */}
-        {/* <Card className="pb-10 lg:w-[100%]">
-          <InfiniteSliding />
-        </Card> */}
+        <Card className="mb-10 w-full text-page-black">
+          <InfiniteSliding props={InfiniteSlidingProps} />
+        </Card>
 
         {/* REQUIREMENTS */}
-        <Card className="pb-2 text-center overflow-hidden rounded-none w-full relative max-w-screen-xl m-auto lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
+        <Card className="pb-2 text-center overflow-hidden rounded-none container mx-auto relative mb-12">
+          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
             Competition Requirements
           </CardTitle>
-          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
+          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl text-page-white">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent className="lg:ml-36">
+          <CardContent>
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
-            <Slider props={data} />
+            <Slider props={requirementsData} />
           </CardContent>
         </Card>
 
         {/* DOWNLOAD GUIDE BOOK */}
-        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl mb-3 tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
+        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  sm:w-[90%] mb-12">
+          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
             download guidebook
           </CardTitle>
-          <CardDescription className="text-sm w-[60%] tracking-wide font-normal mb-5 leading-normal lg:text-xl">
+          <CardDescription className="text-center tracking-wide font-normal mb-5 leading-normal sm:text-base md:text-xl text-page-white max-w-xl">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
           </CardDescription>
           <Link href={competition.guideBook}>
-            <Button className="w-32 rounded-none">Download</Button>
+            <Button
+              variant="secondary"
+              className="w-[235px] py-8 rounded-none mt-6 text-xl flex items-center gap-2"
+            >
+              <Download />
+              Download
+              <span></span>
+            </Button>
           </Link>
         </Card>
       </div>
@@ -105,23 +127,23 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       />
 
       <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-        <CardTitle className="text-3xl tracrking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
+        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
           competition judges
         </CardTitle>
         <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
           Competition Judges List
         </CardDescription>
         <CardContent className="w-full h-full">
-          <Judges judgesData={competition.judgesData} />
+          <Judges judgesData={competition.judgesData}/>
         </CardContent>
       </Card>
 
       <div className="relative max-w-screen-xl m-auto">
-        <Card className="rounded-none min-h-60 pb-20 overflow-hidden w-full relative lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl text-center tracking-wide font-semibold leading-normal lg:w-3/5 md:text-4xl lg:text-5xl lg:text-start">
+        <Card className="rounded-none min-h-60  overflow-hidden w-full relative flex flex-col sm:justify-center lg:justify-start lg:w-[90%]">
+          <CardTitle className="text-4xl pb-5 tracking-wide font-semibold leading-normal sm:text-center lg:text-start lg:w-3/5 lg:text-5xl">
             frequently asked questions
           </CardTitle>
-          <CardContent className="lg:w-4/5 md:px-28 lg:px-0">
+          <CardContent className="lg:w-4/5">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>
@@ -133,8 +155,9 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           className="absolute -bottom-4 right-0 sm:hidden lg:inline-block"
         />
       </div>
-
+    <Card className="pt-0">
       <Contact contact={competition.contact} />
+    </Card>
     </section>
   );
 }
