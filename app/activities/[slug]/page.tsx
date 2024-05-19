@@ -85,7 +85,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* REQUIREMENTS */}
         <Card className="pb-2 text-center overflow-hidden rounded-none container mx-auto relative mb-12">
-          <CardTitle className="text-4xl tracking-wide font-semibold leading-normal lg:text-5xl">
+          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal lg:text-5xl">
             Competition Requirements
           </CardTitle>
           <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl text-page-white">
@@ -99,7 +99,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
         {/* DOWNLOAD GUIDE BOOK */}
         <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  sm:w-[90%] mb-12">
-          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal md:text-4xl lg:text-5xl">
+          <CardTitle className="text-3xl tracking-wide mb-5 font-semibold leading-normal md:text-4xl lg:text-5xl">
             download guidebook
           </CardTitle>
           <CardDescription className="text-center tracking-wide font-normal mb-5 leading-normal sm:text-base md:text-xl text-page-white max-w-xl">
@@ -127,14 +127,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       />
 
       <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-        <CardTitle className="text-4xl tracrking-wide font-semibold leading-normal lg:text-5xl">
+        <CardTitle className="text-3xl tracrking-wide font-semibold leading-normal lg:text-5xl">
           competition judges
         </CardTitle>
         <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
           Competition Judges List
         </CardDescription>
         <CardContent className="w-full h-full">
-          <Judges judgesData={competition.judgesData}/>
+          <Judges judgesData={competition.judgesData} color={competition.color}/>
         </CardContent>
       </Card>
 

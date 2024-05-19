@@ -76,10 +76,10 @@ export const Activities = [
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
         achievements: [
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Mollit quis sint ad pariatur aliquip anim amet.asdfasdf",
+          "Mollit quis sint ad pariatur a sit amet, consectetur adipiscua.",
+          "Mollit quis sint ad pariatur aliqasdfasdfuip anim amet.",
+          "Mollit quis sint ad pariatur aliquip asdfasdfsit amet, consectetur adipiiqua.",
         ],
       },
       {
