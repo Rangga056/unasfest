@@ -88,6 +88,10 @@ const config = {
           lightblue: "#E0FBFF",
         },
       },
+      backgroundImage: {
+        "unasfest-committee":
+          "url('/assets/images/about-us/unasfest-committee-bg.png')",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
