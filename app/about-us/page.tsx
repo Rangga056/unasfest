@@ -168,7 +168,7 @@ const AboutUsPage = () => {
           </div>
         </div>
         {/* Mascots documentation */}
-        <h1 className="uppercase font-bungee text-5xl font-medium text-center mt-20">
+        <h1 className="uppercase font-bungee text-3xl md:text-5xl font-medium text-center mt-20">
           documentation of making <br className="hidden md:block" /> mascots
         </h1>
         <div className="container mt-10 flex items-center justify-center">
@@ -207,7 +207,7 @@ const AboutUsPage = () => {
         </div>
       </div>
       {/* Gallery Component */}
-      <div className="container mt-20">
+      <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
         <Gallery />
       </div>
       {/* Steering Commitee */}
@@ -223,8 +223,8 @@ const AboutUsPage = () => {
       </div>
       {/* Unasfest 2024 committee */}
       <div className="max-w-[1560px] mx-auto mt-20 bg-page-black text-page-white py-20">
-        <div className="container flex flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-cover bg-center w-[1180px] h-[576px]">
-          <ul className="flex items-center justify-center gap-x-10 font-semibold text-xl list-disc">
+        <div className="container flex flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-cover bg-center w-full max-w-[1180px] h-[576px]">
+          <ul className="hidden md:flex items-center justify-center gap-x-10 font-semibold text-xl list-disc">
             <li className="list-none">1 project manager</li>
             <li>4 deputy manager</li>
             <li>15 assistant project manager</li>
