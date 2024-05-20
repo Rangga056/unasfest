@@ -10,6 +10,7 @@ import { postersData } from "@/constants/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 //TODO:Change the icon based on the figma design
 import HomeIcon from "@/public/assets/icons/unasfest-icon-logo.png";
+import SpecialBanner from "@/components/shared/Home/SpecialBanner";
 
 export default function Home() {
   const InfiniteSlidingProps = {
@@ -33,7 +34,11 @@ export default function Home() {
       {/* Benefit  */}
       <Benefit />
       {/* Gallery Component  */}
-      <Gallery />
+      <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
+        <Gallery />
+      </div>
+      {/* Special Banner */}
+      <SpecialBanner/>
       {/* Timeline Component */}
       <Timeline />
       {/* FAQ Component   */}
