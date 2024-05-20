@@ -499,7 +499,7 @@ export const Activities = [
 
   {
     path: "semnas",
-    title: "Seminar Nasional",
+    title: "international seminar",
     coverImage: smcCover,
     contact: semnasContact,
     color: "#853EB6",
