@@ -52,6 +52,10 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                   width={400}
                   height={400}
                 />
+                <div className="space-y-0 font-inter">
+                  <h1 className="text-lg font-bold">{prop.name}</h1>
+                  <h2 className="text-base">{prop.lastEducation}</h2>
+                </div>
                 {hoveredIndex === index && (
                   <div className="absolute w-[70%] top-28 left-1/2 -translate-x-1/2 bg-black text-white p-5">
                     <p className="pb-10 font-semibold">{prop.description}</p>
@@ -61,9 +65,12 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                       </Dialog.Trigger>
                       <Dialog.Portal>
                         <Dialog.Overlay className="bg-blackA6 data-[state=open]:animate-overlayShow fixed inset-0 " />
-                        <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] rounded-[6px] p-[25px] shadow-lg focus:outline-none z-10" >
-                          <Dialog.Description className="text-mauve11 mt-[10px] mb-5 text-[15px] flex" >
-                            <div className="w-1/2 p-5" style={{ backgroundColor: color }}>
+                        <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] rounded-[6px] p-[25px] shadow-lg focus:outline-none z-10">
+                          <Dialog.Description className="text-mauve11 mt-[10px] mb-5 text-[15px] flex">
+                            <div
+                              className="w-1/2 p-5"
+                              style={{ backgroundColor: color }}
+                            >
                               <Image
                                 src={prop.image}
                                 alt={prop.name}
@@ -72,14 +79,16 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                               />
                             </div>
                             <div className="w-1/2 p-10 bg-white">
-                              <CardTitle className="text-3xl font-bold mb-5">{prop.name}</CardTitle>
+                              <CardTitle className="text-3xl font-bold mb-5">
+                                {prop.name}
+                              </CardTitle>
                               <p className="mb-5">{prop.description}</p>
                               <h1>Achiepment</h1>
                               <ul className="list-disc list-inside">
-                              {prop.achievements.map((achievement, i) => (
-                                <li key={i}>{achievement}</li>
-                              ))}
-                            </ul>
+                                {prop.achievements.map((achievement, i) => (
+                                  <li key={i}>{achievement}</li>
+                                ))}
+                              </ul>
                             </div>
                           </Dialog.Description>
                         </Dialog.Content>
