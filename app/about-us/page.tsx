@@ -9,6 +9,7 @@ import UnasfestLogo from "@/public/assets/icons/unasfest-icon-logo.png";
 import Unasfest2023Macsot from "@/public/assets/images/mascots/unasfest2023mascot.png";
 import Gallery from "@/components/shared/Gallery/Gallery";
 import SteeringCommitteeSlider from "@/components/shared/AboutUs/SteeringCommitteSlider";
+import Link from "next/link";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -238,7 +239,7 @@ const AboutUsPage = () => {
             size="lg"
             className="rounded-none text-xl capitalize font-medium"
           >
-            meet us
+            <Link href="/about-us/committee">meet us</Link>
           </Button>
         </div>
       </div>

@@ -33,7 +33,10 @@ export default function Home() {
       {/* Benefit  */}
       <Benefit />
       {/* Gallery Component  */}
-      <Gallery />
+
+      <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
+        <Gallery />
+      </div>
       {/* Timeline Component */}
       <Timeline />
       {/* FAQ Component   */}
