@@ -5,8 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import styles from "@/components/styles/faq.module.css";
 import 'swiper/css';
-import Pagination from "../shared/pagination/pagination";
 import { faqsDataProps } from "@/lib/types/Faq";
+import { Pagination, Navigation } from "swiper/modules";
+import { MoveRight } from "lucide-react";
+
+
 
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -19,19 +22,23 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
     <div>
       <Swiper
         slidesPerView={"auto"}
-        onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         spaceBetween={10}
         pagination={{
           clickable: true,
+          el: ".custom-pagination",
         }}
-        // modules={[Pagination]}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        modules={[Pagination, Navigation]}
         className={`${styles.mySwiper}`}
       >
-        {faqsData.map((faq, index) => {
+        {faqsData.map((faq) => {
           return (
             <SwiperSlide
               id="slides"
-              key={index}
+              key={faq.index}
               className={`${styles.swiperSlide}`}
             >
               <div className="text-left flex flex-col justify-around items-center align-middle m-2 p-9 font-inter h-[250px] text-white bg-[#004AAD] rounded-sm">
@@ -43,11 +50,13 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
           );
         })}
       </Swiper>
-      <Pagination
-        activeIndex={activeIndex}
-        totalSlides={6}
-        onSlideChange={handleSlideChange}
-      />
+
+      <div className="absolute -bottom-10 left-0 z-10 flex items-center space-x-4 h-28">
+        <div className="custom-pagination" />
+        <div className="swiper-button-next cursor-pointer bg-transparent p-2">
+          <MoveRight />
+        </div>
+      </div>
     </div>
   );
 };

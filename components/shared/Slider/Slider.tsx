@@ -42,24 +42,24 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
         className="overflow-hidden"
       >
         {props.map((prop) => (
-          <SwiperSlide key={prop.index} className="w-full h-full">
-            <Card className="w-full h-[279px] bg-page-white text-page-black flex flex-col justify-between rounded-none flex-shrink-0 cursor-grab">
+          <SwiperSlide key={prop.index} className="h-full w-full">
+            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab flex-col justify-between rounded-none bg-page-white text-page-black">
               <CardContent className="flex flex-col gap-y-4 text-left">
-                <h1 className="text-5xl font-bungee font-semibold">
+                <h1 className="font-bungee text-5xl font-semibold">
                   0{prop.index}
                 </h1>
               </CardContent>
               <CardContent>
-                <p className="text-xl text-start font-medium">{prop.detail}</p>
+                <p className="text-start text-xl font-medium">{prop.detail}</p>
               </CardContent>
             </Card>
           </SwiperSlide>
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-10 left-0 flex items-center space-x-4 z-10">
+      <div className="absolute -bottom-10 left-0 z-10 flex items-center space-x-4">
         <div className="custom-pagination" />
-        <div className="swiper-button-next cursor-pointer p-2 bg-transparent ">
+        <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
           <MoveRight />
         </div>
       </div>

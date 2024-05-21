@@ -45,7 +45,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <Card className="w-full bg-page-white text-page-black flex flex-col justify-between rounded-none flex-shrink-0 cursor-grab">
-              <CardContent className="flex flex-col gap-y-4 text-left relative">
+              <CardContent className="flex flex-col gap-y-4 text-left relative md:filter grayscale hover:filter-none">
                 <Image
                   src={prop.image}
                   alt={prop.name}
@@ -58,7 +58,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                 </div>
                 {hoveredIndex === index && (
                   <div className="absolute w-[70%] top-28 left-1/2 -translate-x-1/2 bg-black text-white p-5">
-                    <p className="pb-10 font-semibold">{prop.description}</p>
+                    <p className="pb-10 font-semibold sm:text-base">{prop.description}</p>
                     <Dialog.Root>
                       <Dialog.Trigger className="underline cursor-pointer">
                         Read More ...
@@ -66,23 +66,23 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                       <Dialog.Portal>
                         <Dialog.Overlay className="bg-blackA6 data-[state=open]:animate-overlayShow fixed inset-0 " />
                         <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] rounded-[6px] p-[25px] shadow-lg focus:outline-none z-10">
-                          <Dialog.Description className="text-mauve11 mt-[10px] mb-5 text-[15px] flex">
+                          <Dialog.Description className="text-mauve11 mt-[10px] mb-5 text-[15px] flex" style={{ backgroundColor: color }}>
                             <div
-                              className="w-1/2 p-5"
-                              style={{ backgroundColor: color }}
+                              className="w-1/2"
                             >
                               <Image
                                 src={prop.image}
                                 alt={prop.name}
                                 width={400}
                                 height={400}
+                                className="absolute left-0 top-0"
                               />
                             </div>
-                            <div className="w-1/2 p-10 bg-white">
+                            <div className="w-1/2 p-3">
                               <CardTitle className="text-3xl font-bold mb-5">
                                 {prop.name}
                               </CardTitle>
-                              <p className="mb-5">{prop.description}</p>
+                              <p className="mb-5 sm:text-base">{prop.description}</p>
                               <h1>Achiepment</h1>
                               <ul className="list-disc list-inside">
                                 {prop.achievements.map((achievement, i) => (

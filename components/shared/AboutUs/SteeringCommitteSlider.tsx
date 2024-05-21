@@ -21,15 +21,15 @@ const SteeringCommitteeSlider = () => {
         className="overflow-hidden"
       >
         {steeringCommittees.map((item) => (
-          <SwiperSlide key={item.index} className="w-full h-full">
-            <Card className="w-full h-full text-page-black flex flex-col rounded-none flex-shrink-0 cursor-grab">
+          <SwiperSlide key={item.index} className="h-full w-full">
+            <Card className="flex h-full w-full flex-shrink-0 cursor-grab flex-col rounded-none text-page-black">
               <CardContent className="flex flex-col text-left text-xl">
                 <Image
                   src={item.img.src}
                   alt={item.name}
                   width={440}
                   height={576}
-                  className="object-contain grayscale hover:grayscale-0 transition-colors delay-300"
+                  className="object-contain grayscale transition-colors delay-300 hover:grayscale-0"
                 />
                 <div className="mt-4 flex flex-col items-start">
                   <h3 className="font-semibold">{item.name}</h3>

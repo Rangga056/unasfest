@@ -40,7 +40,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
     <section>
       <div className="container mx-auto sm:mt-10 md:mt-16">
         <h1
-          className="text-4xl mb-9 tracking-wide md:font-semibold leading-normal sm:text-center md:text-start lg:text-5xl font-bungee uppercase"
+          className="mb-9 font-bungee text-4xl uppercase leading-normal tracking-wide sm:text-center md:text-start md:font-semibold lg:text-5xl"
           style={{ color: competition.color }}
         >
           {competition.title}
@@ -55,16 +55,16 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       </div>
       <div
         style={{ backgroundColor: competition.color }}
-        className="text-page-white max-w-[1560px] mx-auto md:pt-[200px]"
+        className="mx-auto max-w-[1560px] text-page-white md:pt-[200px]"
       >
         {/* HERO */}
-        <Card className="pb-2 text-center rounded-none overflow-hidden flex flex-col justify-center align-middle items-center container relative mb-12">
-          <div className="flex flex-col justify-center items-center">
+        <Card className="container relative mb-12 flex flex-col items-center justify-center overflow-hidden rounded-none pb-2 text-center align-middle">
+          <div className="flex flex-col items-center justify-center">
             <CardContent>
-              <CardDescription className="text-start text-white text-sm md:text-xl">
+              <CardDescription className="text-start text-sm text-white md:text-xl">
                 {competition.description}
               </CardDescription>
-              <div className="flex gap-5 mt-10">
+              <div className="mt-10 flex gap-5">
                 <Button
                   size="xl"
                   variant="secondary"
@@ -86,11 +86,11 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* REQUIREMENTS */}
-        <Card className="pb-2 text-center overflow-hidden rounded-none container mx-auto relative mb-12">
-          <CardTitle className="text-3xl tracking-wide font-semibold leading-normal lg:text-5xl">
+        <Card className="container relative mx-auto mb-12 overflow-hidden rounded-none pb-2 text-center">
+          <CardTitle className="text-3xl font-semibold leading-normal tracking-wide lg:text-5xl">
             Competition Requirements
           </CardTitle>
-          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl text-page-white">
+          <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide text-page-white lg:text-xl">
             {competition.requirementsTitle}
           </CardDescription>
           <CardContent>
@@ -100,18 +100,18 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* DOWNLOAD GUIDE BOOK */}
-        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  sm:w-[90%] mb-12">
-          <CardTitle className="text-3xl tracking-wide mb-5 font-semibold leading-normal md:text-4xl lg:text-5xl">
+        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle sm:w-[90%]">
+          <CardTitle className="mb-5 text-3xl font-semibold leading-normal tracking-wide md:text-4xl lg:text-5xl">
             download guidebook
           </CardTitle>
-          <CardDescription className="text-center tracking-wide font-normal mb-5 leading-normal sm:text-base md:text-xl text-page-white max-w-xl">
+          <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
           </CardDescription>
           <Link href={competition.guideBook}>
             <Button
               variant="secondary"
-              className="w-[235px] py-8 rounded-none mt-6 text-xl flex items-center gap-2"
+              className="mt-6 flex w-[235px] items-center gap-2 rounded-none py-8 text-xl"
             >
               <Download />
               Download
@@ -129,14 +129,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       />
 
       {params.slug !== "semnas" && (
-        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl tracrking-wide font-semibold leading-normal lg:text-5xl">
+        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
+          <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
             competition judges
           </CardTitle>
-          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
+          <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
             Competition Judges List
           </CardDescription>
-          <CardContent className="w-full h-full">
+          <CardContent className="h-full w-full">
             <Judges
               judgesData={competition.judgesData}
               color={competition.color}
@@ -146,33 +146,65 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       )}
 
       {params.slug === "semnas" && (
-        <Card className="flex flex-col rounded-none justify-center items-center align-middle pb-20 text-center overflow-hidden w-full relative max-w-screen-xl m-auto  lg:w-[90%] mb-12">
-          <CardTitle className="text-3xl tracrking-wide font-semibold leading-normal lg:text-5xl">
-            seminar speakers
-          </CardTitle>
-          <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
-            Seminar Speaker List
-          </CardDescription>
-          <CardContent className="w-full h-full">
-            <h1 className="text-center text-2xl md:text-start md:text-3xl p-1 md:w-[20%] uppercase font-semibold">agency government</h1>
-            <Judges
-              judgesData={competition.judgesData}
-              color={competition.color}
-            />
-            
-            <h1 className="text-center text-2xl md:text-start md:text-3xl p-1 md:w-[20%] uppercase font-semibold">agency non-government</h1>
-            <Judges
-              judgesData={competition.judgesData}
-              color={competition.color}
-            />
-          </CardContent>
-        </Card>
+        <div>
+          <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
+            <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
+              seminar speakers
+            </CardTitle>
+            <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
+              Seminar Speaker List
+            </CardDescription>
+            <CardContent className="h-full w-full">
+              <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
+                agency government
+              </h1>
+              <Judges
+                judgesData={competition.judgesData}
+                color={competition.color}
+              />
+
+              <h1 className="p-1 pt-10 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
+                agency non-government
+              </h1>
+              <Judges
+                judgesData={competition.judgesData}
+                color={competition.color}
+              />
+            </CardContent>
+          </Card>
+
+          <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
+            <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
+              seminar Presenters
+            </CardTitle>
+            <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
+              Seminar presenters List
+            </CardDescription>
+            <CardContent className="h-full w-full">
+              <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
+                lecturer presenters
+              </h1>
+              <Judges
+                judgesData={competition.judgesData}
+                color={competition.color}
+              />
+
+              <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
+                student presenters
+              </h1>
+              <Judges
+                judgesData={competition.judgesData}
+                color={competition.color}
+              />
+            </CardContent>
+          </Card>
+        </div>
       )}
 
       {/* FAQ */}
-      <div className="relative max-w-screen-xl m-auto">
-        <Card className="rounded-none min-h-60  overflow-hidden w-full relative flex flex-col sm:justify-center lg:justify-start lg:w-[90%]">
-          <CardTitle className="text-4xl pb-5 tracking-wide font-semibold leading-normal sm:text-center lg:text-start lg:w-3/5 lg:text-5xl">
+      <div className="relative m-auto max-w-screen-xl">
+        <Card className="relative flex  min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
+          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl">
             frequently asked questions
           </CardTitle>
           <CardContent className="lg:w-4/5">
