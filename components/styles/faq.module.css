@@ -9,3 +9,12 @@
   width: 60% !important;
   height: 100% !important;
 }
+
+@media screen and (max-width : 600px){
+  .swiperSlide{
+  text-align: center;
+  font-size: 18px;
+  width: 100% !important;
+  height: 100% !important;
+  }
+}
