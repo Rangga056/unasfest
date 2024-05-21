@@ -48,7 +48,9 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
                 <h1 className="text-5xl font-bungee font-semibold">
                   0{prop.index}
                 </h1>
-                <p className="text-xl font-medium">{prop.detail}</p>
+              </CardContent>
+              <CardContent>
+                <p className="text-xl text-start font-medium">{prop.detail}</p>
               </CardContent>
             </Card>
           </SwiperSlide>

@@ -6,7 +6,7 @@ import Timeline from "@/components/shared/Timeline/Timeline";
 import Faq from "@/components/shared/Faq/Faq";
 import Contact from "@/components/shared/Contact/Contact";
 import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
-import { postersData } from "@/constants/posterDatas";
+import { postersData } from "@/constants/Posters/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 //TODO:Change the icon based on the figma design
 import HomeIcon from "@/public/assets/icons/unasfest-icon-logo.png";
@@ -34,11 +34,13 @@ export default function Home() {
       {/* Benefit  */}
       <Benefit />
       {/* Gallery Component  */}
+
       <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
         <Gallery />
       </div>
       {/* Special Banner */}
       <SpecialBanner/>
+
       {/* Timeline Component */}
       <Timeline />
       {/* FAQ Component   */}

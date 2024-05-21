@@ -22,13 +22,13 @@ const Gallery = () => {
       </div>
       {/* Top middle text */}
       <div className="col-span-1 hidden md:flex flex-col items-start">
-        <h1 className="text-5xl lg:text-6xl uppercase font-bungee font-medium opacity-50">
+        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium opacity-50">
           let&apos;s join
         </h1>
-        <h1 className="text-5xl lg:text-6xl uppercase font-bungee font-medium opacity-70">
+        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium opacity-70">
           let&apos;s join
         </h1>
-        <h1 className="text-5xl lg:text-6xl uppercase font-bungee font-medium">
+        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium">
           let&apos;s join <br /> unas fest <br /> competency
         </h1>
       </div>
@@ -46,7 +46,7 @@ const Gallery = () => {
         {/* Bottom left text */}
         <div className="w-[250px] md:w-[400px] flex flex-col items-start text-xs md:text-xl">
           <p>
-            A few flashbacks of the National University Festival{" "}
+            Flashbacks of the National University Festival{" "}
             <span className="hidden lg:flex">
               {" "}
               competition held from December 19, 2023 to December 19, 2023.
@@ -77,7 +77,7 @@ const Gallery = () => {
       </div>
       <Button
         asChild
-        className="absolute left-0 -bottom-1 md:bottom-4 bg-page-btnBlue hover:bg-page-blue rounded-none"
+        className="absolute left-0 -bottom-2 md:bottom-4 bg-page-btnBlue hover:bg-page-blue rounded-none"
       >
         <Link
           href="/gallery"

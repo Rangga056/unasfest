@@ -1,5 +1,12 @@
+// Contact Us
+import kdbiContact from "@/public/assets/images/home/contactUs/kdbiContact.png";
+import edcContact from "@/public/assets/images/home/contactUs/edcContact.png";
+import scpContact from "@/public/assets/images/home/contactUs/spcContact.png";
+import smcContact from "@/public/assets/images/home/contactUs/smcContact.png";
+
 // judges photos
 import anies from "@/public/assets/images/competition/anies.png";
+
 //cover Image
 import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
 import edcCover from "@/public/assets/images/competition/edcCover.png";
@@ -24,9 +31,10 @@ export const Activities = [
     path: "kdbi",
     title: "Kompetisi Debat Bahasa Indonesia",
     coverImage: kdbiCover,
+    contact: kdbiContact,
     color: "#2A9763",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
+      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesKDBI,
     guideBook: "https://ufest.unas.ac.id/",
     infiniteSlidingText: "INDONESIAN DEBATE",
@@ -41,7 +49,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
       {
         index: 3,
@@ -56,24 +64,26 @@ export const Activities = [
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
     ],
     judgesData: [
       {
+        index: 1,
         name: "Judge kdbi 1",
         image: anies,
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
         achievements: [
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Mollit quis sint ad pariatur aliquip anim amet.asdfasdf",
+          "Mollit quis sint ad pariatur a sit amet, consectetur adipiscua.",
+          "Mollit quis sint ad pariatur aliqasdfasdfuip anim amet.",
+          "Mollit quis sint ad pariatur aliquip asdfasdfsit amet, consectetur adipiiqua.",
         ],
       },
       {
+        index: 2,
         name: "Judge kdbi 2",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -87,6 +97,21 @@ export const Activities = [
         ],
       },
       {
+        index: 3,
+        name: "Judge kdbi 3",
+        image: anies,
+        lastEducation: "University of Indonesia",
+        description:
+          "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+        achievements: [
+          "Mollit quis sint ad pariatur aliquip anim amet.",
+          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Mollit quis sint ad pariatur aliquip anim amet.",
+          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ],
+      },
+      {
+        index: 4,
         name: "Judge kdbi 3",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -133,9 +158,10 @@ export const Activities = [
     path: "edc",
     title: "English Debate Competition",
     coverImage: edcCover,
+    contact: edcContact,
     color: "#004AAD",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
+      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesEDC,
     guideBook: "https://ufest.unas.ac.id/",
     infiniteSlidingText: "ENGLISH DEBATE",
@@ -150,7 +176,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
       {
         index: 3,
@@ -165,11 +191,12 @@ export const Activities = [
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
     ],
     judgesData: [
       {
+        index: 1,
         name: "Judge kdbi 1",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -183,6 +210,7 @@ export const Activities = [
         ],
       },
       {
+        index: 2,
         name: "Judge kdbi 2",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -196,6 +224,7 @@ export const Activities = [
         ],
       },
       {
+        index: 3,
         name: "Judge kdbi 3",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -242,9 +271,10 @@ export const Activities = [
     path: "spc",
     title: "Scientific Paper Competition",
     coverImage: scpCover,
-    color: "#C02424",
+    contact: scpContact,
+    color: "#E27817",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
+      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSPC,
     guideBook: "https://ufest.unas.ac.id/",
     infiniteSlidingText: "SCINTIFIC PAPER",
@@ -260,7 +290,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
       {
         index: 3,
@@ -275,11 +305,12 @@ export const Activities = [
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
     ],
     judgesData: [
       {
+        index: 1,
         name: "Judge kdbi 1",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -293,6 +324,7 @@ export const Activities = [
         ],
       },
       {
+        index: 2,
         name: "Judge kdbi 2",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -306,6 +338,7 @@ export const Activities = [
         ],
       },
       {
+        index: 3,
         name: "Judge kdbi 3",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -352,9 +385,10 @@ export const Activities = [
     path: "smc",
     title: "Short Movie Competition",
     coverImage: smcCover,
-    color: "#E27817",
+    contact: smcContact,
+    color: "#C02424",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, technological, economic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Technology in Blue Econo...",
+      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSMC,
     guideBook: "https://ufest.unas.ac.id/",
     infiniteSlidingText: "SHORT MOVIE",
@@ -370,7 +404,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
       {
         index: 3,
@@ -385,11 +419,12 @@ export const Activities = [
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI (Higher Education Database) from various study programs and public and private universities..",
+          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
       },
     ],
     judgesData: [
       {
+        index: 1,
         name: "Judge kdbi 1",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -403,6 +438,7 @@ export const Activities = [
         ],
       },
       {
+        index: 2,
         name: "Judge kdbi 2",
         image: anies,
         lastEducation: "University of Indonesia",
@@ -416,6 +452,7 @@ export const Activities = [
         ],
       },
       {
+        index: 3,
         name: "Judge kdbi 3",
         image: anies,
         lastEducation: "University of Indonesia",

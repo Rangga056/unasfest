@@ -86,10 +86,10 @@ export default function Navbar() {
           </div>
           <NavigationMenu
             className={`absolute max-w-none w-full py-6 -z-50 bg-[#FFFAF0] left-0 justify-center duration-200 md:z-0 md:relative md:justify-end md:top-0 ${
-              menuOpen ? "top-24" : "-top-96"
+              menuOpen ? "top-20" : "-top-96"
             }`}
           >
-            <NavigationMenuList className="flex-col md:flex-row gap-x-6 lg:gap-x-16 text-xl">
+            <NavigationMenuList className="flex-col md:flex-row gap-6 lg:gap-x-16 text-xl">
               {navMenu.map(({ title, path, child }) => {
                 if (child)
                   return (
