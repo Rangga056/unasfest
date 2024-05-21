@@ -29,7 +29,7 @@ const SteeringCommitteeSlider = () => {
                   alt={item.name}
                   width={440}
                   height={576}
-                  className="object-contain grayscale transition-colors delay-300 hover:grayscale-0"
+                  className="object-contain grayscale hover:grayscale-0 focus:grayscale-0 transition-colors delay-300"
                 />
                 <div className="mt-4 flex flex-col items-start">
                   <h3 className="font-semibold">{item.name}</h3>

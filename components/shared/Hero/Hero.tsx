@@ -5,36 +5,30 @@ import Youna from "@/public/assets/images/mascots/youna.png";
 
 const Hero = () => {
   return (
-    <div className="mt-20 container mb-12">
-      <div className="flex item-center justify-between">
-        {/* Left Section */}
-        <div className="flex flex-col gap-4 w-full flex-[6]">
-          <h1 className="uppercase font-medium text-page-blue text-[53px] font-bungee">
-            Towards an Energy Future: Sign Up Now for the Change competition{" "}
-          </h1>
-          <p className="text-xl font-medium">
-            The National University Festival 2024 (UNAS FEST 2024) is one of the
-            annual events held to commemorate and celebrate the 74th anniversary
-            of Dies Natalis National University.
-          </p>
-          <Button
-            size="lg"
-            className="max-w-[180px] rounded-none p-6 px-8 text-lg font-semibold"
-          >
-            See More
-          </Button>
-        </div>
-        {/* Right Section */}
-        <div className="w-full flex items-center justify-center relative flex-[5]">
-          {/* Hero Image */}
-          <Image
-            src={Youna}
-            alt="Hero Image"
-            width={520}
-            height={640}
-            className="object-contain rotate-6 absolute left-0 bottom-1"
-          />
-        </div>
+    <div className="container mt-8 flex flex-col lg:flex-row items-center justify-between gap-y-3">
+      {/* left section */}
+      <div className="w-full lg:w-3/5 h-full flex flex-col items-start">
+        <h1 className="uppercase font-bungee font-medium text-page-blue w-full lg:w-4/5 text-4xl md:text-[53px] leading-tight">
+          towards an energy future: sign up now for the change competition
+        </h1>
+        <p className="font-semibold text-xl mt-4 w-full md:w-[90%]">
+          The National University Festival 2024 (UNAS FEST 2024) is one of the
+          annual events held to commemorate and celebrate the 74th anniversary
+          of Dies Natalis National University.{" "}
+        </p>
+        <Button className="capitalize font-semibold text-xl mt-4 rounded-none w-[200px] h-[60px]">
+          see more
+        </Button>
+      </div>
+      {/* right section */}
+      <div className="w-full lg:w-2/5 md:w-3/5 h-full flex items-center justify-center">
+        <Image
+          src={Youna}
+          alt="mascot youna"
+          width={392}
+          height={482}
+          className="w-full h-auto object-center rotate-6"
+        />
       </div>
     </div>
   );

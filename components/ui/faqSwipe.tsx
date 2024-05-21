@@ -1,10 +1,8 @@
 "use client";
-
-import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import styles from "@/components/styles/faq.module.css";
 import 'swiper/css';
+import "swiper/css/pagination";
 import { faqsDataProps } from "@/lib/types/Faq";
 import { Pagination, Navigation } from "swiper/modules";
 import { MoveRight } from "lucide-react";
@@ -12,11 +10,6 @@ import { MoveRight } from "lucide-react";
 
 
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const handleSlideChange = (index: number) => {
-    setActiveIndex(index);
-  };
 
   return (
     <div>
@@ -52,9 +45,9 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
       </Swiper>
 
       <div className="absolute -bottom-10 left-0 z-10 flex items-center space-x-4 h-28">
-        <div className="custom-pagination" />
+        <div className="custom-pagination-home" />
         <div className="swiper-button-next cursor-pointer bg-transparent p-2">
-          <MoveRight />
+          <MoveRight size={40} className="text-page-black" />
         </div>
       </div>
     </div>
