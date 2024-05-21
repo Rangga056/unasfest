@@ -3,16 +3,18 @@
   height: 100%;
 }
 
-.swiperSlideHome {
-  text-align: center;
-  font-size: 18px;
-  width: 30% !important;
-  height: 100% !important;
-}
-
 .swiperSlide {
   text-align: center;
   font-size: 18px;
   width: 60% !important;
   height: 100% !important;
+}
+
+@media screen and (max-width : 600px){
+  .swiperSlide{
+  text-align: center;
+  font-size: 18px;
+  width: 100% !important;
+  height: 100% !important;
+  }
 }
