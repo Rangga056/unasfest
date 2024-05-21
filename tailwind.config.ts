@@ -83,9 +83,11 @@ const config = {
           green: "#2A9763",
           white: "#fff7e8",
           black: "#1f1e23",
+          lightBlack: "#1F1E23",
           blue: "#004AAD",
           btnBlue: "#2380FC",
           lightblue: "#E0FBFF",
+          yellow: "#F3BB1C",
         },
       },
       backgroundImage: {
