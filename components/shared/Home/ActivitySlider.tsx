@@ -28,12 +28,12 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
   return (
     <div className="relative">
       <Swiper
-        breakpoints={{
-          0: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-          1440: { slidesPerView: 3 },
-        }}
+        // breakpoints={{
+        //   0: { slidesPerView: 1 },
+        //   768: { slidesPerView: 2 },
+        //   1024: { slidesPerView: 3 },
+        //   1440: { slidesPerView: 3 },
+        // }}
         slidesPerView={"auto"}
         spaceBetween={10}
         pagination={{
@@ -47,9 +47,9 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
         className="overflow-hidden"
       >
         {props.map((prop) => (
-          <SwiperSlide key={prop.index} className="w-full h-fit">
+          <SwiperSlide key={prop.index} className="max-w-[381px] h-[483px]">
             <Link href={prop.path}>
-              <Card className=" p-0 w-full h-fit text-page-white flex flex-col justify-between rounded-none flex-shrink-0 cursor-pointer">
+              <Card className=" p-0 w-full h-full text-page-white flex flex-col justify-between rounded-none flex-shrink-0 cursor-pointer active:cursor-grabbing">
                 <CardContent className="p-0 flex flex-col relative">
                   {/* <h1 className="font-bungee uppercase font-medium text-[27px]"> */}
                   {/*   {prop.name} */}
@@ -68,7 +68,7 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-12 left-0 flex items-center space-x-4 z-10">
+      <div className="absolute -bottom-16 md:-bottom-12 left-0 flex items-center space-x-4 z-10">
         <div className="custom-pagination-home" />
 
         <div className="swiper-button-next cursor-pointer p-2 bg-transparent ">

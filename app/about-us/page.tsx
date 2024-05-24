@@ -80,6 +80,39 @@ const AboutUsPage = () => {
           </div>
         </div>
       </div>
+      {/* Steering Commitee */}
+      <div className="container mt-24">
+        <h1 className="uppercase text-5xl font-medium font-bungee text-page-black text-center">
+          steering commitee
+        </h1>
+        <p className="text-xl text-center capitalize mt-2">
+          steering committee list
+        </p>
+        {/* Steering commitee slider */}
+        <SteeringCommitteeSlider />
+      </div>
+      {/* Unasfest 2024 committee */}
+      <div className="max-w-[1560px] mx-auto mt-20 bg-page-black text-page-white py-20">
+        <div className="container flex flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-cover bg-center w-full max-w-[1180px] h-[576px]">
+          <ul className="hidden md:flex items-center justify-center gap-x-10 font-semibold text-xl list-disc">
+            <li className="list-none">1 project manager</li>
+            <li>4 deputy manager</li>
+            <li>15 assistant project manager</li>
+            <li>161 committee</li>
+          </ul>
+          <h1 className="text-5xl uppercase font-bungee font-medium text-center">
+            our unas fest 2024 <br /> committee
+          </h1>
+          <Button
+            variant="secondary"
+            size="lg"
+            className="rounded-none text-xl capitalize font-medium"
+          >
+            <Link href="/about-us/committee">meet us</Link>
+          </Button>
+        </div>
+      </div>
+
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">
         <div className="text-center mt-20">
@@ -211,39 +244,7 @@ const AboutUsPage = () => {
       <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
         <Gallery />
       </div>
-      {/* Steering Commitee */}
-      <div className="container mt-24">
-        <h1 className="uppercase text-5xl font-medium font-bungee text-page-black text-center">
-          steering commitee
-        </h1>
-        <p className="text-xl text-center capitalize mt-2">
-          steering committee list
-        </p>
-        {/* Steering commitee slider */}
-        <SteeringCommitteeSlider />
-      </div>
-      {/* Unasfest 2024 committee */}
-      <div className="max-w-[1560px] mx-auto mt-20 bg-page-black text-page-white py-20">
-        <div className="container flex flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-cover bg-center w-full max-w-[1180px] h-[576px]">
-          <ul className="hidden md:flex items-center justify-center gap-x-10 font-semibold text-xl list-disc">
-            <li className="list-none">1 project manager</li>
-            <li>4 deputy manager</li>
-            <li>15 assistant project manager</li>
-            <li>161 committee</li>
-          </ul>
-          <h1 className="text-5xl uppercase font-bungee font-medium text-center">
-            our unas fest 2024 <br /> committee
-          </h1>
-          <Button
-            variant="secondary"
-            size="lg"
-            className="rounded-none text-xl capitalize font-medium"
-          >
-            <Link href="/about-us/committee">meet us</Link>
-          </Button>
-        </div>
-      </div>
-    </main>
+          </main>
   );
 };
 

@@ -43,7 +43,7 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
               className={`${styles.swiperSlide}`}
             >
               <div
-                className={`m-2 flex h-[250px] flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter ${
+                className={`m-2 flex h-[250px] flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter cursor-grab active:cursor-grabbing ${
                   isActive? "bg-[#004AAD] text-white" : "bg-[#FFFAF0] text-black"
                 }`}
               >

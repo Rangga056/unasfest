@@ -11,7 +11,7 @@ const Benefit = () => {
   return (
     <div className="max-w-[1560px] mx-auto bg-page-yellow mt-20">
       <div className="container p-20 flex flex-row flex-wrap md:flex-col items-center justify-center gap-y-16">
-        <h1 className="uppercase font-bungee font-medium text-5xl text-page-black text-center leading-tight">
+        <h1 className="uppercase font-bungee font-medium text-3xl md:text-5xl text-page-black text-center leading-tight">
           benefits of the unas fest 2024 <br /> competency
         </h1>
         <div className="w-full flex flex-col items-center justify-center gap-y-10 text-xl">
