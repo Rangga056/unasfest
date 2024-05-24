@@ -41,8 +41,7 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
           el: ".custom-pagination-home",
         }}
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next"
         }}
         modules={[Pagination, Navigation]}
         className="overflow-hidden"
