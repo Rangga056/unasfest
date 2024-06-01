@@ -10,11 +10,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import { MoveRight } from "lucide-react";
 
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
-  const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleSlideChange = (index: number) => {
-    setActiveIndex(index);
-  };
 
   return (
     <div>

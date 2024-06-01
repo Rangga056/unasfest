@@ -19,7 +19,7 @@ const FaqActivities: React.FC<faqProps> = ({ faqs }) => {
       <Accordion defaultValue="item-0" type="single" collapsible>
         {faqs.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger className="text-xl font-semibold w-full font-inter text-start sm:pb-3 sm:text-lg">
+            <AccordionTrigger className="text-xl font-semibold w-full font-inter text-start sm:pb-3 sm:text-lg cursor-pointer">
                 {faq.question}
             </AccordionTrigger>
             <AccordionContent className="text-xl font-semibold opacity-70 text-start sm:text-lg">
@@ -33,3 +33,4 @@ const FaqActivities: React.FC<faqProps> = ({ faqs }) => {
 };
 
 export default FaqActivities;
+

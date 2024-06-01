@@ -37,6 +37,11 @@ const config = {
       color: {
         all: "#1F1E23",
       },
+      lineClamp: {
+        8: "8",
+        9: "9",
+        10: "10",
+      },
       width: {
         "323": "20.188rem",
       },
@@ -115,7 +120,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/line-clamp")],
 } satisfies Config;
 
 export default config;
