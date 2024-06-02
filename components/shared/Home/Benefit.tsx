@@ -9,14 +9,14 @@ import Image from "next/image";
 
 const Benefit = () => {
   return (
-    <div className="max-w-[1560px] mx-auto bg-page-yellow mt-20">
-      <div className="container p-20 flex flex-row flex-wrap md:flex-col items-center justify-center gap-y-16">
+    <div className="max-w-[1560px] mx-auto bg-page-yellow mt-20 p-4">
+      <div className="container p-4 md:p-20 flex flex-col items-center justify-center gap-y-16">
         <h1 className="uppercase font-bungee font-medium text-3xl md:text-5xl text-page-black text-center leading-tight">
           benefits of the unas fest 2024 <br /> competency
         </h1>
         <div className="w-full flex flex-col items-center justify-center gap-y-10 text-xl">
           {/* top section */}
-          <div className="w-full gap-y-10 flex flex-wrap flex-row items-center justify-evenly text-center">
+          <div className="w-full gap-y-10 flex flex-wrap flex-col md:flex-row items-center justify-evenly text-center">
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image
                 src={certificate}
@@ -39,11 +39,11 @@ const Benefit = () => {
                 alt="trophy icon"
                 className="object-contain w-16 md:w-24 aspect-square"
               />
-              <p className="w-24 md:36">Trophy</p>
+              <p className="w-24 md:w-36">Trophy</p>
             </div>
           </div>
           {/* bottom section */}
-          <div className="w-full gap-y-10 flex flex-wrap flex-row items-center justify-evenly text-center">
+          <div className="w-full gap-y-10 flex flex-wrap flex-col md:flex-row items-center justify-evenly text-center">
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image
                 src={plaque}
