@@ -204,10 +204,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       {/* FAQ */}
       <div className="relative m-auto max-w-screen-xl">
         <Card className="relative flex  min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
-          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl">
+          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl pl-12">
             frequently asked questions
           </CardTitle>
-          <CardContent className="lg:w-4/5">
+          <CardContent className="lg:w-4/5 pl-12">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>
