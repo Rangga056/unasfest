@@ -28,6 +28,15 @@ export interface activitiesData {
     lastEducation: string;
     description: string;
     achievements: string[];
+    experience?: {
+      eTitle: string;
+      place?: string;
+      eTime: string;
+      eDesc: {
+        dDetail?: string;
+        dPoint?: string[];
+      };
+    }[];
   }[];
   faqs: {
     question: string;

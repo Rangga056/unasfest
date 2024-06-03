@@ -22,12 +22,12 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
   return (
     <div className="relative">
       <Swiper
-        breakpoints={{
-          0: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-          1440: { slidesPerView: 3 },
-        }}
+        // breakpoints={{
+        //   0: { slidesPerView: 1 },
+        //   768: { slidesPerView: 2 },
+        //   1024: { slidesPerView: 3 },
+        //   1440: { slidesPerView: 3 },
+        // }}
         slidesPerView={"auto"}
         spaceBetween={20}
         pagination={{
@@ -36,14 +36,13 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
         }}
         navigation={{
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
         }}
         modules={[Pagination, Navigation]}
         className="overflow-hidden"
       >
         {props.map((prop) => (
-          <SwiperSlide key={prop.index} className="h-full w-full">
-            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab flex-col justify-between rounded-none bg-page-white text-page-black">
+          <SwiperSlide key={prop.index} className="h-[279px] max-w-[380px]">
+            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab active:cursor-grabbing py-5 flex-col justify-start gap-y-6 rounded-none bg-page-white text-page-black">
               <CardContent className="flex flex-col gap-y-4 text-left">
                 <h1 className="font-bungee text-5xl font-semibold">
                   0{prop.index}
