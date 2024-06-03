@@ -38,6 +38,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
   return (
     <section>
+      
       <div className="container mx-auto sm:mt-10 md:mt-16">
         <h1
           className="mb-9 font-bungee text-4xl uppercase leading-normal tracking-wide sm:text-center md:text-start md:font-semibold lg:text-5xl"

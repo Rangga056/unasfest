@@ -10,10 +10,10 @@ import { Pagination, Navigation } from "swiper/modules";
 import { MoveRight } from "lucide-react";
 import { Swiper as SwiperType } from "swiper";
 
-
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+  
   const handleSlideChange = (swiper: SwiperType) => {
     setActiveIndex(swiper.activeIndex);
   };
@@ -28,7 +28,7 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
           el: ".custom-pagination-faq",
         }}
         navigation={{
-          nextEl: ".swiper-button-next-faq"
+          nextEl: ".swiper-button-next-faq",
         }}
         modules={[Pagination, Navigation]}
         onSlideChange={handleSlideChange}
@@ -43,8 +43,10 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
               className={`${styles.swiperSlide}`}
             >
               <div
-                className={`m-2 flex h-[250px] flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter cursor-grab active:cursor-grabbing ${
-                  isActive? "bg-[#004AAD] text-white" : "bg-[#FFFAF0] text-black"
+                className={`m-2 flex h-[250px] cursor-grab flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter active:cursor-grabbing ${
+                  isActive
+                    ? "bg-[#004AAD] text-white"
+                    : "bg-[#FFFAF0] text-black"
                 }`}
               >
                 <div className="w-full text-lg font-semibold md:text-xl lg:text-2xl">

@@ -9,7 +9,7 @@ interface ContactProps {
 
 const ToContact = ({ contact }: ContactProps) => {
   return (
-    <Card className="relative m-auto mb-12 mt-20 w-full max-w-screen-xl lg:w-[90%]">
+    <Card className="relative m-auto mb-12 w-full max-w-screen-xl md:mt-20 lg:w-[90%]">
       <div className="absolute bottom-0 left-0 -z-10 h-[81%] w-full" />
       <div>
         <Image
@@ -23,7 +23,7 @@ const ToContact = ({ contact }: ContactProps) => {
           </h1>
           <Button
             size="xl"
-            className="bg-white text-black hover:text-white sm:mt-2 sm:h-5 sm:w-1 sm:text-[10px] md:h-10 md:w-32 md:text-base lg:h-14 lg:w-40 lg:text-lg"
+            className="bg-white text-black hover:text-white sm:mt-2 sm:h-7 sm:w-1 sm:text-[10px] md:h-10 md:w-32 md:text-base lg:h-14 lg:w-40 lg:text-lg"
           >
             Contact Us
           </Button>
