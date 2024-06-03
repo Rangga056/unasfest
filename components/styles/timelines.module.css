@@ -66,6 +66,16 @@
   left: -35px;
 }
 
+/* Tambahkan shadow pada box tanggal */
+.datebox {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  
+  /* Tambahkan shadow pada box deskripsi */
+.descriptionbox {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+
 @media screen and (max-width : 769px) {
     .container::after{
         left: 10px;
