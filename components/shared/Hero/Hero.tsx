@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
-import Youna from "@/public/assets/images/mascots/youna.png";
+import mascotgroup from "@/public/assets/images/mascots/mascotgroup.png";
 
 const Hero = () => {
   return (
@@ -9,8 +9,8 @@ const Hero = () => {
       {/* right section */}
       <div className="w-full lg:w-2/5 md:w-3/5 h-full flex items-center justify-center order-1 lg:order-2">
         <Image
-          src={Youna}
-          alt="mascot youna"
+          src={mascotgroup}
+          alt="mascot group"
           width={392}
           height={482}
           className="w-3/4 md:w-full h-auto object-center rotate-6"
