@@ -23,7 +23,6 @@ type PropsTypes = {
 };
 
 const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
-  console.table(props);
 
   return (
     <div className="relative">

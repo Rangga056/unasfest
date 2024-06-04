@@ -32,7 +32,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
 
   return (
     <div
-      style={{ willChange: "transform" }}
+      style={{ willChange: "transform", marginBottom: "100px", marginTop: "100px" }}
       className="w-full h-20 md:h-24 bg-page-black flex items-center -rotate-2 overflow-x-hidden"
     >
       {/* Wrapping div for seamless looping */}
