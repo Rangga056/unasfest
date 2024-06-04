@@ -22,7 +22,7 @@ type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
-  console.log("params", params.slug);
+  // console.log("params", params.slug);
   const competition = Activities.find((comp) => comp.path === params.slug);
 
   if (!competition) {
