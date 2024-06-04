@@ -6,8 +6,18 @@ import Youna from "@/public/assets/images/mascots/youna.png";
 const Hero = () => {
   return (
     <div className="container mt-8 flex flex-col lg:flex-row items-center justify-between gap-y-3">
+      {/* right section */}
+      <div className="w-full lg:w-2/5 md:w-3/5 h-full flex items-center justify-center order-1 lg:order-2">
+        <Image
+          src={Youna}
+          alt="mascot youna"
+          width={392}
+          height={482}
+          className="w-3/4 md:w-full h-auto object-center rotate-6"
+        />
+      </div>
       {/* left section */}
-      <div className="w-full lg:w-3/5 h-full flex flex-col items-start">
+      <div className="w-full lg:w-3/5 h-full flex flex-col items-start order-2 lg:order-1">
         <h1 className="uppercase font-bungee font-medium text-page-blue w-full lg:w-4/5 text-4xl md:text-[53px] leading-tight">
           towards an energy future: sign up now for the change competition
         </h1>
@@ -16,22 +26,13 @@ const Hero = () => {
           annual events held to commemorate and celebrate the 74th anniversary
           of Dies Natalis National University.{" "}
         </p>
-        <Button className="capitalize font-semibold text-xl mt-4 rounded-none w-[200px] h-[60px]">
+        <Button className="capitalize font-semibold text-xl mt-4 rounded-none w-[150px] h-[50px] md:w-[200px] md:h-[60px]">
           see more
         </Button>
-      </div>
-      {/* right section */}
-      <div className="w-full lg:w-2/5 md:w-3/5 h-full flex items-center justify-center">
-        <Image
-          src={Youna}
-          alt="mascot youna"
-          width={392}
-          height={482}
-          className="w-full h-auto object-center rotate-6"
-        />
       </div>
     </div>
   );
 };
 
 export default Hero;
+
