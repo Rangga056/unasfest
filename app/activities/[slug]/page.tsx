@@ -1,3 +1,5 @@
+"use client";
+
 import { Activities } from "@/constants/Activites";
 import Image from "next/image";
 import {
@@ -37,8 +39,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
   };
 
   return (
-    <section>
-      
+    <section className="overflow-hidden">
       <div className="container mx-auto sm:mt-10 md:mt-16">
         <h1
           className="mb-9 font-bungee text-4xl uppercase leading-normal tracking-wide sm:text-center md:text-start md:font-semibold lg:text-5xl"
@@ -51,12 +52,12 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           alt={competition.title}
           width={1400}
           height={480}
-          className="mx-auto md:-mb-[200px]"
+          className="mx-auto -mb-[125px] md:-mb-[200px]"
         />
       </div>
       <div
         style={{ backgroundColor: competition.color }}
-        className="mx-auto max-w-[1560px] text-page-white md:pt-[200px]"
+        className="mx-auto mt-16 max-w-[1560px] pt-[50px] text-page-white md:pt-[200px]"
       >
         {/* HERO */}
         <Card className="container relative mb-12 flex flex-col items-center justify-center overflow-hidden rounded-none pb-2 text-center align-middle">
@@ -94,7 +95,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide text-page-white lg:text-xl">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent>
+          <CardContent className="px-0">
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
             <Slider props={requirementsData} />
           </CardContent>
@@ -137,7 +138,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
             Competition Judges List
           </CardDescription>
-          <CardContent className="h-full w-full">
+          <CardContent className="h-full w-full px-0">
             <Judges
               judgesData={competition.judgesData}
               color={competition.color}
@@ -205,10 +206,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       {/* FAQ */}
       <div className="relative m-auto max-w-screen-xl">
         <Card className="relative flex  min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
-          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl pl-12">
+          <CardTitle className="pb-5 pl-12 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl">
             frequently asked questions
           </CardTitle>
-          <CardContent className="lg:w-4/5 pl-12">
+          <CardContent className="pl-12 lg:w-4/5">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>

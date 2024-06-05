@@ -1,5 +1,3 @@
-"use client";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
@@ -69,7 +67,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                 <Image
                   src={prop.image}
                   alt={prop.name}
-                  className="h-[500px] w-[400px] object-cover"
+                  className="h-[500px] w-[400px] object-cover object-center"
                 />
                 <div className="space-y-0 font-inter">
                   <h1 className="text-lg font-bold">{prop.name}</h1>
@@ -90,9 +88,12 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                       <DrawerPortal>
                         <DrawerOverlay />
                         <DrawerContent>
-                          <DrawerClose asChild className="mx-auto cursor-pointer">
+                          <DrawerClose
+                            asChild
+                            className="mx-auto cursor-pointer"
+                          >
                             <ChevronDown
-                              className="ease-[cubic-bezier(0.87,_0,_0.13,_1)] flex-shrink-0 transition-transform duration-300 hover:scale-150 hover:rotate-0 rotate-180 scale-125"
+                              className="ease-[cubic-bezier(0.87,_0,_0.13,_1)] flex-shrink-0 rotate-180 scale-125 transition-transform duration-300 hover:rotate-0 hover:scale-150"
                               aria-hidden
                             />
                           </DrawerClose>
@@ -114,28 +115,28 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                           </div>
 
                           <div className="relative z-50 mx-auto w-[80%] pt-20">
-                            <div className="flex sm:flex-wrap md:flex-nowrap">
-                              <h1 className="w-1/2 text-2xl font-semibold uppercase">
+                            <div className="flex flex-col md:flex-row">
+                              <h1 className="flex-1 text-2xl font-semibold uppercase">
                                 summary
                               </h1>
-                              <p className="w-1/2 md:text-lg">
+                              <p className="flex-1 md:text-lg">
                                 {prop.description}
                               </p>
                             </div>
-                            <div className="flex pt-14 sm:flex-wrap md:flex-nowrap">
-                              <h1 className="w-1/2 text-2xl font-semibold uppercase">
+                            <div className="mt-14 flex flex-col md:flex-row">
+                              <h1 className="flex-1 text-2xl font-semibold uppercase">
                                 Education
                               </h1>
-                              <p className="w-1/2 font-bold md:text-lg">
+                              <p className="flex-1 font-bold md:text-lg">
                                 {prop.lastEducation}
                               </p>
                             </div>
 
-                            <div className="flex pt-14 sm:flex-wrap md:flex-nowrap">
-                              <h1 className="w-1/2 text-2xl font-semibold uppercase">
+                            <div className="mt-14 flex flex-col md:flex-row">
+                              <h1 className="flex-1 text-2xl font-semibold uppercase">
                                 honors-awards
                               </h1>
-                              <ul className="w-1/2 list-inside list-disc">
+                              <ul className="flex-1 list-inside list-disc">
                                 {prop.achievements.map((achievement, i) => (
                                   <li
                                     className="mb-5 sm:text-xs md:text-lg"
@@ -147,11 +148,11 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                               </ul>
                             </div>
                             {prop.experience && prop.experience.length > 0 && (
-                              <div className="flex pt-14 sm:flex-wrap md:flex-nowrap">
-                                <h1 className="w-1/2 text-2xl font-semibold uppercase">
+                              <div className="mt-14 flex flex-col md:flex-row">
+                                <h1 className="flex-1 text-2xl font-semibold uppercase">
                                   Experience
                                 </h1>
-                                <div className="w-1/2">
+                                <div className="flex-1">
                                   <Accordion
                                     defaultValue="item-0"
                                     type="single"
