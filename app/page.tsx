@@ -23,17 +23,20 @@ export default function Home() {
       {/* Hero  */}
       <Hero />
       {/* Activities  Slide*/}
-      <div className="my-20 container">
+      <div className="container my-20">
         <ActivitySlider props={postersData} />
       </div>
 
       {/* <AutoScrollComponent /> */}
-      <InfiniteSlidingComponent props={InfiniteSlidingProps} />
+      <div className="mx-auto w-full max-w-[1560px] overflow-hidden py-10">
+        <InfiniteSlidingComponent props={InfiniteSlidingProps} />
+      </div>
       {/* Benefit  */}
-      <Benefit />
-      {/* Gallery Component  */}
-
-      <div className="max-w-[1400px] mx-auto px-3 md:container mt-20">
+      <div className="mt-36">
+        <Benefit />
+        {/* Gallery Component  */}
+      </div>
+      <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
       {/* Special Banner */}

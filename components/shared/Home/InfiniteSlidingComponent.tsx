@@ -33,7 +33,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
   return (
     <div
       style={{ willChange: "transform" }}
-      className="w-full h-20 md:h-24 bg-page-black flex items-center -rotate-2 overflow-x-hidden"
+      className="flex h-20 w-full -rotate-2 items-center overflow-x-hidden bg-page-black md:h-24"
     >
       {/* Wrapping div for seamless looping */}
       <motion.div
@@ -52,11 +52,11 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
         {duplicatedSlides.map((item, index) => (
           <div
             key={index}
-            className="flex-shrink-0 h-full"
+            className="h-full flex-shrink-0"
             style={{ width: `${100 / slides.length}%` }}
           >
-            <div className="flex flex-col items-center justify-center h-full">
-              <div className="flex items-center gap-4 font-bungee h-full">
+            <div className="flex h-full flex-col items-center justify-center">
+              <div className="flex h-full items-center gap-4 font-bungee">
                 <Image
                   src={item.icon}
                   alt="icons"
@@ -64,7 +64,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
                   height={60}
                   className="object-contain"
                 />
-                <span className="text-page-white font-bungee text-4xl font-medium whitespace-nowrap">
+                <span className="whitespace-nowrap font-bungee text-4xl font-medium text-page-white">
                   {item.text}
                 </span>
               </div>

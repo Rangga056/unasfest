@@ -1,3 +1,5 @@
+"use client";
+
 import { Activities } from "@/constants/Activites";
 import Image from "next/image";
 import {
@@ -22,7 +24,7 @@ type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
-  console.log("params", params.slug);
+  // console.log("params", params.slug);
   const competition = Activities.find((comp) => comp.path === params.slug);
 
   if (!competition) {
@@ -136,7 +138,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
             Competition Judges List
           </CardDescription>
-          <CardContent className="h-full w-full">
+          <CardContent className="h-full w-full px-0">
             <Judges
               judgesData={competition.judgesData}
               color={competition.color}

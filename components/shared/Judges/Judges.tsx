@@ -1,5 +1,3 @@
-"use client";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Card, CardContent } from "@/components/ui/card";
@@ -105,9 +103,9 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                               <Image
                                 src={prop.image}
                                 alt={prop.name}
-                                className="md:ml-36 object-cover sm:h-[200px] sm:w-[200px] md:h-[500px] md:w-[400px]"
+                                className="md:ml-12 object-cover sm:h-[200px] sm:w-[200px] md:h-[500px] md:w-[400px]"
                               />
-                              <div className="z-10 my-auto text-center md:ml-28 md:space-y-4 md:p-4 md:text-white sm:text-black w-[300px]">
+                              <div className="z-10 my-auto text-center md:text-start md:ml-20 md:space-y-4 md:p-4 md:text-white sm:text-black ">
                                 <h1 className="md:w-[500px] font-semibold sm:text-lg md:text-5xl">
                                   {prop.name}
                                 </h1>
@@ -119,7 +117,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                             </div>
                             <div className="relative z-50 mx-auto md:pt-20 sm:pt-10 sm:w-[90%] md:w-[80%]">
                               <div className="flex flex-wrap">
-                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:text-start md:w-1/2">
                                   summary
                                 </h1>
                                 <p className="w-full sm:mt-5 md:w-1/2 md:text-lg">
@@ -127,7 +125,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                 </p>
                               </div>
                               <div className="flex flex-wrap pt-14">
-                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:text-start md:w-1/2">
                                   Education
                                 </h1>
                                 <p className="w-full font-bold sm:mt-5 md:w-1/2 md:text-lg">
@@ -135,7 +133,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                 </p>
                               </div>
                               <div className="flex flex-wrap pt-14">
-                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:text-start md:w-1/2">
                                   honors-awards
                                 </h1>
                                 <ul className="w-full list-inside list-disc md:w-1/2 mt-5">
@@ -150,7 +148,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                 </ul>
                               </div>
                               <div className="flex flex-wrap pt-14">
-                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:text-start md:w-1/2">
                                   Experience
                                 </h1>
                                 <div className="w-full md:w-1/2 sm:mt-5">
@@ -163,8 +161,9 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                       <AccordionItem
                                         key={i}
                                         value={`item-${i}`}
+                                        className="md:mt-0"
                                       >
-                                        <AccordionTrigger className="w-full cursor-pointer text-start font-inter text-xl font-semibold md:pb-3 sm:py-10 md:py-0 sm:text-lg">
+                                        <AccordionTrigger className="w-full cursor-pointer text-start font-inter text-xl font-semibold sm:py-10 md:pb-8 sm:text-lg">
                                           {exp.eTitle}
                                         </AccordionTrigger>
                                         <AccordionContent className="text-start text-xl font-semibold opacity-70 sm:text-lg">
