@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { activitiesData } from "@/lib/types/Activities";
 import {
@@ -11,7 +11,6 @@ import {
   DrawerOverlay,
   DrawerClose,
 } from "@/components/ui/drawer";
-
 import {
   Accordion,
   AccordionContent,
@@ -19,7 +18,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordiion";
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import linkedin from "@/public/assets/icons/LinkedIn-icon-white.svg";
 
 interface judgesProps {
   judgesData: activitiesData["judgesData"];
@@ -34,15 +33,17 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
     setIsOpen(!isOpen);
   };
 
+  const swiperConfig = {
+    0: { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+    1440: { slidesPerView: 3 },
+  };
+
   return (
     <div className="relative">
       <Swiper
-        breakpoints={{
-          0: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-          1440: { slidesPerView: 3 },
-        }}
+        breakpoints={swiperConfig}
         slidesPerView={"auto"}
         spaceBetween={20}
         pagination={{
@@ -62,25 +63,30 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
-            <Card className="flex w-full flex-shrink-0 cursor-grab flex-col justify-between rounded-none bg-page-white text-page-black">
-              <CardContent className="relative flex flex-col gap-y-4 text-left grayscale hover:filter-none md:filter">
+            <Card>
+              <CardContent className="relative flex flex-col items-center gap-y-4 text-left grayscale hover:filter-none md:filter">
                 <Image
                   src={prop.image}
                   alt={prop.name}
-                  className="h-[500px] w-[400px] object-cover object-center"
+                  className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
                 />
                 <div className="space-y-0 font-inter">
                   <h1 className="text-lg font-bold">{prop.name}</h1>
-                  <h2 className="text-base">{prop.lastEducation}</h2>
+                  <h2 className="w-[300px] text-base lg:w-[400px]">
+                    {prop.lastEducation}
+                  </h2>
                 </div>
                 {hoveredIndex === index && (
-                  <div className="buttom-0 absolute left-1/2 top-28 w-[70%] -translate-x-1/2 bg-black p-5 text-white">
-                    <div className="sm:h-[200px] md:h-[250px]">
-                      <p className="font-semi bold mb-10 line-clamp-9 sm:text-sm md:text-base">
+                  <div
+                    className={`absolute top-28 bg-black p-5 text-white ${
+                      judgesData.length === 2 ? "w-[70%]" : "w-[70%]"
+                    }`}
+                  >
+                    <div className="h-[200px] md:h-[250px]">
+                      <p className="font-semi bold mb-10 line-clamp-9 text-sm md:text-base">
                         {prop.description}
                       </p>
                     </div>
-                    <div></div>
                     <Drawer>
                       <DrawerTrigger className="cursor-pointer underline">
                         Read More ...
@@ -88,71 +94,60 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                       <DrawerPortal>
                         <DrawerOverlay />
                         <DrawerContent>
-                          <DrawerClose
-                            asChild
-                            className="mx-auto cursor-pointer"
-                          >
-                            <ChevronDown
-                              className="ease-[cubic-bezier(0.87,_0,_0.13,_1)] flex-shrink-0 rotate-180 scale-125 transition-transform duration-300 hover:rotate-0 hover:scale-150"
-                              aria-hidden
-                            />
-                          </DrawerClose>
-                          <div className="relative flex gap-5">
-                            <Image
-                              src={prop.image}
-                              alt={prop.name}
-                              className="ml-36 h-[500px] w-[400px] object-cover"
-                            />
-                            <div className="z-10 my-auto ml-28 space-y-4 p-4 text-white">
-                              <h1 className="w-[500px] font-semibold sm:text-lg md:text-5xl">
-                                {prop.name}
-                              </h1>
-                              <p className="font-medium md:text-lg">
-                                {prop.lastEducation}
-                              </p>
+                          <div className="overflow-y-auto">
+                            <div className="relative flex flex-wrap justify-center gap-5 md:flex-nowrap">
+                              <Image
+                                src={prop.image}
+                                alt={prop.name}
+                                className="h-[250px] w-[200px] object-cover md:ml-12 md:h-[400px] md:w-[300px] lg:h-[500px] lg:w-[400px]"
+                              />
+                              <div className="z-10 my-auto text-center sm:text-black md:ml-20 md:space-y-4 md:p-4 md:text-start md:text-white ">
+                                <h1 className="font-semibold sm:text-lg md:w-[500px] md:text-5xl">
+                                  {prop.name}
+                                </h1>
+                                <p className="w-72 font-medium md:text-lg">
+                                  {prop.lastEducation}
+                                </p>
+                              </div>
+                              <div className="absolute -z-10 h-72 w-full transform self-center bg-[#1F1E23] sm:hidden md:inline-block" />
                             </div>
-                            <div className="absolute bottom-0 -z-10 h-72 w-full -translate-y-1/3 transform self-center bg-[#1F1E23]" />
-                          </div>
-
-                          <div className="relative z-50 mx-auto w-[80%] pt-20">
-                            <div className="flex flex-col md:flex-row">
-                              <h1 className="flex-1 text-2xl font-semibold uppercase">
-                                summary
-                              </h1>
-                              <p className="flex-1 md:text-lg">
-                                {prop.description}
-                              </p>
-                            </div>
-                            <div className="mt-14 flex flex-col md:flex-row">
-                              <h1 className="flex-1 text-2xl font-semibold uppercase">
-                                Education
-                              </h1>
-                              <p className="flex-1 font-bold md:text-lg">
-                                {prop.lastEducation}
-                              </p>
-                            </div>
-
-                            <div className="mt-14 flex flex-col md:flex-row">
-                              <h1 className="flex-1 text-2xl font-semibold uppercase">
-                                honors-awards
-                              </h1>
-                              <ul className="flex-1 list-inside list-disc">
-                                {prop.achievements.map((achievement, i) => (
-                                  <li
-                                    className="mb-5 sm:text-xs md:text-lg"
-                                    key={i}
-                                  >
-                                    {achievement}
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                            {prop.experience && prop.experience.length > 0 && (
-                              <div className="mt-14 flex flex-col md:flex-row">
-                                <h1 className="flex-1 text-2xl font-semibold uppercase">
+                            <div className="relative z-50 mx-auto sm:w-[90%] sm:pt-10 md:w-[80%] md:pt-20">
+                              <div className="flex flex-wrap">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
+                                  summary
+                                </h1>
+                                <p className="w-full sm:mt-5 md:w-1/2 md:text-lg">
+                                  {prop.description}
+                                </p>
+                              </div>
+                              <div className="flex flex-wrap pt-14">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
+                                  Education
+                                </h1>
+                                <p className="w-full font-bold sm:mt-5 md:w-1/2 md:text-lg">
+                                  {prop.lastEducation}
+                                </p>
+                              </div>
+                              <div className="flex flex-wrap pt-14">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
+                                  honors-awards
+                                </h1>
+                                <ul className="mt-5 w-full list-inside list-disc md:w-1/2">
+                                  {prop.achievements.map((achievement, i) => (
+                                    <li
+                                      className="sm:mb-2 sm:text-xs md:mb-5 md:text-lg"
+                                      key={i}
+                                    >
+                                      {achievement}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                              <div className="flex flex-wrap pt-14">
+                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
                                   Experience
                                 </h1>
-                                <div className="flex-1">
+                                <div className="w-full sm:mt-5 md:w-1/2">
                                   <Accordion
                                     defaultValue="item-0"
                                     type="single"
@@ -162,8 +157,9 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                       <AccordionItem
                                         key={i}
                                         value={`item-${i}`}
+                                        className="md:mt-0"
                                       >
-                                        <AccordionTrigger className="w-full cursor-pointer text-start font-inter text-xl font-semibold sm:pb-3 sm:text-lg">
+                                        <AccordionTrigger className="w-full cursor-pointer text-start font-inter text-xl font-semibold sm:py-10 sm:text-lg md:pb-8">
                                           {exp.eTitle}
                                         </AccordionTrigger>
                                         <AccordionContent className="text-start text-xl font-semibold opacity-70 sm:text-lg">
@@ -187,9 +183,19 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                       </AccordionItem>
                                     ))}
                                   </Accordion>
+                                  <div className="my-10 flex w-[80%] cursor-pointer items-center justify-center bg-[#1F1E23] py-1 hover:opacity-90">
+                                    <Image
+                                      src={linkedin}
+                                      alt="linkedin"
+                                      width={40}
+                                    />
+                                    <p className="pl-5 text-white">
+                                      Lorem, ipsum.
+                                    </p>
+                                  </div>
                                 </div>
                               </div>
-                            )}
+                            </div>
                           </div>
                         </DrawerContent>
                       </DrawerPortal>

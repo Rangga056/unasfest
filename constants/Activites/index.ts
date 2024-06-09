@@ -20,12 +20,18 @@ import aditya from "@/public/assets/images/competition/edc Muhammad Aditya Mucht
 // judges photos spc
 import efriza from "@/public/assets/images/competition/spc Efriza, S.I.P., M.Si..jpg";
 import fajar from "@/public/assets/images/competition/spc Fajar Harry Sampurno, MBA, Ph.D..jpg";
-import eniya from "@/public/assets/images/competition/spc Prof. Dr. Eng. Eniya Listiani Dewi.jpg";
 
 // judges photos smc
 import rita from "@/public/assets/images/competition/sm rita.jpg";
 import kusen from "@/public/assets/images/competition/sm kusen.jpg";
 import Daniel from "@/public/assets/images/competition/smc Daniel Wisnu Wardhana.jpg";
+
+// judges photos semnas
+import adam from "@/public/assets/images/competition/semnas Adam Adiwinata.jpeg";
+import eniyas from "@/public/assets/images/competition/semnas Eniya Listiani Dewi.jpeg";
+import jason from "@/public/assets/images/competition/semnas Jason Amiri.jpeg";
+import lizie from "@/public/assets/images/competition/semnas Lizie Daniella.jpeg";
+import ovi from "@/public/assets/images/competition/semnas Ovi Lian Ding.jpeg";
 
 //cover Image
 import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
@@ -48,6 +54,7 @@ import {
   timelinesSemnas,
 } from "@/constants/Timeline";
 import { Description } from "@radix-ui/react-dialog";
+import exp from "constants";
 export const Activities = [
   {
     path: "kdbi",
@@ -123,6 +130,8 @@ export const Activities = [
             eTime: "June 2022 - August 2023",
             eDesc: {
               dDetail: "President of the Student English Forum (SEF) ITB",
+              dPoint: ["..."],
+
             },
           },
           {
@@ -143,6 +152,8 @@ export const Activities = [
             eTime: "March 2022 - September 2022",
             eDesc: {
               dDetail: "...",
+              dPoint: ["..."],
+
             },
           },
         ],
@@ -156,6 +167,18 @@ export const Activities = [
         achievements: [
           "Recorded as an Indonesian literary figure of the 2000s generation",
           "Obtained Journalist Certification as a Senior Journalist from the Press Council (No. 092-WU/DP/V/2011, May 2011)",
+        ],
+        experience: [
+          {
+            eTitle: "...",
+            eTime: "...",
+            place: "...",
+            eDesc: {
+              dDetail: "...",
+              dPoint: ["..."],
+              
+            },
+          },
         ],
       },
       {
@@ -179,6 +202,7 @@ export const Activities = [
             eTime: "October 2022 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Streamlining training program coordination by setting up and managing user accounts, courses, and schedules on the Learning Management System(LMS).",
                 "Assisting trainers in delivering seamless courses by providing comprehensive support and meticulously preparing learning materials, resulting in an impressive 95% completion rate for all training programs initiated.",
@@ -192,6 +216,7 @@ export const Activities = [
             eTime: "April 2022 - September 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Collaborated with educators and subject-matter experts to design, refine, and update a comprehensive English curriculum tailored to basic and intermediate levels.",
                 "Established evaluation criteria to measure curriculum effectiveness and learning outcomes for junior to high school student.",
@@ -203,17 +228,7 @@ export const Activities = [
             eTime: "March 2022 - June 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dPoint: [
-                "Executed daily live-stream in e-commerce apps (Shopee and TikTok) as well as on Instagram. Increased 50% of viewers on Shopee live in a month.",
-                "Successfully created TikTok content with 57K views. (LINK: https://bit.ly/ Content- Matsuda).",
-              ],
-            },
-          },
-          {
-            eTitle: "Host Live Streamer - Matsuda Appareal",
-            eTime: "March 2022 - June 2022",
-            place: "Jakarta Raya, Indonesia",
-            eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Executed daily live-stream in e-commerce apps (Shopee and TikTok) as well as on Instagram. Increased 50% of viewers on Shopee live in a month.",
                 "Successfully created TikTok content with 57K views. (LINK: https://bit.ly/ Content- Matsuda).",
@@ -225,6 +240,8 @@ export const Activities = [
             eTime: "September 2021 - January 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Cultivated and maintained relationships with government institutions, agencies, and other relevant stakeholders.",
                 "Provided regular reports on government relations activities, outcomes, and future project.",
@@ -238,6 +255,8 @@ export const Activities = [
             eTime: "January 2021 - September 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Developed engaging, interactive, and effective learning materials, including lesson plans, modules, assessments, and supplemental resources.",
                 "Created 5 lesson materials a week by gaining 10% learning objectives effectiveness.",
@@ -252,6 +271,8 @@ export const Activities = [
             eTime: "September 2020 - December 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Delivered live teaching Indonesian subjects for junior and senior high school including UTBK through AyoBlajar Apps.",
                 "Created Indonesian subject content on AyoBlajar social media such as TikTok and Instagram.",
@@ -263,6 +284,8 @@ export const Activities = [
             eTime: "August 2020 - January 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Responsible to teach English to 20 senior high school students both online and offline learning.",
                 "Developed attractive learning media, supervised, and graded examinations, quizzes, and other assignments. Able to scale up student's understanding 50% better.",
@@ -275,6 +298,8 @@ export const Activities = [
             eTime: "April 2020 - May 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Provided mentor list and strategic partners and reviewed curriculum as well as syllabus for all training classes. Assigned for compiling 200 training databases in 2 weeks.",
                 "Coordinated with other divisions to support training needs such as the payroll division on training budget and recruitment division on training need analysis (TNA).",
@@ -286,6 +311,8 @@ export const Activities = [
             eTime: "Auguts 2018 - November 2018",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Provided training administrative support and module to be evaluated in a monthly meeting. Selected as moderator or MC in a monthly meeting.",
                 "Reviewed and edited training report before presented to management level. Compiled 150 training databases in 3 weeks.",
@@ -389,6 +416,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Currently working at the Directorate of ASEAN External Cooperation, Directorate General of ASEAN Cooperation with the diplomatic rank of Third Secretary. Assigned to handle issues between ASEAN and Dialogue Partners, specifically East Asia countries. Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
+              dPoint: [],
+
             },
           },
           {
@@ -545,6 +574,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "UPT Bahasa ITB is an operational wing of ITB that provides various classes that aims to improve language proficiency. My responsibilities were to lead two classes of around 10-15 people each in English conversation. There were no strict curriculum on the class and the way it is run is left to the lecturers, as long as it achieves the goal of making all class participants proactive in conversing and expressing their opinion. Lessons on grammar and English language theory was also included although it is secondary in nature.",
+              dPoint: [],
+
             },
           },
           {
@@ -585,6 +616,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
+              dPoint: [],
+
             },
           },
           {
@@ -594,6 +627,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
+              dPoint: [],
+
             },
           },
           {
@@ -603,6 +638,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
+              dPoint: [],
+
             },
           },
           {
@@ -612,6 +649,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Supervised customer engagement strategy based on data insights, analyzed market trends, and monitored brands marketing activity to achieve engagement targets.",
+              dPoint: [],
+
             },
           },
         ],
@@ -692,29 +731,84 @@ export const Activities = [
         index: 1,
         name: "Efriza, S.I.P., M.Si.",
         image: efriza,
-        lastEducation: "Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP)",
+        lastEducation:
+          "Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP)",
         description:
-        "Efriza, S.I.P., M.Si. is a graduate of the Bachelor's program in Political Science from Universitas Nasional and holds a Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP). Currently, Efriza serves as a Permanent Lecturer in Government Science at Universitas Pamulang's Off-Campus Study Program (UNPAM PSDKU) in Serang, Banten, since March 2022, and also as a Permanent Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN) since October 2016.\n\n Efriza has authored 13 books, including 'Sociology of Power: Theory and Development' (2023), 'Introduction to Politics: An Empirical and Scientific Study' (2021), and 'Political Science: From Political Science to Government Systems' (2009).",
-        achievements: [
-          "...",
-        ],
+          "Efriza, S.I.P., M.Si. is a graduate of the Bachelor's program in Political Science from Universitas Nasional and holds a Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP). Currently, Efriza serves as a Permanent Lecturer in Government Science at Universitas Pamulang's Off-Campus Study Program (UNPAM PSDKU) in Serang, Banten, since March 2022, and also as a Permanent Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN) since October 2016.\n\n Efriza has authored 13 books, including 'Sociology of Power: Theory and Development' (2023), 'Introduction to Politics: An Empirical and Scientific Study' (2021), and 'Political Science: From Political Science to Government Systems' (2009).",
+        achievements: ["...", "..."],
         experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
             eTime: "March 2022 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail:
-                "...",
+              dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
-            eTitle: "Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN).",
+            eTitle:
+              "Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN).",
             eTime: "October 2016 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
+                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implement xing strategies that align with business goals and elevate the overall customer experience (CX).",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Lecturer at Bung Karno University",
+            eTime: "September 2017 - 2023",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Lecturer at Pembangunan Nasional Veteran University",
+            eTime: "February 2019 - August 2019",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle:
+              "Reviewer for Populis Journal (Sinta 4) at Nasional University",
+            eTime: "...",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle:
+              "Principal Researcher (Political Analyst) at Citra Institute",
+            eTime: "2011 - present",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Founder of Yayasan Studi Cendekia Indonesia (YSCI)",
+            eTime: "2022 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
             },
           },
         ],
@@ -723,25 +817,44 @@ export const Activities = [
         index: 2,
         name: "Fajar Harry Sampurno, MBA, Ph.D.",
         image: fajar,
-        lastEducation: "Executive education focused on Disruptive Innovation of University of Cambridge.",
+        lastEducation:
+          "Executive education focused on Disruptive Innovation of University of Cambridge.",
         description:
           "A former senior government official with experience leading various state-owned manufacturing and strategic defense industries. He has a strong academic background, ranging from Monash University to executive education focused on Disruptive Innovation from the University of Cambridge. He has extensive experience, including serving as Chief Executive Officer/President of PT. Barata Indonesia. Additionally, he held the position of Deputy Minister of Mining, Strategic Industries & Media at the Ministry of State-Owned Enterprises from July 2015 to November 2019. In this role, he assisted the Minister of SOEs in formulating policies and synchronizing the implementation of strategic business initiatives, competitiveness, performance, and sustainable development for state-owned enterprises in the sectors of Mining, Oil & Gas, Strategic Industries, Security Printing, Perum Peruri, Publishing & Printing.",
-        achievements: [
-          "...",
-          
-        ],
+        achievements: ["..."],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 3,
         name: "Prof. Dr. Eng. Eniya Listiani Dewi",
-        image: eniya,
+        image: eniyas,
         lastEducation: "Master's degree from Waseda University. Japan",
         description:
           "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
-        achievements: [
-          "...",
-         
-        ],
+        achievements: ["..."],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
     ],
     faqs: [
@@ -820,16 +933,30 @@ export const Activities = [
         name: "Rita Sri Hastuti",
         image: rita,
         lastEducation: "LPK Tarakanita Jakarta",
-        description: "Rita Sri Hastuti is a highly influential figure in the field of Indonesian journalism. With her extensive and diverse experience across various media domains and her significant positions in organizations like PWI, Rita has made a substantial contribution to the development of the journalism profession in Indonesia.\n\nAs a member of PWI, even holding important positions at the central level, Rita not only represents success in her own journalistic career but also plays a role in shaping the direction and policies of the organization that impact thousands of journalists across Indonesia.\n\nMoreover, Rita's career journey, which spans various media fields—from newspapers, magazines, radio, and television to internet-based mass media—demonstrates her flexibility and ability to adapt to technological advancements and trends in the media industry.\n\nRita's role in business management and public relations (PR) further adds another dimension to her experience and expertise. Her involvement as a member and executive of the Indonesian Film Censorship Board (LSF) highlights her contribution to the realm of media policy and regulation.",
+        description:
+          "Rita Sri Hastuti is a highly influential figure in the field of Indonesian journalism. With her extensive and diverse experience across various media domains and her significant positions in organizations like PWI, Rita has made a substantial contribution to the development of the journalism profession in Indonesia.\n\nAs a member of PWI, even holding important positions at the central level, Rita not only represents success in her own journalistic career but also plays a role in shaping the direction and policies of the organization that impact thousands of journalists across Indonesia.\n\nMoreover, Rita's career journey, which spans various media fields—from newspapers, magazines, radio, and television to internet-based mass media—demonstrates her flexibility and ability to adapt to technological advancements and trends in the media industry.\n\nRita's role in business management and public relations (PR) further adds another dimension to her experience and expertise. Her involvement as a member and executive of the Indonesian Film Censorship Board (LSF) highlights her contribution to the realm of media policy and regulation.",
         achievements: [
-          "Winner of the 2022 Adinegoro Journalism Award by the Indonesian Journalists Association (PWI) Central.",          
+          "Winner of the 2022 Adinegoro Journalism Award by the Indonesian Journalists Association (PWI) Central.",
         ],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 2,
         name: "Kusen Dony Hermansyah",
         image: kusen,
-        lastEducation: "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
+        lastEducation:
+          "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
         achievements: [
@@ -838,47 +965,65 @@ export const Activities = [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         ],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 3,
         name: "Raden Wardana",
         image: Daniel,
-        lastEducation: "Master's degree, Film/Video dan Fotografi at Bond University",
+        lastEducation:
+          "Master's degree, Film/Video dan Fotografi at Bond University",
         description:
-        "I have been involved in the world of broadcasting, cinematography, and photography for nearly 25 years. Some of my experiences in broadcasting include producing several TV programs at Triwarsana Production House (Helmi Yahya). I have been involved in a production house that I founded for almost 5 years since 2003. I worked as a product specialist at Canon Indonesia for almost 3 years. Photography and videography are my majors in teaching at several universities, such as Universitas Mercubuana, Universitas Sahid, Sekolah Tinggi Media Komunikasi Trisakti, and Universitas Nasional, since 2011 until now. Since 2021, I have built a company in the audio-visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others."
-,
+          "I have been involved in the world of broadcasting, cinematography, and photography for nearly 25 years. Some of my experiences in broadcasting include producing several TV programs at Triwarsana Production House (Helmi Yahya). I have been involved in a production house that I founded for almost 5 years since 2003. I worked as a product specialist at Canon Indonesia for almost 3 years. Photography and videography are my majors in teaching at several universities, such as Universitas Mercubuana, Universitas Sahid, Sekolah Tinggi Media Komunikasi Trisakti, and Universitas Nasional, since 2011 until now. Since 2021, I have built a company in the audio-visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
         achievements: [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         ],
-        experience : [
+        experience: [
           {
-            eTitle: "Chief Operational Officer - NextArt.id (PT. Aksara Dimensi Perkasa)",
+            eTitle:
+              "Chief Operational Officer - NextArt.id (PT. Aksara Dimensi Perkasa)",
             eTime: "August 2021 - Present",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail:
-                "An International Music Aggregator Company",
+              dDetail: "An International Music Aggregator Company",
+              dPoint: [],
+
             },
           },
           {
-            eTitle: "Vice Chairman of Academic Affairs - Trisakti School of Media and Communication",
+            eTitle:
+              "Vice Chairman of Academic Affairs - Trisakti School of Media and Communication",
             eTime: "February 2018 - May 2020",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail:
-                "Developing university curriculum",
+              dDetail: "Developing university curriculum",
+              dPoint: [],
+
             },
           },
           {
-            eTitle: "Secretary of the Communication Science Study Program - Nasional University (UNAS)",
+            eTitle:
+              "Secretary of the Communication Science Study Program - Nasional University (UNAS)",
             eTime: "January 2014 - January 2018",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail:
                 "Managing Lecturers for Each Course, Managing Transfer Students",
+              dPoint: [],
 
             },
           },
@@ -889,6 +1034,7 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
+              dPoint: [],
 
             },
           },
@@ -899,6 +1045,7 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
+              dPoint: [],
 
             },
           },
@@ -909,22 +1056,24 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Provided technical support for photography and videography.",
+              dPoint: [],
 
             },
           },
           {
-            eTitle: "Production Assistant - PT. Cakrawala Andalas Televisi ( ANTV )",
+            eTitle:
+              "Production Assistant - PT. Cakrawala Andalas Televisi ( ANTV )",
             eTime: "January 2008 - January 2011",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail:
                 "Managed pre-production, production, and post-production of broadcasts.",
+              dPoint: [],
 
             },
           },
-        ]
+        ],
       },
-      
     ],
     faqs: [
       {
@@ -999,22 +1148,200 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Judge kdbi 1",
-        image: anies,
-        lastEducation: "University of Indonesia",
+        name: "Adam Adiwinata",
+        image: adam,
+        lastEducation:
+          "MASTER, Renewable and Clean Energy - University of Dayton",
+
         description:
-          "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+          "User graduated from the University of Indonesia majoring in Mechanical Engineering focusing on energy conversion and has a master's degree in renewable and clean energy from the University of Dayton, Ohio. During their master's study, their focus was on energy efficiency, and they were part of the Building Energy Center at the University of Dayton, where they conducted energy audits for commercial buildings and manufacturers in the Dayton, Ohio area. They assisted customers by assessing energy usage, identifying, and calculating energy-saving opportunities. I am currently working as technical adviser for HEAT Gmbh and managing energy efficiency project all around Indonesia.",
+        achievements: ["..."],
+        experience: [
+          {
+            eTitle:
+              "International Renewable Energy Agency (IRENA) Consultant, ASEAN Energy Transition Outlook",
+            eTime: "March 2020 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "IRENA's focal point for the collaboration and engagement with all ASEAN Member States on potential of renewable energy, energy efficiency, and other related energy transition technologies for Asean Member States",
+              dPoint: [
+                "Lead on ground communications with ASEAN counterparts in developing ASEAN Renewables outlook as well as Indonesia Energy Transition Outlook and Malaysia Energy Transition Outlook",
+                "Integral in development of 3 Outlooks (1 Regional and 2 Country reports) in Southeast ASIA region.",
+              ],
+            },
+          },
+          {
+            eTitle:
+              "Technical Project Manager - Heat International/ Carbonbase GmbH",
+            eTime: "June 2015 - March 2020",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Technical Project Manager for the Green Chiller Indonesia Project with GIZ and the Ministry of Energy and Mineral Resources Indonesia, focusing on promoting energy efficiency practices in Indonesia's cooling systems for both Air Conditioning and Refrigeration.",
+              dPoint: [
+                "Technical advisor for safety feasibility and program development of Solar Ice Machine for fishermen community in remote island in East Nusa Tenggara.",
+                "Technical project manager for Green Chiller pilot projects from preparation, implementation, measurement, and verification.",
+                "Lead the implementation of 7 Green chiller projects in commercial and industrial sectors all over Indonesia.",
+                "Lead the certification for the safety installation of the pilot projects, ensuring compliance with European safety standards.",
+                "Conducted analysis and optimization of pilot projects.",
+                "Conducted business analysis for RAC sectors and assessed the climate impact of the sector based on the development of government’s policy.",
+                "Supported the compilation of RAC inventory according to IPCC Tier 2 methodology.",
+                "Provided policy advice for the Green Chiller project on developing MEPS and labeling for RAC subsectors, and developing RAC safety standards for flammable refrigerants according to international standards.",
+                "Contributed to the RAC sector integration into NDCs.",
+                "Conducted training and certification for technicians community on safety installation on flammable refrigerant.",
+                "Supported the development of 3 National Standards of Indonesia on utilization of natural refrigerant.",
+                "Involved in project development, coordination, and negotiation with stakeholders.",
+              ],
+            },
+          },
+          {
+            eTitle: "Energy Engineer - Synergy Efficiency Solutions",
+            eTime: "June 2015 - March 2020",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Project Manager, and Energy Engineer",
+              dPoint: [
+                "Energy efficiency engineer with competencies in conducting energy audit on HVAC system, process chillers, pumps, fans, hot water, electric motors, and lighting.",
+                "Managed USAID-ICED Pilot Project Energy Conservation Sekolah Harapan Ibu in Jakarta, successfully reducing energy costs by up to 30%. Provided training on energy efficiency implementation for students and teachers in Jakarta area during the event.",
+                "Technical engineer in ESCO project of 4-star hotel in Jakarta, analyzing existing energy system’s performance and potential savings for the project.",
+                "Conducted energy audit and assessments for energy efficiency implementations in hotels, commercial buildings, and manufactures in Java areas and Bali, Indonesia, helping clients cut their energy bills and improve their systems.",
+                "Energy Engineer for WWF Energy Audit at Bali Nusa Dua Convention Center for Air Conditioning system.",
+              ],
+            },
+          },
+          {
+            eTitle: "ERM: Environmental Resources Management Junior Consultant",
+            
+            eTime: "June 2015 - March 2020",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Energy Engineer Intern. I support the technical and management team of Korean clothing factory in Purwakarta Indonesia in pursuing LEED certification. I supported energy efficiency team for energy audit project for Oil and gas Companies in Indonesia. Project management member for all the project tender that I took part.",
+              dPoint: [
+                "Energy efficiency engineer with competencies in conducting energy audit on HVAC system, process chillers, pumps, fans, hot water, electric motors, and lighting.",
+                "Managed USAID-ICED Pilot Project Energy Conservation Sekolah Harapan Ibu in Jakarta, successfully reducing energy costs by up to 30%. Provided training on energy efficiency implementation for students and teachers in Jakarta area during the event.",
+                "Technical engineer in ESCO project of 4-star hotel in Jakarta, analyzing existing energy system’s performance and potential savings for the project.",
+                "Conducted energy audit and assessments for energy efficiency implementations in hotels, commercial buildings, and manufactures in Java areas and Bali, Indonesia, helping clients cut their energy bills and improve their systems.",
+                "Energy Engineer for WWF Energy Audit at Bali Nusa Dua Convention Center for Air Conditioning system.",
+              ],
+            },
+          },
+        ],
+      },
+      {
+        index: 2,
+        name: "Prof. Dr. Eng. Eniya Listiani Dewi",
+        image: eniyas,
+        lastEducation: "Master's degree from Waseda University. Japan",
+
+        description:
+          "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel",
         achievements: [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ],
+        experience: [
+          {
+            eTitle: "Professor - The National Research and Innovation Agency of The Republic of Indonesia",
+            eTime: "September 2021 - Present",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "Fuel Cell, Hydrogen Production, Green Electricity, Biohydrogen",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Board Director - International Association for Hydrogen Energy",
+      
+            eTime: "January 2014 - Present",
+            place: "MH. Thamrin 8, 10F, Jakarta",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          
+          {
+            eTitle: "Deputy Chairperson for Information Energy and Material - The Agency for the Assessment and Application of Technology (BPPT)", 
+      
+            eTime: "November 2018 - September",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Deputy Chairperson for Agroindustrial and Biotechnology - Badan Pengkajian dan Penerapan Teknologi", 
+      
+            eTime: "November 2018 - September",
+            place: "MH. Thamrin 8, 10F, Jakarta",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Director of Center for Materials Technology - Agency for the Assessment and Application of Technology (BPPT)", 
+      
+            eTime: "July 2014 - September 2015",
+            place: "224Bld. Kawasan Puspiptek Serpong",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+          {
+            eTitle: "Head Division of Renewable Energy - TPSE", 
+      
+            eTime: "February 2014 - July 2014",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ],
+      },
+    ],
+    judgesData2: [
+      {
+        index: 1,
+        name: "Jason Amiri",
+        image: jason,
+        lastEducation:
+          "Master of Science (M.Sc.), Mechanical Engineering - University of Tehran",
+        description:
+          "User graduated from the University of Indonesia majoring in Mechanical Engineering focusing on energy conversion and has a master's degree in renewable and clean energy from the University of Dayton, Ohio. During their master's study, their focus was on energy efficiency, and they were part of the Building Energy Center at the University of Dayton, where they conducted energy audits for commercial buildings and manufacturers in the Dayton, Ohio area. They assisted customers by assessing energy usage, identifying, and calculating energy-saving opportunities. I am currently working as technical adviser for HEAT Gmbh and managing energy efficiency project all around Indonesia.",
+        achievements: [
+          "Mollit quis sint ad pariatur aliquip anim amet.",
+          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Mollit quis sint ad pariatur aliquip anim amet.",
+          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ],
+        experience: [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: ["...", "...", "..."],
+            },
+          },
         ],
       },
       {
         index: 2,
         name: "Judge kdbi 2",
-        image: anies,
+        image: lizie,
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1024,11 +1351,24 @@ export const Activities = [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         ],
+        experience: [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: ["...", "...", "..."],
+              
+
+            },
+          },
+        ],
       },
       {
         index: 3,
         name: "Judge kdbi 3",
-        image: anies,
+        image: ovi,
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1037,6 +1377,18 @@ export const Activities = [
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ],
+        experience: [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: ["...", "...", "..."],
+
+            },
+          },
         ],
       },
     ],

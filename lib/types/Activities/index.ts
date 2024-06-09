@@ -28,7 +28,24 @@ export interface activitiesData {
     lastEducation: string;
     description: string;
     achievements: string[];
-    experience?: {
+    experience: {
+      eTitle: string;
+      place?: string;
+      eTime: string;
+      eDesc: {
+        dDetail?: string;
+        dPoint?: string[];
+      };
+    }[];
+  }[];
+  judgesData2: {
+    index: number;
+    name: string;
+    image: StaticImageData | string;
+    lastEducation: string;
+    description: string;
+    achievements: string[];
+    experience: {
       eTitle: string;
       place?: string;
       eTime: string;

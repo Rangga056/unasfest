@@ -4,6 +4,7 @@ import * as React from "react";
 import { Drawer as DrawerPrimitive } from "vaul";
 
 import { cn } from "@/lib/utils";
+import { X } from "lucide-react";
 
 const Drawer = ({
   shouldScaleBackground = true,
@@ -28,9 +29,12 @@ const DrawerOverlay = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <DrawerPrimitive.Overlay
     ref={ref}
-    className={cn("fixed inset-0 z-50 bg-black/80 ", className)}
+    className={cn(
+      "fixed inset-0 z-50 flex items-center justify-center bg-black/40",
+      className,
+    )}
     {...props}
-  />
+  ></DrawerPrimitive.Overlay>
 ));
 DrawerOverlay.displayName = DrawerPrimitive.Overlay.displayName;
 
@@ -38,22 +42,29 @@ const DrawerContent = React.forwardRef<
   React.ElementRef<typeof DrawerPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Content>
 >(({ className, children, ...props }, ref) => (
-  <DrawerPortal>
-    <DrawerOverlay />
+  <DrawerPrimitive.Portal>
+    <DrawerPrimitive.Overlay />
     <DrawerPrimitive.Content
       ref={ref}
       className={cn(
-        "fixed inset-x-0 bottom-0 z-50 mx-auto mt-24 flex h-auto max-h-[75vh] max-w-screen-2xl flex-col overflow-y-auto rounded-t-[10px] border bg-[#FFFAF0]",
-        className,
+        "fixed inset-x-0 bottom-0 z-50 mx-auto mt-24 flex h-auto max-h-[80vh] max-w-screen-2xl flex-col rounded-t-[10px] border bg-[#FFFAF0] -webkit-overflow-scrolling-touch",
+        className
       )}
       {...props}
     >
       <div className="mx-auto mt-4 h-2 w-[100px] rounded-full bg-muted" />
+      <DrawerPrimitive.Close asChild className="self-end mx-4 cursor-pointer">
+        <X
+          className="ease-[cubic-bezier(0.87,_0,_0.13,_1)] flex-shrink-0 rotate-180 scale-125 transition-transform duration-300 hover:rotate-90 hover:scale-150"
+          aria-hidden
+        />
+      </DrawerPrimitive.Close>
       {children}
     </DrawerPrimitive.Content>
-  </DrawerPortal>
+  </DrawerPrimitive.Portal>
 ));
 DrawerContent.displayName = "DrawerContent";
+
 
 const DrawerHeader = ({
   className,
