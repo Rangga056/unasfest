@@ -130,6 +130,8 @@ export const Activities = [
             eTime: "June 2022 - August 2023",
             eDesc: {
               dDetail: "President of the Student English Forum (SEF) ITB",
+              dPoint: ["..."],
+
             },
           },
           {
@@ -150,6 +152,8 @@ export const Activities = [
             eTime: "March 2022 - September 2022",
             eDesc: {
               dDetail: "...",
+              dPoint: ["..."],
+
             },
           },
         ],
@@ -167,8 +171,12 @@ export const Activities = [
         experience: [
           {
             eTitle: "...",
+            eTime: "...",
+            place: "...",
             eDesc: {
               dDetail: "...",
+              dPoint: ["..."],
+              
             },
           },
         ],
@@ -194,6 +202,7 @@ export const Activities = [
             eTime: "October 2022 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Streamlining training program coordination by setting up and managing user accounts, courses, and schedules on the Learning Management System(LMS).",
                 "Assisting trainers in delivering seamless courses by providing comprehensive support and meticulously preparing learning materials, resulting in an impressive 95% completion rate for all training programs initiated.",
@@ -207,6 +216,7 @@ export const Activities = [
             eTime: "April 2022 - September 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Collaborated with educators and subject-matter experts to design, refine, and update a comprehensive English curriculum tailored to basic and intermediate levels.",
                 "Established evaluation criteria to measure curriculum effectiveness and learning outcomes for junior to high school student.",
@@ -218,17 +228,7 @@ export const Activities = [
             eTime: "March 2022 - June 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dPoint: [
-                "Executed daily live-stream in e-commerce apps (Shopee and TikTok) as well as on Instagram. Increased 50% of viewers on Shopee live in a month.",
-                "Successfully created TikTok content with 57K views. (LINK: https://bit.ly/ Content- Matsuda).",
-              ],
-            },
-          },
-          {
-            eTitle: "Host Live Streamer - Matsuda Appareal",
-            eTime: "March 2022 - June 2022",
-            place: "Jakarta Raya, Indonesia",
-            eDesc: {
+              dDetail: "...",
               dPoint: [
                 "Executed daily live-stream in e-commerce apps (Shopee and TikTok) as well as on Instagram. Increased 50% of viewers on Shopee live in a month.",
                 "Successfully created TikTok content with 57K views. (LINK: https://bit.ly/ Content- Matsuda).",
@@ -240,6 +240,8 @@ export const Activities = [
             eTime: "September 2021 - January 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Cultivated and maintained relationships with government institutions, agencies, and other relevant stakeholders.",
                 "Provided regular reports on government relations activities, outcomes, and future project.",
@@ -253,6 +255,8 @@ export const Activities = [
             eTime: "January 2021 - September 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Developed engaging, interactive, and effective learning materials, including lesson plans, modules, assessments, and supplemental resources.",
                 "Created 5 lesson materials a week by gaining 10% learning objectives effectiveness.",
@@ -267,6 +271,8 @@ export const Activities = [
             eTime: "September 2020 - December 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Delivered live teaching Indonesian subjects for junior and senior high school including UTBK through AyoBlajar Apps.",
                 "Created Indonesian subject content on AyoBlajar social media such as TikTok and Instagram.",
@@ -278,6 +284,8 @@ export const Activities = [
             eTime: "August 2020 - January 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Responsible to teach English to 20 senior high school students both online and offline learning.",
                 "Developed attractive learning media, supervised, and graded examinations, quizzes, and other assignments. Able to scale up student's understanding 50% better.",
@@ -290,6 +298,8 @@ export const Activities = [
             eTime: "April 2020 - May 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Provided mentor list and strategic partners and reviewed curriculum as well as syllabus for all training classes. Assigned for compiling 200 training databases in 2 weeks.",
                 "Coordinated with other divisions to support training needs such as the payroll division on training budget and recruitment division on training need analysis (TNA).",
@@ -301,6 +311,8 @@ export const Activities = [
             eTime: "Auguts 2018 - November 2018",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
+              dDetail: "...",
+
               dPoint: [
                 "Provided training administrative support and module to be evaluated in a monthly meeting. Selected as moderator or MC in a monthly meeting.",
                 "Reviewed and edited training report before presented to management level. Compiled 150 training databases in 3 weeks.",
@@ -404,6 +416,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Currently working at the Directorate of ASEAN External Cooperation, Directorate General of ASEAN Cooperation with the diplomatic rank of Third Secretary. Assigned to handle issues between ASEAN and Dialogue Partners, specifically East Asia countries. Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
+              dPoint: [],
+
             },
           },
           {
@@ -560,6 +574,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "UPT Bahasa ITB is an operational wing of ITB that provides various classes that aims to improve language proficiency. My responsibilities were to lead two classes of around 10-15 people each in English conversation. There were no strict curriculum on the class and the way it is run is left to the lecturers, as long as it achieves the goal of making all class participants proactive in conversing and expressing their opinion. Lessons on grammar and English language theory was also included although it is secondary in nature.",
+              dPoint: [],
+
             },
           },
           {
@@ -600,6 +616,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
+              dPoint: [],
+
             },
           },
           {
@@ -609,6 +627,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
+              dPoint: [],
+
             },
           },
           {
@@ -618,6 +638,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
+              dPoint: [],
+
             },
           },
           {
@@ -627,6 +649,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Supervised customer engagement strategy based on data insights, analyzed market trends, and monitored brands marketing activity to achieve engagement targets.",
+              dPoint: [],
+
             },
           },
         ],
@@ -711,7 +735,7 @@ export const Activities = [
           "Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP)",
         description:
           "Efriza, S.I.P., M.Si. is a graduate of the Bachelor's program in Political Science from Universitas Nasional and holds a Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP). Currently, Efriza serves as a Permanent Lecturer in Government Science at Universitas Pamulang's Off-Campus Study Program (UNPAM PSDKU) in Serang, Banten, since March 2022, and also as a Permanent Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN) since October 2016.\n\n Efriza has authored 13 books, including 'Sociology of Power: Theory and Development' (2023), 'Introduction to Politics: An Empirical and Scientific Study' (2021), and 'Political Science: From Political Science to Government Systems' (2009).",
-        achievements: ["..."],
+        achievements: ["...", "..."],
         experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
@@ -719,6 +743,8 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -728,7 +754,9 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
+                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implement xing strategies that align with business goals and elevate the overall customer experience (CX).",
+              dPoint: [],
+
             },
           },
           {
@@ -737,6 +765,8 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -745,6 +775,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -754,6 +786,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -763,6 +797,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -771,6 +807,8 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
         ],
@@ -784,6 +822,18 @@ export const Activities = [
         description:
           "A former senior government official with experience leading various state-owned manufacturing and strategic defense industries. He has a strong academic background, ranging from Monash University to executive education focused on Disruptive Innovation from the University of Cambridge. He has extensive experience, including serving as Chief Executive Officer/President of PT. Barata Indonesia. Additionally, he held the position of Deputy Minister of Mining, Strategic Industries & Media at the Ministry of State-Owned Enterprises from July 2015 to November 2019. In this role, he assisted the Minister of SOEs in formulating policies and synchronizing the implementation of strategic business initiatives, competitiveness, performance, and sustainable development for state-owned enterprises in the sectors of Mining, Oil & Gas, Strategic Industries, Security Printing, Perum Peruri, Publishing & Printing.",
         achievements: ["..."],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 3,
@@ -793,6 +843,18 @@ export const Activities = [
         description:
           "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
         achievements: ["..."],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
     ],
     faqs: [
@@ -876,6 +938,18 @@ export const Activities = [
         achievements: [
           "Winner of the 2022 Adinegoro Journalism Award by the Indonesian Journalists Association (PWI) Central.",
         ],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 2,
@@ -891,6 +965,18 @@ export const Activities = [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         ],
+        experience : [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+
+            },
+          },
+        ]
       },
       {
         index: 3,
@@ -914,6 +1000,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "An International Music Aggregator Company",
+              dPoint: [],
+
             },
           },
           {
@@ -923,6 +1011,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "Developing university curriculum",
+              dPoint: [],
+
             },
           },
           {
@@ -933,6 +1023,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Managing Lecturers for Each Course, Managing Transfer Students",
+              dPoint: [],
+
             },
           },
           {
@@ -942,6 +1034,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
+              dPoint: [],
+
             },
           },
           {
@@ -951,6 +1045,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
+              dPoint: [],
+
             },
           },
           {
@@ -960,6 +1056,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Provided technical support for photography and videography.",
+              dPoint: [],
+
             },
           },
           {
@@ -970,6 +1068,8 @@ export const Activities = [
             eDesc: {
               dDetail:
                 "Managed pre-production, production, and post-production of broadcasts.",
+              dPoint: [],
+
             },
           },
         ],
@@ -1149,6 +1249,7 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "Fuel Cell, Hydrogen Production, Green Electricity, Biohydrogen",
+              dPoint: [],
             },
           },
           {
@@ -1158,6 +1259,8 @@ export const Activities = [
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           
@@ -1168,6 +1271,8 @@ export const Activities = [
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -1177,6 +1282,8 @@ export const Activities = [
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -1186,6 +1293,8 @@ export const Activities = [
             place: "224Bld. Kawasan Puspiptek Serpong",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
           {
@@ -1195,6 +1304,8 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: [],
+
             },
           },
         ],
@@ -1222,6 +1333,7 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: ["...", "...", "..."],
             },
           },
         ],
@@ -1246,6 +1358,9 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: ["...", "...", "..."],
+              
+
             },
           },
         ],
@@ -1270,6 +1385,8 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
+              dPoint: ["...", "...", "..."],
+
             },
           },
         ],

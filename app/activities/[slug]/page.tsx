@@ -161,18 +161,20 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 agency government
               </h1>
 
-                  <Judges
-                    judgesData={competition.judgesData}
-                    color={competition.color}
-                  />
+              <Judges
+                judgesData={competition.judgesData}
+                color={competition.color}
+              />
 
               <h1 className="p-1 pt-10 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
                 agency non-government
               </h1>
-              <Judges
-                judgesData={competition.judgesData2}
-                color={competition.color}
-              />
+              {competition.judgesData2 && (
+                <Judges
+                  judgesData={competition.judgesData2}
+                  color={competition.color}
+                />
+              )}
             </CardContent>
           </Card>
         </div>
@@ -181,10 +183,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       {/* FAQ */}
       <div className="relative m-auto max-w-screen-xl">
         <Card className="relative flex  min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
-          <CardTitle className="pb-5 lg:pl-12 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:text-start lg:text-5xl">
+          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
             frequently asked questions
           </CardTitle>
-          <CardContent className="lg:pl-12 lg:w-4/5">
+          <CardContent className="lg:w-4/5 lg:pl-12">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>
