@@ -95,7 +95,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide text-page-white lg:text-xl">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent className="sm:p-0 sm:pb-5 md:p-6">
+          <CardContent className="p-0 pb-5 md:p-6">
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
             <Slider props={requirementsData} />
           </CardContent>
@@ -160,13 +160,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
               <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
                 agency government
               </h1>
-
               <Judges
                 judgesData={competition.judgesData}
                 color={competition.color}
               />
+            </CardContent>
 
-              <h1 className="p-1 pt-10 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
+            <CardContent className="mt-10 h-full w-full">
+              <h1 className="text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
                 agency non-government
               </h1>
               {competition.judgesData2 && (
@@ -178,6 +179,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             </CardContent>
           </Card>
         </div>
+        
       )}
 
       {/* FAQ */}

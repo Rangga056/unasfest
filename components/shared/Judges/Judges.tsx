@@ -1,4 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper/modules";
+
 import "swiper/css";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
@@ -19,6 +21,8 @@ import {
 } from "@/components/ui/accordiion";
 import { useState } from "react";
 import linkedin from "@/public/assets/icons/LinkedIn-icon-white.svg";
+import { MoveRight } from "lucide-react";
+
 
 interface judgesProps {
   judgesData: activitiesData["judgesData"];
@@ -45,16 +49,16 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
       <Swiper
         breakpoints={swiperConfig}
         slidesPerView={"auto"}
-        spaceBetween={20}
+        spaceBetween={10}
         pagination={{
           clickable: true,
-          el: ".custom-pagination",
+          el: ".custom-pagination-faq",
         }}
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next-faq",
         }}
-        className="overflow-hidden"
+        modules={[Pagination, Navigation]}
+        className="overflow-hidden pb-5"
       >
         {judgesData.map((prop, index) => (
           <SwiperSlide
@@ -70,7 +74,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                   alt={prop.name}
                   className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
                 />
-                <div className="space-y-0 font-inter">
+                <div className="space-y-0 font-inter pb-5">
                   <h1 className="text-lg font-bold">{prop.name}</h1>
                   <h2 className="w-[300px] text-base lg:w-[400px]">
                     {prop.lastEducation}
@@ -206,7 +210,14 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
             </Card>
           </SwiperSlide>
         ))}
+          <div className="absolute -bottom-10 left-7 z-10 flex h-28 items-center space-x-4 lg:hidden pt-10 mb-5">
+        <div className="custom-pagination-faq" />
+        <div className="swiper-button-next-faq cursor-pointer bg-transparent p-2">
+          <MoveRight size={30} className="text-page-black" />
+        </div>
+      </div>
       </Swiper>
+    
     </div>
   );
 };

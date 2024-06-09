@@ -42,7 +42,7 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
       >
         {props.map((prop) => (
           <SwiperSlide key={prop.index} className="h-[279px] max-w-[380px]">
-            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab active:cursor-grabbing py-5 flex-col justify-start gap-y-6 rounded-none bg-page-white text-page-black">
+            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab active:cursor-grabbing py-5 flex-col justify-start gap-y-1 md:gap-y-6 rounded-none bg-page-white text-page-black">
               <CardContent className="flex flex-col gap-y-4 text-left">
                 <h1 className="font-bungee text-5xl font-semibold">
                   0{prop.index}
