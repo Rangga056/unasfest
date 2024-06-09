@@ -57,7 +57,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       </div>
       <div
         style={{ backgroundColor: competition.color }}
-        className="mx-auto max-w-[1560px] text-page-white sm:pt-[50px] md:pt-[200px]"
+        className="mx-auto w-full text-page-white sm:pt-[50px] md:pt-[200px]"
       >
         {/* HERO */}
         <Card className="container relative mb-12 flex flex-col items-center justify-center overflow-hidden rounded-none pb-2 text-center align-middle">
