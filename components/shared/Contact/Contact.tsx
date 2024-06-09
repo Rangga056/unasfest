@@ -9,16 +9,15 @@ interface ContactProps {
 
 const ToContact = ({ contact }: ContactProps) => {
   return (
-    <Card className="relative m-auto mb-12 w-full max-w-screen-xl md:mt-20 lg:w-[90%]">
-      <div className="absolute bottom-0 left-0 -z-10 h-[81%] w-full" />
+    <Card className="relative mx-auto mb-12  w-full max-w-screen-xl md:mt-20 pt-0 lg:w-[90%]">
       <div>
         <Image
           src={contact}
           alt="Hubungi Kami"
           className="w-full object-cover"
         />
-        <div className="absolute left-4 right-4 sm:left-8 sm:right-8 sm:top-20 sm:max-w-[50%] md:left-16 md:right-16 md:top-36 md:max-w-[50%] lg:left-24 lg:right-auto lg:top-52 lg:max-w-[60%]">
-          <h1 className="font-bungee text-2xl leading-none tracking-wide text-white sm:text-xs md:mb-4 md:text-2xl lg:mb-10 lg:text-5xl">
+        <div className="absolute top-1/3 w-[50%] md:w-[60%] ml-10 ">
+          <h1 className="font-bungee text-2xl leading-none tracking-wide text-white sm:text-xs md:mb-4 md:text-4xl lg:mb-10 lg:text-5xl">
             Bisakah kami membantu Anda? Hubungi kontak person kami!
           </h1>
           <Button

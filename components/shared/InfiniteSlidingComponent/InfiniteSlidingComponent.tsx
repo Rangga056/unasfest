@@ -43,7 +43,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
           x: ["-100%", "0%"],
           transition: {
             ease: "linear",
-            duration: 4,
+            duration: 8,
             repeat: Infinity,
           },
         }}
