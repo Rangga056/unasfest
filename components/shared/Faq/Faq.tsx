@@ -11,8 +11,8 @@ interface Props extends faqsDataProps {
 function faq({ title }: Props) {
   return (
     <section className="relative m-auto mb-12 mt-20 w-full max-w-screen-xl lg:w-[90%]">
-      <Card className="overflow-hidden rounded-none text-center pb-2">
-        <CardTitle className="md:pb-20 text-3xl font-semibold leading-normal tracking-wide lg:text-5xl">
+      <Card className="overflow-hidden rounded-none pb-2 text-center">
+        <CardTitle className="text-3xl font-semibold leading-normal tracking-wide text-page-blue md:pb-20 md:text-5xl">
           {title}
         </CardTitle>
         <CardContent className="h-full w-full">
