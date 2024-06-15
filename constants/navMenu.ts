@@ -34,8 +34,8 @@ export const navMenu = [
     title: "Gallery",
   },
   {
-    path: "/sponsorship",
-    title: "Sponsorship",
+    path: "/partnership",
+    title: "Partnership",
   },
   {
     path: "/about-us",
