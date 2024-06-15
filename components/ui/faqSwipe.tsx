@@ -13,7 +13,6 @@ import { Swiper as SwiperType } from "swiper";
 const FaqSwipe = ({ faqsData }: faqsDataProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  
   const handleSlideChange = (swiper: SwiperType) => {
     setActiveIndex(swiper.activeIndex);
   };
@@ -43,7 +42,7 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
               className={`${styles.swiperSlide}`}
             >
               <div
-                className={`m-2 flex h-[250px] cursor-grab flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter active:cursor-grabbing ${
+                className={`flex h-[250px] cursor-grab flex-col items-center justify-around rounded-sm p-9 text-left align-middle font-inter shadow-lg active:cursor-grabbing ${
                   isActive
                     ? "bg-[#004AAD] text-white"
                     : "bg-[#FFFAF0] text-black"
