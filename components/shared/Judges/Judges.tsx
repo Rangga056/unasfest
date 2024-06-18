@@ -23,7 +23,6 @@ import { useState } from "react";
 import linkedin from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import { MoveRight } from "lucide-react";
 
-
 interface judgesProps {
   judgesData: activitiesData["judgesData"];
   color: string;
@@ -74,7 +73,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                   alt={prop.name}
                   className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
                 />
-                <div className="space-y-0 font-inter pb-5">
+                <div className="space-y-0 pb-5 font-inter">
                   <h1 className="text-lg font-bold">{prop.name}</h1>
                   <h2 className="w-[300px] text-base lg:w-[400px]">
                     {prop.lastEducation}
@@ -109,7 +108,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                 <h1 className="font-semibold sm:text-lg md:w-[500px] md:text-5xl">
                                   {prop.name}
                                 </h1>
-                                <p className="w-72 font-medium md:text-lg">
+                                <p className="w-96 font-medium md:text-lg">
                                   {prop.lastEducation}
                                 </p>
                               </div>
@@ -210,14 +209,13 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
             </Card>
           </SwiperSlide>
         ))}
-          <div className="absolute -bottom-10 left-7 z-10 flex h-28 items-center space-x-4 lg:hidden pt-10 mb-5">
-        <div className="custom-pagination-faq" />
-        <div className="swiper-button-next-faq cursor-pointer bg-transparent p-2">
-          <MoveRight size={30} className="text-page-black" />
+        <div className="absolute -bottom-10 left-7 z-10 mb-5 flex h-28 items-center space-x-4 pt-10 lg:hidden">
+          <div className="custom-pagination-faq" />
+          <div className="swiper-button-next-faq cursor-pointer bg-transparent p-2">
+            <MoveRight size={30} className="text-page-black" />
+          </div>
         </div>
-      </div>
       </Swiper>
-    
     </div>
   );
 };
