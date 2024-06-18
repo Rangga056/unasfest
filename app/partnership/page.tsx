@@ -6,8 +6,8 @@ import sample from "@/public/assets/images/partnership/sample.png";
 
 const Partnership = () => {
   return (
-    <div className="container ">
-      <div className=" relative">
+    <div className="container">
+      <div className="relative">
         <Image
           src={vector31}
           alt="vector31"
@@ -35,7 +35,7 @@ const Partnership = () => {
               Scientific Paper Competition (SPC), English Debate Competition
               (EDC), Kompetisi Debat Bahasa Indonesia (KDBI) and Short Movie
               Competition (SHC)
-            </p>
+            </p>  
           </CardContent>
           <CardContent className="w-1/2 "></CardContent>
         </Card>
