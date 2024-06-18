@@ -24,8 +24,8 @@ export const navMenu = [
         href: "/activities/smc",
       },
       {
-        name: "Seminar Nasional",
-        href: "/activities/semnas",
+        name: "International Seminar",
+        href: "/activities/international-seminar",
       },
     ],
   },

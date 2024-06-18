@@ -108,7 +108,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                 <h1 className="font-semibold sm:text-lg md:w-[500px] md:text-5xl">
                                   {prop.name}
                                 </h1>
-                                <p className="w-72 font-medium md:text-lg">
+                                <p className="w-96 font-medium md:text-lg">
                                   {prop.lastEducation}
                                 </p>
                               </div>

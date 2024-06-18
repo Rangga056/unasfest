@@ -1105,7 +1105,7 @@ export const Activities = [
   },
 
   {
-    path: "semnas",
+    path: "international-seminar",
     title: "international seminar",
     coverImage: smcCover,
     contact: semnasContact,
