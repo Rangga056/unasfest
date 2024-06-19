@@ -1,8 +1,8 @@
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
-import banner from "@/public/assets/images/partnership/banner.png";
-import vector31 from "@/public/assets/images/partnership/Vector 31.png";
+import banner from "@/public/assets/images/Partnership/banner.png";
+import vector31 from "@/public/assets/images/Partnership/Vector 31.png";
 import Image from "next/image";
-import sample from "@/public/assets/images/partnership/sample.png";
+import sample from "@/public/assets/images/Partnership/sample.png";
 
 const Partnership = () => {
   return (
