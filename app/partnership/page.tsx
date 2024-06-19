@@ -21,7 +21,7 @@ const Partnership = () => {
           />
         </Card>
 
-        <Card className="container overflow-hidden rounded-none pb-2 text-center align-middle">
+        <Card className="container overflow-hidden rounded-none pb-2">
           <CardContent className="w-[50%] text-start">
             <CardTitle className="pb-4 text-start text-6xl leading-snug">
               Sponsor Our Competition for the Future of Energy
