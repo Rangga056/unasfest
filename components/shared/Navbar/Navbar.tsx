@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import unasfestLogoIcon from "@/public/assets/icons/unasfest-icon-logo.png";
 import unasfestLogoText from "@/public/assets/icons/unasfest-logo-text.png";
+import unasFestLogo from "@/public/assets/icons/unasfestlogo24.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -53,18 +54,11 @@ export default function Navbar() {
         <div className=" container w-full h-full z-50 flex justify-between items-center">
           <Link href="/" className="flex items-center gapp-4 cursor-pointer">
             <Image
-              src={unasfestLogoIcon}
+              src={unasFestLogo}
               alt="Logo"
-              width={57}
-              height={57}
+              width={200}
+              height={200}
               className=" object-contain"
-            />
-            <Image
-              src={unasfestLogoText}
-              alt="Logo"
-              width={138}
-              height={57}
-              className="object-contain"
             />
           </Link>
           <div className="flex md:hidden">

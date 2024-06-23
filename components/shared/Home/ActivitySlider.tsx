@@ -48,8 +48,8 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
         {props.map((prop) => (
           <SwiperSlide key={prop.index} className="max-w-[381px] h-[483px]">
             <Link href={prop.path}>
-              <Card className=" p-0 w-full h-full text-page-white flex flex-col justify-between rounded-none flex-shrink-0 cursor-pointer active:cursor-grabbing">
-                <CardContent className="p-0 flex flex-col relative">
+              <Card className="p-0 w-full h-full text-page-white flex flex-col justify-between rounded-none flex-shrink-0 cursor-pointer active:cursor-grabbing">
+                <CardContent className=" flex flex-col relative">
                   {/* <h1 className="font-bungee uppercase font-medium text-[27px]"> */}
                   {/*   {prop.name} */}
                   {/* </h1> */}
