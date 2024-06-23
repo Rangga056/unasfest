@@ -1,8 +1,8 @@
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
-import banner from "@/public/assets/images/partnership/banner.png";
-import vector31 from "@/public/assets/images/partnership/Vector 31.png";
+import banner from "@/public/assets/images/Partnership/banner.png";
+import vector31 from "@/public/assets/images/Partnership/Vector 31.png";
 import Image from "next/image";
-import sample from "@/public/assets/images/partnership/sample.png";
+import sample from "@/public/assets/images/Partnership/sample.png";
 
 const Partnership = () => {
   return (
@@ -21,7 +21,7 @@ const Partnership = () => {
           />
         </Card>
 
-        <Card className="container overflow-hidden rounded-none pb-2 text-center align-middle">
+        <Card className="container overflow-hidden rounded-none pb-2">
           <CardContent className="w-[50%] text-start">
             <CardTitle className="pb-4 text-start text-6xl leading-snug">
               Sponsor Our Competition for the Future of Energy

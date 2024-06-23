@@ -130,7 +130,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         timelines={competition.timeline}
       />
 
-      {params.slug !== "semnas" && (
+      {params.slug !== "international-seminar" && (
         <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
           <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
             competition judges
