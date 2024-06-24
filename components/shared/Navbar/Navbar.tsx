@@ -54,7 +54,7 @@ export default function Navbar() {
           <Link href="/" className="flex cursor-pointer items-center gap-2">
             {/* Logo untuk desktop */}
             <Image
-              src={unasFestLogo}
+              src={unasfestLogoIcon}
               alt="Logo"
               width={57}
               height={57}
@@ -73,14 +73,14 @@ export default function Navbar() {
               alt="Logo Mobile"
               width={20}
               height={20}
-              className="object-contain md:hidden"
+              className="object-contain block md:hidden"
             />
             <Image
               src={unasfestLogoText}
               alt="Logo Text Mobile"
               width={47}
               height={20}
-              className="object-contain md:hidden"
+              className="object-contain block md:hidden"
             />
           </Link>
           <div className="flex md:hidden">
