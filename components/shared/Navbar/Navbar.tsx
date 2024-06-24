@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import unasfestLogoIcon from "@/public/assets/icons/unasfest-icon-logo.png";
 import unasfestLogoText from "@/public/assets/icons/unasfest-logo-text.png";
+import unasFestLogo from "@/public/assets/icons/unasfestlogo24.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,11 +50,11 @@ export default function Navbar() {
       }`}
     >
       <div className="border-[rgba(0, 0, 0, 0.10)] h-[80px] w-full border-b-2 border-solid duration-200">
-        <div className="container z-50 flex h-full w-full items-center justify-between">
+        <div className="container z-50 flex h-full w-full items-center justify-between px-4 md:px-6 lg:px-8">
           <Link href="/" className="flex cursor-pointer items-center gap-2">
             {/* Logo untuk desktop */}
             <Image
-              src={unasfestLogoIcon}
+              src={unasFestLogo}
               alt="Logo"
               width={57}
               height={57}
@@ -70,15 +71,15 @@ export default function Navbar() {
             <Image
               src={unasfestLogoIcon}
               alt="Logo Mobile"
-              width={25}
-              height={25}
+              width={20}
+              height={20}
               className="object-contain md:hidden"
             />
             <Image
               src={unasfestLogoText}
               alt="Logo Text Mobile"
-              width={57}
-              height={48}
+              width={47}
+              height={20}
               className="object-contain md:hidden"
             />
           </Link>

@@ -7,6 +7,7 @@ import starImg from "@/public/assets/icons/star.png";
 import younaImg from "@/public/assets/images/mascots/youna.png";
 import nassaImg from "@/public/assets/images/mascots/nassa.png";
 import alfestImg from "@/public/assets/images/mascots/alfest.png";
+import luminaverdeImg from "@/public/assets/images/mascots/luminaverde.png";
 // steeringCommittees img
 import rektorImg from "@/public/assets/images/steering-committees/rektor_unas.png";
 import wakilRektorAkademikImg from "@/public/assets/images/steering-committees/warek_akademik.png";
@@ -81,6 +82,13 @@ export const mascots = [
     index: 3,
     img: alfestImg,
     name: "alfest",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+  {
+    index: 4,
+    img: luminaverdeImg,
+    name: "lumina Verde",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },

@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { activitiesData } from "@/lib/types/Activities";
 import {
   Accordion,
   AccordionContent,
@@ -9,8 +8,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordiion";
 
+interface Faq {
+  question: string;
+  answer: string;
+}
+
 interface FaqProps {
-  faqs: activitiesData["faqs"];
+  faqs: Faq[];
 }
 
 const FaqActivities: React.FC<FaqProps> = ({ faqs }) => {
