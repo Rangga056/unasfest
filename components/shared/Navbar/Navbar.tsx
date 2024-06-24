@@ -71,15 +71,15 @@ export default function Navbar() {
             <Image
               src={unasfestLogoIcon}
               alt="Logo Mobile"
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               className="object-contain block md:hidden"
             />
             <Image
               src={unasfestLogoText}
               alt="Logo Text Mobile"
-              width={47}
-              height={20}
+              width={70}
+              height={50}
               className="object-contain block md:hidden"
             />
           </Link>
