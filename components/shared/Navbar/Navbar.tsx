@@ -54,32 +54,18 @@ export default function Navbar() {
           <Link href="/" className="flex cursor-pointer items-center gap-2">
             {/* Logo untuk desktop */}
             <Image
-              src={unasfestLogoIcon}
+              src={unasFestLogo}
               alt="Logo"
-              width={57}
-              height={57}
-              className="hidden object-contain md:block"
-            />
-            <Image
-              src={unasfestLogoText}
-              alt="Logo"
-              width={138}
-              height={57}
+              width={150}
+              height={80}
               className="hidden object-contain md:block"
             />
             {/* Logo untuk mobile */}
             <Image
-              src={unasfestLogoIcon}
+              src={unasFestLogo}
               alt="Logo Mobile"
-              width={30}
-              height={30}
-              className="object-contain block md:hidden"
-            />
-            <Image
-              src={unasfestLogoText}
-              alt="Logo Text Mobile"
-              width={70}
-              height={50}
+              width={90}
+              height={90}
               className="object-contain block md:hidden"
             />
           </Link>
