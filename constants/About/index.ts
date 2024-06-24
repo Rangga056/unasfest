@@ -76,7 +76,7 @@ export const mascots = [
     img: nassaImg,
     name: "nassa",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Air menggambarkan fleksibilitas dan perubahan. Bentuknya yang fluida mencerminkan panitia UNAS FEST yang fleksibel namun tetap profesional, dan terus berubah menuju arah yang lebih baik. Warnanya yang biru mencerminkan terjaganya kedamaian dan kejernihan hati panitia UNAS FEST untuk keberlangsungan acara.",
   },
   {
     index: 3,
