@@ -33,7 +33,7 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
         //   1440: { slidesPerView: 3 },
         // }}
         slidesPerView={"auto"}
-        spaceBetween={10}
+        spaceBetween={30}
         pagination={{
           clickable: true,
           el: ".custom-pagination-home",
@@ -69,7 +69,7 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-16 left-0 z-10 flex items-center space-x-4 md:-bottom-12">
+      <div className="absolute -bottom-16 left-0 z-10 flex items-center space-x-4">
         <div className="custom-pagination-home" />
 
         <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
