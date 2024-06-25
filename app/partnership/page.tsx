@@ -1,19 +1,10 @@
 "use client";
 
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
-import banner from "@/public/assets/images/Partnership/banner.png";
-import vector31 from "@/public/assets/images/Partnership/Vector 31.png";
+import banner from "@/public/assets/images/partnership/banner.png";
+import vector31 from "@/public/assets/images/partnership/Vector 31.png";
 import Image from "next/image";
-import sample from "@/public/assets/images/Partnership/sample.png";
-import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
-import contact from "@/public/assets/images/Partnership/contact.png";
-import contactsm from "@/public/assets/images/Partnership/contactsm.png";
-import whatsap from "@/public/assets/icons/whatsap.png";
-import { contactsData } from "@/constants/Contacts";
-import { faqsPartnership } from "@/constants/Faqs";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import sample from "@/public/assets/images/partnership/sample.png";
 
 const Partnership = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,23 +20,24 @@ const Partnership = () => {
   }, []);
 
   return (
-    <div className="relative">
-      <Image
-        src={vector31}
-        alt="vector31"
-        className="absolute right-0 top-[20%] hidden md:block"
-      />
-      <Card className="relative mb-12 flex w-full items-center justify-center overflow-hidden rounded-none p-0 pb-2 text-center align-middle">
+    <div className="container">
+      <div className="relative">
         <Image
-          src={banner}
-          alt="banner"
-          className="h-full w-full object-cover object-center"
+          src={vector31}
+          alt="vector31"
+          className="absolute bottom-0 right-0"
         />
-      </Card>
-      <div className="mx-auto max-w-screen-xl">
-        <Card className="container overflow-hidden rounded-none pb-2">
-          <CardContent className="p-0 text-start md:w-[50%] ">
-            <CardTitle className="pb-4 text-start text-[45px] leading-snug lg:text-6xl">
+        <Card className="relative mb-12 flex w-full items-center justify-center overflow-hidden rounded-none pb-2 text-center align-middle">
+          <Image
+            src={banner}
+            alt="banner"
+            className="h-full w-full object-cover object-center"
+          />
+        </Card>
+
+        <Card className="container overflow-hidden rounded-none pb-2 text-center align-middle">
+          <CardContent className="w-[50%] text-start">
+            <CardTitle className="pb-4 text-start text-6xl leading-snug">
               Sponsor Our Competition for the Future of Energy
             </CardTitle>
             <p className="pb-4 text-lg font-medium md:w-[80%] md:text-xl">
