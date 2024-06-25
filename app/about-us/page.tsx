@@ -190,7 +190,7 @@ const AboutUsPage = () => {
             {mascots.map((item) => (
               <div
                 key={item.index}
-                className="flex flex-1 flex-col items-center justify-between md:flex-row gap-x-10"
+                className="flex flex-1 flex-col items-center justify-between gap-x-10 md:flex-row"
               >
                 <Image
                   src={item.img}
@@ -252,10 +252,9 @@ const AboutUsPage = () => {
         <Gallery />
       </div>
       {/*TODO: Collaborations */}
-      <div className="mt-10 text-5xl">
-        <h1>      isi sesuai design figma
-</h1>
-    </div>
+      <div className="mt-10 text-5xl uppercase">
+        <h1> isi sesuai design figma</h1>
+      </div>
     </main>
   );
 };
