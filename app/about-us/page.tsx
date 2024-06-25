@@ -7,7 +7,6 @@ import { logoDetails, mascots, missions } from "@/constants/About";
 //TODO:Import the icon for the InfiniteSlidingComponent
 import UnasfestLogo from "@/public/assets/icons/unasfest-icon-logo.png";
 import Star from "@/public/assets/icons/star-icon.svg";
-import Star from "@/public/assets/icons/star-icon.svg";
 import Unasfest2023Macsot from "@/public/assets/images/mascots/unasfest2023mascot.png";
 import Gallery from "@/components/shared/Gallery/Gallery";
 import SteeringCommitteeSlider from "@/components/shared/AboutUs/SteeringCommitteSlider";
@@ -191,7 +190,7 @@ const AboutUsPage = () => {
             {mascots.map((item) => (
               <div
                 key={item.index}
-                className="flex flex-col md:flex-row flex-1 items-center justify-between"
+                className="flex flex-1 flex-col items-center justify-between md:flex-row gap-x-10"
               >
                 <Image
                   src={item.img}
@@ -252,7 +251,12 @@ const AboutUsPage = () => {
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
-          </main>
+      {/*TODO: Collaborations */}
+      <div className="mt-10 text-5xl">
+        <h1>      isi sesuai design figma
+</h1>
+    </div>
+    </main>
   );
 };
 
