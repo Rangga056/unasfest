@@ -98,6 +98,7 @@ const config = {
       backgroundImage: {
         "unasfest-committee":
           "url('/assets/images/about-us/unasfest-committee-bg.png')",
+        "footer-wave": "url('/assets/images/footer/FooterIntersect.png')",
       },
       borderRadius: {
         lg: "var(--radius)",

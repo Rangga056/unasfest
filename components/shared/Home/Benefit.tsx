@@ -9,19 +9,19 @@ import Image from "next/image";
 
 const Benefit = () => {
   return (
-    <div className="max-w-[1560px] mx-auto bg-page-yellow mt-20 p-4">
-      <div className="container p-4 md:p-20 flex flex-col items-center justify-center gap-y-16">
-        <h1 className="uppercase font-bungee font-medium text-3xl md:text-5xl text-page-black text-center leading-tight">
+    <div className="mx-auto mt-20 w-full bg-page-yellow p-4">
+      <div className="container flex flex-col items-center justify-center gap-y-16 p-4 md:p-20">
+        <h1 className="text-center font-bungee text-3xl font-medium uppercase leading-tight text-page-black md:text-5xl">
           benefits of the unas fest 2024 <br /> competency
         </h1>
-        <div className="w-full flex flex-col items-center justify-center gap-y-10 text-xl">
+        <div className="flex w-full flex-col items-center justify-center gap-y-10 text-xl">
           {/* top section */}
-          <div className="w-full gap-y-10 flex flex-wrap flex-col md:flex-row items-center justify-evenly text-center">
+          <div className="flex w-full flex-col flex-wrap items-center justify-evenly gap-y-10 text-center md:flex-row">
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image
                 src={certificate}
                 alt="certificate icon"
-                className="object-contain w-16 md:w-24 aspect-square"
+                className="aspect-square w-16 object-contain md:w-24"
               />
               <p className="w-24 md:w-36">certificate & E-Certificate</p>
             </div>
@@ -29,7 +29,7 @@ const Benefit = () => {
               <Image
                 src={money}
                 alt="money icon"
-                className="object-contain w-16 md:w-24 aspect-square"
+                className="aspect-square w-16 object-contain md:w-24"
               />
               <p className="w-24 md:w-36">Millions of Rupiah</p>
             </div>
@@ -37,18 +37,18 @@ const Benefit = () => {
               <Image
                 src={trophy}
                 alt="trophy icon"
-                className="object-contain w-16 md:w-24 aspect-square"
+                className="aspect-square w-16 object-contain md:w-24"
               />
               <p className="w-24 md:w-36">Trophy</p>
             </div>
           </div>
           {/* bottom section */}
-          <div className="w-full gap-y-10 flex flex-wrap flex-col md:flex-row items-center justify-evenly text-center">
+          <div className="flex w-full flex-col flex-wrap items-center justify-evenly gap-y-10 text-center md:flex-row">
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image
                 src={plaque}
                 alt="plaque icon"
-                className="object-contain w-16 md:w-24 aspect-square"
+                className="aspect-square w-16 object-contain md:w-24"
               />
               <p className="w-24 md:w-36">Plaque</p>
             </div>
@@ -56,7 +56,7 @@ const Benefit = () => {
               <Image
                 src={merch}
                 alt="merch icon"
-                className="object-contain w-16 md:w-24 aspect-square"
+                className="aspect-square w-16 object-contain md:w-24"
               />
               <p className="w-24 md:w-36">Merch</p>
             </div>
