@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 relative">
+    <div className="relative grid grid-cols-2 gap-4 md:grid-cols-3">
       {/* Top left image */}
       <div className="col-span-1">
         <Image
@@ -17,18 +17,18 @@ const Gallery = () => {
           alt="Event 1"
           width={300}
           height={200}
-          className="w-full h-auto"
+          className="h-auto w-full"
         />
       </div>
       {/* Top middle text */}
-      <div className="col-span-1 hidden md:flex flex-col items-start">
-        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium opacity-50">
+      <div className="col-span-1 hidden flex-col items-start md:flex">
+        <h1 className="font-bungee text-3xl font-medium uppercase opacity-50 md:text-[44px] lg:text-6xl">
           let&apos;s join
         </h1>
-        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium opacity-70">
+        <h1 className="font-bungee text-3xl font-medium uppercase opacity-70 md:text-[44px] lg:text-6xl">
           let&apos;s join
         </h1>
-        <h1 className="text-3xl md:text-[44px] lg:text-6xl uppercase font-bungee font-medium">
+        <h1 className="font-bungee text-3xl font-medium uppercase md:text-[44px] lg:text-6xl">
           let&apos;s join <br /> unas fest <br /> competency
         </h1>
       </div>
@@ -39,12 +39,12 @@ const Gallery = () => {
           alt="Event 2"
           width={300}
           height={200}
-          className="w-full h-auto"
+          className="h-auto w-full"
         />
       </div>
-      <div className="col-span-2 md:col-span-3 flex items-start flex-1 gap-x-1 md:gap-x-4">
+      <div className="col-span-2 flex flex-1 items-start gap-x-1 md:col-span-3 md:gap-x-4">
         {/* Bottom left text */}
-        <div className="w-[250px] md:w-[400px] flex flex-col items-start text-xs md:text-xl">
+        <div className="hidden flex-col items-start md:flex md:w-[400px] md:text-xl">
           <p>
             Flashbacks of the National University Festival{" "}
             <span className="hidden lg:flex">
@@ -60,31 +60,32 @@ const Gallery = () => {
             alt="Event 3"
             width={300}
             height={200}
-            className="w-full h-auto"
+            className="h-auto w-full"
           />
         </div>
         {/* Bottom right image */}
-        <div className="w-full flex flex-col md:gap-2">
+        <div className="flex w-full flex-col md:gap-2">
           <Image
             src={imgBottomRight}
             alt="Event 4"
             width={300}
             height={200}
-            className="w-full h-auto"
+            className="h-auto w-full"
           />
-          <p className="uppercase text-xs md:text-xl">unas fest 2023</p>
+          <p className="hidden uppercase md:flex md:text-xl">unas fest 2023</p>
         </div>
       </div>
       <Button
         asChild
-        className="absolute left-0 -bottom-2 md:bottom-4 bg-page-btnBlue hover:bg-page-blue rounded-none"
+        size="lg"
+        className="absolute -bottom-2 left-0 rounded-none bg-page-btnBlue hover:bg-page-blue md:bottom-4"
       >
         <Link
           href="/gallery"
-          className="flex items-center gap-2 lg:gap-6 py-3 md:py-8 px-5 md:px-16 "
+          className="flex items-center gap-2 px-5 py-3 md:px-16 md:py-8 lg:gap-6 "
         >
           <CirclePlay />
-          <span className="capitalize text-xs md:text-[24px] text-page-white">
+          <span className="text-xs capitalize text-page-white md:text-[24px]">
             see gallery
           </span>
         </Link>

@@ -8,6 +8,7 @@ import younaImg from "@/public/assets/images/mascots/youna.png";
 import nassaImg from "@/public/assets/images/mascots/nassa.png";
 import alfestImg from "@/public/assets/images/mascots/alfest.png";
 import luminaverdeImg from "@/public/assets/images/mascots/luminaverde.png";
+import luminaVerde from "@/public/assets/images/mascots/Lumina-Verde.png";
 // steeringCommittees img
 import rektorImg from "@/public/assets/images/steering-committees/rektor_unas.png";
 import wakilRektorAkademikImg from "@/public/assets/images/steering-committees/warek_akademik.png";

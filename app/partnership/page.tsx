@@ -2,18 +2,18 @@
 
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import banner from "@/public/assets/images/Partnership/banner.png";
-import vector31 from "@/public/assets/images/Partnership/Vector 31.png";
+import vector31 from "@/public/assets/images/Partnership/Vector31.png";
 import Image from "next/image";
 import sample from "@/public/assets/images/Partnership/sample.png";
-import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import contact from "@/public/assets/images/Partnership/contact.png";
 import contactsm from "@/public/assets/images/Partnership/contactsm.png";
 import whatsap from "@/public/assets/icons/whatsap.png";
-import { contactsData } from "@/constants/Contacts";
-import { faqsPartnership } from "@/constants/Faqs";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
+import { faqsPartnership } from "@/constants/Faqs";
+import { contactsData } from "@/constants/Contacts";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 const Partnership = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -97,21 +97,29 @@ const Partnership = () => {
 
       <Card className="mx-auto max-w-screen-xl">
         <CardContent className="relative">
-          <Image src={isMobile ? contactsm : contact} alt="contact" width={1350} className="mx-auto"/>
-          <div className="absolute top-7 md:top-[20%] lg:top-1/4 md:left-16 lg:left-24">
-            <p className="px-2 md:pb-4 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] lg:w-1/2 md:text-3xl lg:text-5xl">
+          <Image
+            src={isMobile ? contactsm : contact}
+            alt="contact"
+            width={1350}
+            className="mx-auto"
+          />
+          <div className="absolute top-7 md:left-16 md:top-[20%] lg:left-24 lg:top-1/4">
+            <p className="px-2 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] md:pb-4 md:text-3xl lg:w-1/2 lg:text-5xl">
               can we help you? get in touch with our contact person!
             </p>
-            <div className="flex flex-wrap w-[70%] md:w-full gap-3 ml-2">
+            <div className="ml-2 flex w-[70%] flex-wrap gap-3 md:w-full">
               {contactsData.map((contact) => (
                 <Link href={contact.whatsApp} key={contact.index}>
-                  
-                <button
-                  className="flex gap-1 md:gap-3 bg-[#FFFAF0] px-2 py-1 md:px-9 md:py-3"
-                >
-                  <Image src={whatsap} alt="whatsap" className="w-3 md:w-7 my-auto" />
-                  <p className="text-sm md:text-base lg:text-xl">{contact.title}</p>
-                </button>
+                  <button className="flex gap-1 bg-[#FFFAF0] px-2 py-1 md:gap-3 md:px-9 md:py-3">
+                    <Image
+                      src={whatsap}
+                      alt="whatsap"
+                      className="my-auto w-3 md:w-7"
+                    />
+                    <p className="text-sm md:text-base lg:text-xl">
+                      {contact.title}
+                    </p>
+                  </button>
                 </Link>
               ))}
             </div>

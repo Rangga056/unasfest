@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import MobileNav from "./MobileNav";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { navMenu } from "@/constants/navMenu";
@@ -16,9 +15,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import unasfestLogoIcon from "@/public/assets/icons/unasfest-icon-logo.png";
-import unasfestLogoText from "@/public/assets/icons/unasfest-logo-text.png";
-import unasFestLogo from "@/public/assets/icons/unasfestlogo24.png";
+import unasfestLogo from "@/public/assets/icons/unasfest-logo.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,24 +46,16 @@ export default function Navbar() {
         visible ? "top-0" : "-top-32"
       }`}
     >
+      {/* Logo */}
       <div className="border-[rgba(0, 0, 0, 0.10)] h-[80px] w-full border-b-2 border-solid duration-200">
-        <div className="container z-50 flex h-full w-full items-center justify-between px-4 md:px-6 lg:px-8">
-          <Link href="/" className="flex cursor-pointer items-center gap-2">
-            {/* Logo untuk desktop */}
+        <div className="container z-50 flex h-full w-full items-center justify-between">
+          <Link href="/" className="flex cursor-pointer items-center">
             <Image
-              src={unasFestLogo}
-              alt="Logo"
-              width={150}
-              height={80}
-              className="hidden object-contain md:block"
-            />
-            {/* Logo untuk mobile */}
-            <Image
-              src={unasFestLogo}
-              alt="Logo Mobile"
-              width={90}
-              height={90}
-              className="object-contain block md:hidden"
+              src={unasfestLogo}
+              alt="unasfest logo"
+              width={190}
+              height={56}
+              className="h-[40px] w-[120px] object-contain md:h-[56px] md:w-[190px]"
             />
           </Link>
           <div className="flex md:hidden">
