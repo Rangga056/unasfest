@@ -8,7 +8,7 @@ import InfiniteSlidingComponent from "@/components/shared/Home/InfiniteSlidingCo
 import { postersData } from "@/constants/Posters/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 //TODO:Change the icon based on the figma design
-import HomeIcon from "@/public/assets/icons/unasfest-icon-logo.png";
+import HomeIcon from "@/public/assets/icons/unasfest-logo.png";
 import SpecialBanner from "@/components/shared/Home/SpecialBanner";
 import ActivitySlider from "@/components/shared/Home/ActivitySlider";
 
@@ -23,14 +23,12 @@ export default function Home() {
       {/* Hero  */}
       <Hero />
       {/* Activities  Slide*/}
-      <div className="container my-20">
+      <div className="container my-20 pr-0">
         <ActivitySlider props={postersData} />
       </div>
 
       {/* <AutoScrollComponent /> */}
-      <div className="mx-auto w-full max-w-[1560px] overflow-hidden py-10">
-        <InfiniteSlidingComponent props={InfiniteSlidingProps} />
-      </div>
+      <InfiniteSlidingComponent props={InfiniteSlidingProps} />
       {/* Benefit  */}
       <div className="mt-36">
         <Benefit />

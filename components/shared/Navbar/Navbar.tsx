@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import MobileNav from "./MobileNav";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { navMenu } from "@/constants/navMenu";
@@ -16,8 +15,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import unasfestLogoIcon from "@/public/assets/icons/unasfest-icon-logo.png";
-import unasfestLogoText from "@/public/assets/icons/unasfest-logo-text.png";
+import unasfestLogo from "@/public/assets/icons/unasfest-logo.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,27 +42,20 @@ export default function Navbar() {
 
   return (
     <header
-      className={`w-full h-full z-[99] sticky duration-200 flex bg-[#FFFAF0] ${
+      className={`sticky z-[99] flex h-full w-full bg-[#FFFAF0] duration-200 ${
         visible ? "top-0" : "-top-32"
       }`}
     >
       {/* Logo */}
-      <div className="w-full h-[80px] duration-200 border-b-2 border-solid border-[rgba(0, 0, 0, 0.10)]">
-        <div className=" container w-full h-full z-50 flex justify-between items-center">
-          <Link href="/" className="flex items-center gapp-4 cursor-pointer">
+      <div className="border-[rgba(0, 0, 0, 0.10)] h-[80px] w-full border-b-2 border-solid duration-200">
+        <div className="container z-50 flex h-full w-full items-center justify-between">
+          <Link href="/" className="flex cursor-pointer items-center">
             <Image
-              src={unasfestLogoIcon}
-              alt="Logo"
-              width={57}
-              height={57}
-              className=" object-contain"
-            />
-            <Image
-              src={unasfestLogoText}
-              alt="Logo"
-              width={138}
-              height={57}
-              className="object-contain"
+              src={unasfestLogo}
+              alt="unasfest logo"
+              width={190}
+              height={56}
+              className="h-[40px] w-[120px] object-contain md:h-[56px] md:w-[190px]"
             />
           </Link>
           <div className="flex md:hidden">
@@ -85,11 +76,11 @@ export default function Navbar() {
             </div>
           </div>
           <NavigationMenu
-            className={`absolute max-w-none w-full py-6 -z-50 bg-[#FFFAF0] left-0 justify-center duration-200 md:z-0 md:relative md:justify-end md:top-0 ${
+            className={`absolute left-0 -z-50 w-full max-w-none justify-center bg-[#FFFAF0] py-6 duration-200 md:relative md:top-0 md:z-0 md:justify-end ${
               menuOpen ? "top-20" : "-top-96"
             }`}
           >
-            <NavigationMenuList className="flex-col md:flex-row gap-6 lg:gap-x-16 text-xl">
+            <NavigationMenuList className="flex-col gap-6 text-xl md:flex-row lg:gap-x-16">
               {navMenu.map(({ title, path, child }) => {
                 if (child)
                   return (
@@ -146,7 +137,7 @@ function NestedNav({ title, path, menu, closeMenu }: NestedNav) {
             <NavigationMenuLink key={index} onClick={closeMenu}>
               <Link
                 href={href}
-                className="w-[300px] hover:bg-system-grey-900 hover:bg-opacity-10 block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                className="hover:bg-system-grey-900 block w-[300px] select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:bg-opacity-10 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
               >
                 <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                   {name}
