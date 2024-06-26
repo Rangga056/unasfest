@@ -60,11 +60,18 @@ export default function Navbar() {
           </Link>
           <div className="flex md:hidden">
             {/* Mobile Nav */}
-            <div onClick={() => setMenuOpen((prev) => !prev)}>
+            <div
+              className="md:hidden"
+              onClick={() => setMenuOpen((prev) => !prev)}
+            >
               {menuOpen ? (
-                <X size={20} color="#004AAD" />
+                <div className="rotate-90 duration-300">
+                  <X size={40} color="#004AAD" />
+                </div>
               ) : (
-                <Menu size={20} color="#004AAD" />
+                <div className="duration-300">
+                  <Menu size={40} color="#004AAD" />
+                </div>
               )}
             </div>
           </div>
