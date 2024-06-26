@@ -8,13 +8,13 @@ import InfiniteSlidingComponent from "@/components/shared/Home/InfiniteSlidingCo
 import { postersData } from "@/constants/Posters/posterDatas";
 import { faqsData } from "@/constants/Faqs";
 //TODO:Change the icon based on the figma design
-import HomeIcon from "@/public/assets/icons/unasfest-logo.png";
 import SpecialBanner from "@/components/shared/Home/SpecialBanner";
+import Star from "@/public/assets/icons/star.png";
 import ActivitySlider from "@/components/shared/Home/ActivitySlider";
 
 export default function Home() {
   const InfiniteSlidingProps = {
-    icon: HomeIcon.src,
+    icon: Star.src,
     text: "UNAS FEST 2024",
   };
 
