@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import unafestIconLogo from "@/public/assets/icons/unasfest-icon-logo.png";
-import unafestIconText from "@/public/assets/icons/unasfest-logo-text.png";
+import unafestLogo from "@/public/assets/icons/unasfestlogo24.png";
 import Link from "next/link";
 import FooterLinks from "./FooterLinks";
 import { Separator } from "@/components/ui/separator";
@@ -15,8 +14,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-y-6 w-[336px] mx-auto md:mx-0">
           {/* Unasfest Logo */}
           <div className="flex items-center gap-1">
-            <Image src={unafestIconLogo} alt="logo" width={80} height={80} />
-            <Image src={unafestIconText} alt="logo" width={193} height={80} />
+            <Image src={unafestLogo} alt="logo" width={260} height={260} />
           </div>
           {/* Footer Social Media Links */}
           <div className="flex w-[250px] items-center justify-between">

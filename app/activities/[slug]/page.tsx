@@ -203,7 +203,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       {/* CONTACT */}
       <Card className="pt-0">
-        <Contact contact={competition.contact} />
+        <Contact contact={competition.contact} contactNumber={competition.contactNumber}/>
       </Card>
     </section>
   );

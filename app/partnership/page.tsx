@@ -96,7 +96,7 @@ const Partnership = () => {
       </Card>
 
       <Card className="mx-auto max-w-screen-xl">
-        <CardContent className="relative">
+        <CardContent className="relative p-0 md:p-6">
           <Image src={isMobile ? contactsm : contact} alt="contact" width={1350} className="mx-auto"/>
           <div className="absolute top-7 md:top-[20%] lg:top-1/4 md:left-16 lg:left-24">
             <p className="px-2 md:pb-4 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] lg:w-1/2 md:text-3xl lg:text-5xl">
@@ -107,9 +107,9 @@ const Partnership = () => {
                 <Link href={contact.whatsApp} key={contact.index}>
                   
                 <button
-                  className="flex gap-1 md:gap-3 bg-[#FFFAF0] px-2 py-1 md:px-9 md:py-3"
+                  className="flex gap-1 items-center md:gap-3 bg-[#FFFAF0] px-2 py-1 md:px-9 md:py-3"
                 >
-                  <Image src={whatsap} alt="whatsap" className="w-3 md:w-7 my-auto" />
+                  <Image src={whatsap} alt="whatsap" className="w-3 md:w-7" />
                   <p className="text-sm md:text-base lg:text-xl">{contact.title}</p>
                 </button>
                 </Link>

@@ -56,9 +56,7 @@ export default function Navbar() {
             <Image
               src={unasFestLogo}
               alt="Logo"
-              width={200}
-              height={200}
-              className=" object-contain"
+              className="w-28 md:w-44 object-contain"
             />
           </Link>
           <div className="flex md:hidden">
