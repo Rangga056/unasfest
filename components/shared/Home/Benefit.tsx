@@ -23,7 +23,7 @@ const Benefit = () => {
                 alt="certificate icon"
                 className="aspect-square w-16 object-contain md:w-24"
               />
-              <p className="w-24 md:w-36">certificate & E-Certificate</p>
+              <p className="w-32 md:w-36 text-center">Certificate & <br /> E-Certificate</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image

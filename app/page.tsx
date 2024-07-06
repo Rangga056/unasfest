@@ -22,23 +22,25 @@ export default function Home() {
     <main>
       {/* Hero  */}
       <Hero />
+      {/* <AutoScrollComponent /> */}
+      <InfiniteSlidingComponent props={InfiniteSlidingProps} />
       {/* Activities  Slide*/}
       <div className="container my-20 pr-0">
         <ActivitySlider props={postersData} />
       </div>
 
-      {/* <AutoScrollComponent /> */}
-      <InfiniteSlidingComponent props={InfiniteSlidingProps} />
       {/* Benefit  */}
       <div className="mt-36">
+      {/* Special Banner */}
+      <div className="container">
+        <SpecialBanner />
+      </div>
         <Benefit />
         {/* Gallery Component  */}
       </div>
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
-      {/* Special Banner */}
-      {/* <SpecialBanner /> */}
 
       {/* Timeline Component */}
       <Timeline />
