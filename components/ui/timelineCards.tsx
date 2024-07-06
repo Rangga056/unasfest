@@ -25,7 +25,7 @@ import {
           <CardDescription className="text-sm tracking-wide font-normal leading-normal mb-16 lg:text-xl">
             {description}
           </CardDescription>
-          <CardContent className="w-full h-full p-0">
+          <CardContent className="w-full h-[1000px] p-0">
               <Timeliner timelines={timelines}/>
           </CardContent>
         </Card>

@@ -41,24 +41,27 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
         className="overflow-hidden"
       >
         {props.map((prop) => (
-          <SwiperSlide key={prop.index} className="h-[279px] max-w-[380px]">
-            <Card className="flex h-[279px] w-full flex-shrink-0 cursor-grab active:cursor-grabbing py-5 flex-col justify-start gap-y-1 md:gap-y-6 rounded-none bg-page-white text-page-black">
+          <SwiperSlide
+            key={prop.index}
+            className="max-w-[285px] md:max-w-[380px]"
+          >
+            <Card className="flex h-[279px] w-[285px] flex-shrink-0 cursor-grab flex-col justify-start gap-y-1 rounded-none bg-page-white py-5 text-page-black active:cursor-grabbing md:w-[380px] md:gap-y-6">
               <CardContent className="flex flex-col gap-y-4 text-left">
                 <h1 className="font-bungee text-5xl font-semibold">
                   0{prop.index}
                 </h1>
               </CardContent>
               <CardContent>
-                <p className="text-start text-xl font-medium">{prop.detail}</p>
+                <p className="text-start text-xl font-medium line-clamp-4">{prop.detail}</p>
               </CardContent>
             </Card>
           </SwiperSlide>
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-10 left-0 z-10 flex items-center space-x-4">
+      <div className="absolute -bottom-14 left-0 z-10 h-14 flex items-center space-x-4">
         <div className="custom-pagination" />
-        <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
+        <div className="swiper-button-next cursor-pointer bg-transparent p-2">
           <MoveRight />
         </div>
       </div>

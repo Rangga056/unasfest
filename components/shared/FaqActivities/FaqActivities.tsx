@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { activitiesData } from "@/lib/types/Activities";
 import {
   Accordion,
   AccordionContent,
@@ -14,7 +15,7 @@ interface Faq {
 }
 
 interface FaqProps {
-  faqs: Faq[];
+  faqs: activitiesData["faqs"];
 }
 
 const FaqActivities: React.FC<FaqProps> = ({ faqs }) => {
@@ -24,6 +25,7 @@ const FaqActivities: React.FC<FaqProps> = ({ faqs }) => {
         {faqs.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
             <AccordionTrigger className="w-full cursor-pointer text-start font-inter text-xl font-semibold sm:pb-3 sm:text-lg">
+            
               {faq.question}
             </AccordionTrigger>
             <AccordionContent className="text-start text-xl font-semibold opacity-70 sm:text-lg">

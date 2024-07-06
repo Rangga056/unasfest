@@ -66,37 +66,53 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesKDBI,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
     infiniteSlidingText: "INDONESIAN DEBATE",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Indonesian Debate Competition requirements",
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -361,37 +377,53 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesEDC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
     infiniteSlidingText: "ENGLISH DEBATE",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -690,38 +722,54 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSPC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
     infiniteSlidingText: "SCINTIFIC PAPER",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
 
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -886,38 +934,54 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSMC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -1094,7 +1158,7 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSemnas,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
@@ -1103,29 +1167,61 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
       },
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
+          "Participants of the UNAS FEST 2024 International Seminar at National and International Levels are required to register through the link listed on the poster and join the WhatsApp group listed.",
       },
       {
         index: 3,
         detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
+          "Participants of the UNAS FEST 2024 International Seminar are expected to arrive on time.",
       },
       {
         index: 4,
         detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
+          "Participants of the UNAS FEST 2024 International Seminar are required to use the Zoom background that has been determined during the International Seminar.",
       },
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
+          "Participants are required to wear an alma mater jacket and dress neatly & politely when the UNAS FEST 2024 International Seminar are being held.",
+      },
+      {
+        index: 6,
+        detail:
+          "Participants are required to maintain politeness and civility during the UNAS FEST International Seminar Year 2024.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants are prohibited from making any disturbances during the UNAS FEST 2024 International Seminar.",
+      },
+      {
+        index: 8,
+        detail:
+          "Participants are allowed to ask questions in the question-and-answer session that has been determined by the speaker or moderator.",
+      },
+      {
+        index: 9,
+        detail:
+          "Participants are required to follow the series of UNAS FEST International Seminar 2024 events that take place until completion.",
+      },
+      {
+        index: 10,
+        detail:
+          "National and International participants of UNAS FEST 2024 International Seminar who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 11,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
       },
     ],
+    
+
     judgesData: [
       {
         index: 1,

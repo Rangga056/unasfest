@@ -95,7 +95,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide text-page-white lg:text-xl">
             {competition.requirementsTitle}
           </CardDescription>
-          <CardContent className="p-0 pb-5 md:p-6">
+          <CardContent className="p-0 pb-16 md:p-6">
             {/* <RequirementsSwipe requirements={competition.requirements} /> */}
             <Slider props={requirementsData} />
           </CardContent>
@@ -110,7 +110,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             Download the competition guidebook to find out the overall mechanism
             of the National University Festival debate competition
           </CardDescription>
-          <Link href={competition.guideBook}>
+          <Link href={competition.guideBook} target="_blank">
             <Button
               variant="secondary"
               className="mt-6 flex w-[235px] items-center gap-2 rounded-none py-8 text-xl"
@@ -130,7 +130,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         timelines={competition.timeline}
       />
 
-      {params.slug !== "international-seminar" && (
+      {params.slug !== "semnas" && (
         <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
           <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
             competition judges

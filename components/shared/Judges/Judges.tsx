@@ -68,16 +68,18 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
           >
             <Card>
               <CardContent className="relative flex flex-col items-center gap-y-4 text-left grayscale hover:filter-none md:filter">
-                <Image
-                  src={prop.image}
-                  alt={prop.name}
-                  className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
-                />
-                <div className="space-y-0 pb-5 font-inter">
-                  <h1 className="text-lg font-bold">{prop.name}</h1>
-                  <h2 className="w-[300px] text-base lg:w-[400px]">
-                    {prop.lastEducation}
-                  </h2>
+                <div>
+                  <Image
+                    src={prop.image}
+                    alt={prop.name}
+                    className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
+                  />
+                  <div className="space-y-0 pb-5 font-inter">
+                    <h1 className="text-lg font-bold">{prop.name}</h1>
+                    <h2 className="w-[300px] text-base lg:w-[400px]">
+                      {prop.lastEducation}
+                    </h2>
+                  </div>
                 </div>
                 {hoveredIndex === index && (
                   <div

@@ -6,15 +6,15 @@ import SCP from "@/public/assets/images/home/posters/SCP2.png";
 export const postersData = [
   {
     index: 1,
-    image: english.src,
-    name: "English Poster",
-    path: "/activities/edc",
-  },
-  {
-    index: 2,
     image: indo.src,
     name: "Indonesia Poster",
     path: "/activities/kdbi",
+  },
+  {
+    index: 2,
+    image: english.src,
+    name: "English Poster",
+    path: "/activities/edc",
   },
   {
     index: 3,

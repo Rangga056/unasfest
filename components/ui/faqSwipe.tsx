@@ -61,8 +61,8 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
         })}
       </Swiper>
 
-      <div className="absolute -bottom-10 left-7 z-10 flex h-28 items-center space-x-4">
-        <div className="custom-pagination-faq" />
+      <div className="absolute -bottom-14 left-7 z-10 flex h-52 md:h-36 items-center space-x-4">
+        <div className="custom-pagination-faq"/>
         <div className="swiper-button-next-faq cursor-pointer bg-transparent p-2">
           <MoveRight size={30} className="text-page-black" />
         </div>

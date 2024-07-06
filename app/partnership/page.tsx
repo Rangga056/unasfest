@@ -2,18 +2,18 @@
 
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import banner from "@/public/assets/images/Partnership/banner.png";
-import vector31 from "@/public/assets/images/Partnership/Vector 31.png";
+import vector31 from "@/public/assets/images/Partnership/Vector31.png";
 import Image from "next/image";
 import sample from "@/public/assets/images/Partnership/sample.png";
-import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import contact from "@/public/assets/images/Partnership/contact.png";
 import contactsm from "@/public/assets/images/Partnership/contactsm.png";
 import whatsap from "@/public/assets/icons/whatsap.png";
-import { contactsData } from "@/constants/Contacts";
-import { faqsPartnership } from "@/constants/Faqs";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
+import { faqsPartnership } from "@/constants/Faqs";
+import { contactsData } from "@/constants/Contacts";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 const Partnership = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -30,16 +30,17 @@ const Partnership = () => {
 
   return (
     <div className="relative">
+
       <Image
         src={vector31}
         alt="vector31"
-        className="absolute right-0 top-[20%] hidden md:block"
+        className="absolute right-0 top-[18%] hidden md:block"
       />
       <Card className="relative mb-12 flex w-full items-center justify-center overflow-hidden rounded-none p-0 pb-2 text-center align-middle">
         <Image
           src={banner}
           alt="banner"
-          className="h-full w-full object-cover object-center"
+          className="w-full h-full px-24 object-cover object-center"
         />
       </Card>
       <div className="mx-auto max-w-screen-xl">
@@ -102,7 +103,7 @@ const Partnership = () => {
             <p className="px-2 md:pb-4 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] lg:w-1/2 md:text-3xl lg:text-5xl">
               can we help you? get in touch with our contact person!
             </p>
-            <div className="flex flex-wrap w-[70%] md:w-full gap-3 ml-2">
+            <div className="ml-2 flex w-[70%] flex-wrap gap-3 md:w-full">
               {contactsData.map((contact) => (
                 <Link href={contact.whatsApp} key={contact.index}>
                   
