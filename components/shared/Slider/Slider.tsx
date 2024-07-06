@@ -52,16 +52,16 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
                 </h1>
               </CardContent>
               <CardContent>
-                <p className="text-start text-xl font-medium">{prop.detail}</p>
+                <p className="text-start text-xl font-medium line-clamp-4">{prop.detail}</p>
               </CardContent>
             </Card>
           </SwiperSlide>
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-14 left-0 z-10 flex items-center space-x-4">
+      <div className="absolute -bottom-14 left-0 z-10 h-14 flex items-center space-x-4">
         <div className="custom-pagination" />
-        <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
+        <div className="swiper-button-next cursor-pointer bg-transparent p-2">
           <MoveRight />
         </div>
       </div>

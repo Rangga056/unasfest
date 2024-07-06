@@ -5,6 +5,7 @@ export interface activitiesData {
   title: string;
   coverImage: StaticImageData | string;
   contact: StaticImageData | string;
+  contactNumber: string;
   description: string;
   color: string;
   timeline: {
@@ -19,7 +20,7 @@ export interface activitiesData {
   requirementsTitle: string;
   requirements: {
     index: number;
-    detail: string;
+    detail: string[];
   }[];
   judgesData: {
     index: number;
@@ -57,6 +58,6 @@ export interface activitiesData {
   }[];
   faqs: {
     question: string;
-    answer: string;
+    answer: string[] | string;
   }[];
 }

@@ -30,16 +30,17 @@ const Partnership = () => {
 
   return (
     <div className="relative">
+
       <Image
         src={vector31}
         alt="vector31"
-        className="absolute right-0 top-[20%] hidden md:block"
+        className="absolute right-0 top-[18%] hidden md:block"
       />
       <Card className="relative mb-12 flex w-full items-center justify-center overflow-hidden rounded-none p-0 pb-2 text-center align-middle">
         <Image
           src={banner}
           alt="banner"
-          className="h-full w-full object-cover object-center"
+          className="w-full h-full px-24 object-cover object-center"
         />
       </Card>
       <div className="mx-auto max-w-screen-xl">
@@ -96,30 +97,22 @@ const Partnership = () => {
       </Card>
 
       <Card className="mx-auto max-w-screen-xl">
-        <CardContent className="relative">
-          <Image
-            src={isMobile ? contactsm : contact}
-            alt="contact"
-            width={1350}
-            className="mx-auto"
-          />
-          <div className="absolute top-7 md:left-16 md:top-[20%] lg:left-24 lg:top-1/4">
-            <p className="px-2 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] md:pb-4 md:text-3xl lg:w-1/2 lg:text-5xl">
+        <CardContent className="relative p-0 md:p-6">
+          <Image src={isMobile ? contactsm : contact} alt="contact" width={1350} className="mx-auto"/>
+          <div className="absolute top-7 md:top-[20%] lg:top-1/4 md:left-16 lg:left-24">
+            <p className="px-2 md:pb-4 font-bungee font-medium leading-relaxed text-[#FFFAF0] md:w-[70%] lg:w-1/2 md:text-3xl lg:text-5xl">
               can we help you? get in touch with our contact person!
             </p>
             <div className="ml-2 flex w-[70%] flex-wrap gap-3 md:w-full">
               {contactsData.map((contact) => (
                 <Link href={contact.whatsApp} key={contact.index}>
-                  <button className="flex gap-1 bg-[#FFFAF0] px-2 py-1 md:gap-3 md:px-9 md:py-3">
-                    <Image
-                      src={whatsap}
-                      alt="whatsap"
-                      className="my-auto w-3 md:w-7"
-                    />
-                    <p className="text-sm md:text-base lg:text-xl">
-                      {contact.title}
-                    </p>
-                  </button>
+                  
+                <button
+                  className="flex gap-1 items-center md:gap-3 bg-[#FFFAF0] px-2 py-1 md:px-9 md:py-3"
+                >
+                  <Image src={whatsap} alt="whatsap" className="w-3 md:w-7" />
+                  <p className="text-sm md:text-base lg:text-xl">{contact.title}</p>
+                </button>
                 </Link>
               ))}
             </div>

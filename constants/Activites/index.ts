@@ -61,41 +61,58 @@ export const Activities = [
     title: "Kompetisi Debat Bahasa Indonesia",
     coverImage: kdbiCover,
     contact: kdbiContact,
+    contactNumber: "https://wa.me/6288212435726",
     color: "#2A9763",
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesKDBI,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
     infiniteSlidingText: "INDONESIAN DEBATE",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Indonesian Debate Competition requirements",
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -131,7 +148,6 @@ export const Activities = [
             eDesc: {
               dDetail: "President of the Student English Forum (SEF) ITB",
               dPoint: ["..."],
-
             },
           },
           {
@@ -153,7 +169,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: ["..."],
-
             },
           },
         ],
@@ -176,7 +191,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: ["..."],
-              
             },
           },
         ],
@@ -324,29 +338,31 @@ export const Activities = [
     ],
     faqs: [
       {
-        question: "What Is Unas Fest?",
-        answer:
-          "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
+        question:
+          "Bagaimana cara mendaftar Kompetisi Debat Bahasa Indonesia (KDBI)?",
+        answer: [
+          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
+          'Scroll ke bawah halaman sampai Anda menemukan bagian "Kompetisi Debat Bahasa Indonesia"',
+          'Klik tombol "Daftar Sekarang/Register Now"',
+          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
+          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
+          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
+        ],
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+        question:
+          "Berapa biaya pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
+        answer: [
+          "Early Bird: Rp 300.000/Tim (23-28 Juli 2024)",
+          "Phase 1: Rp 400.000/Tim (29 Juli - 11 Agustus 2024)",
+          "Phase 2: Rp 450.000/Tim (12-23 Agustus 2024)",
+        ],
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question:
+          "Kapan batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "Batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI) pada tanggal 23 Agustus 2024",
       },
     ],
   },
@@ -356,41 +372,58 @@ export const Activities = [
     title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
+    contactNumber: "https://wa.me/6285716931400",
     color: "#004AAD",
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesEDC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
     infiniteSlidingText: "ENGLISH DEBATE",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -417,7 +450,6 @@ export const Activities = [
               dDetail:
                 "Currently working at the Directorate of ASEAN External Cooperation, Directorate General of ASEAN Cooperation with the diplomatic rank of Third Secretary. Assigned to handle issues between ASEAN and Dialogue Partners, specifically East Asia countries. Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
               dPoint: [],
-
             },
           },
           {
@@ -575,7 +607,6 @@ export const Activities = [
               dDetail:
                 "UPT Bahasa ITB is an operational wing of ITB that provides various classes that aims to improve language proficiency. My responsibilities were to lead two classes of around 10-15 people each in English conversation. There were no strict curriculum on the class and the way it is run is left to the lecturers, as long as it achieves the goal of making all class participants proactive in conversing and expressing their opinion. Lessons on grammar and English language theory was also included although it is secondary in nature.",
               dPoint: [],
-
             },
           },
           {
@@ -617,7 +648,6 @@ export const Activities = [
               dDetail:
                 "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
               dPoint: [],
-
             },
           },
           {
@@ -628,7 +658,6 @@ export const Activities = [
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
               dPoint: [],
-
             },
           },
           {
@@ -639,7 +668,6 @@ export const Activities = [
               dDetail:
                 "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
               dPoint: [],
-
             },
           },
           {
@@ -650,7 +678,6 @@ export const Activities = [
               dDetail:
                 "Supervised customer engagement strategy based on data insights, analyzed market trends, and monitored brands marketing activity to achieve engagement targets.",
               dPoint: [],
-
             },
           },
         ],
@@ -658,29 +685,29 @@ export const Activities = [
     ],
     faqs: [
       {
-        question: "What Is Unas Fest?",
-        answer:
-          "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
+        question: "Bagaimana cara mendaftar English Debate Competition (EDC)?",
+        answer: [
+          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
+          'Scroll ke bawah halaman sampai Anda menemukan bagian "English Debate Competition"',
+          'Klik tombol "Daftar Sekarang/Register Now"',
+          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
+          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
+          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
+        ],
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+        question: "Berapa biaya pendaftaran English Debate Competition (EDC)?",
+        answer: [
+          "Early Bird: IDR 350.000/Team (23-28 July 2024)",
+          "Phase 1: IDR 500.000/Team (29 July - 11 August 2024)",
+          "Phase 2: IDR 550.000/Team (12-23 August 2024)",
+        ],
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question:
+          "Kapan batas akhir pendaftaran English Debate Competition (EDC)?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "Batas akhir pendaftaran English Debate Competition pada tanggal 23 Agustus 2024",
       },
     ],
   },
@@ -690,42 +717,59 @@ export const Activities = [
     title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
+    contactNumber: "https://wa.me/6282298067962",
     color: "#E27817",
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSPC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
     infiniteSlidingText: "SCINTIFIC PAPER",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
 
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -744,7 +788,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
@@ -756,7 +799,6 @@ export const Activities = [
               dDetail:
                 "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implement xing strategies that align with business goals and elevate the overall customer experience (CX).",
               dPoint: [],
-
             },
           },
           {
@@ -766,7 +808,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
@@ -776,7 +817,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
@@ -787,7 +827,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
@@ -798,7 +837,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
@@ -808,7 +846,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
         ],
@@ -822,7 +859,7 @@ export const Activities = [
         description:
           "A former senior government official with experience leading various state-owned manufacturing and strategic defense industries. He has a strong academic background, ranging from Monash University to executive education focused on Disruptive Innovation from the University of Cambridge. He has extensive experience, including serving as Chief Executive Officer/President of PT. Barata Indonesia. Additionally, he held the position of Deputy Minister of Mining, Strategic Industries & Media at the Ministry of State-Owned Enterprises from July 2015 to November 2019. In this role, he assisted the Minister of SOEs in formulating policies and synchronizing the implementation of strategic business initiatives, competitiveness, performance, and sustainable development for state-owned enterprises in the sectors of Mining, Oil & Gas, Strategic Industries, Security Printing, Perum Peruri, Publishing & Printing.",
         achievements: ["..."],
-        experience : [
+        experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
             eTime: "March 2022 - Present",
@@ -830,10 +867,9 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
-        ]
+        ],
       },
       {
         index: 3,
@@ -843,7 +879,7 @@ export const Activities = [
         description:
           "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
         achievements: ["..."],
-        experience : [
+        experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
             eTime: "March 2022 - Present",
@@ -851,38 +887,40 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
-        ]
+        ],
       },
     ],
     faqs: [
       {
-        question: "What Is Unas Fest?",
-        answer:
-          "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
+        "question": "Bagaimana cara mendaftar Scientific Paper Competition (SPC)?",
+        "answer": [
+          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
+          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Scientific Paper Competition\"",
+          "Klik tombol \"Daftar Sekarang/Register Now\"",
+          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
+          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
+          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
+        ]
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+        "question": "Berapa biaya pendaftaran Scientific Paper Competition (SPC)?",
+        "answer": [
+          "Gel 1 (23 Juli - 11 Agustus 2024)",
+          "Umum: Rp 170.000",
+          "Mahasiswa Universitas Nasional: Rp 85.000",
+          "Gel 2 (12 Agustus - 23 Agustus 2024)",
+          "Umum: Rp 200.000",
+          "Mahasiswa Universitas Nasional: Rp 100.000"
+        ]
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
+        "question": "Kapan batas akhir pendaftaran Scientific Paper Competition (SPC)?",
+        "answer": [
+          "Batas akhir pendaftaran Scientific Paper Competition pada tanggal 23 Agustus 2024"
+        ]
+      }
     ],
   },
 
@@ -891,42 +929,59 @@ export const Activities = [
     title: "Short Movie Competition",
     coverImage: smcCover,
     contact: smcContact,
+    contactNumber: "https://wa.me/6285719219401",
     color: "#C02424",
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSMC,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
-    requirements: [
-      {
-        index: 1,
-        detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        index: 2,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-      {
-        index: 3,
-        detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
-      },
-      {
-        index: 4,
-        detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
-      },
-      {
-        index: 5,
-        detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
-      },
-    ],
+requirements: [
+  {
+    index: 1,
+    detail:
+      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+  },
+  {
+    index: 2,
+    detail:
+      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+  },
+  {
+    index: 3,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+  },
+  {
+    index: 4,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+  },
+  {
+    index: 5,
+    detail:
+      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+  },
+  {
+    index: 6,
+    detail:
+      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+  },
+  {
+    index: 7,
+    detail:
+      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+  },
+  {
+    index: 8,
+    detail:
+      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+  },
+],
+
     judgesData: [
       {
         index: 1,
@@ -938,7 +993,7 @@ export const Activities = [
         achievements: [
           "Winner of the 2022 Adinegoro Journalism Award by the Indonesian Journalists Association (PWI) Central.",
         ],
-        experience : [
+        experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
             eTime: "March 2022 - Present",
@@ -946,10 +1001,9 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
-        ]
+        ],
       },
       {
         index: 2,
@@ -965,7 +1019,7 @@ export const Activities = [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         ],
-        experience : [
+        experience: [
           {
             eTitle: "Lecturer in Government Science at Universitas Pamulang.",
             eTime: "March 2022 - Present",
@@ -973,10 +1027,9 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
-        ]
+        ],
       },
       {
         index: 3,
@@ -1001,7 +1054,6 @@ export const Activities = [
             eDesc: {
               dDetail: "An International Music Aggregator Company",
               dPoint: [],
-
             },
           },
           {
@@ -1012,7 +1064,6 @@ export const Activities = [
             eDesc: {
               dDetail: "Developing university curriculum",
               dPoint: [],
-
             },
           },
           {
@@ -1024,7 +1075,6 @@ export const Activities = [
               dDetail:
                 "Managing Lecturers for Each Course, Managing Transfer Students",
               dPoint: [],
-
             },
           },
           {
@@ -1035,7 +1085,6 @@ export const Activities = [
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
               dPoint: [],
-
             },
           },
           {
@@ -1046,7 +1095,6 @@ export const Activities = [
               dDetail:
                 "Teaching Cinematography, Videography, and Photography Courses",
               dPoint: [],
-
             },
           },
           {
@@ -1057,7 +1105,6 @@ export const Activities = [
               dDetail:
                 "Provided technical support for photography and videography.",
               dPoint: [],
-
             },
           },
           {
@@ -1069,7 +1116,6 @@ export const Activities = [
               dDetail:
                 "Managed pre-production, production, and post-production of broadcasts.",
               dPoint: [],
-
             },
           },
         ],
@@ -1077,30 +1123,28 @@ export const Activities = [
     ],
     faqs: [
       {
-        question: "What Is Unas Fest?",
-        answer:
-          "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
+        "question": "Bagaimana cara mendaftar Short Movie Competition (SMC)?",
+        "answer": [
+          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
+          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Short Movie Competition\"",
+          "Klik tombol \"Daftar Sekarang/Register Now\"",
+          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
+          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
+          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
+        ]
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+        "question": "Berapa biaya pendaftaran Short Movie Competition (SMC)?",
+        "answer": [
+          "Untuk biaya pendaftaran dari Short Movie Competition sebesar Rp 00.000"
+        ]
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
-      {
-        question: "When Does Unas Fest 2024 Start?",
-        answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
-      },
+        "question": "Kapan batas akhir pendaftaran Short Movie Competition (SMC)?",
+        "answer": [
+          "Batas akhir pendaftaran Short Movie Competition pada tanggal 23 Agustus 2024"
+        ]
+      }
     ],
   },
 
@@ -1109,11 +1153,12 @@ export const Activities = [
     title: "international seminar",
     coverImage: smcCover,
     contact: semnasContact,
+    contactNumber: "https://wa.me/6288219445100",
     color: "#853EB6",
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSemnas,
-    guideBook: "https://ufest.unas.ac.id/",
+    guideBook: "",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
@@ -1122,29 +1167,61 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
       },
       {
         index: 2,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
+          "Participants of the UNAS FEST 2024 International Seminar at National and International Levels are required to register through the link listed on the poster and join the WhatsApp group listed.",
       },
       {
         index: 3,
         detail:
-          "Debate participants are students who have never had a Bachelor (S1) / Applied Bachelor (D4) degree.",
+          "Participants of the UNAS FEST 2024 International Seminar are expected to arrive on time.",
       },
       {
         index: 4,
         detail:
-          "Students follow the rules that have been determined and listed in the KDBI Unas Fest 2023 activity guidebook.",
+          "Participants of the UNAS FEST 2024 International Seminar are required to use the Zoom background that has been determined during the International Seminar.",
       },
       {
         index: 5,
         detail:
-          "Active students of Bachelor and Diploma programs registered in PD-DIKTI  from various study programs and public and private universities..",
+          "Participants are required to wear an alma mater jacket and dress neatly & politely when the UNAS FEST 2024 International Seminar are being held.",
+      },
+      {
+        index: 6,
+        detail:
+          "Participants are required to maintain politeness and civility during the UNAS FEST International Seminar Year 2024.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants are prohibited from making any disturbances during the UNAS FEST 2024 International Seminar.",
+      },
+      {
+        index: 8,
+        detail:
+          "Participants are allowed to ask questions in the question-and-answer session that has been determined by the speaker or moderator.",
+      },
+      {
+        index: 9,
+        detail:
+          "Participants are required to follow the series of UNAS FEST International Seminar 2024 events that take place until completion.",
+      },
+      {
+        index: 10,
+        detail:
+          "National and International participants of UNAS FEST 2024 International Seminar who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 11,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
       },
     ],
+    
+
     judgesData: [
       {
         index: 1,
@@ -1212,11 +1289,12 @@ export const Activities = [
           },
           {
             eTitle: "ERM: Environmental Resources Management Junior Consultant",
-            
+
             eTime: "June 2015 - March 2020",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Energy Engineer Intern. I support the technical and management team of Korean clothing factory in Purwakarta Indonesia in pursuing LEED certification. I supported energy efficiency team for energy audit project for Oil and gas Companies in Indonesia. Project management member for all the project tender that I took part.",
+              dDetail:
+                "Energy Engineer Intern. I support the technical and management team of Korean clothing factory in Purwakarta Indonesia in pursuing LEED certification. I supported energy efficiency team for energy audit project for Oil and gas Companies in Indonesia. Project management member for all the project tender that I took part.",
               dPoint: [
                 "Energy efficiency engineer with competencies in conducting energy audit on HVAC system, process chillers, pumps, fans, hot water, electric motors, and lighting.",
                 "Managed USAID-ICED Pilot Project Energy Conservation Sekolah Harapan Ibu in Jakarta, successfully reducing energy costs by up to 30%. Provided training on energy efficiency implementation for students and teachers in Jakarta area during the event.",
@@ -1244,68 +1322,69 @@ export const Activities = [
         ],
         experience: [
           {
-            eTitle: "Professor - The National Research and Innovation Agency of The Republic of Indonesia",
+            eTitle:
+              "Professor - The National Research and Innovation Agency of The Republic of Indonesia",
             eTime: "September 2021 - Present",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail: "Fuel Cell, Hydrogen Production, Green Electricity, Biohydrogen",
+              dDetail:
+                "Fuel Cell, Hydrogen Production, Green Electricity, Biohydrogen",
               dPoint: [],
             },
           },
           {
-            eTitle: "Board Director - International Association for Hydrogen Energy",
-      
+            eTitle:
+              "Board Director - International Association for Hydrogen Energy",
+
             eTime: "January 2014 - Present",
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
-          
+
           {
-            eTitle: "Deputy Chairperson for Information Energy and Material - The Agency for the Assessment and Application of Technology (BPPT)", 
-      
+            eTitle:
+              "Deputy Chairperson for Information Energy and Material - The Agency for the Assessment and Application of Technology (BPPT)",
+
             eTime: "November 2018 - September",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
-            eTitle: "Deputy Chairperson for Agroindustrial and Biotechnology - Badan Pengkajian dan Penerapan Teknologi", 
-      
+            eTitle:
+              "Deputy Chairperson for Agroindustrial and Biotechnology - Badan Pengkajian dan Penerapan Teknologi",
+
             eTime: "November 2018 - September",
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
-            eTitle: "Director of Center for Materials Technology - Agency for the Assessment and Application of Technology (BPPT)", 
-      
+            eTitle:
+              "Director of Center for Materials Technology - Agency for the Assessment and Application of Technology (BPPT)",
+
             eTime: "July 2014 - September 2015",
             place: "224Bld. Kawasan Puspiptek Serpong",
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
           {
-            eTitle: "Head Division of Renewable Energy - TPSE", 
-      
+            eTitle: "Head Division of Renewable Energy - TPSE",
+
             eTime: "February 2014 - July 2014",
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
               dPoint: [],
-
             },
           },
         ],
@@ -1359,8 +1438,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: ["...", "...", "..."],
-              
-
             },
           },
         ],
@@ -1386,7 +1463,6 @@ export const Activities = [
             eDesc: {
               dDetail: "...",
               dPoint: ["...", "...", "..."],
-
             },
           },
         ],
