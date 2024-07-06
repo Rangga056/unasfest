@@ -128,6 +128,38 @@ export const timelinesKDBI = [
     year: "2024",
     color: "#2A9763",
   },
+  {
+    title: "CLOSING UNAS FEST 2024",
+    description: "Execution of awarding",
+    month: "DEC",
+    date: "20",
+    year: "2024",
+    color: "#2A9763",
+  },
+  {
+    title: "CLOSING UNAS FEST 2024",
+    description: "Execution of awarding",
+    month: "DEC",
+    date: "20",
+    year: "2024",
+    color: "#2A9763",
+  },
+  {
+    title: "CLOSING UNAS FEST 2024",
+    description: "Execution of awarding",
+    month: "DEC",
+    date: "20",
+    year: "2024",
+    color: "#2A9763",
+  },
+  {
+    title: "CLOSING UNAS FEST 2024",
+    description: "Execution of awarding",
+    month: "DEC",
+    date: "20",
+    year: "2024",
+    color: "#2A9763",
+  },
 ];
 
 export const timelinesSMC = [
