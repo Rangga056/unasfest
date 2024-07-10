@@ -23,12 +23,12 @@ export default function Home() {
       {/* Hero  */}
       <Hero />
       {/* Activities  Slide*/}
-      <div className="container my-20 pr-0">
+      <div className="container my-20 pr-0 ">
         <ActivitySlider props={postersData} />
       </div>
 
-      {/* <AutoScrollComponent /> */}
       <InfiniteSlidingComponent props={InfiniteSlidingProps} />
+      {/* <AutoScrollComponent /> */}
       {/* Benefit  */}
       <div className="mt-36">
         <Benefit />

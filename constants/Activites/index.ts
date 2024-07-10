@@ -338,34 +338,30 @@ requirements: [
     ],
     faqs: [
       {
-        question:
-          "Bagaimana cara mendaftar Kompetisi Debat Bahasa Indonesia (KDBI)?",
+        question: "How do I register for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          'Scroll ke bawah halaman sampai Anda menemukan bagian "Kompetisi Debat Bahasa Indonesia"',
-          'Klik tombol "Daftar Sekarang/Register Now"',
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "Indonesian Language Debate Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
         ],
       },
       {
-        question:
-          "Berapa biaya pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
+        question: "What is the registration fee for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Early Bird: Rp 300.000/Tim (23-28 Juli 2024)",
-          "Phase 1: Rp 400.000/Tim (29 Juli - 11 Agustus 2024)",
-          "Phase 2: Rp 450.000/Tim (12-23 Agustus 2024)",
+          "Early Bird: Rp 300,000/Team (July 23-28, 2024)",
+          "Phase 1: Rp 400,000/Team (July 29 - August 11, 2024)",
+          "Phase 2: Rp 450,000/Team (August 12-23, 2024)",
         ],
       },
       {
-        question:
-          "Kapan batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
-        answer:
-          "Batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI) pada tanggal 23 Agustus 2024",
+        question: "When is the registration deadline for the Indonesian Language Debate Competition (KDBI)?",
+        answer: "The registration deadline for the Indonesian Language Debate Competition (KDBI) is August 23, 2024",
       },
     ],
-  },
+  },    
 
   {
     path: "edc",
@@ -685,32 +681,30 @@ requirements: [
     ],
     faqs: [
       {
-        question: "Bagaimana cara mendaftar English Debate Competition (EDC)?",
+        question: "How do I register for the English Debate Competition (EDC)?",
         answer: [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          'Scroll ke bawah halaman sampai Anda menemukan bagian "English Debate Competition"',
-          'Klik tombol "Daftar Sekarang/Register Now"',
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "English Debate Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
         ],
       },
       {
-        question: "Berapa biaya pendaftaran English Debate Competition (EDC)?",
+        question: "What is the registration fee for the English Debate Competition (EDC)?",
         answer: [
-          "Early Bird: IDR 350.000/Team (23-28 July 2024)",
-          "Phase 1: IDR 500.000/Team (29 July - 11 August 2024)",
-          "Phase 2: IDR 550.000/Team (12-23 August 2024)",
+          "Early Bird: IDR 350,000/Team (July 23-28, 2024)",
+          "Phase 1: IDR 500,000/Team (July 29 - August 11, 2024)",
+          "Phase 2: IDR 550,000/Team (August 12-23, 2024)",
         ],
       },
       {
-        question:
-          "Kapan batas akhir pendaftaran English Debate Competition (EDC)?",
-        answer:
-          "Batas akhir pendaftaran English Debate Competition pada tanggal 23 Agustus 2024",
+        question: "When is the registration deadline for the English Debate Competition (EDC)?",
+        answer: "The registration deadline for the English Debate Competition is August 23, 2024",
       },
     ],
-  },
+  },    
 
   {
     path: "spc",
@@ -894,35 +888,35 @@ requirements: [
     ],
     faqs: [
       {
-        "question": "Bagaimana cara mendaftar Scientific Paper Competition (SPC)?",
+        "question": "How do I register for the Scientific Paper Competition (SPC)?",
         "answer": [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Scientific Paper Competition\"",
-          "Klik tombol \"Daftar Sekarang/Register Now\"",
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
+          "Open your web browser and visit the CATURNAWA website (link)",
+          "Scroll down the page until you find the \"Scientific Paper Competition\" section",
+          "Click the \"Register Now\" button",
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button"
         ]
       },
       {
-        "question": "Berapa biaya pendaftaran Scientific Paper Competition (SPC)?",
+        "question": "What is the registration fee for the Scientific Paper Competition (SPC)?",
         "answer": [
-          "Gel 1 (23 Juli - 11 Agustus 2024)",
-          "Umum: Rp 170.000",
-          "Mahasiswa Universitas Nasional: Rp 85.000",
-          "Gel 2 (12 Agustus - 23 Agustus 2024)",
-          "Umum: Rp 200.000",
-          "Mahasiswa Universitas Nasional: Rp 100.000"
+          "Phase 1 (July 23 - August 11, 2024)",
+          "General: Rp 170,000",
+          "National University Students: Rp 85,000",
+          "Phase 2 (August 12 - August 23, 2024)",
+          "General: Rp 200,000",
+          "National University Students: Rp 100,000"
         ]
       },
       {
-        "question": "Kapan batas akhir pendaftaran Scientific Paper Competition (SPC)?",
+        "question": "When is the registration deadline for the Scientific Paper Competition (SPC)?",
         "answer": [
-          "Batas akhir pendaftaran Scientific Paper Competition pada tanggal 23 Agustus 2024"
+          "The registration deadline for the Scientific Paper Competition is August 23, 2024"
         ]
       }
     ],
-  },
+  },    
 
   {
     path: "smc",
@@ -1123,26 +1117,26 @@ requirements: [
     ],
     faqs: [
       {
-        "question": "Bagaimana cara mendaftar Short Movie Competition (SMC)?",
+        "question": "How do I register for the Short Movie Competition (SMC)?",
         "answer": [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Short Movie Competition\"",
-          "Klik tombol \"Daftar Sekarang/Register Now\"",
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
+          "Open your web browser and visit the CATURNAWA website (link)",
+          "Scroll down the page until you find the \"Short Movie Competition\" section",
+          "Click the \"Register Now\" button",
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button"
         ]
       },
       {
-        "question": "Berapa biaya pendaftaran Short Movie Competition (SMC)?",
+        "question": "What is the registration fee for the Short Movie Competition (SMC)?",
         "answer": [
-          "Untuk biaya pendaftaran dari Short Movie Competition sebesar Rp 00.000"
+          "The registration fee for the Short Movie Competition is Rp 00,000"
         ]
       },
       {
-        "question": "Kapan batas akhir pendaftaran Short Movie Competition (SMC)?",
+        "question": "When is the registration deadline for the Short Movie Competition (SMC)?",
         "answer": [
-          "Batas akhir pendaftaran Short Movie Competition pada tanggal 23 Agustus 2024"
+          "The registration deadline for the Short Movie Competition is August 23, 2024"
         ]
       }
     ],

@@ -44,32 +44,41 @@ export const timelinesHome = [
 
 export const timelinesEDC = [
   {
-    title: "OPENING UNAS FEST 2024 EDC",
+    title: "Open Registrasi EDC",
     description:
-      "Opening of UNAS FEST 2024 and Implementation of National Seminars",
-    month: "DEC",
-    date: "4",
+      "Open Registration for English Debate Competition",
+    month: "AUGUST",
+    date: "23",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "IMPLEMENTATION OF UNAS FEST 2024 ACTIVITIES",
-    description: "Implementation of EDC & KDBI Sequencing",
+    title: "Close Registrasi EDC",
+    description:
+      "Open Registration for English Debate Competition",
     month: "DEC",
-    date: "5-7",
+    date: "23",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Finals of UNAS FEST 2024 EDC & KDBI Activities",
-    description: "EDC & KDBI 1st and 2nd Finals",
+    title: "Flyer Announcement for Participants of EDC",
+    description: "Flyer to Inform Potential Participants About the Open Registration for English Debate Competition",
+    month: "DEC",
+    date: "1",
+    year: "2024",
+    color: "#004AAD",
+  },
+  {
+    title: "Dummy Debat",
+    description: "Simulation or Practice for EDC",
     month: "DEC",
     date: "19",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "FINALS OF UNAS FEST 2024 SPC & DEBATE",
+    title: "**Participant Certificate**",
     description: "SPC Finalist Presentation & EDC & KDBI Round 3 Final",
     month: "DEC",
     date: "20",

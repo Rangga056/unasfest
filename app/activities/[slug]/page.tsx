@@ -197,7 +197,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           alt="toa"
           width={400}
           height={400}
-          className="absolute -bottom-4 right-0 sm:hidden lg:inline-block"
+          className="absolute -bottom-4 right-0 hidden lg:inline-block"
         />
       </div>
 
