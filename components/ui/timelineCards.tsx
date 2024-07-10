@@ -28,7 +28,7 @@ function PosterCard({ title, description, timelines, children }: Props) {
           {description}
         </CardDescription>
         <ScrollArea className="">
-          <CardContent className="h-[1000px] w-full p-0">
+          <CardContent className="h-full max-h-[1000px] w-full p-0">
             <Timeliner timelines={timelines} />
           </CardContent>
         </ScrollArea>

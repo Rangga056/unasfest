@@ -25,16 +25,17 @@ export default function Home() {
       {/* <AutoScrollComponent /> */}
       <InfiniteSlidingComponent props={InfiniteSlidingProps} />
       {/* Activities  Slide*/}
-      <div className="container my-20 pr-0">
+      <div className="container mt-20 pr-0">
         <ActivitySlider props={postersData} />
       </div>
 
       {/* Benefit  */}
-      <div className="mt-36">
-      {/* Special Banner */}
-      <div className="container">
+      <div className="container mt-20">
         <SpecialBanner />
       </div>
+      <div className="mt-20">
+        {/* Special Banner */}
+
         <Benefit />
         {/* Gallery Component  */}
       </div>

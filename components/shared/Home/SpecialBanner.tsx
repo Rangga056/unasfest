@@ -2,37 +2,40 @@ import React from "react";
 import Image from "next/image";
 import SpecialBannerImage from "@/public/assets/images/SI-Banner.png";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const SpecialBanner = () => {
   return (
-    <div className="flex flex-col md:flex-row h-auto w-full items-center justify-start p-8 pl-0">
-      <div className="flex w-full max-w-screen-lg items-center flex-col md:flex-row">
+    <div className="flex h-full w-full flex-col items-center justify-center md:flex-row md:justify-between">
+      <div className="relative aspect-square h-auto w-screen max-w-[600px]">
         <Image
           src={SpecialBannerImage}
-          alt="International Seminar"
-          width={2500}
-          height={2500}
-          className="w-full md:w-auto rounded-full"
+          alt="International seminar image"
+          className="h-full w-full object-contain"
+          fill
         />
-        <div className="ml-0 md:ml-8 mt-4 md:mt-0 text-center md:text-left">
-          <h2 className="font-bungee text-[16px] md:text-[20px] font-bold leading-normal tracking-[0.2px] text-black">
-            SPECIAL EVENT
-          </h2>
-          <h1 className="font-bungee text-[32px] md:text-[48px] font-bold leading-normal tracking-[0.48px] text-purple-700">
-            INTERNATIONAL SEMINAR
-          </h1>
-          <p className="mt-2 text-black text-sm md:text-base">
-            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
-            Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua.
-          </p>
+      </div>
+      <div className="flex w-full flex-col items-center justify-center text-center md:w-1/2 md:items-start md:text-left">
+        <h3 className="font-bungee text-base font-normal uppercase md:text-xl">
+          special event
+        </h3>
+        <h1 className="font-bungee text-3xl font-normal uppercase text-page-purple md:text-5xl">
+          international
+          <br /> seminar
+        </h1>
+        <p className="py-[19px] text-base md:text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        </p>
+        <Link href="/activities/international-seminar">
           <Button
             variant="secondary"
-            size="lg"
-            className="hover:bg-purple-800 mt-6 rounded-none bg-purple-700 px-6 md:px-10 py-4 md:py-6 text-lg md:text-xl font-semibold text-white"
+            size="xl"
+            className="bg-page-purple px-14 py-4 text-base font-semibold capitalize text-page-white hover:text-page-purple focus:text-page-purple md:text-xl"
           >
-            See More
+            see more
           </Button>
-        </div>
+        </Link>
       </div>
     </div>
   );

@@ -93,6 +93,7 @@ const config = {
           btnBlue: "#2380FC",
           lightblue: "#E0FBFF",
           yellow: "#F3BB1C",
+          purple: "#853EB6",
         },
       },
       backgroundImage: {
