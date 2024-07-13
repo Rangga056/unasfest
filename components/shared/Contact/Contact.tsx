@@ -18,7 +18,7 @@ const ToContact = ({ contact, contactNumber }: ContactProps) => {
           alt="Hubungi Kami"
           className="w-full object-cover"
         />
-        <div className="absolute top-1/3 ml-10 w-[50%] md:w-[60%] ">
+        <div className="absolute top-1/3 ml-10 w-[50%] md:w-[60%]">
           <h1 className="font-bungee text-2xl leading-none tracking-wide text-white sm:text-xs md:mb-4 md:text-4xl lg:mb-10 lg:text-5xl">
             Bisakah kami membantu Anda? Hubungi kontak person kami!
           </h1>

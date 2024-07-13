@@ -6,6 +6,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css/pagination";
 import { MoveRight } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTrigger,
+} from "@radix-ui/react-dialog";
 
 type Prop = {
   index: number | undefined;
@@ -45,21 +51,34 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
             key={prop.index}
             className="max-w-[285px] md:max-w-[380px]"
           >
-            <Card className="flex h-[279px] w-[285px] flex-shrink-0 cursor-grab flex-col justify-start gap-y-1 rounded-none bg-page-white py-5 text-page-black active:cursor-grabbing md:w-[380px] md:gap-y-6">
-              <CardContent className="flex flex-col gap-y-4 text-left">
-                <h1 className="font-bungee text-5xl font-semibold">
-                  0{prop.index}
-                </h1>
-              </CardContent>
-              <CardContent>
-                <p className="text-start text-xl font-medium line-clamp-4">{prop.detail}</p>
-              </CardContent>
-            </Card>
+            <Dialog>
+              <DialogTrigger>
+                <div className="relative">
+                <Card className="flex h-[279px] w-[285px] flex-shrink-0 flex-col justify-start gap-y-1 rounded-none bg-page-white py-5 text-page-black active:cursor-grabbing md:w-[380px] md:gap-y-6">
+                  <CardContent className="flex flex-col gap-y-4 text-left">
+                    <h1 className="font-bungee text-5xl font-semibold">
+                      0{prop.index}
+                    </h1>
+                  </CardContent>
+                  <CardContent>
+                    <p className="line-clamp-4 text-start text-xl font-medium">
+                      {prop.detail}
+                    </p>
+                  </CardContent>
+                </Card>
+                </div>
+                <DialogContent>
+                  <DialogDescription className=" flex items-center p-6 absolute text-start text-base font-medium inset-0 bg-white text-black">
+                    {prop.detail}
+                  </DialogDescription>
+                </DialogContent>
+              </DialogTrigger>
+            </Dialog>
           </SwiperSlide>
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-14 left-0 z-10 h-14 flex items-center space-x-4">
+      <div className="absolute -bottom-14 left-0 z-10 flex h-14 items-center space-x-4">
         <div className="custom-pagination" />
         <div className="swiper-button-next cursor-pointer bg-transparent p-2">
           <MoveRight />

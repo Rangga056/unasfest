@@ -22,7 +22,7 @@ import efriza from "@/public/assets/images/competition/spc Efriza, S.I.P., M.Si.
 import fajar from "@/public/assets/images/competition/spc Fajar Harry Sampurno, MBA, Ph.D..jpg";
 
 // judges photos smc
-import rita from "@/public/assets/images/competition/sm rita.jpg";
+import jentoni from "@/public/assets/images/competition/sm jentoni.jpg";
 import kusen from "@/public/assets/images/competition/sm kusen.jpg";
 import Daniel from "@/public/assets/images/competition/smc Daniel Wisnu Wardhana.jpg";
 
@@ -66,65 +66,67 @@ export const Activities = [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesKDBI,
-    guideBook: "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
+    guideBook:
+      "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
     infiniteSlidingText: "INDONESIAN DEBATE",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Indonesian Debate Competition requirements",
-requirements: [
-  {
-    index: 1,
-    detail:
-      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
-  },
-  {
-    index: 2,
-    detail:
-      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
-  },
-  {
-    index: 3,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
-  },
-  {
-    index: 4,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
-  },
-  {
-    index: 5,
-    detail:
-      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
-  },
-  {
-    index: 6,
-    detail:
-      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
-  },
-  {
-    index: 7,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
-  },
-  {
-    index: 8,
-    detail:
-      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
-  },
-],
+    requirements: [
+      {
+        index: 1,
+        detail:
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+      },
+      {
+        index: 2,
+        detail:
+          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+      },
+      {
+        index: 3,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+      },
+      {
+        index: 4,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+      },
+      {
+        index: 5,
+        detail:
+          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+      },
+      {
+        index: 6,
+        detail:
+          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+      },
+      {
+        index: 8,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+      },
+    ],
 
     judgesData: [
       {
         index: 1,
         name: "Leonardus Hans Sebastian",
         image: leonardus,
+        linkedin: "https://www.linkedin.com/in/leonardus-hans-sebastian/",
         lastEducation: "Student at Institut Teknologi Bandung",
         description:
           "Currently studying in Mining and Petroleum Engineering Faculty. Ambitious and fast learner. Have high-interest in event organizing and organitational works. Been in consultant/tech team for Pusat Prestasi Nasional (Puspresnas) by Kementrian Pendidikan dan Kebudayaan (Kemdikbud)",
         achievements: [
           "Champion of Top Challenge of Physics for Junior High School 2016",
           "2nd Runner Up of PINGFEST! IT Venture 2019",
-          "Champion of National University Debating Championship 2022",
+          "Champion of Universitas Nasional Debating Championship 2022",
         ],
         experience: [
           {
@@ -135,7 +137,7 @@ requirements: [
               dDetail:
                 "Serving as Tabulation Director in various Parliamentary Debating events. Including being in the Tab Team for Indonesian Government run events such as",
               dPoint: [
-                "National University Debating Championship",
+                "Universitas Nasional Debating Championship",
                 "Kontes Debat Mahasiswa Indonesia",
                 "Lomba Debat Bahasa Indonesia",
                 "National Schools Debating Championship",
@@ -177,20 +179,79 @@ requirements: [
         index: 2,
         name: "Assc. Prof. Dr. Wahyu Wibowo",
         image: wahyu,
+        linkedin: "",
         lastEducation: "Ph.D. in Philosophy at Gadjah Mada University",
-        description: "...",
+        description:
+          'PhD in Philosophy from Gadjah Mada University (UGM) Yogyakarta with a dissertation titled: "An Analytical Philosophy Study on Journalistic Language Expressions: Its Relevance for the Development of Press Ethics." Lecturer at Universitas Nasional, Jakarta, in the courses of Philosophy of Language, Philosophy of Science, Creative Writing, Writing Skills, and Journalism.',
         achievements: [
           "Recorded as an Indonesian literary figure of the 2000s generation",
           "Obtained Journalist Certification as a Senior Journalist from the Press Council (No. 092-WU/DP/V/2011, May 2011)",
         ],
         experience: [
           {
-            eTitle: "...",
-            eTime: "...",
-            place: "...",
+            eTitle: "Lecturer at Universitas Nasional",
+            eTime: "1986 - Present",
+            place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail: "...",
-              dPoint: ["..."],
+              dDetail:
+                "Lecturer at Universitas Nasional in the courses of Philosophy of Language, Philosophy of Science, Creative Writing, Writing Skills, and Journalism",
+            },
+          },
+          {
+            eTitle: "Dean of the Faculty of Literature at Universitas Nasional",
+            eTime: "April 2019 - May 2013",
+            place: "Jakarta, Indonesia",
+          },
+          {
+            eTitle:
+              "Member of the Evaluation Team for the Research Grant Program for Lecturers, Region III Higher Education Service Institutio",
+            eTime: "2008 - Present",
+            place: "Jakarta, Indonesia",
+          },
+          {
+            eTitle:
+              "Founder of the Betawi Study Center at Universitas Nasional",
+            eTime: "2004",
+            place: "Jakarta, Indonesia",
+          },
+          {
+            eTitle:
+              "Member of the Training Team for Scientific Article Writing for Lecturers throughout Indonesia",
+            eTime: "2006 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Member of the Training Team for Scientific Article Writing for Lecturers throughout Indonesia, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+            },
+          },
+          {
+            eTitle:
+              "Member of the Evaluation Team (reviewer) for the Textbook Writing Grant Program for Lecturers",
+            eTime: "2006 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Member of the Evaluation Team (reviewer) for the Textbook Writing Grant Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+            },
+          },
+          {
+            eTitle:
+              "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers",
+            eTime: "2006 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+            },
+          },
+          {
+            eTitle:
+              "Deputy General Leader/Editor-in-Chief of Paron tabloid, Jakarta",
+            eTime: "1993 - 2000",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
             },
           },
         ],
@@ -199,6 +260,7 @@ requirements: [
         index: 3,
         name: "Purwo Besari",
         image: purwo,
+        linkedin: "https://www.linkedin.com/in/purwobesari/?jobid=1234",
         lastEducation: "Educational Management at State University of Jakarta",
         description:
           "Purwo is passionate about education, with a keen interest in human development and the dynamics of social media content. His expertise in the learning and development sector is evidenced by his roles as a public speaker and tutor. Purwo is deeply invested in the realm of human development and aspires to simultaneously excel as a specialist in learning, training, and content creation.",
@@ -339,30 +401,40 @@ requirements: [
     faqs: [
       {
         question:
-          "Bagaimana cara mendaftar Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "How do I register for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          'Scroll ke bawah halaman sampai Anda menemukan bagian "Kompetisi Debat Bahasa Indonesia"',
-          'Klik tombol "Daftar Sekarang/Register Now"',
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "Indonesian Language Debate Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
         ],
       },
       {
         question:
-          "Berapa biaya pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "What is the registration fee for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Early Bird: Rp 300.000/Tim (23-28 Juli 2024)",
-          "Phase 1: Rp 400.000/Tim (29 Juli - 11 Agustus 2024)",
-          "Phase 2: Rp 450.000/Tim (12-23 Agustus 2024)",
+          "Early Bird: Rp 300,000/Team (July 23-28, 2024)",
+          "Phase 1: Rp 400,000/Team (July 29 - August 11, 2024)",
+          "Phase 2: Rp 450,000/Team (August 12-23, 2024)",
         ],
       },
       {
         question:
-          "Kapan batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI)?",
+          "When is the registration deadline for the Indonesian Language Debate Competition (KDBI)?",
         answer:
-          "Batas akhir pendaftaran Kompetisi Debat Bahasa Indonesia (KDBI) pada tanggal 23 Agustus 2024",
+          "The registration deadline for the Indonesian Language Debate Competition (KDBI) is August 23, 2024",
+      },
+      {
+        question: "When will the winners be announced?",
+        answer:
+          "The winners will be announced on October 17, 2024, after the final round sessions.",
+      },
+      {
+        question: "Where can I see the winner announcement?",
+        answer:
+          "The winner announcement will be available on the website (link caturnawa).",
       },
     ],
   },
@@ -377,64 +449,66 @@ requirements: [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesEDC,
-    guideBook: "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
+    guideBook:
+      "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
     infiniteSlidingText: "ENGLISH DEBATE",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
-requirements: [
-  {
-    index: 1,
-    detail:
-      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
-  },
-  {
-    index: 2,
-    detail:
-      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
-  },
-  {
-    index: 3,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
-  },
-  {
-    index: 4,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
-  },
-  {
-    index: 5,
-    detail:
-      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
-  },
-  {
-    index: 6,
-    detail:
-      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
-  },
-  {
-    index: 7,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
-  },
-  {
-    index: 8,
-    detail:
-      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
-  },
-],
+    requirements: [
+      {
+        index: 1,
+        detail:
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+      },
+      {
+        index: 2,
+        detail:
+          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+      },
+      {
+        index: 3,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+      },
+      {
+        index: 4,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+      },
+      {
+        index: 5,
+        detail:
+          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+      },
+      {
+        index: 6,
+        detail:
+          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+      },
+      {
+        index: 8,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+      },
+    ],
 
     judgesData: [
       {
         index: 1,
         name: "Adfikri Kevin Marvel",
         image: fikri,
+        linkedin: "https://www.linkedin.com/in/marvelkevin/?jobid=1234",
         lastEducation:
           "Bachelor of Arts - BA, International Relations and Affairs",
         description:
           "Working at the Ministry of Foreign Affairs of the Republic of Indonesia since February 2019, previously a competitive parliamentary debater from Universitas Indonesia who has won national and international tournaments, represented Indonesia in multiple international competitions, including a full-sponsorship from the Indonesian government to the World University Debating Championship 2019 in Cape Town, competing against more than 250 teams from elite universities worldwide, advancing to the elimination rounds in the English as a Second Language (ESL) category, and securing the title of World's 6th Best EFL speaker in the same tournament. Interested in vast arrays of issues, such as: International Relations, Philosophy, US Politics, UK Politics, BRI, Economics, social issues, etc.",
         achievements: [
-          "Grandfinalist and 2nd Overall Best Speaker of National University Debating Championship",
+          "Grandfinalist and 2nd Overall Best Speaker of Universitas Nasional Debating Championship",
           "Champion and 4th Best Speaker of ALSA UI E-Comp Debate Competition",
           "ESL Quarterfinalist and 3rd Best EFL Speaker of Australasian Intervarsity Debating Championship 2018",
           "Semifinalist of World Universities Debating Championship 2018 in EFL Category",
@@ -546,6 +620,7 @@ requirements: [
       {
         index: 2,
         name: "Ahmad Kushay",
+        linkedin: "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
         image: ahmad,
         lastEducation:
           "Bachelor's degree, Chemistry - Institut Teknologi Bandung (ITB)",
@@ -629,6 +704,7 @@ requirements: [
         index: 3,
         name: "Muhamad Aditya Muchtar",
         image: aditya,
+        linkedin: "https://www.linkedin.com/in/muchaditya/?jobid=1234",
         lastEducation:
           "Master of Engineering, Industrial Engineering - University of Indonesia",
         description:
@@ -685,29 +761,40 @@ requirements: [
     ],
     faqs: [
       {
-        question: "Bagaimana cara mendaftar English Debate Competition (EDC)?",
+        question: "How do I register for the English Debate Competition (EDC)?",
         answer: [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          'Scroll ke bawah halaman sampai Anda menemukan bagian "English Debate Competition"',
-          'Klik tombol "Daftar Sekarang/Register Now"',
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran",
-        ],
-      },
-      {
-        question: "Berapa biaya pendaftaran English Debate Competition (EDC)?",
-        answer: [
-          "Early Bird: IDR 350.000/Team (23-28 July 2024)",
-          "Phase 1: IDR 500.000/Team (29 July - 11 August 2024)",
-          "Phase 2: IDR 550.000/Team (12-23 August 2024)",
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "English Debate Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
         ],
       },
       {
         question:
-          "Kapan batas akhir pendaftaran English Debate Competition (EDC)?",
+          "What is the registration fee for the English Debate Competition (EDC)?",
+        answer: [
+          "Early Bird: IDR 350,000/Team (July 23-28, 2024)",
+          "Phase 1: IDR 500,000/Team (July 29 - August 11, 2024)",
+          "Phase 2: IDR 550,000/Team (August 12-23, 2024)",
+        ],
+      },
+      {
+        question:
+          "When is the registration deadline for the English Debate Competition (EDC)?",
         answer:
-          "Batas akhir pendaftaran English Debate Competition pada tanggal 23 Agustus 2024",
+          "The registration deadline for the English Debate Competition is August 23, 2024",
+      },
+      {
+        question: "When will the winners be announced?",
+        answer:
+          "The winners will be announced on October 17, 2024, after the final round sessions.",
+      },
+      {
+        question: "Where can I see the winner announcement?",
+        answer:
+          "The winner announcement will be available on the website (link caturnawa).",
       },
     ],
   },
@@ -722,53 +809,54 @@ requirements: [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSPC,
-    guideBook: "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
+    guideBook:
+      "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
     infiniteSlidingText: "SCINTIFIC PAPER",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
 
-requirements: [
-  {
-    index: 1,
-    detail:
-      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
-  },
-  {
-    index: 2,
-    detail:
-      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
-  },
-  {
-    index: 3,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
-  },
-  {
-    index: 4,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
-  },
-  {
-    index: 5,
-    detail:
-      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
-  },
-  {
-    index: 6,
-    detail:
-      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
-  },
-  {
-    index: 7,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
-  },
-  {
-    index: 8,
-    detail:
-      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
-  },
-],
+    requirements: [
+      {
+        index: 1,
+        detail:
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+      },
+      {
+        index: 2,
+        detail:
+          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+      },
+      {
+        index: 3,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+      },
+      {
+        index: 4,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+      },
+      {
+        index: 5,
+        detail:
+          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+      },
+      {
+        index: 6,
+        detail:
+          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+      },
+      {
+        index: 8,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+      },
+    ],
 
     judgesData: [
       {
@@ -894,33 +982,46 @@ requirements: [
     ],
     faqs: [
       {
-        "question": "Bagaimana cara mendaftar Scientific Paper Competition (SPC)?",
-        "answer": [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Scientific Paper Competition\"",
-          "Klik tombol \"Daftar Sekarang/Register Now\"",
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
-        ]
+        question:
+          "How do I register for the Scientific Paper Competition (SPC)?",
+        answer: [
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "Scientific Paper Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
+        ],
       },
       {
-        "question": "Berapa biaya pendaftaran Scientific Paper Competition (SPC)?",
-        "answer": [
-          "Gel 1 (23 Juli - 11 Agustus 2024)",
-          "Umum: Rp 170.000",
-          "Mahasiswa Universitas Nasional: Rp 85.000",
-          "Gel 2 (12 Agustus - 23 Agustus 2024)",
-          "Umum: Rp 200.000",
-          "Mahasiswa Universitas Nasional: Rp 100.000"
-        ]
+        question:
+          "What is the registration fee for the Scientific Paper Competition (SPC)?",
+        answer: [
+          "Phase 1 (July 23 - August 11, 2024)",
+          "General: Rp 170,000",
+          "Unviersitas Nasional Students: Rp 85,000",
+          "Phase 2 (August 12 - August 23, 2024)",
+          "General: Rp 200,000",
+          "Universitas Nasional Students: Rp 100,000",
+        ],
       },
       {
-        "question": "Kapan batas akhir pendaftaran Scientific Paper Competition (SPC)?",
-        "answer": [
-          "Batas akhir pendaftaran Scientific Paper Competition pada tanggal 23 Agustus 2024"
-        ]
-      }
+        question:
+          "When is the registration deadline for the Scientific Paper Competition (SPC)?",
+        answer: [
+          "The registration deadline for the Scientific Paper Competition is August 23, 2024",
+        ],
+      },
+      {
+        question: "When will the winners be announced?",
+        answer:
+          "The winners will be announced on October 17, 2024, after the final round sessions.",
+      },
+      {
+        question: "Where can I see the winner announcement?",
+        answer:
+          "The winner announcement will be available on the website (link caturnawa).",
+      },
     ],
   },
 
@@ -934,74 +1035,74 @@ requirements: [
     description:
       "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
     timeline: timelinesSMC,
-    guideBook: "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
+    guideBook:
+      "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
-requirements: [
-  {
-    index: 1,
-    detail:
-      "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
-  },
-  {
-    index: 2,
-    detail:
-      "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
-  },
-  {
-    index: 3,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
-  },
-  {
-    index: 4,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
-  },
-  {
-    index: 5,
-    detail:
-      "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
-  },
-  {
-    index: 6,
-    detail:
-      "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
-  },
-  {
-    index: 7,
-    detail:
-      "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
-  },
-  {
-    index: 8,
-    detail:
-      "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
-  },
-],
+    requirements: [
+      {
+        index: 1,
+        detail:
+          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+      },
+      {
+        index: 2,
+        detail:
+          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+      },
+      {
+        index: 3,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+      },
+      {
+        index: 4,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+      },
+      {
+        index: 5,
+        detail:
+          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+      },
+      {
+        index: 6,
+        detail:
+          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+      },
+      {
+        index: 7,
+        detail:
+          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+      },
+      {
+        index: 8,
+        detail:
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+      },
+    ],
 
     judgesData: [
       {
         index: 1,
-        name: "Rita Sri Hastuti",
-        image: rita,
-        lastEducation: "LPK Tarakanita Jakarta",
-        description:
-          "Rita Sri Hastuti is a highly influential figure in the field of Indonesian journalism. With her extensive and diverse experience across various media domains and her significant positions in organizations like PWI, Rita has made a substantial contribution to the development of the journalism profession in Indonesia.\n\nAs a member of PWI, even holding important positions at the central level, Rita not only represents success in her own journalistic career but also plays a role in shaping the direction and policies of the organization that impact thousands of journalists across Indonesia.\n\nMoreover, Rita's career journey, which spans various media fields—from newspapers, magazines, radio, and television to internet-based mass media—demonstrates her flexibility and ability to adapt to technological advancements and trends in the media industry.\n\nRita's role in business management and public relations (PR) further adds another dimension to her experience and expertise. Her involvement as a member and executive of the Indonesian Film Censorship Board (LSF) highlights her contribution to the realm of media policy and regulation.",
-        achievements: [
-          "Winner of the 2022 Adinegoro Journalism Award by the Indonesian Journalists Association (PWI) Central.",
-        ],
+        name: "Jentoni Pakpahan",
+        image: jentoni,
+        linkedin : "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
+        lastEducation: "Universitas Nasional",
+        description: "",
+        achievements: [],
         experience: [
           {
-            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-            eTime: "March 2022 - Present",
-            place: "Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
+            eTitle: "Line Producer - MNC Picture",
+            eTime: "October 2020 - Present",
+            place: "Jakarta, Indonesia",
+          },
+          {
+            eTitle: "Assistant Producer",
+            eTime: "April 2015 - October 2020",
+            place: "Jakarta, Indonesia",
           },
         ],
       },
@@ -1009,6 +1110,7 @@ requirements: [
         index: 2,
         name: "Kusen Dony Hermansyah",
         image: kusen,
+        linedin : "",
         lastEducation:
           "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
         description:
@@ -1021,13 +1123,27 @@ requirements: [
         ],
         experience: [
           {
-            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-            eTime: "March 2022 - Present",
+            eTitle:
+              "Lecturer in Documentary Film, Jakarta State Polytechnic of Creative Media",
             place: "Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
+          },
+          {
+            eTitle:
+              "Lecturer in World Film History and Fundamentals of Film Art, Jakarta Institute of the Arts",
+            place: "Indonesia",
+          },
+          {
+            eTitle:
+              "Deputy Dean I of the Faculty of Film & Television, Jakarta Institute of the Arts",
+            place: "Indonesia",
+          },
+          {
+            eTitle: "Member of the Jakarta Arts and Culture Foundation (YSBJ)",
+            place: "Indonesia",
+          },
+          {
+            eTitle: "Film Editor, since 1994",
+            place: "Indonesia",
           },
         ],
       },
@@ -1035,6 +1151,7 @@ requirements: [
         index: 3,
         name: "Raden Wardana",
         image: Daniel,
+        linkedin : "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
         lastEducation:
           "Master's degree, Film/Video dan Fotografi at Bond University",
         description:
@@ -1123,28 +1240,40 @@ requirements: [
     ],
     faqs: [
       {
-        "question": "Bagaimana cara mendaftar Short Movie Competition (SMC)?",
-        "answer": [
-          "Buka web browser Anda dan kunjungi situs web CATURNAWA (link)",
-          "Scroll ke bawah halaman sampai Anda menemukan bagian \"Short Movie Competition\"",
-          "Klik tombol \"Daftar Sekarang/Register Now\"",
-          "Isi form pendaftaran dan lengkapi semua data yang diperlukan",
-          "Lakukan pemeriksaan kembali pada data-data yang telah diisi",
-          "Setelahnya Anda dapat melakukan pembayaran pada tombol pembayaran"
-        ]
+        question: "How do I register for the Short Movie Competition (SMC)?",
+        answer: [
+          "Open your web browser and visit the CATURNAWA website (link)",
+          'Scroll down the page until you find the "Short Movie Competition" section',
+          'Click the "Register Now" button',
+          "Fill out the registration form and complete all the required information",
+          "Review the entered data",
+          "Then you can make the payment by clicking the payment button",
+        ],
       },
       {
-        "question": "Berapa biaya pendaftaran Short Movie Competition (SMC)?",
-        "answer": [
-          "Untuk biaya pendaftaran dari Short Movie Competition sebesar Rp 00.000"
-        ]
+        question:
+          "What is the registration fee for the Short Movie Competition (SMC)?",
+        answer: [
+          "The registration fee for the Short Movie Competition is Rp 00,000",
+        ],
       },
       {
-        "question": "Kapan batas akhir pendaftaran Short Movie Competition (SMC)?",
-        "answer": [
-          "Batas akhir pendaftaran Short Movie Competition pada tanggal 23 Agustus 2024"
-        ]
-      }
+        question:
+          "When is the registration deadline for the Short Movie Competition (SMC)?",
+        answer: [
+          "The registration deadline for the Short Movie Competition is August 23, 2024",
+        ],
+      },
+      {
+        question: "When will the winners be announced?",
+        answer:
+          "The winners will be announced on October 17, 2024, after the final round sessions.",
+      },
+      {
+        question: "Where can I see the winner announcement?",
+        answer:
+          "The winner announcement will be available on the website (link caturnawa).",
+      },
     ],
   },
 
@@ -1220,13 +1349,13 @@ requirements: [
           "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
       },
     ],
-    
 
     judgesData: [
       {
         index: 1,
         name: "Adam Adiwinata",
         image: adam,
+        linkedin : "https://www.linkedin.com/in/adam-adiwinata-9028135b/?jobid=1234",
         lastEducation:
           "MASTER, Renewable and Clean Energy - University of Dayton",
 
@@ -1310,6 +1439,7 @@ requirements: [
         index: 2,
         name: "Prof. Dr. Eng. Eniya Listiani Dewi",
         image: eniyas,
+        linkedin : "https://www.linkedin.com/in/eniya-listiani-dewi-a17b6260/?jobid=1234",
         lastEducation: "Master's degree from Waseda University. Japan",
 
         description:
@@ -1395,6 +1525,7 @@ requirements: [
         index: 1,
         name: "Jason Amiri",
         image: jason,
+        linkedin : "https://www.linkedin.com/in/jasonamiri/?jobid=1234",
         lastEducation:
           "Master of Science (M.Sc.), Mechanical Engineering - University of Tehran",
         description:
@@ -1421,6 +1552,7 @@ requirements: [
         index: 2,
         name: "Judge kdbi 2",
         image: lizie,
+        linkedin : "https://www.linkedin.com/in/lizie-daniela-tentler-prola-175b0934/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1446,6 +1578,7 @@ requirements: [
         index: 3,
         name: "Judge kdbi 3",
         image: ovi,
+        linkedin : "https://www.linkedin.com/in/olding/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1470,29 +1603,39 @@ requirements: [
     ],
     faqs: [
       {
-        question: "What Is Unas Fest?",
+        question: "What is the theme for the International Seminar?",
         answer:
-          "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
+          'The theme for the UNAS FEST 2024 International Seminar is "Exploring the Potential of Renewable Energy Through Technology Innovation to Achieve Global Green Momentum". This theme encompasses three sub-themes is Energy Transition Policy Towards Global Green Momentum, Technology Integration in Renewable Energy Exploration, and Climate Change Mitigation by Utilizing Technology Innovation.',
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question: "How do I register for the International Seminar?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "You can register for the International Seminar by clicking on the registration link provided on the UNAS FEST 2024 event poster.",
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question: "Is there a registration fee for the International Seminar?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "No, there is no registration fee for the International Seminar.",
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question: "Where will the International Seminar be held?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "The International Seminar will be held both offline at Universitas Nasional and online via Zoom room which will be provided after registration.",
       },
       {
-        question: "When Does Unas Fest 2024 Start?",
+        question:
+          "What are the benefits I will get as a participant of the International Seminar.",
+        answer: [
+          "Gain insights related to the seminar theme",
+          "Get networking opportunities",
+          "Enhance critical thinking skills",
+        ],
+      },
+      {
+        question:
+          "Will participants of the International Seminar receive a certificate?",
         answer:
-          "Students who register themselves on the registration link that has been listed on the UNAS FEST 2023 website.",
+          "Yes, all participants will receive an E-Certificate sent via email to the same address provided during registration.",
       },
     ],
   },

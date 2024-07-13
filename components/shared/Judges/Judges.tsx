@@ -11,7 +11,6 @@ import {
   DrawerContent,
   DrawerPortal,
   DrawerOverlay,
-  DrawerClose,
 } from "@/components/ui/drawer";
 import {
   Accordion,
@@ -22,13 +21,14 @@ import {
 import { useState } from "react";
 import linkedin from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import { MoveRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface judgesProps {
   judgesData: activitiesData["judgesData"];
-  color: string;
 }
 
-const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
+const Judges: React.FC<judgesProps> = ({ judgesData }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -83,7 +83,7 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                 </div>
                 {hoveredIndex === index && (
                   <div
-                    className={`absolute top-28 bg-black p-5 text-white ${
+                    className={`absolute top-28 md:top-44 md:left-12 bg-black p-5 text-white ${
                       judgesData.length === 2 ? "w-[70%]" : "w-[70%]"
                     }`}
                   >
@@ -174,8 +174,10 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                           <p className="pb-6 md:text-xl">
                                             {exp.place}
                                           </p>
-                                          <p>{exp.eDesc.dDetail}</p>
-                                          {exp.eDesc.dPoint && (
+                                          {exp.eDesc?.dDetail && (
+                                            <p>{exp.eDesc.dDetail}</p>
+                                          )}
+                                          {exp.eDesc?.dPoint && (
                                             <ul className="list-inside list-disc">
                                               {exp.eDesc.dPoint.map(
                                                 (point, j) => (
@@ -188,16 +190,20 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
                                       </AccordionItem>
                                     ))}
                                   </Accordion>
-                                  <div className="my-10 flex w-[80%] cursor-pointer items-center justify-center bg-[#1F1E23] py-1 hover:opacity-90">
-                                    <Image
-                                      src={linkedin}
-                                      alt="linkedin"
-                                      width={40}
-                                    />
-                                    <p className="pl-5 text-white">
-                                      Lorem, ipsum.
-                                    </p>
-                                  </div>
+                                  {prop.linkedin && (
+                                    <Link href={prop.linkedin}>
+                                      <div className="my-10 flex w-[80%] cursor-pointer items-center justify-center bg-[#1F1E23] py-1 hover:opacity-90">
+                                        <Image
+                                          src={linkedin}
+                                          alt="linkedin"
+                                          width={40}
+                                        />
+                                        <p className="pl-5 text-white">
+                                          {prop.name}
+                                        </p>
+                                      </div>
+                                    </Link>
+                                  )}
                                 </div>
                               </div>
                             </div>
@@ -222,4 +228,4 @@ const MissionsSlider: React.FC<judgesProps> = ({ judgesData, color }) => {
   );
 };
 
-export default MissionsSlider;
+export default Judges;

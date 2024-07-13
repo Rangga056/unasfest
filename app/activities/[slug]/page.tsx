@@ -8,7 +8,6 @@ import {
   CardContent,
   CardDescription,
 } from "@/components/ui/card";
-import { activitiesData } from "@/lib/types/Activities";
 import InfiniteSliding from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import TimelineCards from "@/components/ui/timelineCards";
@@ -24,15 +23,11 @@ type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
-  // console.log("params", params.slug);
   const competition = Activities.find((comp) => comp.path === params.slug);
-
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
   }
-
   const requirementsData = competition.requirements;
-
   const InfiniteSlidingProps = {
     icon: competition.infiniteSlidingIcon.src,
     text: competition.infiniteSlidingText,
@@ -130,7 +125,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         timelines={competition.timeline}
       />
 
-      {params.slug !== "semnas" && (
+      {params.slug !== "international-seminar" && (
         <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
           <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
             competition judges
@@ -141,7 +136,6 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardContent className="h-full w-full px-0">
             <Judges
               judgesData={competition.judgesData}
-              color={competition.color}
             />
           </CardContent>
         </Card>
@@ -162,7 +156,6 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
               </h1>
               <Judges
                 judgesData={competition.judgesData}
-                color={competition.color}
               />
             </CardContent>
 
@@ -173,7 +166,6 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
               {competition.judgesData2 && (
                 <Judges
                   judgesData={competition.judgesData2}
-                  color={competition.color}
                 />
               )}
             </CardContent>
@@ -197,7 +189,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           alt="toa"
           width={400}
           height={400}
-          className="absolute -bottom-4 right-0 sm:hidden lg:inline-block"
+          className="absolute -bottom-4 right-0 hidden lg:inline-block"
         />
       </div>
 
