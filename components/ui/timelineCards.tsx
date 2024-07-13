@@ -19,7 +19,7 @@ interface Props extends timelinesDatasProps {
 
 function PosterCard({ title, description, timelines, children }: Props) {
   return (
-    <section className="relative m-auto mb-12 mt-20 w-full max-w-screen-xl lg:w-[90%]">
+    <section className="relative m-auto mb-12 mt-20 w-full max-w-screen-xl lg:w-[90%] overflow-x-hidden">
       <Card className="overflow-hidden pb-2 text-center">
         <CardTitle className="text-3xl font-semibold leading-normal tracking-wide md:text-4xl lg:text-5xl">
           {title}
