@@ -11,6 +11,7 @@ import { faqsData } from "@/constants/Faqs";
 import SpecialBanner from "@/components/shared/Home/SpecialBanner";
 import Star from "@/public/assets/icons/star.png";
 import ActivitySlider from "@/components/shared/Home/ActivitySlider";
+import ContactHome from "@/components/shared/Home/ContactHome";
 
 export default function Home() {
   const InfiniteSlidingProps = {
@@ -48,7 +49,7 @@ export default function Home() {
       {/* FAQ Component   */}
       <Faq title="frequently asked questions" faqsData={faqsData} />
       {/* Contact Component  */}
-      {/* <Contact /> */}
+      <ContactHome />
     </main>
   );
 }
