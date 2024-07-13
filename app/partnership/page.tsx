@@ -10,10 +10,10 @@ import contactsm from "@/public/assets/images/Partnership/contactsm.png";
 import whatsap from "@/public/assets/icons/whatsap.png";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
-import { faqsPartnership } from "@/constants/Faqs";
 import { contactsData } from "@/constants/Contacts";
 import Link from "next/link";
+import { partnership } from "@/constants/Partnership";
+import { partnershipDataProps } from "@/lib/types/Partnership";
 
 const Partnership = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -40,7 +40,7 @@ const Partnership = () => {
       <div className="mx-auto max-w-screen-xl">
         <Card className="container overflow-hidden rounded-none pb-2">
           <CardContent className="p-0 text-center ">
-            <CardTitle className="mx-auto items-center pb-4 text-center text-[45px] font-normal leading-relaxed tracking-wide md:w-[80%] lg:text-6xl">
+            <CardTitle className="mx-auto items-center pb-4 text-center text-[45px] font-normal leading-tight md:w-[80%] md:leading-relaxed md:tracking-wide lg:text-6xl">
               Sponsor Our Competition for the Future of Energy
             </CardTitle>
 
@@ -57,106 +57,25 @@ const Partnership = () => {
       <Card className="mb-12 w-full overflow-hidden rounded-none bg-[#1F1E23] py-[70px]">
         <div className="mx-auto max-w-screen-xl">
           <div className="mx-auto md:w-[1193px]">
-            <CardTitle className="text-center pb-10 font-inter text-3xl font-bold uppercase text-white md:text-5xl">
+            <CardTitle className="pb-10 text-center font-inter text-3xl font-bold uppercase text-white md:text-5xl">
               our sponsor
             </CardTitle>
             <div className="flex flex-wrap justify-center gap-5">
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
-              <div className="w-80 bg-white p-7 md:w-96">
-                <Image src={sample} alt="sample" className="mx-auto" />
-                <h3 className="mt-2 text-base">Good Day</h3>
-                <p className="font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolores, in! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Tempora, nesciunt.
-                </p>
-                <Button className="mt-5 rounded-none px-10 py-3">
-                  See More
-                </Button>
-              </div>
+              {partnership.map((item) => (
+                <div key={item.index} className="w-80 bg-white p-7 md:w-96">
+                  <Image src={item.image} alt="sample" className="mx-auto" />
+                  <h3 className="mt-2 text-base">{item.title}</h3>
+                  <p className="font-semibold">{item.description}</p>
+                  <Link href={item.link}>
+                    <Button className="mt-5 rounded-none px-10 py-3">
+                      See More
+                    </Button>
+                  </Link>
+                </div>
+              ))}
             </div>
           </div>
         </div>
-      </Card>
-
-      <Card className="mx-auto w-full max-w-screen-xl flex-col items-center overflow-hidden lg:w-[90%]">
-        <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
-          frequently asked questions
-        </CardTitle>
-        <CardContent className="lg:w-[65%] lg:pl-12">
-          <FaqActivities faqs={faqsPartnership} />
-        </CardContent>
       </Card>
 
       <Card className="mx-auto max-w-screen-xl">

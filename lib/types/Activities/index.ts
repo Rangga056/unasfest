@@ -3,8 +3,8 @@ import { StaticImageData } from "next/image";
 export interface activitiesData {
   path: string;
   title: string;
-  coverImage: StaticImageData | string;
-  contact: StaticImageData | string;
+  coverImage: StaticImageData;
+  contact: StaticImageData;
   contactNumber: string;
   description: string;
   color: string;
@@ -25,15 +25,16 @@ export interface activitiesData {
   judgesData: {
     index: number;
     name: string;
-    image: StaticImageData | string;
+    linkedin?: string
+    image: StaticImageData;
     lastEducation: string;
     description: string;
     achievements: string[];
     experience: {
       eTitle: string;
       place?: string;
-      eTime: string;
-      eDesc: {
+      eTime?: string;
+      eDesc?: {
         dDetail?: string;
         dPoint?: string[];
       };
@@ -42,7 +43,8 @@ export interface activitiesData {
   judgesData2: {
     index: number;
     name: string;
-    image: StaticImageData | string;
+    linkedin: string;
+    image: StaticImageData;
     lastEducation: string;
     description: string;
     achievements: string[];
@@ -50,7 +52,7 @@ export interface activitiesData {
       eTitle: string;
       place?: string;
       eTime: string;
-      eDesc: {
+      eDesc?: {
         dDetail?: string;
         dPoint?: string[];
       };

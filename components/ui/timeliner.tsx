@@ -11,9 +11,9 @@ const Timeliner = ({ timelines }: timelinesDatasProps) => {
             index % 2 === 0 ? styles.rightTimeline : styles.leftTimeline
           }`}
         >
-          <div className="flex md:py-5 md:mx-10 relative">
+          <div className="flex md:py-5 md:mx-10 relative ">
             {index % 2 === 0 ? ( // Check if it's an even index
-              <div className="flex w-full">
+              <div className="flex w-full h-36 md:h-48">
                 <div
                   className={`w-3/12 flex flex-col justify-center items-center font-bungee -space-y-1.5 text-white ${styles.datebox}`}
                   style={{
@@ -33,7 +33,7 @@ const Timeliner = ({ timelines }: timelinesDatasProps) => {
               </div>
             ) : (
               // If it's an odd index
-              <div className="flex w-full sm:flex-row-reverse md:flex-row">
+              <div className="flex w-full sm:flex-row-reverse  h-36 md:h-48 md:flex-row">
                 <div
                   className={`w-9/12 font-inter text-left p-4 flex flex-col justify-center items-start ${styles.descriptionbox}`}
                 >
