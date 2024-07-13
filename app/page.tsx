@@ -29,21 +29,18 @@ export default function Home() {
       <div className="container mt-20 pr-0">
         <ActivitySlider props={postersData} />
       </div>
-
       {/* Benefit  */}
       <div className="container mt-20">
         <SpecialBanner />
       </div>
       <div className="mt-20">
         {/* Special Banner */}
-
         <Benefit />
         {/* Gallery Component  */}
       </div>
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
-
       {/* Timeline Component */}
       <Timeline />
       {/* FAQ Component   */}
