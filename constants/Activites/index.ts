@@ -33,7 +33,7 @@ import lizie from "@/public/assets/images/competition/semnas Lizie Daniella.jpeg
 import ovi from "@/public/assets/images/competition/semnas Ovi Lian Ding.jpeg";
 
 //cover Image
-import kdbiCover from "@/public/assets/images/competition/kdbiCover.jpg";
+import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
 import edcCover from "@/public/assets/images/competition/edcCover.png";
 import scpCover from "@/public/assets/images/competition/scpCover.png";
 import smcCover from "@/public/assets/images/competition/smcCover.png";
