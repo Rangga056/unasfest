@@ -72,9 +72,9 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                   <Image
                     src={prop.image}
                     alt={prop.name}
-                    className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px]"
+                    className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px] lg:px-4"
                   />
-                  <div className="space-y-0 pb-5 font-inter">
+                  <div className="px-4 font-inter">
                     <h1 className="text-lg font-bold">{prop.name}</h1>
                     <h2 className="w-[300px] text-base lg:w-[400px]">
                       {prop.lastEducation}

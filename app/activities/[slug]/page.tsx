@@ -125,6 +125,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         timelines={competition.timeline}
       />
 
+      {/* JUDGES */}
+
       {params.slug !== "international-seminar" && (
         <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
           <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
@@ -180,16 +182,16 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
             frequently asked questions
           </CardTitle>
-          <CardContent className="lg:w-4/5 lg:pl-12">
+          <CardContent className="lg:w-3/4 lg:pl-12">
             <FaqActivities faqs={competition.faqs} />
           </CardContent>
         </Card>
         <Image
           src={toa}
           alt="toa"
-          width={400}
-          height={400}
-          className="absolute -bottom-4 right-0 hidden lg:inline-block"
+          width={510}
+          height={510}
+          className="absolute -bottom-44 right-0 hidden lg:inline-block"
         />
       </div>
 

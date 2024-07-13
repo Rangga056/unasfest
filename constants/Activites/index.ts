@@ -5,7 +5,6 @@ import scpContact from "@/public/assets/images/home/contactUs/spcContact.png";
 import smcContact from "@/public/assets/images/home/contactUs/smcContact.png";
 import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.png";
 
-import anies from "@/public/assets/images/competition/anies.png";
 
 // judges photos kdbi
 import leonardus from "@/public/assets/images/competition/kdbi Leonardus Hans.jpg";
@@ -38,6 +37,7 @@ import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
 import edcCover from "@/public/assets/images/competition/edcCover.png";
 import scpCover from "@/public/assets/images/competition/scpCover.png";
 import smcCover from "@/public/assets/images/competition/smcCover.png";
+import semnasCover from "@/public/assets/images/competition/semnasCover.png"
 //import icon buat infiniteSlidingIcon
 import kdbiSlidingIcon from "@/public/assets/icons/megaphone.png";
 import edcSlidingIcon from "@/public/assets/icons/smile-face.png";
@@ -1280,7 +1280,7 @@ export const Activities = [
   {
     path: "international-seminar",
     title: "international seminar",
-    coverImage: smcCover,
+    coverImage: semnasCover,
     contact: semnasContact,
     contactNumber: "https://wa.me/6288219445100",
     color: "#853EB6",
