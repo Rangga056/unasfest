@@ -54,7 +54,11 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
                 </div>
                 <p className="w-full font-bungee text-4xl">“</p>
                 <div className="w-full text-sm md:text-base lg:text-xl">
-                  <p dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(faq.answer) }} />
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(faq.answer),
+                    }}
+                  />
                 </div>
               </div>
             </SwiperSlide>
