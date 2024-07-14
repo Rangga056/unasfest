@@ -56,7 +56,7 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
                 <div className="w-full text-sm md:text-base lg:text-xl">
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: DOMPurify.sanitize(faq.answer),
+                      __html: DOMPurify.sanitize(faq.answer)
                     }}
                   />
                 </div>
