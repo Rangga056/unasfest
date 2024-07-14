@@ -1,37 +1,38 @@
 export const faqsData = [
-    {
-        index: 0,
-        quetion: "What is UNASFEST?1",
-        answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
-    },
-    {
-        index: 1,
-        quetion: "What is UNASFEST?2",
-        answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vero reprehenderit eligendi dolorem?  enliven and celebrate the 74th Anniversary of National University. List of competitions",
-    },
-    {
-        index: 2,
-        quetion: "What is UNASFEST?3",
-        answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ab iure accusantium ducimus tempore, o enliven and celebrate the 74th Anniversary of National University. List of competitionsmnis sed illo asperiores expedita.s",
-    },
-    {
-        index: 3,
-        quetion: "What is UNASFEST?4",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, placeat laudantium ipsam aspernatur cup enliven and celebrate the 74th Anniversary of National University. List of competitionsiditate dolor harum.",
-    },
-    {
-        index: 4,
-        quetion: "What is UNASFEST?5",
-        answer: "National University Festival 2023 (UNAS FEST 2023) is one of the annual activities held to enliven and celebrate the 74th Anniversary of National University. List of competitions",
-    },
-    {
-        index: 5,
-        quetion: "What is UNASFEST?6",
-        answer: "Lorem ipsum dolor sit am enliven and celebrate the 74th Anniversary of National University. List of competitionset, enliven and celebrate the 74th Anniversary of National University. consectetur adipisicing elit.",
-    },
-    {
-        index: 6,
-        quetion: "What is UNASFEST?7",
-        answer: "Lorem ipsum dolor sit enliven and celebrate the 74th Anniversary of National University. List of competitionsamet, consectetur adipisicing elit. Aspernatur sequi atque explicabo ab accusamus",
-    },
-]
+  {
+    index: 0,
+    quetion: "How do I register for the competition of UNAS FEST?",
+    answer:
+      "Visit the CATURNAWA website, go to 'Indonesian Language Debate Competition', click 'Register Now', fill the form, review, and make the payment",
+  },
+  {
+    index: 1,
+    quetion: "How do I register for the competition of UNAS FEST?",
+    answer:
+      "Click the posters at the top of the homepage to register for the competition or click the 'Register' button on the activity page",
+  },
+  {
+    index: 2,
+    quetion: "How much is the registration fee for the UNAS FEST competition?",
+    answer:
+      "The registration fees vary across competitions, starting from Rp 300,000 to Rp 550,000",
+  },
+  {
+    index: 3,
+    quetion: "When will the winners be announced?",
+    answer:
+      "The deadline for registration for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024",
+  },
+  {
+    index: 4,
+    quetion: "When will the winners be announced?",
+    answer:
+      "The winners will be announced on October 17, 2024, after the final round sessions",
+  },
+  {
+    index: 5,
+    quetion: "Where can I see the winner announcement?",
+    answer:
+      "The winner announcement will be available on this <a href='https://caturnawa.com'>website</a>",
+  },
+];

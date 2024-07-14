@@ -222,8 +222,19 @@
     --swiper-pagination-bullet-horizontal-gap: 5px;
     --swiper-pagination-bullet-vertical-gap: 6px;
   }
-  
+
   .custom-pagination .swiper-pagination-bullet-active {
     width: 50px;
   }
+}
+
+a[href="https://caturnawa.com"]
+{
+  color: #853eb6;
+}
+
+a[href="https://caturnawa.com"]:hover,a[href="https://caturnawa.com"]:focus
+{
+  text-decoration: underline;
+  cursor: pointer;
 }

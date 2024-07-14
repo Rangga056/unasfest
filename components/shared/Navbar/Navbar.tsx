@@ -80,7 +80,7 @@ export default function Navbar() {
               menuOpen ? "top-20" : "-top-96"
             }`}
           >
-            <NavigationMenuList className="flex-col gap-6 text-xl md:flex-row lg:gap-x-16">
+            <NavigationMenuList className="flex-col gap-10 text-xl md:flex-row">
               {navMenu.map(({ title, path, child }) => {
                 if (child)
                   return (
