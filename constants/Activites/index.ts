@@ -38,6 +38,7 @@ import edcCover from "@/public/assets/images/competition/edcCover.png";
 import scpCover from "@/public/assets/images/competition/scpCover.png";
 import smcCover from "@/public/assets/images/competition/smcCover.png";
 import semnasCover from "@/public/assets/images/competition/semnasCover.png"
+
 //import icon buat infiniteSlidingIcon
 import kdbiSlidingIcon from "@/public/assets/icons/megaphone.png";
 import edcSlidingIcon from "@/public/assets/icons/smile-face.png";

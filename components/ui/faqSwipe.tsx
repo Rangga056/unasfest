@@ -18,6 +18,7 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
     setActiveIndex(swiper.activeIndex);
   };
 
+
   return (
     <div>
       <Swiper
