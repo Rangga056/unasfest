@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import DOMPurify from "dompurify";
 
 import styles from "@/components/styles/faq.module.css";
 import "swiper/css";
@@ -53,7 +54,11 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
                 </div>
                 <p className="w-full font-bungee text-4xl">“</p>
                 <div className="w-full text-sm md:text-base lg:text-xl">
-                  {faq.answer}
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(faq.answer),
+                    }}
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -61,8 +66,8 @@ const FaqSwipe = ({ faqsData }: faqsDataProps) => {
         })}
       </Swiper>
 
-      <div className="absolute -bottom-14 left-7 z-10 flex h-52 md:h-36 items-center space-x-4">
-        <div className="custom-pagination-faq"/>
+      <div className="absolute -bottom-14 left-7 z-10 flex h-52 items-center space-x-4 md:h-36">
+        <div className="custom-pagination-faq" />
         <div className="swiper-button-next-faq cursor-pointer bg-transparent p-2">
           <MoveRight size={30} className="text-page-black" />
         </div>
