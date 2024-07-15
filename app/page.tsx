@@ -30,7 +30,7 @@ export default function Home() {
         <ActivitySlider props={postersData} />
       </div>
       {/* Benefit  */}
-      <div className="container mt-20">
+      <div className="container mt-20 flex items-center justify-center">
         <SpecialBanner />
       </div>
       <div className="mt-20">

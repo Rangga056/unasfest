@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ContactHome = () => {
   return (
-    <Card className="relative mx-auto mb-12  w-full max-w-screen-xl pt-0 md:mt-20 lg:w-[90%]">
+    <Card className="relative mx-auto mb-12 w-full max-w-screen-xl p-0 md:mt-20 lg:w-[90%]">
       <div>
         <Image
           src={ContactImage}

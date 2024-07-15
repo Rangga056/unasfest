@@ -32,8 +32,8 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
 
   return (
     <div
-      style={{ willChange: "transform", marginTop: "80px"}}
-      className="flex h-20 w-full -rotate-2 items-center overflow-x-hidden bg-page-black md:h-24"
+      style={{ willChange: "transform", marginTop: "80px" }}
+      className="flex h-16 w-full -rotate-2 items-center overflow-x-hidden bg-page-black md:h-24"
     >
       {/* Wrapping div for seamless looping */}
       <motion.div
@@ -64,7 +64,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
                   height={29}
                   className="object-contain"
                 />
-                <span className="whitespace-nowrap font-bungee text-[20px] md:text-[24px] font-medium text-page-white">
+                <span className="whitespace-nowrap font-bungee text-[20px] font-medium text-page-white md:text-[24px]">
                   {item.text}
                 </span>
               </div>

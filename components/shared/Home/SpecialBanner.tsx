@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const SpecialBanner = () => {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center md:flex-row md:justify-between">
-      <div className="relative aspect-square h-auto w-screen max-w-[600px]">
+    <div className="flex h-full w-[90%] flex-col items-center justify-center md:flex-row md:justify-between">
+      <div className="relative aspect-square h-auto w-[100svw] max-w-[600px]">
         <Image
           src={SpecialBannerImage}
           alt="International seminar image"
