@@ -230,11 +230,42 @@
 
 a[href="https://caturnawa.com"]
 {
-  color: #853eb6;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 a[href="https://caturnawa.com"]:hover,a[href="https://caturnawa.com"]:focus
 {
-  text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .text-color {
+    color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 580px */
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 600px) {
+  .text-color {
+    color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 581px hingga 600px */
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 760px) {
+  .text-color {
+    color: blue; /* Warna teks untuk tampilan mobile dengan lebar layar 601px hingga 760px */
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 768px) {
+  .text-color {
+    color: #FFFAF0; /* Warna teks untuk tampilan mobile dengan lebar layar 761px hingga 768px */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .text-color {
+    color: #004AAD; /* Warna teks untuk tampilan desktop */
+  }
 }
