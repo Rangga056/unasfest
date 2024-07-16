@@ -74,7 +74,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                     alt={prop.name}
                     className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px] lg:px-4"
                   />
-                  <div className="px-4 font-inter">
+                  <div className="lg:px-4 font-inter pb-6">
                     <h1 className="text-lg font-bold">{prop.name}</h1>
                     <h2 className="w-[300px] text-base lg:w-[400px]">
                       {prop.lastEducation}
@@ -116,7 +116,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                             </div>
                             <div className="relative z-50 mx-auto sm:w-[90%] sm:pt-10 md:w-[80%] md:pt-20">
                               <div className="flex flex-wrap">
-                                <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
+                                <h1 className="w-full text-2xl font-semibold uppercase text-center md:w-1/2 md:text-start">
                                   summary
                                 </h1>
                                 <p className="w-full sm:mt-5 md:w-1/2 md:text-lg">
@@ -138,7 +138,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                                 <ul className="mt-5 w-full list-inside list-disc md:w-1/2">
                                   {prop.achievements.map((achievement, i) => (
                                     <li
-                                      className="sm:mb-2 sm:text-xs md:mb-5 md:text-lg"
+                                      className="sm:mb-2 md:mb-5 md:text-lg"
                                       key={i}
                                     >
                                       {achievement}

@@ -68,7 +68,7 @@ export const timelinesHome = [
 
 export const timelinesEDC = [
   {
-    title: "Open Registrasi EDC",
+    title: "Open Registration EDC",
     description: "Open Registration for English Debate Competition",
     month: "JULY",
     date: "23",
