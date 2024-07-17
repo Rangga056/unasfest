@@ -62,7 +62,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
                   alt="icons"
                   width={44}
                   height={29}
-                  className="object-contain"
+                  className="object-contain "
                 />
                 <span className="whitespace-nowrap font-bungee text-[20px] font-medium text-page-white md:text-[24px]">
                   {item.text}

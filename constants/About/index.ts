@@ -12,6 +12,12 @@ import luminaVerde from "@/public/assets/images/mascots/Lumina-Verde.png";
 import rektorImg from "@/public/assets/images/steering-committees/rektor_unas.png";
 import wakilRektorAkademikImg from "@/public/assets/images/steering-committees/warek_akademik.png";
 import wakilRektorAdministrasiImg from "@/public/assets/images/steering-committees/warek_administrasi.png";
+// unas collaborate logo
+import hifiUnas from "@/public/assets/images/about-us/hifi-unas-logo.png";
+import mmUnas from "@/public/assets/images/about-us/MM-unas-logo.png";
+import unasTv from "@/public/assets/images/about-us/unastv-logo.png";
+import unasRadio from "@/public/assets/images/about-us/unasradio-logo.png";
+import { IM_Fell_Great_Primer } from "next/font/google";
 
 export const missions = [
   {
@@ -69,29 +75,28 @@ export const mascots = [
     img: younaImg,
     name: "youna",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Matahari memiliki filosofi sebagai sumber energi utama bagi kehidupan di bumi dan kesinambungan. Hal ini direpresentasikan dalam kepanitiaan UNAS FEST. Kepanitiaan menjadi sumber energi yang mendorong dan menggerakkan seluruh kegiatan UNAS FEST Tahun 2024. Layaknya matahari yang memberikan energi kepada planet, kepanitiaan memberikan energi untuk kesuksesan acara. Matahari selalu ada, terbit dan tenggelam setiap hari tanpa henti. Begitu juga dengan kepanitiaan UNAS FEST, mereka harus konsisten dalam menjalankan tugas pokok dan fungsinya untuk memastikan keberlanjutan acara UNAS FEST dari tahun ke tahun.",
   },
   {
     index: 2,
     img: nassaImg,
     name: "nassa",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Air menggambarkan fleksibilitas dan perubahan. Bentuknya yang fluida mencerminkan panitia UNAS FEST yang fleksibel namun tetap profesional, dan terus berubah menuju arah yang lebih baik. Warnanya yang biru mencerminkan terjaganya kedamaian dan kejernihan hati panitia UNAS FEST untuk keberlangsungan acara.",
   },
   {
     index: 3,
     img: alfestImg,
     name: "alfest",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Api memiliki filosofi sebagai kekuatan transformasi, dan kreativitas. UNASFEST merupakan festival ilmiah dimana ide-ide dan konsep-konsep kreatif bukan hanya berkembang, tetapi juga bertransformasi menjadi realitas yang dapat dinikmati oleh semua orang. Api juga menjadi simbol untuk membakar semangat dan motivasi. Dalam konteks UNAS FEST, Bentuk api yang dinamis  mencerminkan inovasi dan adaptasi UNAS FEST, serta warnanya yang merah menyala melambangkan besarnya energi, semangat, dan keberanian panitia UNAS FEST.",
   },
   {
     index: 4,
     img: luminaVerde,
     name: "lumina verde",
     description:
-      "Lumina Verde, peri kecil yang cerdas, adalah simbol kemajuan teknologi energi terbarukan. Sinar energi hijau terang melingkupi tubuh kristalnya yang berkilauan, menerangi jalan menuju masa depan yang lebih hijau. Tongkat sihir bambu berpanel surya di tangannya melambangkan penggunaan sumber daya alam berkelanjutan yang mengonversi sinar matahari menjadi energi bersih. Mahkota bunga dandelion di kepalanya melambangkan harapan dan regenerasi, sementara pakaian hijaunya yang elegan dengan motif daun dan bunga menegaskan komitmennya terhadap alam. Sayap kristal energinya menandakan potensi energi terbarukan yang tak terbatas. Ekspresi wajahnya yang ceria dan optimis menginspirasi kita untuk percaya pada potensi energi terbarukan dan semangat momentum hijau global.",
-    more: " Nama Lumina Verde berasal dari kata Latin &quot;Lumina&quot; yang berarti cahaya dan kata Italia &quot;Verde&quot; yang berarti hijau. Nama ini mencerminkan semangat inovasi energi terbarukan yang terang dan berkelanjutan, serta kekuatan dalam elemen Anemo dan Hydro untuk mengendalikan energi terbarukan dan menyebarkan kesadaran lingkungan.",
+      'Lumina Verde adalah simbol teknologi energi terbarukan yang kecil dan cerdas. Tabung kristalnya memantulkan sinar matahari, mengurangi panas dari matahari. Sayap berbentuk dandelion melambangkan regenerasi dan potensi energi, sementara kristal yang memberi energi menunjukkan output energi yang rendah. Simbol ini menginspirasi kita untuk memanfaatkan potensi energi terbarukan dan momentum energi global. Nama ini berasal dari bahasa Latin "Lumina"" yang berarti rumah dan "Verde" yang berarti air, yang menyoroti penggunaan inovatif energi Anemo dan Hydro untuk melindungi lingkungan.',
   },
 ];
 
@@ -114,5 +119,32 @@ export const steeringCommittees = [
     img: wakilRektorAdministrasiImg,
     name: "prof. Dr. Drs. Eko Sugiyanto, M.si.",
     position: "wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
+  },
+];
+
+export const unasCollaborate = [
+  {
+    index: 0,
+    img: hifiUnas,
+    alt: "hifi unas",
+    desc: "hifi unas",
+  },
+  {
+    index: 1,
+    img: mmUnas,
+    alt: "MM Unas",
+    desc: "mahasiswa mm unas",
+  },
+  {
+    index: 2,
+    img: unasTv,
+    alt: "Unas TV",
+    desc: "unas tv",
+  },
+  {
+    index: 3,
+    img: unasRadio,
+    alt: "Unas Radio",
+    desc: "unas radio 107.9fm",
   },
 ];

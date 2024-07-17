@@ -60,7 +60,7 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
                     alt="activity poster"
                     width={366}
                     height={483}
-                    className="md:w-[320px] relative h-auto w-[249px] object-contain lg:w-[366px]"
+                    className="relative h-auto w-[249px] object-contain md:w-[320px] lg:w-[366px]"
                   />
                 </CardContent>
               </Card>
@@ -81,3 +81,4 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
 };
 
 export default ActivitySlider;
+

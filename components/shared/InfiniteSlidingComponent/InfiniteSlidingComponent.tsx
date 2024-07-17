@@ -60,8 +60,8 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
                 <Image
                   src={item.icon}
                   alt="icons"
-                  width={60}
-                  height={60}
+                  width={44}
+                  height={29}
                   className="object-contain"
                 />
                 <span className="text-page-black font-bungee text-xl md:text-4xl font-medium whitespace-nowrap">

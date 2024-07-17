@@ -78,9 +78,9 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* INFINITE SLIDING */}
-        <Card className="mb-10 w-full text-page-black">
+        <div className="z-50 mb-10 h-32 w-full overflow-hidden pt-10 text-page-black md:overflow-visible">
           <InfiniteSliding props={InfiniteSlidingProps} />
-        </Card>
+        </div>
 
         {/* REQUIREMENTS */}
         <Card className="container relative mx-auto mb-12 overflow-hidden rounded-none pb-2 text-center">
@@ -136,9 +136,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             Competition Judges List
           </CardDescription>
           <CardContent className="h-full w-full px-0">
-            <Judges
-              judgesData={competition.judgesData}
-            />
+            <Judges judgesData={competition.judgesData} />
           </CardContent>
         </Card>
       )}
@@ -156,9 +154,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
               <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
                 agency government
               </h1>
-              <Judges
-                judgesData={competition.judgesData}
-              />
+              <Judges judgesData={competition.judgesData} />
             </CardContent>
 
             <CardContent className="mt-10 h-full w-full">
@@ -166,14 +162,11 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 agency non-government
               </h1>
               {competition.judgesData2 && (
-                <Judges
-                  judgesData={competition.judgesData2}
-                />
+                <Judges judgesData={competition.judgesData2} />
               )}
             </CardContent>
           </Card>
         </div>
-        
       )}
 
       {/* FAQ */}
@@ -197,7 +190,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       {/* CONTACT */}
       <Card className="pt-0">
-        <Contact contact={competition.contact} contactNumber={competition.contactNumber}/>
+        <Contact
+          contact={competition.contact}
+          contactNumber={competition.contactNumber}
+        />
       </Card>
     </section>
   );

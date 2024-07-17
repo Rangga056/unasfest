@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${bungee.variable} bg-page-white text-page-black overflow-x-hidden`}
+        className={`${inter.variable} ${bungee.variable} overflow-x-hidden bg-page-white text-page-black`}
       >
         {/* Navbar */}
         <Navbar />

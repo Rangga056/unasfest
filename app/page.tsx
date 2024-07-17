@@ -24,7 +24,10 @@ export default function Home() {
       {/* Hero  */}
       <Hero />
       {/* <AutoScrollComponent /> */}
-      <InfiniteSlidingComponent props={InfiniteSlidingProps} />
+      <div className="overflow-hidden pb-2 md:overflow-visible md:p-0">
+        <InfiniteSlidingComponent props={InfiniteSlidingProps} />
+      </div>
+
       {/* Activities  Slide*/}
       <div className="container mt-20 pr-0">
         <ActivitySlider props={postersData} />

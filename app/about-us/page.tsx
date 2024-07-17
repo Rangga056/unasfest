@@ -3,7 +3,12 @@ import AboutUsBanner from "@/public/assets/images/about-us/about-us-banner.png";
 import { Button } from "@/components/ui/button";
 import InfiniteSlidingComponent from "@/components/shared/InfiniteSlidingComponent/InfiniteSlidingComponent";
 import Slider from "@/components/shared/Slider/Slider";
-import { logoDetails, mascots, missions } from "@/constants/About";
+import {
+  logoDetails,
+  mascots,
+  missions,
+  unasCollaborate,
+} from "@/constants/About";
 //TODO:Import the icon for the InfiniteSlidingComponent
 import UnasfestLogo from "@/public/assets/icons/unasfest-icon-logo.png";
 import Star from "@/public/assets/icons/star-icon.svg";
@@ -60,10 +65,10 @@ const AboutUsPage = () => {
           </div>
         </div>
         {/* InfiniteSlidingText */}
-        <div className="z-10 mt-20 w-full text-black">
+        <div className="z-10 mt-20 h-24 w-full overflow-hidden pt-6 text-black md:overflow-visible ">
           <InfiniteSlidingComponent props={InfiniteSlidingProps} />
         </div>
-        <div className="container mt-24">
+        <div className="container mt-32">
           <h1 className="text-center font-bungee text-5xl font-semibold uppercase">
             our vision
           </h1>
@@ -98,8 +103,8 @@ const AboutUsPage = () => {
         <SteeringCommitteeSlider />
       </div>
       {/* Unasfest 2024 committee */}
-      <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white">
-        <div className="container flex h-full min-h-[300px] w-full max-w-[1180px] flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-cover bg-center">
+      <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
+        <div className="container flex aspect-square h-full min-h-[300px] w-full max-w-[1180px] flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-contain bg-center md:aspect-video md:max-h-[576px] ">
           <ul className="hidden list-disc items-center justify-center gap-x-10 text-xl font-semibold md:flex">
             <li className="list-none">1 project manager</li>
             <li>4 deputy manager</li>
@@ -190,7 +195,7 @@ const AboutUsPage = () => {
             {mascots.map((item) => (
               <div
                 key={item.index}
-                className="flex flex-1 flex-col items-center justify-between md:flex-row gap-x-10"
+                className="flex flex-1 flex-col items-center justify-between gap-x-10 md:flex-row"
               >
                 <Image
                   src={item.img}
@@ -202,7 +207,6 @@ const AboutUsPage = () => {
                 <div className="flex flex-col gap-y-6 text-center lg:text-left">
                   <h1 className="text-5xl font-bold uppercase">{item.name}</h1>
                   <p className="text-left text-xl">{item.description}</p>
-                  <p className="text-left text-xl">{item.more}</p>
                 </div>
               </div>
             ))}
@@ -225,11 +229,11 @@ const AboutUsPage = () => {
         </div>
       </div>
       {/* Unasfest 2023 mascot */}
-      <div className="relative mx-auto mt-36 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-page-lightblue px-32 py-10 lg:flex-row">
+      <div className="relative mx-auto mt-36 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-water-pool bg-cover bg-center px-32 py-10 lg:flex-row">
         <div className="flex-[1]">
           <Image
             src={Unasfest2023Macsot}
-            alt="uansfest 2023 mascot"
+            alt="unasfest 2023 mascot"
             width={520}
             className="bottom-10 left-0 aspect-square object-contain lg:absolute"
           />
@@ -252,10 +256,33 @@ const AboutUsPage = () => {
         <Gallery />
       </div>
       {/*TODO: Collaborations */}
-      <div className="mt-10 text-5xl">
-        <h1>      isi sesuai design figma
-</h1>
-    </div>
+      <div className="container mt-24 h-full px-3 text-5xl">
+        <h1 className="text-center font-bungee text-2xl md:text-5xl">
+          collaborate
+        </h1>
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-2 md:mt-24 md:gap-5">
+          {unasCollaborate.map((item) => (
+            <div
+              key={item.index}
+              className="flex h-[230px] w-[150px] flex-col justify-center gap-y-4 border border-page-black p-6 md:h-[350px] md:w-[250px] md:p-16"
+            >
+              <div className="flex justify-center">
+                <Image
+                  src={item.img.src}
+                  alt={item.alt}
+                  width={143}
+                  height={142}
+                  className="aspect-square object-contain"
+                />
+              </div>
+
+              <p className="text-center text-sm font-semibold md:text-xl">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
     </main>
   );
 };

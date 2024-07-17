@@ -100,6 +100,7 @@ const config = {
         "unasfest-committee":
           "url('/assets/images/about-us/unasfest-committee-bg.png')",
         "footer-wave": "url('/assets/images/footer/FooterIntersect.png')",
+        "water-pool": "url('/assets/images/about-us/water-bg.jpeg')",
       },
       borderRadius: {
         lg: "var(--radius)",
