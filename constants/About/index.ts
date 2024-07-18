@@ -148,3 +148,25 @@ export const unasCollaborate = [
     desc: "unas radio 107.9fm",
   },
 ];
+
+export const DPM = [
+  {
+    index: 1,
+    img: rektorImg,
+    name: "Dr. El Amry Bermawi Putera, M.a.",
+    position: "rektor unas",
+  },
+  {
+    index: 2,
+    img: wakilRektorAkademikImg,
+    name: "Prof. Dr. Suryono efendi, S.E., M.B.A., M.M.",
+    position:
+      "Wakil rektor Bidang Akademik, Kemahasiswaan dan Alumniroject Manager UNAS FEST 2023",
+  },
+  {
+    index: 3,
+    img: wakilRektorAdministrasiImg,
+    name: "prof. Dr. Drs. Eko Sugiyanto, M.si.",
+    position: "wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
+  },
+];

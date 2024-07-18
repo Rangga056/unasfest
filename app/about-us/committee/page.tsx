@@ -4,16 +4,18 @@ import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Image from "next/image";
 import Link from "next/link";
+import CommitteeSlider from "@/components/shared/AboutUs/CommitteSlider";
+import { DPM } from "@/constants/About";
 
 const page = () => {
   return (
     <div>
       {/* Hero Section*/}
-      <div className="container flex flex-col md:flex-row items-center justify-between mt-20 gap-3">
-        <h1 className="uppercase font-bungee text-3xl md:text-[53px] leading-normal font-medium w-full">
+      <div className="container mt-20 flex flex-col items-center justify-between gap-3 md:flex-row">
+        <h1 className="w-full font-bungee text-3xl font-medium uppercase leading-normal md:text-[53px]">
           who are the <br className="hidden md:block" /> unas fest committe?
         </h1>
-        <div className="text-xl flex justify-start item-center w-full">
+        <div className="item-center flex w-full justify-start text-xl">
           <p className="w-full md:w-4/5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -22,13 +24,13 @@ const page = () => {
         </div>
       </div>
       {/* Banner image */}
-      <div className="md:container w-full mt-16">
+      <div className="mt-16 w-full md:container">
         <Image
           src={bannerImg}
           alt="committe bannerImg"
-          className="w-full h-full object-contain object-center"
+          className="h-full w-full object-contain object-center"
         />
-        <ul className="mt-8 flex items-center justify-start md:justify-center flex-wrap gap-x-10 font-semibold text-base md:text-xl list-disc">
+        <ul className="mt-8 flex list-disc flex-wrap items-center justify-start gap-x-10 text-base font-semibold md:justify-center md:text-xl">
           <li className="list-none">1 project manager</li>
           <li>4 deputy manager</li>
           <li>15 assistant project manager</li>
@@ -36,23 +38,23 @@ const page = () => {
         </ul>
       </div>
       {/* Project Manager */}
-      <div className="max-w-[1560px] mx-auto mt-32">
-        <div className="bg-page-black flex flex-col md:flex-row w-full md:max-w-[1380px] ml-auto mr-6 relative">
+      <div className="mx-auto mt-32 max-w-[1560px] pl-10">
+        <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
           {/* Image */}
-          <div className="md:absolute -left-8 -top-8 p-5 md:p-0">
+          <div className="-left-8 -top-8 p-5 md:absolute md:p-0">
             <Image
               src={projectManagerImg}
               alt="project manager"
               width={380}
               height={530}
-              className="object-contain w-full md:w-auto h-full"
+              className="h-full w-full object-contain md:w-auto"
             />
           </div>
           {/* description */}
-          <div className="md:h-[530px] w-full md:w-3/4 md:pl-72 mx-auto flex flex-col gap-y-6 items-center justify-center text-xl text-page-white text-left p-5 md:p-0">
-            <div className="w-full flex flex-col items-start gap-y-3">
+          <div className="mx-auto flex w-full max-w-[678px] flex-col items-center justify-center gap-y-6 p-5 text-left text-xl text-page-white md:h-[530px] md:w-3/4 md:p-0 md:pl-[160px]">
+            <div className="flex w-full flex-col items-start gap-y-3">
               <p>Project Manager UNAS FEST 2024</p>
-              <h1 className="uppercase text-5xl font-bungee font-medium">
+              <h1 className="font-bungee text-5xl font-medium uppercase">
                 shafa sabrina
               </h1>
             </div>
@@ -67,7 +69,7 @@ const page = () => {
             </p>
           </div>
           {/* social media links */}
-          <div className="flex flex-col items-center justify-end pb-5 text-3xl text-page-white gap-y-2 absolute top-0 right-10 md:right-20 bg-page-green w-[54px] h-[200px] z-0">
+          <div className="absolute right-10 top-0 z-0 flex h-[200px] w-[54px] flex-col items-center justify-end gap-y-2 bg-page-green pb-5 text-3xl text-page-white md:right-32">
             <Link href="/">
               <Image
                 src={linkedinIcon}
@@ -89,7 +91,9 @@ const page = () => {
       </div>
       <div>
         {/* deputy managers */}
-        <div>images slider</div>
+        <div className="container">
+          <CommitteeSlider props={DPM} />
+        </div>
         {/*NOTE: image grid make separate component fecth data from database */}
         {/* debate departement */}
         <div>image grid</div>
