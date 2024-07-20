@@ -67,7 +67,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                   variant="secondary"
                   className="text-page-black"
                 >
-                  Sign Up
+                  <Link href={competition.path}>Sign Up</Link>
                 </Button>
                 <Button size="xl" variant="outline" className="bg-transparant">
                   See More

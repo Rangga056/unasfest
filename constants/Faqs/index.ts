@@ -19,7 +19,8 @@ export const faqsData = [
   },
   {
     index: 3,
-    quetion: "What is the deadline for registration for the UNAS FEST competition?",
+    quetion:
+      "What is the deadline for registration for the UNAS FEST competition?",
     answer:
       "The deadline for registration for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024.",
   },
@@ -33,7 +34,6 @@ export const faqsData = [
     index: 5,
     quetion: "Where can I see the winner announcement?",
     answer:
-      "The winner announcement will be available on this <a id='caturnawa' href='https://caturnawa.com'class='text-color'>website</a>",
+      "The winner announcement will be available on this <a id='caturnawa' href='https://caturnawa.unasfest.com'class='text-color'>website</a>",
   },
 ];
-
