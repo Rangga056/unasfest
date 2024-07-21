@@ -40,7 +40,7 @@ const Partnership = () => {
       <div className="mx-auto max-w-screen-xl">
         <Card className="container overflow-hidden rounded-none pb-2">
           <CardContent className="p-0 text-center ">
-            <CardTitle className="mx-auto items-center pb-4 text-center text-[45px] font-normal leading-tight md:w-[80%] md:leading-relaxed md:tracking-wide lg:text-6xl">
+            <CardTitle className="mx-auto items-center pb-4 text-center text-3xl font-normal leading-tight md:w-[80%] md:leading-relaxed md:tracking-wide lg:text-6xl">
               Sponsor Our Competition for the Future of Energy
             </CardTitle>
 
@@ -56,16 +56,15 @@ const Partnership = () => {
 
       <Card className="mb-12 w-full overflow-hidden rounded-none bg-[#1F1E23] py-[70px]">
         <div className="mx-auto max-w-screen-xl">
-          <div className="mx-auto md:w-[1193px]">
             <CardTitle className="pb-10 text-center font-inter text-3xl font-bold uppercase text-white md:text-5xl">
               our sponsor
             </CardTitle>
             <div className="flex flex-wrap justify-center gap-5">
               {partnership.map((item) => (
-                <div key={item.index} className="w-80 bg-white p-7 md:w-96">
-                  <Image src={item.image} alt="sample" className="mx-auto" />
+                <div key={item.index} className="w-80 bg-white p-7 md:w-96 flex flex-col justify-evenly">
+                  <Image src={item.image} alt="sample" className="mx-auto" width={250} height={200}/>
                   <h3 className="mt-2 text-base">{item.title}</h3>
-                  <p className="font-semibold">{item.description}</p>
+                  <p className="font-semibold line-clamp-3">{item.description}</p>
                   <Link href={item.link}>
                     <Button className="mt-5 rounded-none px-10 py-3">
                       See More
@@ -73,7 +72,6 @@ const Partnership = () => {
                   </Link>
                 </div>
               ))}
-            </div>
           </div>
         </div>
       </Card>
