@@ -30,7 +30,7 @@ const page = () => {
           alt="committe bannerImg"
           className="h-full w-full object-contain object-center"
         />
-        <ul className="mt-8 flex list-disc flex-wrap items-center justify-start gap-x-10 text-base font-semibold md:justify-center md:text-xl">
+        <ul className="container mt-8 flex list-disc flex-wrap items-center justify-start gap-x-10 text-base font-semibold md:justify-center md:text-xl">
           <li className="list-none">1 project manager</li>
           <li>4 deputy manager</li>
           <li>15 assistant project manager</li>
@@ -38,7 +38,7 @@ const page = () => {
         </ul>
       </div>
       {/* Project Manager */}
-      <div className="mx-auto mt-32 max-w-[1560px] pl-10">
+      <div className="mx-auto mt-32 max-w-[1560px] md:pl-10">
         <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
           {/* Image */}
           <div className="-left-8 -top-8 p-5 md:absolute md:p-0">
