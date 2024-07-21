@@ -46,7 +46,7 @@ const Gallery = () => {
         {/* Bottom left text */}
         <div className="hidden flex-col items-start md:flex md:w-[400px] md:text-xl">
           <p>
-            Flashbacks of the National University Festival{" "}
+            Flashbacks of the Universitas Nasional Festival{" "}
             <span className="hidden lg:flex">
               {" "}
               competition held from December 19, 2023 to December 19, 2023.

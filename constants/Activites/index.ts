@@ -54,11 +54,11 @@ import {
   timelinesSMC,
   timelinesSemnas,
 } from "@/constants/Timeline";
-import { Description } from "@radix-ui/react-dialog";
-import exp from "constants";
+
 export const Activities = [
   {
     path: "kdbi",
+    caturnawa: "https://caturnawa.unasfest.com/periodeKDBI",
     title: "Kompetisi Debat Bahasa Indonesia",
     coverImage: kdbiCover,
     contact: kdbiContact,
@@ -442,6 +442,7 @@ export const Activities = [
 
   {
     path: "edc",
+    caturnawa : "https://caturnawa.unasfest.com/periodeEDC",
     title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
@@ -802,6 +803,7 @@ export const Activities = [
 
   {
     path: "spc",
+    caturnawa : "https://caturnawa.unasfest.com/periodeLKTI",
     title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
@@ -1028,6 +1030,7 @@ export const Activities = [
 
   {
     path: "smc",
+    caturnawa: "https://caturnawa.unasfest.com/periodeSM",
     title: "Short Movie Competition",
     coverImage: smcCover,
     contact: smcContact,
@@ -1280,6 +1283,7 @@ export const Activities = [
 
   {
     path: "international-seminar",
+    caturnawa : "https://caturnawa.unasfest.com/periodeSM",
     title: "international seminar",
     coverImage: semnasCover,
     contact: semnasContact,

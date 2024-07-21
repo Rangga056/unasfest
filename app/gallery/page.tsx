@@ -7,6 +7,9 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import galleryHeader from "@/public/assets/images/gallery/header.png";
+import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
+import { faqsgallery } from "@/constants/Faqs";
+import faqs from "@/public/assets/images/gallery/faqs.png"
 export default function Gallery() {
   return (
     <section>
@@ -14,9 +17,9 @@ export default function Gallery() {
         <Image
           src={galleryHeader}
           alt="gallery header"
-          className="mx-auto w-full"
+          className="mx-auto w-full h-screen"
         />
-        <p className="absolute left-20 top-1/2 z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
+        <p className="absolute left-20 top-[40%] z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
           <span className="text-[#C02424]">Canvas of Triumph: </span>
           <br />
           An Artistic Showcase of
@@ -30,19 +33,35 @@ export default function Gallery() {
         <CardTitle className="text-center text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
           kaleidoscope <span className="text-[#C02424]">unas fest 2024</span>
         </CardTitle>
-        <CardContent className="pt-12">
-          <div className="video-container">
+        <CardContent className="pt-10">
+          <div className="w-full">
             <iframe
-              width="1320"
-              height="640"
               src="https://www.youtube.com/embed/XWlBhQ9dFUQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe>
+             className="aspect-video w-full mx-auto"/>
           </div>
         </CardContent>
       </Card>
+
+      <div className="relative m-auto max-w-screen-xl pt-16">
+        <Card className="relative flex min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
+          <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
+            frequently asked questions
+          </CardTitle>
+          <CardContent className="lg:w-3/4 lg:pl-12">
+            <FaqActivities faqs={faqsgallery} />
+          </CardContent>
+        </Card>
+        <Image
+          src={faqs}
+          alt="toa"
+          width={450}
+          height={450}
+          className="absolute bottom-16 right-0 hidden lg:inline-block"
+        />
+      </div>
     </section>
   );
 }

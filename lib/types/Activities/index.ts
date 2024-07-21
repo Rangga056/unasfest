@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 
 export interface activitiesData {
   path: string;
+  caturnawa: string;
   title: string;
   coverImage: StaticImageData;
   contact: StaticImageData;
