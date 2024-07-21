@@ -32,7 +32,7 @@ const FaqActivities: React.FC<FaqProps> = ({ faqs }) => {
             {Array.isArray(faq.answer) ? (
                 <ul className="list-inside list-disc">
                   {faq.answer.map((point, j) => (
-                    <li key={j}>{point}</li>
+                    <li key={j} className="text-base">{point}</li>
                   ))}
                 </ul>
               ) : (

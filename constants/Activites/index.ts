@@ -44,7 +44,7 @@ import kdbiSlidingIcon from "@/public/assets/icons/megaphone.png";
 import edcSlidingIcon from "@/public/assets/icons/smile-face.png";
 import spcSlidingIcon from "@/public/assets/icons/book.png";
 import smcSlidingIcon from "@/public/assets/icons/movie-clapper.png";
-// import internationalSeminarIcon from "@/public/assets/icons/";
+import internationalSeminarIcon from "@/public/assets/icons/semin.png";
 
 //timeline
 import {
@@ -65,7 +65,7 @@ export const Activities = [
     contactNumber: "https://wa.me/6288212435726",
     color: "#2A9763",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
+      "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants' analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
     timeline: timelinesKDBI,
     guideBook:
       "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
@@ -448,7 +448,7 @@ export const Activities = [
     contactNumber: "https://wa.me/6285716931400",
     color: "#004AAD",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
+      "The English Debate Competition is an intellectual contest designed to enhance participants' public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
       "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
@@ -808,7 +808,7 @@ export const Activities = [
     contactNumber: "https://wa.me/6282298067962",
     color: "#E27817",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
+      "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and gain recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
       "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
@@ -1034,7 +1034,7 @@ export const Activities = [
     contactNumber: "https://wa.me/6285719219401",
     color: "#C02424",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
+      "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
       "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
@@ -1286,11 +1286,11 @@ export const Activities = [
     contactNumber: "https://wa.me/6288219445100",
     color: "#853EB6",
     description:
-      "The English Debate Competition (EDC) is an English language debate competition where participants debate arguments and thoughts related to contemporary issues from various aspects, namely social, political, cultural, techindexlogical, ecoindexmic, energy, legal, health and so on. Therefore, the English Debate Competition (EDC) aims to improve participants' ability to speak in public, develop analytical and critical thinking skills, and strengthen their ability to argue using effective and persuasive language. The English Debate Competition (EDC) will be held with the theme 'Implementation of Techindexlogy in Blue Ecoindex...",
+      "The International Seminar is a global forum designed to facilitate knowledge exchange and dialogue among experts, academics, and practitioners from various fields. This seminar provides a platform for discussing cutting-edge research, emerging trends, and innovative solutions on a range of international issues. Participants include researchers, policymakers, industry leaders, and students who come together to share their insights and collaborate on global challenges.",
     timeline: timelinesSemnas,
     guideBook: "",
-    infiniteSlidingText: "SHORT MOVIE",
-    infiniteSlidingIcon: smcSlidingIcon,
+    infiniteSlidingText: "International Seminar",
+    infiniteSlidingIcon: internationalSeminarIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
     requirements: [
