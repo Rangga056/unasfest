@@ -7,9 +7,15 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import galleryHeader from "@/public/assets/images/gallery/header.png";
+
+{
+  /* Memories From The Past */
+}
+import juara from "@/public/assets/images/gallery/juara-lomba.png";
+
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import { faqsgallery } from "@/constants/Faqs";
-import faqs from "@/public/assets/images/gallery/faqs.png"
+import faqs from "@/public/assets/images/gallery/faqs.png";
 export default function Gallery() {
   return (
     <section>
@@ -17,7 +23,7 @@ export default function Gallery() {
         <Image
           src={galleryHeader}
           alt="gallery header"
-          className="mx-auto w-full h-screen"
+          className="mx-auto h-screen w-full"
         />
         <p className="absolute left-20 top-[40%] z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
           <span className="text-[#C02424]">Canvas of Triumph: </span>
@@ -40,10 +46,124 @@ export default function Gallery() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-             className="aspect-video w-full mx-auto"/>
+              className="mx-auto aspect-video w-full"
+            />
           </div>
         </CardContent>
       </Card>
+
+      {/* Memories From The Past */}
+      <div className="relative m-auto max-w-screen-xl bg-[#1F1E23] pb-16 pl-16 pr-16 pt-16">
+        <h2 className="text-left text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
+          <span className="pl-3 text-[#FFFAF0]">Memories from</span>{" "}
+          <span className="text-[#00A36C]">the Past</span>
+        </h2>
+        <div className="justify-left mt-4 flex items-center space-x-4 p-4">
+          <select className="h-10 rounded border border-[#FFFAF0] bg-[#1F1E23] p-1 text-white">
+            <option>Competition Title</option>
+          </select>
+          <span className="text-[#FFFAF0]">From</span>
+          <input
+            type="number"
+            className="h-10 rounded border border-[#FFFAF0] bg-[#1F1E23] p-1 text-white"
+            placeholder="2023"
+          />
+        </div>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative h-32 bg-[#FFFAF0]">
+              <Image
+                src={juara}
+                alt="Kompetisi Debat Bahasa Indonesia"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+              />
+            </div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Kompetisi Debat Bahasa Indonesia
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              English Debate Competition
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Scientific Paper Competition
+            </p>
+            <p className="text-[#FFFAF0]">Presentation From Cak Imin</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Kompetisi Debat Bahasa Indonesia
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              English Debate Competition
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Scientific Paper Competition
+            </p>
+            <p className="text-[#FFFAF0]">Presentation From Cak Imin</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Kompetisi Debat Bahasa Indonesia
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              English Debate Competition
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Scientific Paper Competition
+            </p>
+            <p className="text-[#FFFAF0]">Presentation From Cak Imin</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Kompetisi Debat Bahasa Indonesia
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              English Debate Competition
+            </p>
+            <p className="text-[#FFFAF0]">Team A vs Team B</p>
+          </div>
+          <div className="p-4">
+            <div className="h-32 bg-[#FFFAF0]"></div>
+            <p className="font-semibold text-[#FFFAF0]">
+              Scientific Paper Competition
+            </p>
+            <p className="text-[#FFFAF0]">Presentation From Cak Imin</p>
+          </div>
+        </div>
+      </div>
 
       <div className="relative m-auto max-w-screen-xl pt-16">
         <Card className="relative flex min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
