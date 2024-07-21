@@ -17,9 +17,9 @@ export default function Gallery() {
         <Image
           src={galleryHeader}
           alt="gallery header"
-          className="mx-auto w-full"
+          className="mx-auto w-full h-screen"
         />
-        <p className="absolute left-20 top-1/2 z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
+        <p className="absolute left-20 top-[40%] z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
           <span className="text-[#C02424]">Canvas of Triumph: </span>
           <br />
           An Artistic Showcase of
