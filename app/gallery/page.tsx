@@ -30,14 +30,14 @@ export default function Gallery() {
         <CardTitle className="text-center text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
           kaleidoscope <span className="text-[#C02424]">unas fest 2024</span>
         </CardTitle>
-        <CardContent className="pt-12">
+        <CardContent className="pt-10">
           <div className="w-full">
             <iframe
               src="https://www.youtube.com/embed/XWlBhQ9dFUQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-             className="aspect-video w-[90%] mx-auto"/>
+             className="aspect-video w-full mx-auto"/>
           </div>
         </CardContent>
       </Card>

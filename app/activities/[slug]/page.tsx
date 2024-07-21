@@ -67,10 +67,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                   variant="secondary"
                   className="text-page-black"
                 >
-                  <Link href={competition.path}>Sign Up</Link>
+                  <Link href={competition.caturnawa}>Sign Up</Link>
                 </Button>
                 <Button size="xl" variant="outline" className="bg-transparant">
-                  See More
+                  <Link href="#requirements" className="scroll-smooth">See More</Link>
                 </Button>
               </div>
             </CardContent>
@@ -83,7 +83,10 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </div>
 
         {/* REQUIREMENTS */}
-        <Card className="container relative mx-auto mb-12 overflow-hidden rounded-none pb-2 text-center">
+        <Card
+          id="requirements"
+          className="container relative mx-auto mb-12 overflow-hidden rounded-none pb-2 text-center"
+        >
           <CardTitle className="text-3xl font-semibold leading-normal tracking-wide lg:text-5xl">
             Competition Requirements
           </CardTitle>
