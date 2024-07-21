@@ -31,15 +31,13 @@ export default function Gallery() {
           kaleidoscope <span className="text-[#C02424]">unas fest 2024</span>
         </CardTitle>
         <CardContent className="pt-12">
-          <div className="video-container">
+          <div className="w-full">
             <iframe
-              width="1320"
-              height="640"
               src="https://www.youtube.com/embed/XWlBhQ9dFUQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe>
+             className="aspect-video w-[90%] mx-auto"/>
           </div>
         </CardContent>
       </Card>
