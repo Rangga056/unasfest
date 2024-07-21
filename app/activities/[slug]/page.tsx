@@ -106,7 +106,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           </CardTitle>
           <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
             Download the competition guidebook to find out the overall mechanism
-            of the National University Festival debate competition
+            of the Unversitas Nasional Festival debate competition
           </CardDescription>
           <Link href={competition.guideBook} target="_blank">
             <Button

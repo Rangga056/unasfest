@@ -22,9 +22,9 @@ const Hero = () => {
           Sign Up Now for the Change competition
         </h1>
         <p className="mt-4 w-full text-xl font-semibold md:w-[90%]">
-          The National University Festival 2024 (UNAS FEST 2024) is one of the
+          The Universitas Nasional Festival 2024 (UNAS FEST 2024) is one of the
           annual events held to commemorate and celebrate the 74th anniversary
-          of Dies Natalis National University.{" "}
+          of Dies Natalis Universitas Nasional.{" "}
         </p>
         <Button className="mt-4 h-[50px] w-[150px] rounded-none text-xl font-semibold capitalize md:h-[60px] md:w-[200px]">
           see more
