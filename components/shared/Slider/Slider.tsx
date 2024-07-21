@@ -68,7 +68,7 @@ const MissionsSlider: React.FC<PropsTypes> = ({ props }) => {
                 </Card>
                 </div>
                 <DialogContent>
-                  <DialogDescription className=" flex items-center p-6 absolute text-start text-base font-medium inset-0 bg-white text-black">
+                  <DialogDescription className="flex items-center p-6 absolute text-start text-base font-medium inset-0 bg-page-white text-black">
                     {prop.detail}
                   </DialogDescription>
                 </DialogContent>
