@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html,
+* {
   scroll-behavior: smooth;
 }
 
@@ -232,14 +233,14 @@ html {
   }
 }
 
-a[href="https://caturnawa.com"]
+a[href="https://caturnawa.unasfest.com/"]
 {
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
 }
 
-a[href="https://caturnawa.com"]:hover,a[href="https://caturnawa.com"]:focus
+a[href="https://caturnawa.unasfest.com/"]:hover,a[href="https://caturnawa.unasfest.com/"]:focus
 {
   cursor: pointer;
 }
@@ -264,12 +265,12 @@ a[href="https://caturnawa.com"]:hover,a[href="https://caturnawa.com"]:focus
 
 @media screen and (min-width: 761px) and (max-width: 768px) {
   .text-color {
-    color: #FFFAF0; /* Warna teks untuk tampilan mobile dengan lebar layar 761px hingga 768px */
+    color: #fffaf0; /* Warna teks untuk tampilan mobile dengan lebar layar 761px hingga 768px */
   }
 }
 
 @media screen and (min-width: 769px) {
   .text-color {
-    color: #004AAD; /* Warna teks untuk tampilan desktop */
+    color: #004aad; /* Warna teks untuk tampilan desktop */
   }
 }
