@@ -15,7 +15,18 @@ const AccordionItem = React.forwardRef<
     {...props}
   />
 ));
-AccordionItem.displayName = "AccordionItem";
+
+const AccordionItemGallery = React.forwardRef<
+  React.ElementRef<typeof AccordionPrimitive.Item>,
+  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>
+>(({ className, ...props }, ref) => (
+  <AccordionPrimitive.Item
+    ref={ref}
+    className={cn("focus-within:shadow-mauve12 mt-2 md:mt-10 focus-within:relative focus-within:z-10 ", className)}
+    {...props}
+  />
+));
+AccordionItemGallery.displayName = "AccordionItemGallery";
 
 const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
@@ -25,7 +36,7 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "shadow-mauve6 hover:bg-mauve2 group flex md:h-[45px] flex-1 cursor-default items-center justify-between text-[15px] py-5 leading-none border-b-2 border-black",
+        "shadow-mauve6 hover:bg-mauve2 group flex md:h-[45px] flex-1 cursor-default items-center justify-between text-[15px] pt-5 pb-7 leading-none border-b-2 border-black",
         className
       )}
       {...props}
@@ -48,7 +59,7 @@ const AccordionTriggerGallery = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "shadow-mauve6 hover:bg-mauve2 group flex md:h-[45px] flex-1 cursor-default items-center justify-between text-[15px] py-5 leading-none underline underline-offset-1",
+        "shadow-mauve6 hover:bg-mauve2 group flex md:h-[45px] cursor-default items-center justify-between text-[15px] md:py-5 leading-none underline underline-offset-1",
         className
       )}
       {...props}
@@ -62,6 +73,7 @@ const AccordionTriggerGallery = React.forwardRef<
   </AccordionPrimitive.Header>
 ));
 AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName;
+
 
 const AccordionContent = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Content>,
@@ -80,4 +92,4 @@ const AccordionContent = React.forwardRef<
 ));
 AccordionContent.displayName = AccordionPrimitive.Content.displayName;
 
-export { Accordion, AccordionItem, AccordionTrigger, AccordionTriggerGallery, AccordionContent };
+export { Accordion, AccordionItemGallery, AccordionItem, AccordionTrigger, AccordionTriggerGallery, AccordionContent };

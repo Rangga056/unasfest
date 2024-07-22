@@ -2,9 +2,8 @@
 
 import {
   Accordion,
-  AccordionContent,
+  AccordionItemGallery,
   AccordionItem,
-  AccordionTrigger,
   AccordionTriggerGallery,
 } from "@/components/ui/accordiion";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
@@ -51,19 +50,19 @@ const ActivitiesGallery = () => {
 
       {/* OUR COMPETITION */}
       <Card className="relative m-auto max-w-screen-xl rounded-none pb-20">
-        <div className="mx-auto flex w-[80%] justify-between">
-          <CardTitle className="mb-5 font-inter text-3xl uppercase text-black">
+        <div className="mx-auto flex-none md:flex w-[80%] justify-between">
+          <CardTitle className="md:mb-5 font-inter text-xl md:text-3xl uppercase text-black">
             our competition
           </CardTitle>
           <Accordion defaultValue="item-0" type="single" collapsible>
-            <AccordionItem value="view-all">
+            <AccordionItemGallery value="view-all">
               <AccordionTriggerGallery
                 className="mb-5 text-sm text-black"
                 onClick={() => setShowAll(!showAll)}
               >
                 {showAll ? "Hide All Photos" : "View All Photos"}
               </AccordionTriggerGallery>
-            </AccordionItem>
+            </AccordionItemGallery>
           </Accordion>
         </div>
         <CardContent>
@@ -89,19 +88,19 @@ const ActivitiesGallery = () => {
 
       {/* INTERNATIONAL SEMINAR */}
       <Card className="relative m-auto mb-12 max-w-screen-xl rounded-none pb-20 pt-0">
-        <div className="mx-auto flex w-[80%] justify-between">
-          <CardTitle className="mb-5 font-inter text-3xl uppercase text-black">
+        <div className="mx-auto flex-none md:flex w-[80%] justify-between">
+          <CardTitle className="md:mb-5 font-inter text-xl md:text-3xl uppercase text-black">
             international seminar
           </CardTitle>
           <Accordion defaultValue="item-0" type="single" collapsible>
-            <AccordionItem value="view-all">
+            <AccordionItemGallery value="view-all">
               <AccordionTriggerGallery
                 className="mb-5 text-sm text-black"
                 onClick={() => setShowAllG(!showAllG)}
               >
                 {showAll ? "Hide All Photos" : "View All Photos"}
               </AccordionTriggerGallery>
-            </AccordionItem>
+            </AccordionItemGallery>
           </Accordion>
         </div>
         <CardContent>

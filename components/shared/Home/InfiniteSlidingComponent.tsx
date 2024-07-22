@@ -55,7 +55,7 @@ const InfiniteSlidingComponent: React.FC<PropType> = ({ props }) => {
             className="h-full flex-shrink-0"
             style={{ width: `${100 / slides.length}%` }}
           >
-            <div className="flex h-full flex-col items-center justify-center">
+            <div className="flex h-full flex-col items-center justify-center bg-black">
               <div className="flex h-full items-center gap-4 font-bungee">
                 <Image
                   src={item.icon}
