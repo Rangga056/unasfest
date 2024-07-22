@@ -1078,26 +1078,26 @@ export const Activities = [
           },
         ],
       },
-      // {
-      //   index: 3,
-      //   name: "Prof. Dr. Eng. Eniya Listiani Dewi",
-      //   image: eniyas,
-      //   lastEducation: "Master's degree from Waseda University. Japan",
-      //   description:
-      //     "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
-      //   achievements: ["..."],
-      //   experience: [
-      //     {
-      //       eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-      //       eTime: "March 2022 - Present",
-      //       place: "Indonesia",
-      //       eDesc: {
-      //         dDetail: "...",
-      //         dPoint: [],
-      //       },
-      //     },
-      //   ],
-      // },
+      {
+        index: 3,
+        name: "Prof. Dr. Eng. Eniya Listiani Dewi",
+        image: eniyas,
+        lastEducation: "Master's degree from Waseda University. Japan",
+        description:
+          "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
+        achievements: ["..."],
+        experience: [
+          {
+            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
+            eTime: "March 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+        ],
+      },
     ],
     faqs: [
       {

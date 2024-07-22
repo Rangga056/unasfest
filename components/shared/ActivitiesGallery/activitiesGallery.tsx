@@ -3,7 +3,6 @@
 import {
   Accordion,
   AccordionItemGallery,
-  AccordionItem,
   AccordionTriggerGallery,
 } from "@/components/ui/accordiion";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
