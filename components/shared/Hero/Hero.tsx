@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import mascotgroup from "@/public/assets/images/mascots/mascotgroup.png";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -26,9 +27,11 @@ const Hero = () => {
           annual events held to commemorate and celebrate the 74th anniversary
           of Dies Natalis Universitas Nasional.{" "}
         </p>
-        <Button className="mt-4 h-[50px] w-[150px] rounded-none text-xl font-semibold capitalize md:h-[60px] md:w-[200px]">
-          see more
-        </Button>
+        <Link href="#activity-slider-section">
+          <Button className="mt-4 h-[50px] w-[150px] rounded-none text-xl font-semibold capitalize md:h-[60px] md:w-[200px]">
+            see more
+          </Button>
+        </Link>
       </div>
     </div>
   );

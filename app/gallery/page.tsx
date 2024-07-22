@@ -1,35 +1,28 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import galleryHeader from "@/public/assets/images/gallery/header.png";
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
+import ActivitiesGallery from "@/components/shared/ActivitiesGallery/activitiesGallery";
 import { faqsgallery } from "@/constants/Faqs";
-import faqs from "@/public/assets/images/gallery/faqs.png"
+import faqs from "@/public/assets/images/gallery/faqs.png";
 export default function Gallery() {
   return (
-    <section>
-      <div className="relative mx-auto w-full max-w-screen-2xl">
-        <Image
-          src={galleryHeader}
-          alt="gallery header"
-          className="mx-auto w-full h-screen"
-        />
-        <p className="absolute left-20 top-[40%] z-50 hidden font-bungee text-5xl leading-tight tracking-wide text-white shadow-lg lg:block">
+    <section className="relative">
+      <div
+        className="relative mx-auto h-[250px] md:h-[400px] lg:h-[700px] w-full max-w-screen-xl bg-cover bg-center"
+        style={{ backgroundImage: `url(${galleryHeader.src})` }}
+      >
+        <div className="absolute left-20 top-[50%] z-50 hidden font-bungee md:text-2xl lg:text-5xl leading-tight tracking-wide text-white shadow-lg text-shadow-md md:block">
           <span className="text-[#C02424]">Canvas of Triumph: </span>
           <br />
           An Artistic Showcase of
           <br /> Unforgettable Moments
           <br />
           from Our Competition
-        </p>
+        </div>
       </div>
 
-      <Card className="relative m-auto mb-12 mt-20 w-full max-w-screen-xl overflow-hidden lg:w-[90%]">
+      <Card className="relative m-auto mb-12 w-full max-w-screen-xl overflow-hidden md:mt-20 lg:w-[90%]">
         <CardTitle className="text-center text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
           kaleidoscope <span className="text-[#C02424]">unas fest 2024</span>
         </CardTitle>
@@ -40,12 +33,16 @@ export default function Gallery() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-             className="aspect-video w-full mx-auto"/>
+              className="mx-auto aspect-video w-full"
+            />
           </div>
         </CardContent>
       </Card>
 
-      <div className="relative m-auto max-w-screen-xl pt-16">
+      {/* Gallery Activities */}
+      <ActivitiesGallery />
+
+      <div className="relative m-auto max-w-screen-xl ">
         <Card className="relative flex min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
           <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
             frequently asked questions
