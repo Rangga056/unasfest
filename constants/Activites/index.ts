@@ -415,9 +415,14 @@ export const Activities = [
         question:
           "What is the registration fee for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Early Bird: Rp 300,000/Team (July 23-28, 2024)",
-          "Phase 1: Rp 400,000/Team (July 29 - August 11, 2024)",
-          "Phase 2: Rp 450,000/Team (August 12-23, 2024)",
+          "Early Bird (July 23 - July 28 , 2024)",
+          "General: Rp 300,000",
+          "Universitas Nasional Students: Free",
+          "Phase 1 (July 29 - August 11, 2024)",
+          "General: Rp 400,000",
+          "Universitas Nasional Students: Free",
+          "Phase 2 (12 - 23 August)",
+          "General: Rp 450,000",
         ],
       },
       {
@@ -777,9 +782,14 @@ export const Activities = [
         question:
           "What is the registration fee for the English Debate Competition (EDC)?",
         answer: [
-          "Early Bird: IDR 350,000/Team (July 23-28, 2024)",
-          "Phase 1: IDR 500,000/Team (July 29 - August 11, 2024)",
-          "Phase 2: IDR 550,000/Team (August 12-23, 2024)",
+          "Early Bird (July 23 - July 28 , 2024)",
+          "General: Rp 350,000",
+          "Universitas Nasional Students: Free",
+          "Phase 1 (July 29 - August 11, 2024)",
+          "General: Rp 500,000",
+          "Universitas Nasional Students: Free",
+          "Phase 2 (12 - 23 August)",
+          "General: Rp 550,000",
         ],
       },
       {
@@ -1002,10 +1012,10 @@ export const Activities = [
         answer: [
           "Phase 1 (July 23 - August 11, 2024)",
           "General: Rp 170,000",
-          "Unviersitas Nasional Students: Rp 85,000",
+          "Universitas Nasional Students: Free",
           "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp 200,000",
-          "Universitas Nasional Students: Rp 100,000",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
@@ -1260,7 +1270,14 @@ export const Activities = [
         question:
           "What is the registration fee for the Short Movie Competition (SMC)?",
         answer: [
-          "The registration fee for the Short Movie Competition is Rp 00,000",
+          "Early Bird (July 23 - July 28 , 2024)",
+          "General: Rp 300,000",
+          "Universitas Nasional Students: Free",
+          "Phase 1 (July 29 - August 11, 2024)",
+          "General: Rp 400,000",
+          "Universitas Nasional Students: Free",
+          "Phase 2 (12 - 23 August)",
+          "General: Rp 450,000",
         ],
       },
       {
