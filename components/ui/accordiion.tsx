@@ -15,6 +15,7 @@ const AccordionItem = React.forwardRef<
     {...props}
   />
 ));
+AccordionItem.displayName = "AccordionItem";
 
 const AccordionItemGallery = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Item>,
@@ -72,7 +73,7 @@ const AccordionTriggerGallery = React.forwardRef<
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ));
-AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName;
+AccordionTriggerGallery.displayName = AccordionPrimitive.Trigger.displayName;
 
 
 const AccordionContent = React.forwardRef<

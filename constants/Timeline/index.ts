@@ -72,7 +72,7 @@ export const timelinesEDC = [
   {
     title: "Close Registration EDC",
     description: "Open Registration for English Debate Competition",
-    month: "DEC",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#004AAD",

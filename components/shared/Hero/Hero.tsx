@@ -5,7 +5,6 @@ import React from "react";
 import mascotgroup from "@/public/assets/images/mascots/mascotgroup.png";
 import Link from "next/link";
 
-
 const Hero = () => {
   return (
     <div className="container mt-8 flex flex-col items-center justify-between gap-y-3 lg:flex-row">
