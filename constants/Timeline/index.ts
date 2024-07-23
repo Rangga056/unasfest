@@ -18,7 +18,8 @@ export const timelinesHome = [
   },
   {
     title: "Closing of registration of UNAS FEST 2024",
-    description: "Closing registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
+    description:
+      "Closing registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
     month: "AUG",
     date: "23",
     year: "2024",
@@ -50,7 +51,8 @@ export const timelinesHome = [
   },
   {
     title: "Final Day 2 of UNAS FEST 2024",
-    description: "Final Day 2 of EDC,KDBI, Short Movie and Scientific Paper Competition Competition Finalist",
+    description:
+      "Final Day 2 of EDC,KDBI, Short Movie and Scientific Paper Competition Competition Finalist",
     month: "OKT",
     date: "17",
     year: "2024",
@@ -233,8 +235,8 @@ export const timelinesSMC = [
     title: "Submission of Short Movie Videos is open",
     description:
       "the process of submitting short film competition videos is ongoing or has just open",
-    month: "JULY",
-    date: "23",
+    month: "AUGUST",
+    date: "24",
     year: "2024",
     color: "#C02424",
   },
@@ -243,7 +245,7 @@ export const timelinesSMC = [
     description:
       "the process of submitting short film competition videos is ongoing or has just close",
     month: "SEP",
-    date: "27",
+    date: "25",
     year: "2024",
     color: "#C02424",
   },
@@ -251,7 +253,7 @@ export const timelinesSMC = [
     title: "Beginning of the Preliminary Round of Short Movie",
     description: "The process of submitting Short Movie Videos is open",
     month: "SEP",
-    date: "27",
+    date: "26",
     year: "2024",
     color: "#C02424",
   },
@@ -260,14 +262,6 @@ export const timelinesSMC = [
     description: "The process of submitting Short Movie Videos is close",
     month: "SEP",
     date: "28",
-    year: "2024",
-    color: "#C02424",
-  },
-  {
-    title: "Semifinal Round of Short Movie",
-    description: "To determine which films will advance to the final round",
-    month: "SEP",
-    date: "30",
     year: "2024",
     color: "#C02424",
   },
@@ -289,15 +283,7 @@ export const timelinesSMC = [
     color: "#C02424",
   },
   {
-    title: "Final Day 1 SMC",
-    description: "The final stage to determine who will be the winner",
-    month: "OCT",
-    date: "16",
-    year: "2024",
-    color: "#C02424",
-  },
-  {
-    title: "Final Day 2 SMC",
+    title: "Final SMC",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "17",
