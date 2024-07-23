@@ -255,34 +255,7 @@ const AboutUsPage = () => {
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
-      {/*TODO: Collaborations */}
-      <div className="container mt-24 h-full px-3 text-5xl">
-        <h1 className="text-center font-bungee text-2xl md:text-5xl">
-          collaborate
-        </h1>
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-2 md:mt-24 md:gap-5">
-          {unasCollaborate.map((item) => (
-            <div
-              key={item.index}
-              className="flex h-[230px] w-[150px] flex-col justify-center gap-y-4 border border-page-black p-6 md:h-[350px] md:w-[250px] md:p-16"
-            >
-              <div className="flex justify-center">
-                <Image
-                  src={item.img.src}
-                  alt={item.alt}
-                  width={143}
-                  height={142}
-                  className="aspect-square object-contain"
-                />
-              </div>
-
-              <p className="text-center text-sm font-semibold md:text-xl">
-                {item.desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
+      
     </main>
   );
 };
