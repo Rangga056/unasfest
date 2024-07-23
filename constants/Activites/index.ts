@@ -5,7 +5,6 @@ import scpContact from "@/public/assets/images/home/contactUs/spcContact.png";
 import smcContact from "@/public/assets/images/home/contactUs/smcContact.png";
 import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.png";
 
-
 // judges photos kdbi
 import leonardus from "@/public/assets/images/competition/kdbi Leonardus Hans.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
@@ -36,8 +35,8 @@ import ovi from "@/public/assets/images/competition/semnas Ovi Lian Ding.jpeg";
 import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
 import edcCover from "@/public/assets/images/competition/edcCover.png";
 import scpCover from "@/public/assets/images/competition/scpCover.png";
-import smcCover from "@/public/assets/images/competition/smcCover.png";
-import semnasCover from "@/public/assets/images/competition/semnasCover.png"
+import smcCover from "@/public/assets/images/competition/smcCover.jpg";
+import semnasCover from "@/public/assets/images/competition/semnasCover.png";
 
 //import icon buat infiniteSlidingIcon
 import kdbiSlidingIcon from "@/public/assets/icons/megaphone.png";
@@ -442,7 +441,7 @@ export const Activities = [
 
   {
     path: "edc",
-    caturnawa : "https://caturnawa.unasfest.com/periodeEDC",
+    caturnawa: "https://caturnawa.unasfest.com/periodeEDC",
     title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
@@ -622,7 +621,8 @@ export const Activities = [
       {
         index: 2,
         name: "Ahmad Kushay",
-        linkedin: "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
         image: ahmad,
         lastEducation:
           "Bachelor's degree, Chemistry - Institut Teknologi Bandung (ITB)",
@@ -803,7 +803,7 @@ export const Activities = [
 
   {
     path: "spc",
-    caturnawa : "https://caturnawa.unasfest.com/periodeLKTI",
+    caturnawa: "https://caturnawa.unasfest.com/periodeLKTI",
     title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
@@ -1093,7 +1093,8 @@ export const Activities = [
         index: 1,
         name: "Jentoni Pakpahan",
         image: jentoni,
-        linkedin : "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
         lastEducation: "Universitas Nasional",
         description: "",
         achievements: [],
@@ -1114,7 +1115,7 @@ export const Activities = [
         index: 2,
         name: "Kusen Dony Hermansyah",
         image: kusen,
-        linedin : "",
+        linedin: "",
         lastEducation:
           "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
         description:
@@ -1155,7 +1156,8 @@ export const Activities = [
         index: 3,
         name: "Raden Wardana",
         image: Daniel,
-        linkedin : "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
         lastEducation:
           "Master's degree, Film/Video dan Fotografi at Bond University",
         description:
@@ -1283,7 +1285,7 @@ export const Activities = [
 
   {
     path: "international-seminar",
-    caturnawa : "https://caturnawa.unasfest.com/periodeSM",
+    caturnawa: "https://caturnawa.unasfest.com/periodeSM",
     title: "international seminar",
     coverImage: semnasCover,
     contact: semnasContact,
@@ -1360,7 +1362,8 @@ export const Activities = [
         index: 1,
         name: "Adam Adiwinata",
         image: adam,
-        linkedin : "https://www.linkedin.com/in/adam-adiwinata-9028135b/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/adam-adiwinata-9028135b/?jobid=1234",
         lastEducation:
           "MASTER, Renewable and Clean Energy - University of Dayton",
 
@@ -1444,7 +1447,8 @@ export const Activities = [
         index: 2,
         name: "Prof. Dr. Eng. Eniya Listiani Dewi",
         image: eniyas,
-        linkedin : "https://www.linkedin.com/in/eniya-listiani-dewi-a17b6260/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/eniya-listiani-dewi-a17b6260/?jobid=1234",
         lastEducation: "Master's degree from Waseda University. Japan",
 
         description:
@@ -1530,7 +1534,7 @@ export const Activities = [
         index: 1,
         name: "Jason Amiri",
         image: jason,
-        linkedin : "https://www.linkedin.com/in/jasonamiri/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/jasonamiri/?jobid=1234",
         lastEducation:
           "Master of Science (M.Sc.), Mechanical Engineering - University of Tehran",
         description:
@@ -1557,7 +1561,8 @@ export const Activities = [
         index: 2,
         name: "Judge kdbi 2",
         image: lizie,
-        linkedin : "https://www.linkedin.com/in/lizie-daniela-tentler-prola-175b0934/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/lizie-daniela-tentler-prola-175b0934/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1583,7 +1588,7 @@ export const Activities = [
         index: 3,
         name: "Judge kdbi 3",
         image: ovi,
-        linkedin : "https://www.linkedin.com/in/olding/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/olding/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
