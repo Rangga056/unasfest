@@ -43,8 +43,8 @@ export const quickLinks = [
     url: "/gallery",
   },
   {
-    title: "Sponsorship",
-    url: "/sponsorship",
+    title: "Partnership",
+    url: "/partnership",
   },
   {
     title: "About Us",
@@ -78,12 +78,12 @@ export const activitiesLinks = [
 //TODO: ADD LINK FOR CONTACTS
 export const contactLinks = [
   {
-    title: "Unasfest@gmail.com",
+    title: "unasfest@gmail.com",
     url: "mailto:Unasfest@gmail.com",
   },
   {
     title:
-      "Jl. Sawo Manila No.61, RT.14/RW.7, Pejaten Bar., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520",
+      "Jl. Sawo Manila No.61, RT.14/RW.7, Pejaten Barat., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520",
     url: "https://maps.app.goo.gl/XDcCjiNwAqzMr5RF6",
   },
 ];
