@@ -15,10 +15,10 @@ export default function Gallery() {
   return (
     <section className="relative">
       <div
-        className="relative mx-auto h-[250px] md:h-[400px] lg:h-[700px] w-full max-w-screen-xl bg-cover bg-center"
+        className="relative mx-auto h-[250px] w-full max-w-screen-xl bg-cover bg-center md:h-[400px] lg:h-[700px]"
         style={{ backgroundImage: `url(${galleryHeader.src})` }}
       >
-        <div className="absolute left-20 top-[50%] z-50 hidden font-bungee md:text-2xl lg:text-5xl leading-tight tracking-wide text-white shadow-lg text-shadow-md md:block">
+        <div className="absolute left-20 top-[50%] z-50 hidden font-bungee leading-tight tracking-wide text-white shadow-lg text-shadow-md md:block md:text-2xl lg:text-5xl">
           <span className="text-[#C02424]">Canvas of Triumph: </span>
           <br />
           An Artistic Showcase of
@@ -41,8 +41,7 @@ export default function Gallery() {
               allowFullScreen
               className="mx-auto aspect-video w-full"
             />
-              className="mx-auto aspect-video w-full"
-            
+            className="mx-auto aspect-video w-full"
           </div>
         </CardContent>
       </Card>
@@ -66,7 +65,7 @@ export default function Gallery() {
           height={450}
           className="absolute bottom-16 right-0 hidden lg:inline-block"
         />
-      </div> 
+      </div>
     </section>
   );
 }

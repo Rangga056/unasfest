@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
+<<<<<<< HEAD
 import mascotgroup from "@/public/assets/images/mascots/mascots.png";
 import Link from "next/link";
+=======
+
+import mascotgroup from "@/public/assets/images/mascots/mascotgroup.png";
+import Link from "next/link";
+
+>>>>>>> b0fb49ed361b173cb925531010e722ae3a4366af
 
 const Hero = () => {
   return (
