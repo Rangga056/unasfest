@@ -98,7 +98,7 @@ export const mascots = [
     img: alfestImg,
     name: "alfest",
     description:
-      "Api memiliki filosofi sebagai kekuatan transformasi, dan kreativitas. UNASFEST merupakan festival ilmiah dimana ide-ide dan konsep-konsep kreatif bukan hanya berkembang, tetapi juga bertransformasi menjadi realitas yang dapat dinikmati oleh semua orang. Api juga menjadi simbol untuk membakar semangat dan motivasi. Dalam konteks UNAS FEST, Bentuk api yang dinamis  mencerminkan inovasi dan adaptasi UNAS FEST, serta warnanya yang merah menyala melambangkan besarnya energi, semangat, dan keberanian panitia UNAS FEST.",
+      "Api memiliki filosofi sebagai kekuatan transformasi, dan kreativitas. UNAS FEST merupakan festival ilmiah dimana ide-ide dan konsep-konsep kreatif bukan hanya berkembang, tetapi juga bertransformasi menjadi realitas yang dapat dinikmati oleh semua orang. Api juga menjadi simbol untuk membakar semangat dan motivasi. Dalam konteks UNAS FEST, Bentuk api yang dinamis  mencerminkan inovasi dan adaptasi UNAS FEST, serta warnanya yang merah menyala melambangkan besarnya energi, semangat, dan keberanian panitia UNAS FEST.",
   },
   {
     index: 4,

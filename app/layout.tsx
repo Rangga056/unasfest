@@ -23,7 +23,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Unasfest",
   description:
-    "Website for unasfest at Universitas Nasional Jakarta, unas, universitas nasional festival",
+    "Website for UNAS FEST at Universitas Nasional Jakarta, unas, universitas nasional festival",
   icons: "./favicon.ico",
 };
 

@@ -244,7 +244,7 @@ const AboutUsPage = () => {
           </h1>
           <p className="text-xl">
             Megalodon has a philosophy as the largest predator, megalodon teeth
-            as a fossil that is found a lot can describe the UnasFest committee
+            as a fossil that is found a lot can describe the UNAS FEST committee
             as a responsible person consisting of 208 Members (Many),
             Megalodon&apos;s big teeth also describe the great responsibility
             and strong mentality of the Unas Fest 2023 committee.
