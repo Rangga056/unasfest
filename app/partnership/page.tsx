@@ -107,7 +107,7 @@ const Partnership = () => {
                 />
               </div>
 
-              <p className="text-center text-base font-semibold md:text-xl">
+              <p className="text-center uppercase text-base font-semibold md:text-xl">
                 {item.desc}
               </p>
             </div>

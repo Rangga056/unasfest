@@ -27,14 +27,14 @@ const ActivitiesGallery = () => {
   return (
     <section>
       {/* LATEST PHOTOS */}
-      <Card className="relative m-auto mb-12 w-full max-w-screen-xl rounded-none bg-[#1F1E23] p-16 pb-20 sm:w-[90%]">
-        <CardTitle className="mb-5 w-full text-start font-inter text-3xl font-[900] uppercase text-white lg:ml-16">
+      <Card className="relative py-0 m-auto mb-12 max-w-screen-xl rounded-none bg-[#1F1E23] p-5 md:p-16 pb-20 w-[90%] overflow-hidden">
+        <CardTitle className="mb-5 w-full text-start font-inter text-2xl md:text-3xl font-[900] uppercase text-white lg:ml-16">
           see our <br /> <span className="text-[#C02424]">latest photos</span>
         </CardTitle>
         <CardContent className="flex flex-wrap justify-center gap-5 p-0">
           {activitiesGallery.slice(0, 3).map((activity) => (
             <div key={activity.index}>
-              <div className="relative h-[230px] w-[380px]">
+              <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
                 <Image
                   src={activity.img}
                   alt={activity.desc}
@@ -73,7 +73,8 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
-                <div className="relative h-[230px] w-[380px]">
+              <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
+                
                 <Image
                   src={activity.img}
                   alt={activity.desc}
@@ -114,7 +115,8 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
-                <div className="relative h-[230px] w-[380px]">
+              <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
+                
                 <Image
                   src={activity.img}
                   alt={activity.desc}
