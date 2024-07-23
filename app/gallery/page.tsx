@@ -37,11 +37,9 @@ export default function Gallery() {
             <iframe
               src="https://www.youtube.com/embed/XWlBhQ9dFUQ"
               title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="mx-auto aspect-video w-full"
             />
-            className="mx-auto aspect-video w-full"
           </div>
         </CardContent>
       </Card>
