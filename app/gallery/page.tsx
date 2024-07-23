@@ -13,7 +13,7 @@ import { faqsgallery } from "@/constants/Faqs";
 import faqs from "@/public/assets/images/gallery/faqs.png";
 export default function Gallery() {
   return (
-    <section className="relative">
+    <section className="relative overflow-hidden">
       <div
         className="relative mx-auto h-[250px] w-full max-w-screen-xl bg-cover bg-center md:h-[400px] lg:h-[700px]"
         style={{ backgroundImage: `url(${galleryHeader.src})` }}

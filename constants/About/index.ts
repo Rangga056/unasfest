@@ -142,7 +142,7 @@ export const unasCollaborate = [
     index: 1,
     img: mmUnas,
     alt: "MM Unas",
-    desc: "mahasiswa mahasiswa multimedia unas",
+    desc: "hikomed",
   },
   {
     index: 2,

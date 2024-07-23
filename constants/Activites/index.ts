@@ -120,7 +120,8 @@ export const Activities = [
         index: 1,
         name: "Fullah Jumaynah, S.Sos., M.Ip",
         image: fullah,
-        lastEducation: "Master's Degree: Political Science University of Indonesia",
+        linkedin : "https://www.linkedin.com/in/fullahjm",
+        lastEducation: "Master's Degree Political Science University of Indonesia",
         description:
           "She is a researcher focusing on political, democracy, and gender issues at The Habibie Center. She also have 3 years of experience as a practitioner in political research and analysis, political communication strategy consulting, and branding at a political consulting agency. Additionally, She is frequently involved in programs and research at several NGOs and universities.",
         achievements: [
@@ -505,7 +506,7 @@ export const Activities = [
         index: 1,
         name: "Mouliza Kristhopher Donna Sweinstani",
         image: mouliza,
-        linkedin: "https://www.linkedin.com/in/marvelkevin/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
         lastEducation:
           "Bachelor of Political Science,",
         description:
@@ -652,7 +653,7 @@ export const Activities = [
         index: 3,
         name: "Hezron Kowardi",
         image: hezron,
-        linkedin: "https://www.linkedin.com/in/muchaditya/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/hezron-kowardi-b27b19206",
         lastEducation:
           "University of Indonesia Faculty of Psychology",
         description:
@@ -665,9 +666,7 @@ export const Activities = [
             "First Break and Runner-Up Champion at the UTM AP International Debating Championship 2023, the first virtual edition of the UTM API series.",
             "Accredited."
           ],
-          
-        experience: [
-        ],
+        experience: [],
       },
     ],
     faqs: [
@@ -905,7 +904,7 @@ export const Activities = [
         name: "Desfara Anggreani",
         image: desfara,
         lastEducation:
-          "Depok Senior High School 4",
+          "Social Activist",
         description: "I am a bachelor's student in the Faculty of Health Sciences. I learn a lot from people, especially about how connections are created through events. I am skilled in public speaking, which has led me to win debate competitions and participate in international conferences. I have also been involved in several organizations, which has heightened my awareness of social issues. To manifest that interest, I lead a learning guidance program called Rumah Belajar.",
         achievements: ["Master of Ceremony", "1st Winner Project SDGs in International Youth Experience 2024", "Speaker in International Youth Experience 2024", "Coordinator Volunteer", "Narasumber 'Cerita Anak Perawat'", "Juara 2 Karya Tulis Ilmiah Nasional UNAS Fest 2023", "Juara 1 Essay Competition Nasional Teras Student", "Juara Harapan 1 Cipta Puisi D'Science USU 2023", "Juara 1 Regianol III Public Speaking AIPVIK", "Juara 2 Video Edukasi Kesehatan Poltekkes Kaltim 2023", "Juara 3 Olimpiade Bahasa Inggris PUSPRESNAS", "1st Winner in Infographic Poster Competition Akasara", "FINALIS (Harapan II) Mahasiswa Berprestasi Indonesia Nursing Olympiad 2023", "1st Best Paper in International Youth Exchange and Conferenc", "Best Team Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand", "Leader Team 'Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand'", "Best Author by Meta Publisher", "Youth Summit on Leadership and Entrepreneur in Turkey", "Digital Marketing Skill Digipreneur Akademi Inspiradzi", "Juara 3 Poster PPM School of Management", "Spokesperson event of self esteem", "Delegation of circular economy and sustainable fashion ASEAN Cooperation", "Delegation of visual activism ASEAN Cooperation", "Spokesperson of organization Deep Happiest"],
         experience: [
@@ -1151,7 +1150,7 @@ export const Activities = [
         image: jentoni,
         linkedin:
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
-        lastEducation: "Universitas Nasional",
+        lastEducation: "English Language and Literature - Universitas Nasional",
         description: "",
         achievements: [],
         experience: [
@@ -1171,49 +1170,53 @@ export const Activities = [
         index: 2,
         name: "Kusen Dony Hermansyah",
         image: kusen,
-        linedin: "",
+        linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
         lastEducation:
-          "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
+          "Faculty of Film and Television, Jakarta Arts Institute",
         description:
-          "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
+          "Kusen Dony Hermansyah, better known as Dony or Kusdon, is a graduate of the Faculty of Film and Television from the Jakarta Arts Institute and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, particularly in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Arts Institute and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
         achievements: [
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Please Me Love (2012) - Short Editor",
+          "Maryam (2014) - Short Editor",
+          "Wage (2017)",
+          "Bukan Cerita Cinta (This Is Not a Love Story) (2019)",
+          "Dilarang Menyanyi di Kamar Mandi (2019)",
+          "Kejarlah Daku Kau Kutangkap: The Series (2022) - TV Series Editor",
+          "Married by Accident (2021-2022) - TV Mini Series Editor",
+          "Teori Dasar Editing Film (2009)"
         ],
         experience: [
+          {
+            eTitle:
+              "Film Editor, since 1994",
+            place: "Indonesia",
+          },
+          {
+            eTitle:
+              "Lecturer in World Film History and Basics of Film Art, Jakarta Arts Institute",
+            place: "Indonesia",
+          },
           {
             eTitle:
               "Lecturer in Documentary Film, Jakarta State Polytechnic of Creative Media",
             place: "Indonesia",
           },
           {
-            eTitle:
-              "Lecturer in World Film History and Fundamentals of Film Art, Jakarta Institute of the Arts",
-            place: "Indonesia",
-          },
-          {
-            eTitle:
-              "Deputy Dean I of the Faculty of Film & Television, Jakarta Institute of the Arts",
+            eTitle: "Assistant Dean of the Faculty of Film & Television, Jakarta Arts Institute",
             place: "Indonesia",
           },
           {
             eTitle: "Member of the Jakarta Arts and Culture Foundation (YSBJ)",
             place: "Indonesia",
           },
-          {
-            eTitle: "Film Editor, since 1994",
-            place: "Indonesia",
-          },
         ],
       },
       {
         index: 3,
-        name: "Raden Wardana",
+        name: "Raden Daniel Wisnu Wardana",
         image: Daniel,
         linkedin:
-          "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
+          "https://www.linkedin.com/in/daniel-wardana-21878677",
         lastEducation:
           "Master's degree, Film/Video dan Fotografi at Bond University",
         description:

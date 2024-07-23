@@ -83,7 +83,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                 </div>
                 {hoveredIndex === index && (
                   <div
-                    className={`absolute top-36 md:top-44 md:left-9 bg-black p-5 mx-2 text-white w-72 md:w-[70%]`}
+                    className={`absolute top-36 md:top-44 md:left-12 bg-black p-5 mx-2 text-white w-72 md:w-[70%]`}
                   >
                     <div className="h-[200px] md:h-[250px]">
                       <p className="font-semi bold mb-10 line-clamp-9 text-sm md:text-base">

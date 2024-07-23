@@ -9,23 +9,23 @@ export const socialLinks = [
   {
     title: "tiktok link",
     icon: tiktokIcon,
-    link: "#",
+    link: "https://www.tiktok.com/@unasfest?_t=8oGNsvgjGqH&_r=1",
   },
   {
     title: "youtube link",
     icon: youtubeIcon,
-    link: "#",
+    link: "https://www.youtube.com/@unasfest",
   },
   {
     title: "instagram link",
     icon: instagramIcon,
-    link: "#",
+    link: "https://www.instagram.com/unasfest",
   },
 
   {
     title: "LinkedIn",
     icon: linkedinIcon,
-    link: "#",
+    link: "https://www.linkedin.com/in/unas-fest-6b6287301/",
   },
 ];
 

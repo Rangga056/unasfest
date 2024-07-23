@@ -30,6 +30,6 @@ export const partnership = [
         image : buynana,
         title : "Buynana Chips",
         description : "Buynana Chips is a specialty banana chips product from Cianjur, available in five flavors: Chocolate, Milk, Strawberry, Original, and Green Tea.",
-        link: "https://www.bumiaksara.com/"
+        link: "https://buynanachips.com/"
     },
 ]

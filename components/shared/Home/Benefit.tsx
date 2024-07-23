@@ -31,7 +31,7 @@ const Benefit = () => {
                 alt="money icon"
                 className="aspect-square w-16 object-contain md:w-24"
               />
-              <p className="w-24 md:w-36">Apreciation</p>
+              <p className="w-24 md:w-36">Appreciation</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image
