@@ -76,7 +76,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                   />
                   <div className="lg:px-4 font-inter pb-6">
                     <h1 className="text-lg font-bold">{prop.name}</h1>
-                    <h2 className="w-[300px] text-base lg:w-[400px]">
+                    <h2 className="w-full text-base">
                       {prop.lastEducation}
                     </h2>
                   </div>

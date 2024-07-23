@@ -71,12 +71,15 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
+                <div className="relative h-[230px] w-[380px]">
                 <Image
                   src={activity.img}
                   alt={activity.desc}
-                  width={380}
-                  height={380}
+                  fill
+                  className="object-cover object-center"
+
                 />
+                </div>
                 <p className="mt-2 w-full text-start">{activity.desc}</p>
                 <p className="w-full text-start font-[200]">{activity.date}</p>
               </div>
@@ -109,12 +112,15 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
+                <div className="relative h-[230px] w-[380px]">
                 <Image
                   src={activity.img}
                   alt={activity.desc}
-                  width={380}
-                  height={380}
+                  fill
+                  className="object-cover object-center"
+
                 />
+                </div>
                 <p className="mt-2 w-full text-start text-white">
                   {activity.desc}
                 </p>
