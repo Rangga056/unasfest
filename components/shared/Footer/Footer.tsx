@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Separator liine */}
         <Separator className="my-10 w-full bg-page-black" />
         <p className="text-center text-xl md:pl-7 md:text-left">
-          © Copyright UnasFest
+          © Copyright UNAS FEST
         </p>
       </div>
     </footer>
