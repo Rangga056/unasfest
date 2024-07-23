@@ -50,7 +50,7 @@ const Partnership = () => {
               There are 4 branches of competition in this activity, namely
               Scientific Paper Competition (SPC), English Debate Competition
               (EDC), Kompetisi Debat Bahasa Indonesia (KDBI) and Short Movie
-              Competition (SHC)
+              Competition (SMC)
             </p>
           </CardContent>
         </Card>
@@ -71,8 +71,8 @@ const Partnership = () => {
                   src={item.image}
                   alt="sample"
                   className="mx-auto"
-                  width={250}
-                  height={200}
+                  width={400}
+                  height={250}
                 />
                 <h3 className="mt-2 text-base">{item.title}</h3>
                 <p className="line-clamp-3 font-semibold">{item.description}</p>
@@ -107,7 +107,7 @@ const Partnership = () => {
                 />
               </div>
 
-              <p className="text-center text-sm font-semibold md:text-xl">
+              <p className="text-center text-base font-semibold md:text-xl">
                 {item.desc}
               </p>
             </div>

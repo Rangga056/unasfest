@@ -72,7 +72,7 @@ export const timelinesEDC = [
   {
     title: "Close Registration EDC",
     description: "Open Registration for English Debate Competition",
-    month: "DEC",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#004AAD",
@@ -365,18 +365,18 @@ export const timelinesSPC = [
 
 export const timelinesSemnas = [
   {
-    title: "Open Registration for the National Seminar UNAS FEST 2024",
+    title: "Open Registration for the International Seminar UNAS FEST 2024",
     description:
-      "Registration for the National Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
+      "Registration for the International Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
     month: "AUG",
     date: "12",
     year: "2024",
     color: "#853EB6",
   },
   {
-    title: "Close Registration for the National Seminar UNAS FEST 2024",
+    title: "Close Registration for the International Seminar UNAS FEST 2024",
     description:
-      "Registration for the National Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
+      "Registration for the International Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
     month: "SEP",
     date: "13",
     year: "2024",

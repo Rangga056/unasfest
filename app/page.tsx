@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       {/* Activities  Slide*/}
-      <div className="container mt-20 pr-0">
+      <div className="container mt-20 pr-0" id="activity-slider-section">
         <ActivitySlider props={postersData} />
       </div>
       {/* Benefit  */}

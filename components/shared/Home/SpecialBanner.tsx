@@ -24,8 +24,7 @@ const SpecialBanner = () => {
           <br /> seminar
         </h1>
         <p className="py-[19px] text-base md:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        Explore groundbreaking topics and network with global experts at our exclusive international seminar. Join us for insightful discussions.{" "}
         </p>
         <Link href="/activities/international-seminar">
           <Button
