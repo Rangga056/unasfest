@@ -34,7 +34,7 @@ export const faqsData = [
     index: 5,
     quetion: "Where can I see the winner announcement?",
     answer:
-      "The winner announcement will be available on this <a id='caturnawa' href='https://www.caturnawa.unasfest.com'class='text-color'>caturnawa.unasfest.com</a>",
+      "The winner announcement will be available on this <a id='caturnawa' href='https://caturnawa.unasfest.com/'class='text-color'>caturnawa.unasfest.com</a>",
   },
 ];
 

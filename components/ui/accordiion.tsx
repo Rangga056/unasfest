@@ -15,6 +15,7 @@ const AccordionItem = React.forwardRef<
     {...props}
   />
 ));
+AccordionItem.displayName = "AccordionItem";
 
 const AccordionItemGallery = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Item>,

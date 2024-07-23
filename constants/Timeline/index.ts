@@ -86,7 +86,7 @@ export const timelinesEDC = [
   {
     title: "Close Registration EDC",
     description: "Open Registration for English Debate Competition",
-    month: "DEC",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#004AAD",
@@ -248,16 +248,7 @@ export const timelinesSMC = [
     description:
       "the process of submitting short film competition videos is ongoing or has just open",
     month: "JULY",
-    date: "23",
-    year: "2024",
-    color: "#C02424",
-  },
-  {
-    title: "Submission of Short Movie Videos is closed",
-    description:
-      "the process of submitting short film competition videos is ongoing or has just close",
-    month: "SEP",
-    date: "27",
+    date: "24",
     year: "2024",
     color: "#C02424",
   },
@@ -265,15 +256,7 @@ export const timelinesSMC = [
     title: "Beginning of the Preliminary Round of Short Movie",
     description: "The process of submitting Short Movie Videos is open",
     month: "SEP",
-    date: "27",
-    year: "2024",
-    color: "#C02424",
-  },
-  {
-    title: "End of the Preliminary Round of Short Movie",
-    description: "The process of submitting Short Movie Videos is close",
-    month: "SEP",
-    date: "28",
+    date: "26",
     year: "2024",
     color: "#C02424",
   },

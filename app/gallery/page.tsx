@@ -1,6 +1,12 @@
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import galleryHeader from "@/public/assets/images/gallery/header.png";
+
+{
+  /* Memories From The Past */
+}
+import juara from "@/public/assets/images/gallery/juara-lomba.png";
+
 import FaqActivities from "@/components/shared/FaqActivities/FaqActivities";
 import ActivitiesGallery from "@/components/shared/ActivitiesGallery/activitiesGallery";
 import { faqsgallery } from "@/constants/Faqs";
@@ -35,6 +41,8 @@ export default function Gallery() {
               allowFullScreen
               className="mx-auto aspect-video w-full"
             />
+              className="mx-auto aspect-video w-full"
+            
           </div>
         </CardContent>
       </Card>
@@ -58,7 +66,7 @@ export default function Gallery() {
           height={450}
           className="absolute bottom-16 right-0 hidden lg:inline-block"
         />
-      </div>
+      </div> 
     </section>
   );
 }

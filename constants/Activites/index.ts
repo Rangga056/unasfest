@@ -12,9 +12,9 @@ import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 import wahyu from "@/public/assets/images/competition/kdbi Prof. Dr. Wahyu Wibowo.png";
 
 // judges photos edc
-import fikri from "@/public/assets/images/competition/edc Adfikri Kevin Marvel.jpg";
+import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
 import ahmad from "@/public/assets/images/competition/edc Ahmad Kushay.jpg";
-import aditya from "@/public/assets/images/competition/edc Muhammad Aditya Muchtar.jpg";
+import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 
 // judges photos spc
 import efriza from "@/public/assets/images/competition/spc Efriza, S.I.P., M.Si..jpg";
@@ -68,7 +68,7 @@ export const Activities = [
       "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants' analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
     timeline: timelinesKDBI,
     guideBook:
-      "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
+      "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
     infiniteSlidingText: "INDONESIAN DEBATE",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Indonesian Debate Competition requirements",
@@ -452,7 +452,7 @@ export const Activities = [
       "The English Debate Competition is an intellectual contest designed to enhance participants' public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
-      "https://docs.google.com/document/d/1NNuG7aHoR2e0OaZkGOIGWG4fpxtbyE9hkt1Bvq2E5ns/edit?usp=drive_link",
+      "https://drive.google.com/file/d/1e7IZCf6frSg5BVrhn9sb2jrIVUL4qFab/view?usp=sharing",
     infiniteSlidingText: "ENGLISH DEBATE",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
@@ -502,119 +502,63 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Adfikri Kevin Marvel",
-        image: fikri,
+        name: "Mouliza Kristhopher Donna Sweinstani",
+        image: mouliza,
         linkedin: "https://www.linkedin.com/in/marvelkevin/?jobid=1234",
         lastEducation:
           "Bachelor of Arts - BA, International Relations and Affairs",
         description:
-          "Working at the Ministry of Foreign Affairs of the Republic of Indonesia since February 2019, previously a competitive parliamentary debater from Universitas Indonesia who has won national and international tournaments, represented Indonesia in multiple international competitions, including a full-sponsorship from the Indonesian government to the World University Debating Championship 2019 in Cape Town, competing against more than 250 teams from elite universities worldwide, advancing to the elimination rounds in the English as a Second Language (ESL) category, and securing the title of World's 6th Best EFL speaker in the same tournament. Interested in vast arrays of issues, such as: International Relations, Philosophy, US Politics, UK Politics, BRI, Economics, social issues, etc.",
+          "I am currently serves as the head of the Political Party Studies research team at the Political Research Center of BRIN (Indonesian National Research and Innovation Agency). Apart from being a researcher, I am also a Lecturer at Department of Government Studies Indonesian Open University (UT) and a Practitioner Lecturer from the Ministry of Education, focusing on Democracy, Election, and Political Parties, in several universities in Indonesia. Several publications on electoral studies, political parties, the role of women in politics, and youth in politics have been published in national and international reputable journals, books, as well as in the mainstream mass media. I am also one of the founders of a youth organisation called the Indonesian Youth Political Institute, established in 2014.",
         achievements: [
-          "Grandfinalist and 2nd Overall Best Speaker of Universitas Nasional Debating Championship",
-          "Champion and 4th Best Speaker of ALSA UI E-Comp Debate Competition",
-          "ESL Quarterfinalist and 3rd Best EFL Speaker of Australasian Intervarsity Debating Championship 2018",
-          "Semifinalist of World Universities Debating Championship 2018 in EFL Category",
-          "Quarterfinalist, 6th Best Speaker, and Best Reply Speaker of Indonesia Varsity English Debate",
+          "One of the 'The Best Electoral Literature' from the National Library of Indonesia",
+          "Winner of the MG Prize LPDP Ministry of Finance Award in the field of Politics, Law, and Peace",
+          "Copyright Holder of the Political Party Institutionalization Index Instrument",
         ],
         experience: [
           {
             eTitle:
-              "Diplomat - Ministry of Foreign Affairs of the Republic of Indonesia",
-            eTime: "November 2019 - Present",
+              "Election Violation Analyst - Bawaslu RI",
+            eTime: "January 2017 - December 2017",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail:
-                "Currently working at the Directorate of ASEAN External Cooperation, Directorate General of ASEAN Cooperation with the diplomatic rank of Third Secretary. Assigned to handle issues between ASEAN and Dialogue Partners, specifically East Asia countries. Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
+                "",
               dPoint: [],
             },
           },
           {
             eTitle:
-              "Diplomat in Training - Ministry of Foreign Affairs of the Republic of Indonesia",
-            eTime: "February 2019 - November 2019",
+              "Researcher at Research Center for Politics BRIN/LIPI",
+            eTime: "2018 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "",
+              dPoint: [
+              
+              ],
+            },
+          },
+          {
+            eTitle: "Tutor in Departemen of Government Studies Indonesia Open Univeristy",
+            eTime: "2021 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail:
-                "Undergoing diplomatic school (Sekdilu XLI) as a part of the recruitment process. During this period, I interned for a month in the Directorate for Diplomatic Facilities, taking care of requests from Foreign Missions and coordinating them with relevant stakeholders.",
+                "",
               dPoint: [
-                "Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
+                "",
               ],
             },
           },
           {
-            eTitle: "Ministry of Education and Culture Republic of Indonesia",
-            eTime: "September 2020 - October 2020",
+            eTitle:
+              "Practitioner Lecturer in Departemen of Political Science Universitas Nasional",
+            eTime: "2024 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail:
-                "Chosen to adjudicate the two biggest national competitions for varsity and high school levels respectively. Four teams out of over 200 participating in NUDC would be selected via NUDC to represent Indonesia in WUDC (World Universities Debating Championship) 2021 in Seoul, and the top 15 speakers of NSDC would compete for spots in Team Indonesia for WSDC (World Schools Debating Championship).",
-              dPoint: [
-                "Managed various issues from negotiating documents, statements by the Foreign Minister and President, to the convening of the ASEAN-Indo-Pacific Forum 2023, a flagship event under Indonesia's ASEAN Chairmanship.",
-              ],
-            },
-          },
-          {
-            eTitle:
-              "Coach for Indonesia's Official Delegation for World Universities Debating Championship 2020 Bangkok",
-            eTime: "October 2019 - October 2019",
-            place: "Jakarta Raya, Indonesia",
-            eDesc: {
-              dDetail:
-                "As an alumna of Indonesia's official delegation for WUDC 2019 in Cape Town selected through NUDC (National Universities Debating Championship), I was requested to coach the next year's official delegation for 4 sessions in October 2019.",
-            },
-          },
-          {
-            eTitle:
-              "Vice President/Head of Training and Development - EDS UI (English Debating Society Universitas Indonesia)",
-            eTime: "December 2016 - December 2017",
-            place: "West Java Province, Indonesia",
-            eDesc: {
-              dPoint: [
-                "Managed learning resources for English Debating Society Universitas Indonesia",
-                "Communicated with campus officials about delegation proposals",
-                "Handled schedules for regular practices",
-                "Held internal competitions to select delegations",
-                "Chose coaches for various delegations",
-                "Communicated with institutions holding various competitions regarding registration, payment, etc.",
-              ],
-            },
-          },
-          {
-            eTitle:
-              "Director of UNSC IMUN - UI MUN Club (Universitas Indonesia Model United Nations Club)",
-            eTime: "November 2016 - November 2017",
-            place: "West Java Province, Indonesia",
-            eDesc: {
-              dPoint: [
-                "In charge of choosing topics for the United Nations Security Council",
-                "Assessed delegates' performance during the council",
-                "Communicated with the substance team of Indonesia MUN",
-              ],
-            },
-          },
-          {
-            eTitle:
-              "Assistant Director of UNICEF IMUN - UI MUN Club (Universitas Indonesia Model United Nations Club)",
-            eTime: "November 2015 - November 2016",
-            place: "West Java Province, Indonesia",
-            eDesc: {
-              dPoint: [
-                "In charge of choosing the topic to be discussed and making the study guide for the UNICEF council",
-                "Assessed delegates' performance",
-                "Communicated with the substance team",
-              ],
-            },
-          },
-          {
-            eTitle: "Official Representative of Universitas Indonesia",
-            eTime: "November 2015 - July 2016",
-            place: "Kuala Lumpur, Malaysia",
-            eDesc: {
-              dPoint: [
-                "In charge of choosing the topic to be discussed and making the study guide for the UNICEF council",
-                "Assessed delegates' performance",
-                "Communicated with the substance team",
-              ],
+                "",
             },
           },
         ],
@@ -704,13 +648,13 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Muhamad Aditya Muchtar",
-        image: aditya,
+        name: "Hezron Kowardi",
+        image: hezron,
         linkedin: "https://www.linkedin.com/in/muchaditya/?jobid=1234",
         lastEducation:
           "Master of Engineering, Industrial Engineering - University of Indonesia",
         description:
-          "Professional Consultant focusing on Customer Experience (CX), Project Management, and Digital Transformation areas. Having experience in working for various industries such as FMCG, Automotive, Manufacturing, and Multi-Finance companies. Supported by a strong engineering educational background to sustain comprehensive logical thinking and sharp problem-solving skills. Please refer to my profile for details. My DM is always open for any discussion related to professional matters.",
+          "Hezron Kowardi is an undergraduate psychology student at the Universitas Indonesia. He has a background in various leadership roles, including as President of the English Debating Society (EDS UI). Hezron has interned as an Internal Recruiter at Monroe Consulting Group and in HR Recruitment at Akulaku Indonesia. Hezron has a keen interest in human resources, social welfare, and mental health issues. Hezron has also won awards in international debate competitions.",
         achievements: [
           "Mollit quis sint ad pariatur aliquip anim amet.",
           "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -813,7 +757,7 @@ export const Activities = [
       "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and gain recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
-      "https://drive.google.com/drive/folders/1TVhm_ayI7emGH-VVc2UvkRuB7yqldqcE?usp=drive_link",
+      "https://drive.google.com/file/d/1LL51uQ5tO_Z-tBjXzILCKczyRH1MXhVW/view?usp=share_link",
     infiniteSlidingText: "SCINTIFIC PAPER",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
