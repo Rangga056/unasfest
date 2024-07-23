@@ -28,8 +28,11 @@ import {
 } from "@/components/ui/select";
 export default function Gallery() {
   return (
-    <section>
-      <div className="relative mx-auto mt-20 w-full max-w-screen-2xl">
+    <section className="flex h-full min-h-[100svh] w-screen items-center justify-center">
+      <h1 className="w-full text-center font-bungee text-4xl">
+        Website is under construction
+      </h1>
+      {/* <div className="relative mx-auto mt-20 w-full max-w-screen-2xl">
         <Image
           src={galleryHeader}
           alt="gallery header"
@@ -60,10 +63,10 @@ export default function Gallery() {
             />
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Memories From The Past */}
-      <div className="relative m-auto max-w-screen-xl bg-page-black pb-16 pl-4 pr-4 pt-16 sm:pl-16 sm:pr-16">
+      {/* <div className="relative m-auto max-w-screen-xl bg-page-black pb-16 pl-4 pr-4 pt-16 sm:pl-16 sm:pr-16">
         <h2 className="text-left text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
           <span className="pl-3 text-page-white">Memories from</span>{" "}
           <span className="text-page-green">the Past</span>
@@ -211,7 +214,7 @@ export default function Gallery() {
           height={450}
           className="absolute bottom-16 right-0 hidden lg:inline-block"
         />
-      </div>
+      </div> */}
     </section>
   );
 }
