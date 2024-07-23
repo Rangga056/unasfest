@@ -71,7 +71,6 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
       {/* Custom Pagination and Navigation Container */}
       <div className="absolute -bottom-16 left-0 z-10 flex items-center space-x-4 lg:hidden">
         <div className="custom-pagination-home" />
-
         <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
           <MoveRight size={40} className="text-page-black" />
         </div>

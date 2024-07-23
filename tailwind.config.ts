@@ -34,6 +34,14 @@ const config = {
     },
 
     extend: {
+      textShadow: {
+        'sm': '0 1px 2px rgba(0, 0, 0, 0.05)',
+        'md': '0 4px 3px rgba(0, 0, 0, 0.1)',
+        'lg': '0 10px 8px rgba(0, 0, 0, 0.1)',
+        'xl': '0 20px 15px rgba(0, 0, 0, 0.1)',
+        '2xl': '0 25px 25px rgba(0, 0, 0, 0.15)',
+        'none': 'none',
+      },
       color: {
         all: "#1F1E23",
       },
@@ -123,7 +131,33 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function({ addUtilities }: any) {
+      const newUtilities = {
+        '.text-shadow-sm': {
+          textShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
+        },
+        '.text-shadow-md': {
+          textShadow: '0 4px 3px rgba(0, 0, 0, 0.1)',
+        },
+        '.text-shadow-lg': {
+          textShadow: '0 10px 8px rgba(0, 0, 0, 0.1)',
+        },
+        '.text-shadow-xl': {
+          textShadow: '0 20px 15px rgba(0, 0, 0, 0.1)',
+        },
+        '.text-shadow-2xl': {
+          textShadow: '0 25px 25px rgba(0, 0, 0, 0.15)',
+        },
+        '.text-shadow-none': {
+          textShadow: 'none',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    }
+  ],
 } satisfies Config;
 
 export default config;

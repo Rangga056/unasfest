@@ -17,7 +17,6 @@ import hifiUnas from "@/public/assets/images/about-us/hifi-unas-logo.png";
 import mmUnas from "@/public/assets/images/about-us/MM-unas-logo.png";
 import unasTv from "@/public/assets/images/about-us/unastv-logo.png";
 import unasRadio from "@/public/assets/images/about-us/unasradio-logo.png";
-import { IM_Fell_Great_Primer } from "next/font/google";
 
 export const missions = [
   {

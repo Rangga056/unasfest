@@ -71,8 +71,8 @@ const Partnership = () => {
                   src={item.image}
                   alt="sample"
                   className="mx-auto"
-                  width={250}
-                  height={200}
+                  width={400}
+                  height={250}
                 />
                 <h3 className="mt-2 text-base">{item.title}</h3>
                 <p className="line-clamp-3 font-semibold">{item.description}</p>

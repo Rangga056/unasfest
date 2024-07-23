@@ -17,7 +17,7 @@ import aditya from "@/public/assets/images/competition/edc Muhammad Aditya Mucht
 
 // judges photos spc
 import efriza from "@/public/assets/images/competition/spc Efriza, S.I.P., M.Si..jpg";
-import fajar from "@/public/assets/images/competition/spc Fajar Harry Sampurno, MBA, Ph.D..jpg";
+import desfara from "@/public/assets/images/competition/Desfara.jpeg";
 
 // judges photos smc
 import jentoni from "@/public/assets/images/competition/sm jentoni.jpg";
@@ -953,22 +953,138 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Fajar Harry Sampurno, MBA, Ph.D.",
-        image: fajar,
+        name: "Desfara Anggreani",
+        image: desfara,
         lastEducation:
-          "Executive education focused on Disruptive Innovation of University of Cambridge.",
-        description:
-          "A former senior government official with experience leading various state-owned manufacturing and strategic defense industries. He has a strong academic background, ranging from Monash University to executive education focused on Disruptive Innovation from the University of Cambridge. He has extensive experience, including serving as Chief Executive Officer/President of PT. Barata Indonesia. Additionally, he held the position of Deputy Minister of Mining, Strategic Industries & Media at the Ministry of State-Owned Enterprises from July 2015 to November 2019. In this role, he assisted the Minister of SOEs in formulating policies and synchronizing the implementation of strategic business initiatives, competitiveness, performance, and sustainable development for state-owned enterprises in the sectors of Mining, Oil & Gas, Strategic Industries, Security Printing, Perum Peruri, Publishing & Printing.",
-        achievements: ["..."],
+          "Depok Senior High School 4",
+        description: "I am a bachelor's student in the Faculty of Health Sciences. I learn a lot from people, especially about how connections are created through events. I am skilled in public speaking, which has led me to win debate competitions and participate in international conferences. I have also been involved in several organizations, which has heightened my awareness of social issues. To manifest that interest, I lead a learning guidance program called Rumah Belajar.",
+        achievements: ["Master of Ceremony", "1st Winner Project SDGs in International Youth Experience 2024", "Speaker in International Youth Experience 2024", "Coordinator Volunteer", "Narasumber 'Cerita Anak Perawat'", "Juara 2 Karya Tulis Ilmiah Nasional UNAS Fest 2023", "Juara 1 Essay Competition Nasional Teras Student", "Juara Harapan 1 Cipta Puisi D'Science USU 2023", "Juara 1 Regianol III Public Speaking AIPVIK", "Juara 2 Video Edukasi Kesehatan Poltekkes Kaltim 2023", "Juara 3 Olimpiade Bahasa Inggris PUSPRESNAS", "1st Winner in Infographic Poster Competition Akasara", "FINALIS (Harapan II) Mahasiswa Berprestasi Indonesia Nursing Olympiad 2023", "1st Best Paper in International Youth Exchange and Conferenc", "Best Team Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand", "Leader Team 'Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand'", "Best Author by Meta Publisher", "Youth Summit on Leadership and Entrepreneur in Turkey", "Digital Marketing Skill Digipreneur Akademi Inspiradzi", "Juara 3 Poster PPM School of Management", "Spokesperson event of self esteem", "Delegation of circular economy and sustainable fashion ASEAN Cooperation", "Delegation of visual activism ASEAN Cooperation", "Spokesperson of organization Deep Happiest"],
         experience: [
           {
-            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-            eTime: "March 2022 - Present",
+            eTitle: "Founder of Runut Waktu",
+            eTime: "August 2023 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Runut waktu aims to help address social issues around education, health, and the environment with real action. In the time series, there are several programs, namely:",
+              dPoint: [
+                "Runut Waktu Bersama Mengajar (RWBM)",
+                "Bincang Aksi (Podcast)",
+                "Talk Quotes",
+                "Sustainable Development Goals (SDGs) News"
+              ],
+            },
+          },
+          {
+            eTitle: "Chief Executive Ofcer (CEO) of The Eternals Indonesia",
+            eTime: "September 2022 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Founder & CEO of Rumah Belajar",
+            eTime: "February 2021 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Mentor of Twinkling Stars",
+            eTime: "March 2021 - September 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
+              dPoint: []
+            }
+          },
+          {
+            eTitle: "Partnership of World Inspiration Indonesia",
+            eTime: "February 2022 - April 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
+              dPoint: []
+            }
+          },
+          {
+            eTitle: "Division media partner (HEAD) of IILMIKI",
+            eTime: "January 2022 - December 2022",
             place: "Indonesia",
             eDesc: {
               dDetail: "...",
-              dPoint: [],
+              dPoint: [
+                "Fully responsible for fnding and establishing relationships with partners to collaborate or cooperate on programs/projects.",
+                "Market a project or program to the public media and become a spokesperson.",
+                "Drafting an MoU, TOR and landing page."
+              ]
+            }
+          },
+          {
+            eTitle: "Public Relation of Get Wellness Soon",
+            eTime: "January 2022 - April 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Get Wellness Soon is an NGO dedicated to upgrading your skills in interpersonal, intrapersonal, and physical health. As a public relationship, I worked on: Maintaining sources well before & after webinar, cooperating with various media partners for media partner purposes, becoming a contact person in terms of media partner submissions from companies /organizations.",
+              dPoint: []
+            }
+          },
+          {
+            eTitle: "Brand Ambassador of Indonesia Milennial Connect",
+            eTime: "December 2021 - February 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Here are my responsibilities:",
+              dPoint: [
+                "Be willing to outreach to the community, city, or region",
+                "Assist in the publicity of MAF events on their respective social media",
+                "Coordinate with every internal organization elements",
+                "Bring or guide events with professional speakers"
+              ]
+            }
+          },
+          {
+            eTitle: "Public Relation of Mengelola Emosi Indonesia",
+            eTime: "November 2021 - February 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "ME Indonesia is a nationwide platform that focuses on educating about the importance of mental health issues, particularly in the case of emotional regulation. Projects I worked on: Fully responsible for fnding, contacting, and cooperating with sources every day, meeting the demands and needs of the source at an event, compiling a media partner database for event publication purposes, preparing the administration of media liaison teams such as TOR, MoU, media partner logos, and source material.",
+              dPoint: []
             },
+          },
+          {
+            eTitle: "Staf Event Organizer of Twinkling Stars",
+            eTime: "September 2021 - March 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Twinkling Stars is a platform for mental health and specializes in raising awareness of mental health. Duty Description: Building strategic planning for the event, managing and acting as an ofcer, fxing the rundown, becoming a host and PIC for some webinar events.",
+              dPoint: []
+            }
+          },
+          {
+            eTitle: "Head of Human Resources",
+            eTime: "September 2021 - January 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Supporting young people by sharing discussions on critical thinking, practical self‐development, and health through discussion of formal or informal events about gender equality and women's happiness.",
+              dPoint: []
+            }
+          },
+          {
+            eTitle: "Secretary General of ASEAN Youth Organization",
+            eTime: "September 2021 - January 2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Write emails, memos and letters",
+                "Manage database entry and client fles",
+                "Implement and/or develop ofce procedures and record systems"
+              ]
+            }
           },
         ],
       },
