@@ -72,20 +72,20 @@ export const activitiesSemin = [
     index: 0,
     img: foto,
     date: "4 December 2024",
-    desc: "Final Day-3",
+    desc: "Final Day-2",
   },
   {
     index: 1,
     img: foto2,
     date: "4 December 2024",
-    desc: "Final Day-3",
+    desc: "Final Day-2",
     
   },
   {
     index: 2,
     img: foto3,
     date: "4 December 2024",
-    desc: "Final Day-3",
+    desc: "Final Day-2",
     
   },
   {
