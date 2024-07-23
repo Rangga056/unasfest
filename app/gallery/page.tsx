@@ -34,12 +34,14 @@ export default function Gallery() {
         </CardTitle>
         <CardContent className="pt-10">
           <div className="w-full">
-            <iframe
-              src="https://www.youtube.com/embed/XWlBhQ9dFUQ"
-              title="YouTube video player"
-              allowFullScreen
-              className="mx-auto aspect-video w-full"
-            />
+          <iframe
+            className="aspect-video w-full max-w-[1280px]"
+            src="https://www.youtube.com/embed/XWlBhQ9dFUQ?si=E7Tpbh5oXLSWIif8"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
           </div>
         </CardContent>
       </Card>

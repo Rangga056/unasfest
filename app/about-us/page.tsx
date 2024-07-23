@@ -52,7 +52,7 @@ const AboutUsPage = () => {
               strengthening the spirit of scientific and competitive spirit to
               Indonesian students. There are 4 branches of competition in this
               activity, namely Scientific Writing Competition (SPC), English
-              Debate Competition (EDC), Indonesian Language Debate Competition
+              Debate Competition (EDC), Kompetisi Debat Bahasa Indonesia
               (KDBI) and short movie competiton.
             </p>
             <Button
@@ -213,11 +213,11 @@ const AboutUsPage = () => {
           </div>
         </div>
         {/* Mascots documentation */}
-        <h1 className="mt-20 text-center font-bungee text-3xl font-medium uppercase md:text-5xl">
+        {/* <h1 className="mt-20 text-center font-bungee text-3xl font-medium uppercase md:text-5xl">
           documentation of making <br className="hidden md:block" /> mascots
         </h1>
         <div className="mt-10 flex items-center justify-center">
-          {/* Youtube video */}
+          Youtube video
           <iframe
             className="aspect-video w-full max-w-[1280px]"
             src="https://www.youtube.com/embed/wy7yAUl3ROw?si=xRhSzihbUzwYgK8j"
@@ -226,7 +226,7 @@ const AboutUsPage = () => {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
-        </div>
+        </div> */}
       </div>
       {/* Unasfest 2023 mascot */}
       <div className="relative mx-auto mt-36 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-water-pool bg-cover bg-center px-32 py-10 lg:flex-row">

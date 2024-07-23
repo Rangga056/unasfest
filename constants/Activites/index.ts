@@ -173,7 +173,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Assc. Prof. Dr. Wahyu Wibowo",
+        name: "Prof. Dr. Wahyu Wibowo",
         image: wahyu,
         linkedin: "",
         lastEducation: "Ph.D. in Philosophy at Gadjah Mada University",
@@ -254,7 +254,7 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Purwo Besari",
+        name: "Purwo Besari S.Pd",
         image: purwo,
         linkedin: "https://www.linkedin.com/in/purwobesari/?jobid=1234",
         lastEducation: "Educational Management at State University of Jakarta",
@@ -399,7 +399,7 @@ export const Activities = [
         question:
           "How do I register for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
-          "Open your web browser and visit the CATURNAWA website (link)",
+          "Open your web browser and visit caturnawa.unasfest.com",
           'Scroll down the page until you find the "Indonesian Language Debate Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
@@ -435,7 +435,7 @@ export const Activities = [
       {
         question: "Where can I see the winner announcement?",
         answer:
-          "The winner announcement will be available on the website (link caturnawa).",
+          "The winner announcement will be available on caturnawa.unasfest.com.",
       },
     ],
   },
@@ -673,7 +673,7 @@ export const Activities = [
       {
         question: "How do I register for the English Debate Competition (EDC)?",
         answer: [
-          "Open your web browser and visit the CATURNAWA website (link)",
+          "Open your web browser and visit caturnawa.unasfest.com",
           'Scroll down the page until you find the "English Debate Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
@@ -709,7 +709,7 @@ export const Activities = [
       {
         question: "Where can I see the winner announcement?",
         answer:
-          "The winner announcement will be available on the website (link caturnawa).",
+          "The winner announcement will be available on the website caturnawa.unasfest.com.",
       },
     ],
   },
@@ -998,7 +998,7 @@ export const Activities = [
         question:
           "How do I register for the Scientific Paper Competition (SPC)?",
         answer: [
-          "Open your web browser and visit the CATURNAWA website (link)",
+          "Open your web browser and visit caturnawa.unasfest.com",
           'Scroll down the page until you find the "Scientific Paper Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
@@ -1033,7 +1033,7 @@ export const Activities = [
       {
         question: "Where can I see the winner announcement?",
         answer:
-          "The winner announcement will be available on the website (link caturnawa).",
+          "The winner announcement will be available on the website caturnawa.unasfest.com",
       },
     ],
   },
@@ -1050,7 +1050,7 @@ export const Activities = [
       "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
-      "https://drive.google.com/file/d/1HLcDNcXdUthmkEFbPJmistrydr2L63Tj/view?usp=drive_link",
+      "https://drive.google.com/file/d/1SYn9ZbQL6y1yL3Dw0pGngWtqkG4uwlZv/view?usp=share_link ",
     infiniteSlidingText: "SHORT MOVIE",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
@@ -1258,7 +1258,7 @@ export const Activities = [
       {
         question: "How do I register for the Short Movie Competition (SMC)?",
         answer: [
-          "Open your web browser and visit the CATURNAWA website (link)",
+          "Open your web browser and visit caturnawa.unasfest.com",
           'Scroll down the page until you find the "Short Movie Competition" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
@@ -1295,7 +1295,7 @@ export const Activities = [
       {
         question: "Where can I see the winner announcement?",
         answer:
-          "The winner announcement will be available on the website (link caturnawa).",
+          "The winner announcement will be available on the website caturnawa.unasfest.com",
       },
     ],
   },
@@ -1651,7 +1651,7 @@ export const Activities = [
       },
       {
         question:
-          "What are the benefits I will get as a participant of the International Seminar.",
+          "What are the benefits I will get as a participant of the International Seminar?",
         answer: [
           "Gain insights related to the seminar theme",
           "Get networking opportunities",

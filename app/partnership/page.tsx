@@ -50,7 +50,7 @@ const Partnership = () => {
               There are 4 branches of competition in this activity, namely
               Scientific Paper Competition (SPC), English Debate Competition
               (EDC), Kompetisi Debat Bahasa Indonesia (KDBI) and Short Movie
-              Competition (SHC)
+              Competition (SMC)
             </p>
           </CardContent>
         </Card>
