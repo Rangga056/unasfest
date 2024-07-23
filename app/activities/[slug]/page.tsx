@@ -70,7 +70,9 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                   <Link href={competition.caturnawa}>Sign Up</Link>
                 </Button>
                 <Button size="xl" variant="outline" className="bg-transparant">
-                  <Link href="#requirements" className="scroll-smooth">See More</Link>
+                  <Link href="#requirements" className="scroll-smooth">
+                    See More
+                  </Link>
                 </Button>
               </div>
             </CardContent>
@@ -123,8 +125,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       {/* TIMELINE */}
       <TimelineCards
-        title="Competition Timeline"
-        description="Pay attention to the time and date of the race"
+        title="Activity Timeline"
+        description="Pay attention to the time and date"
         timelines={competition.timeline}
       />
 

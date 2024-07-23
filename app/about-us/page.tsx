@@ -77,7 +77,7 @@ const AboutUsPage = () => {
               &quot;Being a forum for coaching and training as well as a
               benchmark (barometer) in terms of improving the quality of
               students in committee and organizational activities at the
-              National University.&quot;
+              Universitas Nasional.&quot;
             </i>
           </p>
           <h1 className="mt-14 text-center font-bungee text-5xl font-semibold uppercase">
@@ -103,7 +103,7 @@ const AboutUsPage = () => {
         <SteeringCommitteeSlider />
       </div>
       {/* Unasfest 2024 committee */}
-      <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
+      {/* <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
         <div className="container flex aspect-square h-full min-h-[300px] w-full max-w-[1180px] flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-contain bg-center md:aspect-video md:max-h-[576px] ">
           <ul className="hidden list-disc items-center justify-center gap-x-10 text-xl font-semibold md:flex">
             <li className="list-none">1 project manager</li>
@@ -122,7 +122,7 @@ const AboutUsPage = () => {
             <Link href="/about-us/committee">meet us</Link>
           </Button>
         </div>
-      </div>
+      </div> */}
 
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">
@@ -149,7 +149,7 @@ const AboutUsPage = () => {
               Sawo manila is also a tree of 1000 benefits, where every part of
               the tree can be utilized. This illustrates that the UNAS FEST
               committee consists of students from all study programs at the
-              National University. The placement of 3 leaves and 1 sawo manila
+              Universitas Nasional. The placement of 3 leaves and 1 sawo manila
               fruit forms a star formation in the center, depicting high hopes
               and shine.
             </p>
@@ -254,34 +254,6 @@ const AboutUsPage = () => {
       {/* Gallery Component */}
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
-      </div>
-      {/*TODO: Collaborations */}
-      <div className="container mt-24 h-full px-3 text-5xl">
-        <h1 className="text-center font-bungee text-2xl md:text-5xl">
-          collaborate
-        </h1>
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-2 md:mt-24 md:gap-5">
-          {unasCollaborate.map((item) => (
-            <div
-              key={item.index}
-              className="flex h-[230px] w-[150px] flex-col justify-center gap-y-4 border border-page-black p-6 md:h-[350px] md:w-[250px] md:p-16"
-            >
-              <div className="flex justify-center">
-                <Image
-                  src={item.img.src}
-                  alt={item.alt}
-                  width={143}
-                  height={142}
-                  className="aspect-square object-contain"
-                />
-              </div>
-
-              <p className="text-center text-sm font-semibold md:text-xl">
-                {item.desc}
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
     </main>
   );

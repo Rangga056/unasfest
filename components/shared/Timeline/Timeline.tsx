@@ -6,8 +6,8 @@ const Timeline = () => {
     <div className="w-full">
       <div className="flex items-center gap-2">
         <TimelineCards
-          title="Competition Timeline"
-          description="Pay attention to the time and date of the race"
+          title="Activity Timeline"
+          description="Pay attention to the time and date"
           timelines={timelinesHome}
         />
       </div>

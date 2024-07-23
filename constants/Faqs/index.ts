@@ -3,7 +3,7 @@ export const faqsData = [
     index: 0,
     quetion: "How do I register for the competition of UNAS FEST?",
     answer:
-      "Visit the CATURNAWA website, go to 'Indonesian Language Debate Competition', click 'Register Now', fill the form, review, and make the payment",
+      "Visit the CATURNAWA website, go to 'Kompetisi Debat Bahasa Indonesia', click 'Register Now', fill the form, review, and make the payment",
   },
   {
     index: 1,
@@ -34,7 +34,7 @@ export const faqsData = [
     index: 5,
     quetion: "Where can I see the winner announcement?",
     answer:
-      "The winner announcement will be available on this <a id='caturnawa' href='https://www.caturnawa.unasfest.com'class='text-color'>caturnawa.unasfest.com</a>",
+      "The winner announcement will be available on this <a id='caturnawa' href='https://caturnawa.unasfest.com/'class='text-color'>caturnawa.unasfest.com</a>",
   },
 ];
 
@@ -42,29 +42,25 @@ export const faqsgallery = [
   {
     index: 0,
     question: "What is UNAS FEST 2024?",
-    answer: 
+    answer:
       "UNAS FEST 2024 is an annual festival organized by Universitas Nasional to celebrate creativity, innovation, and student achievements. The event features various competitions, exhibitions, and performances involving participants from diverse backgrounds and fields.",
   },
   {
     index: 1,
     question: "What can I find on the Gallery page?",
-    answer: 
+    answer:
       "On the Gallery page, you can find the latest photos from UNAS FEST 2024, including event documentation, exhibitions, and key moments from the festival. We also provide photos from UNAS FEST 2023 to give you a glimpse of how the previous year's event went.",
   },
   {
     index: 2,
     question: "How can I view photos from UNAS FEST 2023?",
-    answer: 
+    answer:
       "To view photos from UNAS FEST 2023, simply scroll to the bottom of the Gallery page. There, you will find a dedicated gallery featuring images from last year's event, showcasing highlights and special moments from the festival.",
   },
   {
     index: 3,
     question: "Can I download photos from the Gallery page?",
-    answer: 
+    answer:
       "Currently, the Gallery page does not offer a direct download option for photos. However, you can view and enjoy the uploaded images for memory and reference. If you need photos for specific purposes, such as media or publication, please contact the event organizers using the contact information available on our website.",
   },
-
 ];
-
-
-
