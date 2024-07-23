@@ -117,7 +117,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah., S.SOS., M.IP",
+        name: "Fullah Jumaynah., S.Sos., M.Ip",
         image: fullah,
         lastEducation: "Master's Degree: Political Science University of Indonesia",
         description:
