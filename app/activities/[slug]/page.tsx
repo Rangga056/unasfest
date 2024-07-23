@@ -125,8 +125,8 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
       {/* TIMELINE */}
       <TimelineCards
-        title="Competition Timeline"
-        description="Pay attention to the time and date of the race"
+        title="Activity Timeline"
+        description="Pay attention to the time and date"
         timelines={competition.timeline}
       />
 
