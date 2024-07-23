@@ -44,7 +44,7 @@ export const timelinesHome = [
   {
     title: "Final Day 1 Debate of UNAS FEST",
     description: "Final Day 1 of EDC and KDBI",
-    month: "OKT",
+    month: "OCT",
     date: "16",
     year: "2024",
     color: "#1F1E23",
@@ -53,7 +53,7 @@ export const timelinesHome = [
     title: "Final Day 2 of UNAS FEST 2024",
     description:
       "Final Day 2 of EDC,KDBI, Short Movie and Scientific Paper Competition Competition Finalist",
-    month: "OKT",
+    month: "OCT",
     date: "17",
     year: "2024",
     color: "#1F1E23",
@@ -71,7 +71,7 @@ export const timelinesEDC = [
   },
   {
     title: "Close Registration EDC",
-    description: "Open Registration for English Debate Competition",
+    description: "Close Registration for English Debate Competition",
     month: "AUG",
     date: "23",
     year: "2024",
@@ -113,14 +113,14 @@ export const timelinesEDC = [
   {
     title: "Finalists attend Technical Meeting",
     description:
-      "Finalists attend the Technical Meeting in order to be informed about the mechanism of dabate",
+      "Finalists attend the Technical Meeting in order to be informed about the mechanism of debate",
     month: "OCT",
     date: "5",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Final Day 1 Kompetisi English Debate Competition",
+    title: "Final Day 1 English Debate Competition",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "16",
@@ -128,7 +128,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "Final Day 2 Kompetisi English Debate Competition",
+    title: "Final Day 2 English Debate Competition",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "17",
@@ -149,7 +149,7 @@ export const timelinesKDBI = [
   {
     title: "Close Registration KDBI",
     description: "Close Registration for KDBI",
-    month: "AUGUST",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#2A9763",
@@ -190,7 +190,7 @@ export const timelinesKDBI = [
   {
     title: "Finalists attend Technical Meeting",
     description:
-      "Finalists attend the Technical Meeting in order to be informed about the mechanism of dabate",
+      "Finalists attend the Technical Meeting in order to be informed about the mechanism of debate",
     month: "OCT",
     date: "5",
     year: "2024",
@@ -226,7 +226,7 @@ export const timelinesSMC = [
   {
     title: "Close Registration SMC",
     description: "Close Registration for SMC",
-    month: "AUGUST",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#C02424",
@@ -235,7 +235,7 @@ export const timelinesSMC = [
     title: "Submission of Short Movie Videos is open",
     description:
       "the process of submitting short film competition videos is ongoing or has just open",
-    month: "AUGUST",
+    month: "AUG",
     date: "24",
     year: "2024",
     color: "#C02424",
@@ -304,7 +304,7 @@ export const timelinesSPC = [
   {
     title: "Close Registration SPC",
     description: "Close Registration for SPC",
-    month: "AUGUST",
+    month: "AUG",
     date: "23",
     year: "2024",
     color: "#E27817",

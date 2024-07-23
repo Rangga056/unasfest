@@ -12,7 +12,7 @@ const Benefit = () => {
     <div className="mx-auto mt-20 w-full bg-page-yellow p-4">
       <div className="container flex flex-col items-center justify-center gap-y-16 p-4 md:p-20">
         <h1 className="text-center font-bungee text-3xl font-medium uppercase leading-tight text-page-black md:text-5xl">
-          benefits of the unas fest 2024 <br /> competency
+          benefits of the unas fest 2024 <br /> competition
         </h1>
         <div className="flex w-full flex-col items-center justify-center gap-y-10 text-xl">
           {/* top section */}
@@ -31,7 +31,7 @@ const Benefit = () => {
                 alt="money icon"
                 className="aspect-square w-16 object-contain md:w-24"
               />
-              <p className="w-24 md:w-36">Millions of Rupiah</p>
+              <p className="w-24 md:w-36">Apreciation</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-y-2">
               <Image

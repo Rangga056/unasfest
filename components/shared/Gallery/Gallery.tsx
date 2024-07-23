@@ -29,7 +29,7 @@ const Gallery = () => {
           let&apos;s join
         </h1>
         <h1 className="font-bungee text-3xl font-medium uppercase md:text-[44px] lg:text-6xl">
-          let&apos;s join <br /> unas fest <br /> competency
+          let&apos;s join <br /> unas fest <br /> competition
         </h1>
       </div>
       {/* Top right image */}
@@ -49,7 +49,7 @@ const Gallery = () => {
             Flashbacks of the Universitas Nasional Festival{" "}
             <span className="hidden lg:flex">
               {" "}
-              competition held from December 19, 2023 to December 19, 2023.
+              competition held from December 20, 2023 to December 20, 2023.
             </span>
           </p>
         </div>

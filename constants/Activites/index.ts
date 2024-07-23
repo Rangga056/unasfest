@@ -16,7 +16,7 @@ import ahmad from "@/public/assets/images/competition/edc Ahmad Kushay.jpg";
 import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 
 // judges photos spc
-import efriza from "@/public/assets/images/competition/spc Efriza, S.I.P., M.Si..jpg";
+import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
 import desfara from "@/public/assets/images/competition/Desfara.jpeg";
 
 // judges photos smc
@@ -64,7 +64,7 @@ export const Activities = [
     contactNumber: "https://wa.me/6288212435726",
     color: "#2A9763",
     description:
-      "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants' analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
+      "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
     timeline: timelinesKDBI,
     guideBook:
       "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
@@ -75,49 +75,50 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+          "KDBI UNAS FEST 2024 National Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
       },
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
+          "The KDBI UNAS FEST 2024 National Level participant team is required to register through the link listed on the poster and join the WhatsApp group listed on the UNAS FEST 2024 Website.",
       },
       {
         index: 3,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+          "The KDBI UNAS FEST 2024 National Level participant team is required to comply with all the Rules/Regulations in the KDBI UNAS FEST 2024 National Level activities.",
       },
       {
         index: 4,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+          "The KDBI UNAS FEST 2024 National Level participating team is required to download the KDBI UNAS FEST 2024 guidebook.",
       },
       {
         index: 5,
         detail:
-          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+          "The team participating in KDBI UNAS FEST 2024 National Level is required to attend the International Seminar.",
       },
       {
         index: 6,
         detail:
-          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+          "KDBI UNAS FEST 2024 National participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending KDBI UNAS FEST 2024 at Universitas Nasional.",
       },
       {
         index: 7,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+          "The committee has the right to disqualify the KDBI UNAS FEST 2024 National Level participant team that violates and does not comply with the Rules/Regulations in the KDBI UNAS FEST 2024 National Level.",
       },
       {
         index: 8,
         detail:
-          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau in accordance with the objective reality of KDBI UNAS FEST 2024 National Level activities.",
       },
     ],
+    
 
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah., S.Sos., M.Ip",
+        name: "Fullah Jumaynah, S.Sos., M.Ip",
         image: fullah,
         lastEducation: "Master's Degree: Political Science University of Indonesia",
         description:
@@ -254,7 +255,7 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Purwo Besari S.Pd",
+        name: "Purwo Besari, S.Pd",
         image: purwo,
         linkedin: "https://www.linkedin.com/in/purwobesari/?jobid=1234",
         lastEducation: "Educational Management at State University of Jakarta",
@@ -397,7 +398,7 @@ export const Activities = [
     faqs: [
       {
         question:
-          "How do I register for the Indonesian Language Debate Competition (KDBI)?",
+          "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer: [
           "Open your web browser and visit caturnawa.unasfest.com",
           'Scroll down the page until you find the "Indonesian Language Debate Competition" section',
@@ -452,7 +453,7 @@ export const Activities = [
       "The English Debate Competition is an intellectual contest designed to enhance participants' public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
-      "https://drive.google.com/file/d/1e7IZCf6frSg5BVrhn9sb2jrIVUL4qFab/view?usp=sharing",
+      "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
     infiniteSlidingText: "ENGLISH DEBATE",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
@@ -460,42 +461,42 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "Participants of the National Level UNAS FEST 2024 Competition are active students and registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+          "EDC UNAS FEST 2024 International Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi) for State or Private Universities in Indonesia and registered on the official college website for International Universities.",
       },
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
+          "The EDC UNAS FEST 2024 International Level participant team is required to register through the link listed on the poster and join the WhatsApp group listed on the UNAS FEST 2024 Website.",
       },
       {
         index: 3,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+          "The EDC UNAS FEST 2024 International Level participant team is required to comply with all the Rules/Regulations in the EDC UNAS FEST 2024 International Level activities.",
       },
       {
         index: 4,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+          "The EDC UNAS FEST 2024 International Level participating team is required to download the EDC UNAS FEST 2024 guidebook.",
       },
       {
         index: 5,
         detail:
-          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+          "The team participating in EDC UNAS FEST 2024 International Level is required to attend the International Seminar.",
       },
       {
         index: 6,
         detail:
-          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+          "EDC UNAS FEST 2024 International participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending EDC UNAS FEST 2024 at Universitas Nasional.",
       },
       {
         index: 7,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+          "The committee has the right to disqualify the EDC UNAS FEST 2024 International Level participant team that violates and does not comply with the Rules/Regulations in the EDC UNAS FEST 2024 International Level.",
       },
       {
         index: 8,
         detail:
-          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau in accordance with the objective reality of EDC UNAS FEST 2024 International Level activities.",
       },
     ],
 
@@ -777,75 +778,120 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Efriza, S.I.P., M.Si.",
+        name: "Efriza, S.IP, M.Si",
         image: efriza,
         lastEducation:
-          "Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP)",
+          "Master's in Social and Political Sciences (Political Science) at the Universitas Nasional",
         description:
-          "Efriza, S.I.P., M.Si. is a graduate of the Bachelor's program in Political Science from Universitas Nasional and holds a Master's degree in Political Science from the Institute of Social and Political Sciences Jakarta (IISIP). Currently, Efriza serves as a Permanent Lecturer in Government Science at Universitas Pamulang's Off-Campus Study Program (UNPAM PSDKU) in Serang, Banten, since March 2022, and also as a Permanent Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN) since October 2016.\n\n Efriza has authored 13 books, including 'Sociology of Power: Theory and Development' (2023), 'Introduction to Politics: An Empirical and Scientific Study' (2021), and 'Political Science: From Political Science to Government Systems' (2009).",
-        achievements: ["...", "..."],
+          "He holds a Master's degree in Political Science from FISIP, Universitas Nasional, completed in 2016, and a Bachelor's degree in the same field from IISIP Jakarta, completed in 2006. Since 2013, he has been an active member of the Indonesian Association of Political Science (AIPI) in Jakarta. His organizational experience includes serving as Editor-in-Chief of Demos Magazine from 2004 to 2005 and as Secretary of the Political Science Student Association (HIMAPOL) from 2002 to 2003. These roles have honed his expertise in political science and enriched his professional and academic journey.",
+        achievements: [],
         experience: [
           {
-            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-            eTime: "March 2022 - Present",
+            eTitle: "Reporter at Online1.id (Press)",
+            eTime: "2024 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
           {
             eTitle:
-              "Lecturer in Political Science at the College of Government Science Abdi Negara (STIP-AN).",
-            eTime: "October 2016 - Present",
+              "Founder of Pekamedia.com (Press)",
+            eTime: "2024 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implement xing strategies that align with business goals and elevate the overall customer experience (CX).",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle: "Lecturer at Bung Karno University",
-            eTime: "September 2017 - 2023",
-            place: "Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle: "Lecturer at Pembangunan Nasional Veteran University",
-            eTime: "February 2019 - August 2019",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle:
-              "Reviewer for Populis Journal (Sinta 4) at Nasional University",
-            eTime: "...",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle:
-              "Principal Researcher (Political Analyst) at Citra Institute",
-            eTime: "2011 - present",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail: "...",
+                "",
               dPoint: [],
             },
           },
           {
             eTitle: "Founder of Yayasan Studi Cendekia Indonesia (YSCI)",
             eTime: "2022 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Reviewer at Jurnal Wahana Bina Pemerintahan, STIP-AN",
+            eTime: "2024 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle:
+              "Reviewer at Jurnal Populis (UNAS), Sinta 4",
+            eTime: "2022 - Present",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle:
+              "Principal Researcher at Citra Institute",
+            eTime: "2020 - present",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Weekly Columnist at Telisik.id (Saturday/Sunday), the First Online Media in Southeast Sulawesi",
+            eTime: "2020 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Founder and Executive Director, CV Penerbit Kreasi Cendekia Pustaka",
+            eTime: "2011 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Adjunct Lecturer in International Relations, Universitas Satya Negara Indonesia (USNI)",
+            eTime: "2018 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Adjunct Lecturer in Political Science, Universitas Bung Karno (UBK)",
+            eTime: "2017 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Adjunct Lecturer in Political Science, Sekolah Tinggi Ilmu Pemerintahan Abdi Negara (STIP-AN)",
+            eTime: "2016 - present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "...",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Permanent Lecturer in Government Studies, Universitas Sutomo",
+            eTime: "September 2021 - present",
             place: "Indonesia",
             eDesc: {
               dDetail: "...",

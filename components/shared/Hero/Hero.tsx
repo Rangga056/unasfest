@@ -25,7 +25,7 @@ const Hero = () => {
         </h1>
         <p className="mt-4 w-full text-xl font-semibold md:w-[90%]">
           The Universitas Nasional Festival 2024 (UNAS FEST 2024) is one of the
-          annual events held to commemorate and celebrate the 74th anniversary
+          annual events held to commemorate and celebrate the 75th anniversary
           of Dies Natalis Universitas Nasional.{" "}
         </p>
         <Link href="#activity-slider-section">
