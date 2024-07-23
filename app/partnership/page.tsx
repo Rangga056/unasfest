@@ -89,7 +89,7 @@ const Partnership = () => {
       {/*TODO: Collaborations */}
       <div className="container mt-24 h-full px-3 text-5xl">
         <h1 className="text-center font-bungee text-2xl md:text-5xl">
-          collaborate
+          collaborator
         </h1>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-2 md:mt-24 md:gap-5">
           {unasCollaborate.map((item) => (

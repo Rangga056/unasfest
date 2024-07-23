@@ -77,7 +77,7 @@ const AboutUsPage = () => {
               &quot;Being a forum for coaching and training as well as a
               benchmark (barometer) in terms of improving the quality of
               students in committee and organizational activities at the
-              National University.&quot;
+              Universitas Nasional.&quot;
             </i>
           </p>
           <h1 className="mt-14 text-center font-bungee text-5xl font-semibold uppercase">
@@ -149,7 +149,7 @@ const AboutUsPage = () => {
               Sawo manila is also a tree of 1000 benefits, where every part of
               the tree can be utilized. This illustrates that the UNAS FEST
               committee consists of students from all study programs at the
-              National University. The placement of 3 leaves and 1 sawo manila
+              Universitas Nasional. The placement of 3 leaves and 1 sawo manila
               fruit forms a star formation in the center, depicting high hopes
               and shine.
             </p>
@@ -255,7 +255,6 @@ const AboutUsPage = () => {
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
       </div>
-      
     </main>
   );
 };
