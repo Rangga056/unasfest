@@ -84,28 +84,28 @@ export const mascots = [
     img: younaImg,
     name: "youna",
     description:
-      "Matahari memiliki filosofi sebagai sumber energi utama bagi kehidupan di bumi dan kesinambungan. Hal ini direpresentasikan dalam kepanitiaan UNAS FEST. Kepanitiaan menjadi sumber energi yang mendorong dan menggerakkan seluruh kegiatan UNAS FEST Tahun 2024. Layaknya matahari yang memberikan energi kepada planet, kepanitiaan memberikan energi untuk kesuksesan acara. Matahari selalu ada, terbit dan tenggelam setiap hari tanpa henti. Begitu juga dengan kepanitiaan UNAS FEST, mereka harus konsisten dalam menjalankan tugas pokok dan fungsinya untuk memastikan keberlanjutan acara UNAS FEST dari tahun ke tahun.",
+      "The sun has the philosophy of being the main source of energy for life on earth and sustainability. This is represented on the UNAS FEST committee. The committee is the source of energy that drives all UNAS FEST 2024 activities. Like the sun, which energizes the planet, the committee provides energy for the success of the event. The sun is always there, rising and setting every day without stopping. Likewise with the UNAS FEST committee, they must be consistent in carrying out their main duties and functions to ensure the sustainability of the UNAS FEST event from year to year.",
   },
   {
     index: 2,
     img: nassaImg,
     name: "nassa",
     description:
-      "Air menggambarkan fleksibilitas dan perubahan. Bentuknya yang fluida mencerminkan panitia UNAS FEST yang fleksibel namun tetap profesional, dan terus berubah menuju arah yang lebih baik. Warnanya yang biru mencerminkan terjaganya kedamaian dan kejernihan hati panitia UNAS FEST untuk keberlangsungan acara.",
+      "Water represents flexibility and change. Its fluid shape reflects the UNAS FEST committee, which is flexible yet professional and constantly changing in a better direction. Its blue color reflects the peace and clarity of the UNAS FEST committee's heart for the continuity of the event.",
   },
   {
     index: 3,
     img: alfestImg,
     name: "alfest",
     description:
-      "Api memiliki filosofi sebagai kekuatan transformasi, dan kreativitas. UNAS FEST merupakan festival ilmiah dimana ide-ide dan konsep-konsep kreatif bukan hanya berkembang, tetapi juga bertransformasi menjadi realitas yang dapat dinikmati oleh semua orang. Api juga menjadi simbol untuk membakar semangat dan motivasi. Dalam konteks UNAS FEST, Bentuk api yang dinamis  mencerminkan inovasi dan adaptasi UNAS FEST, serta warnanya yang merah menyala melambangkan besarnya energi, semangat, dan keberanian panitia UNAS FEST.",
+      "Fire has a philosophy of being the power of transformation and creativity. UNAS FEST is a scientific festival where creative ideas and concepts are not only developed but also transformed into a reality that can be enjoyed by everyone. Fire is also a symbol for igniting passion and motivation. In the context of UNAS FEST, the dynamic shape of fire reflects the innovation and adaptation of UNAS FEST, and its fiery red color symbolizes the amount of energy, passion, and courage of the UNAS FEST committee.",
   },
   {
     index: 4,
     img: luminaVerde,
     name: "lumina verde",
     description:
-      'Lumina Verde adalah simbol teknologi energi terbarukan yang kecil dan cerdas. Tabung kristalnya memantulkan sinar matahari, mengurangi panas dari matahari. Sayap berbentuk dandelion melambangkan regenerasi dan potensi energi, sementara kristal yang memberi energi menunjukkan output energi yang rendah. Simbol ini menginspirasi kita untuk memanfaatkan potensi energi terbarukan dan momentum energi global. Nama ini berasal dari bahasa Latin "Lumina"" yang berarti rumah dan "Verde" yang berarti air, yang menyoroti penggunaan inovatif energi Anemo dan Hydro untuk melindungi lingkungan.',
+      'Lumina Verde is a small, smart symbol of renewable energy technology. Its crystal tubes reflect sunlight, reducing heat from the sun. The dandelion-shaped wings symbolize regeneration and energy potential, while the energizing crystals indicate low energy output. This symbol inspires us to harness the potential of renewable energy and global energy momentum. The name comes from the Latin “Lumina,” meaning home, and "Verde", meaning water, highlighting the innovative use of anemo and hydro energy to protect the environment.',
   },
 ];
 
@@ -113,21 +113,20 @@ export const steeringCommittees = [
   {
     index: 1,
     img: rektorImg,
-    name: "Dr. El Amry Bermawi Putera, M.a.",
-    position: "rektor unas",
+    name: "Dr. El Amry Bermawi Putera, M.A.",
+    position: "Rektor unas",
   },
   {
     index: 2,
     img: wakilRektorAkademikImg,
-    name: "Prof. Dr. Suryono efendi, S.E., M.B.A., M.M.",
-    position:
-      "Wakil rektor Bidang Akademik, Kemahasiswaan dan Alumniroject Manager UNAS FEST 2023",
+    name: "Prof. Dr. Suryono Efendi, S.E., M.B.A., M.M.",
+    position: "Wakil Rektor Bidang Akademik, Kemahasiswaan dan Alumni",
   },
   {
     index: 3,
     img: wakilRektorAdministrasiImg,
-    name: "prof. Dr. Drs. Eko Sugiyanto, M.si.",
-    position: "wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
+    name: "Prof. Dr. Drs. Eko Sugiyanto, M.Si.",
+    position: "Wakil Rektor Bidang Administrasi Umum, Keuangan, dan SDM",
   },
 ];
 
@@ -162,20 +161,19 @@ export const DPM = [
   {
     index: 1,
     img: rektorImg,
-    name: "Dr. El Amry Bermawi Putera, M.a.",
-    position: "rektor unas",
+    name: "Dr. El Amry Bermawi Putera, M.A.",
+    position: "Rektor Unas",
   },
   {
     index: 2,
     img: wakilRektorAkademikImg,
-    name: "Prof. Dr. Suryono efendi, S.E., M.B.A., M.M.",
-    position:
-      "Wakil rektor Bidang Akademik, Kemahasiswaan dan Alumniroject Manager UNAS FEST 2023",
+    name: "Prof. Dr. Suryono Efendi, S.E., M.B.A., M.M.",
+    position: "Wakil Rektor Bidang Akademik, Kemahasiswaan dan Alumni",
   },
   {
     index: 3,
     img: wakilRektorAdministrasiImg,
-    name: "prof. Dr. Drs. Eko Sugiyanto, M.si.",
-    position: "wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
+    name: "prof. Dr. Drs. Eko Sugiyanto, M.Si.",
+    position: "Wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
   },
 ];
