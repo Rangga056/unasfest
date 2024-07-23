@@ -34,12 +34,14 @@ const ActivitiesGallery = () => {
         <CardContent className="flex flex-wrap justify-center gap-5 p-0">
           {activitiesGallery.slice(0, 3).map((activity) => (
             <div key={activity.index}>
-              <Image
-                src={activity.img}
-                alt={activity.desc}
-                width={380}
-                height={400}
-              />
+              <div className="relative h-[230px] w-[380px]">
+                <Image
+                  src={activity.img}
+                  alt={activity.desc}
+                  fill
+                  className="object-cover object-center"
+                />
+              </div>
               <p className="mt-2 text-white">{activity.desc}</p>
               <p className="font-[200] text-white">{activity.date}</p>
             </div>
@@ -118,13 +120,12 @@ const ActivitiesGallery = () => {
                   alt={activity.desc}
                   fill
                   className="object-cover object-center"
-
                 />
                 </div>
-                <p className="mt-2 w-full text-start text-white">
+                <p className="mt-2 w-full text-start text-black">
                   {activity.desc}
                 </p>
-                <p className="w-full text-start font-[200] text-white">
+                <p className="w-full text-start font-[200] text-black">
                   {activity.date}
                 </p>
               </div>
