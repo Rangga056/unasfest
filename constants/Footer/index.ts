@@ -62,7 +62,7 @@ export const activitiesLinks = [
     url: "/activities/english-debate/",
   },
   {
-    title: "Indonesian Debate Competition",
+    title: "Kompetisi Debat Bahasa Indonesia",
     url: "/activities/debat-bahasa-indonesia/",
   },
   {
