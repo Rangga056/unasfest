@@ -70,7 +70,7 @@ export const Activities = [
       "https://docs.google.com/document/d/1_KIlhlCgabnBLWvzCOBUlr344iLumPn9K3khqBNPSqU/edit?usp=drive_link",
     infiniteSlidingText: "INDONESIAN DEBATE",
     infiniteSlidingIcon: kdbiSlidingIcon,
-    requirementsTitle: "Indonesian Debate Competition requirements",
+    requirementsTitle: "Kompetisi Debat Bahasa Indonesia requirements",
     requirements: [
       {
         index: 1,
@@ -80,7 +80,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
       },
       {
         index: 3,
@@ -469,7 +469,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
       },
       {
         index: 3,
@@ -564,7 +564,7 @@ export const Activities = [
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail:
-                "As an alumna of Indonesia's official delegation for WUDC 2019 in Cape Town selected through NUDC (National Universities Debating Championship), I was requested to coach the next year's official delegation for 4 sessions in October 2019.",
+                "As an alumna of Indonesia's official delegation for WUDC 2019 in Cape Town selected through NUDC (Universitas Nasional Debating Championship), I was requested to coach the next year's official delegation for 4 sessions in October 2019.",
             },
           },
           {
@@ -837,7 +837,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
       },
       {
         index: 3,
@@ -1064,7 +1064,7 @@ export const Activities = [
       {
         index: 2,
         detail:
-          "Participants registered on the official college website for International Universities from various study programs and State or Private Universities.",
+          "Participants registered on the official college website for Universitas Nasional from various study programs and State or Private Universities.",
       },
       {
         index: 3,
