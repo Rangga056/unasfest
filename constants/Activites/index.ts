@@ -8,7 +8,7 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 // judges photos kdbi
 import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
-import wahyu from "@/public/assets/images/competition/kdbi Prof. Dr. Wahyu Wibowo.jpg";
+import wahyu from "@/public/assets/images/competition/wahyu.png";
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
