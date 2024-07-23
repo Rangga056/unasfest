@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
-import mascotgroup from "@/public/assets/images/mascots/mascotgroup.png";
+import mascotgroup from "@/public/assets/images/mascots/mascots.png";
 import Link from "next/link";
 
 const Hero = () => {

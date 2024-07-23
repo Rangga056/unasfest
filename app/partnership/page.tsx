@@ -14,6 +14,7 @@ import { contactsData } from "@/constants/Contacts";
 import Link from "next/link";
 import { partnership } from "@/constants/Partnership";
 import { partnershipDataProps } from "@/lib/types/Partnership";
+import { unasCollaborate } from "@/constants/About";
 
 const Partnership = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -34,17 +35,18 @@ const Partnership = () => {
         <Image
           src={banner}
           alt="banner"
-          className="h-full w-full object-cover object-center px-3 md:px-24"
+          className="h-full w-full max-w-[1600px] object-cover object-center px-3 md:px-24"
         />
       </Card>
       <div className="mx-auto max-w-screen-xl">
         <Card className="overflow-hidden rounded-none pb-2">
           <CardContent className="p-0">
             <CardTitle className="mx-auto items-center pb-4  text-center text-3xl font-normal leading-tight md:w-[80%] md:text-4xl md:leading-relaxed md:tracking-wide lg:text-6xl">
-              Sponsor Our Competition<br /> for the Future of Energy
+              Sponsor Our Competition
+              <br /> for the Future of Energy
             </CardTitle>
 
-            <p className="mx-auto pb-16 text-base md:w-[60%] md:text-[20px] lg:text-[24px] text-center px-5">
+            <p className="mx-auto px-5 pb-16 text-center text-base md:w-[60%] md:text-[20px] lg:text-[24px]">
               There are 4 branches of competition in this activity, namely
               Scientific Paper Competition (SPC), English Debate Competition
               (EDC), Kompetisi Debat Bahasa Indonesia (KDBI) and Short Movie
@@ -84,8 +86,36 @@ const Partnership = () => {
           </div>
         </div>
       </Card>
+      {/*TODO: Collaborations */}
+      <div className="container mt-24 h-full px-3 text-5xl">
+        <h1 className="text-center font-bungee text-2xl md:text-5xl">
+          collaborate
+        </h1>
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-2 md:mt-24 md:gap-5">
+          {unasCollaborate.map((item) => (
+            <div
+              key={item.index}
+              className="flex h-[230px] w-[150px] flex-col justify-center gap-y-4 border border-page-black p-6 md:h-[350px] md:w-[250px] md:p-16"
+            >
+              <div className="flex justify-center">
+                <Image
+                  src={item.img.src}
+                  alt={item.alt}
+                  width={143}
+                  height={142}
+                  className="aspect-square object-contain"
+                />
+              </div>
 
-      <Card className="mx-auto max-w-screen-xl">
+              <p className="text-center text-sm font-semibold md:text-xl">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <Card className="mx-auto mt-20 max-w-screen-xl">
         <CardContent className="relative p-0 md:p-6">
           <Image
             src={isMobile ? contactsm : contact}

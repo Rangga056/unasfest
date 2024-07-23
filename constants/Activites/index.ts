@@ -5,11 +5,10 @@ import scpContact from "@/public/assets/images/home/contactUs/spcContact.png";
 import smcContact from "@/public/assets/images/home/contactUs/smcContact.png";
 import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.png";
 
-
 // judges photos kdbi
-import leonardus from "@/public/assets/images/competition/kdbi Leonardus Hans.jpg";
+import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
-import wahyu from "@/public/assets/images/competition/kdbi Prof. Dr. Wahyu Wibowo.png";
+import wahyu from "@/public/assets/images/competition/kdbi Prof. Dr. Wahyu Wibowo.jpg";
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
@@ -36,8 +35,8 @@ import ovi from "@/public/assets/images/competition/semnas Ovi Lian Ding.jpeg";
 import kdbiCover from "@/public/assets/images/competition/kdbiCover.png";
 import edcCover from "@/public/assets/images/competition/edcCover.png";
 import scpCover from "@/public/assets/images/competition/scpCover.png";
-import smcCover from "@/public/assets/images/competition/smcCover.png";
-import semnasCover from "@/public/assets/images/competition/semnasCover.png"
+import smcCover from "@/public/assets/images/competition/smcCover.jpg";
+import semnasCover from "@/public/assets/images/competition/semnasCover.png";
 
 //import icon buat infiniteSlidingIcon
 import kdbiSlidingIcon from "@/public/assets/icons/megaphone.png";
@@ -118,12 +117,11 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Leonardus Hans Sebastian",
-        image: leonardus,
-        linkedin: "https://www.linkedin.com/in/leonardus-hans-sebastian/",
-        lastEducation: "Student at Institut Teknologi Bandung",
+        name: "Fullah Jumaynah., S.SOS., M.IP",
+        image: fullah,
+        lastEducation: "Master's Degree: Political Science University of Indonesia",
         description:
-          "Currently studying in Mining and Petroleum Engineering Faculty. Ambitious and fast learner. Have high-interest in event organizing and organitational works. Been in consultant/tech team for Pusat Prestasi Nasional (Puspresnas) by Kementrian Pendidikan dan Kebudayaan (Kemdikbud)",
+          "She is a researcher focusing on political, democracy, and gender issues at The Habibie Center. She also have 3 years of experience as a practitioner in political research and analysis, political communication strategy consulting, and branding at a political consulting agency. Additionally, She is frequently involved in programs and research at several NGOs and universities.",
         achievements: [
           "Champion of Top Challenge of Physics for Junior High School 2016",
           "2nd Runner Up of PINGFEST! IT Venture 2019",
@@ -131,44 +129,41 @@ export const Activities = [
         ],
         experience: [
           {
-            eTitle: "Freelancer - Tabulation Director",
-            eTime: "June 2020 - Present",
+            eTitle: "Researcher and Program Assistant - The Habibie Center – Jakarta",
+            eTime: "Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail:
-                "Serving as Tabulation Director in various Parliamentary Debating events. Including being in the Tab Team for Indonesian Government run events such as",
+                "",
               dPoint: [
-                "Universitas Nasional Debating Championship",
-                "Kontes Debat Mahasiswa Indonesia",
-                "Lomba Debat Bahasa Indonesia",
-                "National Schools Debating Championship",
+                "• Conducting research on political and democracy topics with policy document outputs",
+                "Running and managing programs in the Institute of Democracy and Human Rights department",
               ],
             },
           },
           {
-            eTitle: "Student English Forum (SEF) ITB",
-            eTime: "June 2022 - August 2023",
+            eTitle: "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
+            eTime: "Octtober 2023 - Present",
             eDesc: {
-              dDetail: "President of the Student English Forum (SEF) ITB",
-              dPoint: ["..."],
+              dDetail: "",
+              dPoint: ["Managing the Jubir Warga community project, part of SPD’s program focused on political education and digital campaign/activism for youth in response to the 2024 Presidential and Regional Elections.", "Conducting quantitative and qualitative research on the evaluation of the 2024 Presidential Election and analysis of democracy in Indonesia.", "Analyzing, writing, and publishing research findings in a book and policy documents."],
             },
           },
           {
-            eTitle: "Student English Forum (SEF) ITB",
-            eTime: "June 2022 - August 2023",
+            eTitle: "Political Researcher - Strategi Lingkar Nusantara – Jakarta",
+            eTime: "July 2023 – April 2024",
             eDesc: {
               dDetail:
-                "Serving as Head of Training for Student English Forum ITB, a student organization that focus on competing in Parliamentary Debating Competition. I am responsible for:",
+                "",
             },
             dPoint: [
-              "Managing Training method for SEF's Active Member",
-              "Creating Training related Event such as Summer Camp and Training Camp",
-              "Managing Tournament Participation system by SEF's Members",
+              "Conducted comprehensive political research (quantitative/surveys and qualitative) on voter behavior, political electability (parties, legislative candidates, and executives), and socio-economic, cultural, and political conditions.",
+              " Analyzed research findings to produce reports used for developing political strategies and communication.",
             ],
           },
           {
-            eTitle: "SerMorpheus - Business Development Intern",
-            eTime: "March 2022 - September 2022",
+            eTitle: "Project Researcher - Aliansi Kebangsaan – Jakarta",
+            eTime: "September 2023 – December 2023",
             eDesc: {
               dDetail: "...",
               dPoint: ["..."],
@@ -442,7 +437,7 @@ export const Activities = [
 
   {
     path: "edc",
-    caturnawa : "https://caturnawa.unasfest.com/periodeEDC",
+    caturnawa: "https://caturnawa.unasfest.com/periodeEDC",
     title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
@@ -506,7 +501,7 @@ export const Activities = [
         image: mouliza,
         linkedin: "https://www.linkedin.com/in/marvelkevin/?jobid=1234",
         lastEducation:
-          "Bachelor of Arts - BA, International Relations and Affairs",
+          "Bachelor of Political Science,",
         description:
           "I am currently serves as the head of the Political Party Studies research team at the Political Research Center of BRIN (Indonesian National Research and Innovation Agency). Apart from being a researcher, I am also a Lecturer at Department of Government Studies Indonesian Open University (UT) and a Practitioner Lecturer from the Ministry of Education, focusing on Democracy, Election, and Political Parties, in several universities in Indonesia. Several publications on electoral studies, political parties, the role of women in politics, and youth in politics have been published in national and international reputable journals, books, as well as in the mainstream mass media. I am also one of the founders of a youth organisation called the Indonesian Youth Political Institute, established in 2014.",
         achievements: [
@@ -566,7 +561,8 @@ export const Activities = [
       {
         index: 2,
         name: "Ahmad Kushay",
-        linkedin: "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
         image: ahmad,
         lastEducation:
           "Bachelor's degree, Chemistry - Institut Teknologi Bandung (ITB)",
@@ -652,56 +648,19 @@ export const Activities = [
         image: hezron,
         linkedin: "https://www.linkedin.com/in/muchaditya/?jobid=1234",
         lastEducation:
-          "Master of Engineering, Industrial Engineering - University of Indonesia",
+          "University of Indonesia Faculty of Psychology",
         description:
           "Hezron Kowardi is an undergraduate psychology student at the Universitas Indonesia. He has a background in various leadership roles, including as President of the English Debating Society (EDS UI). Hezron has interned as an Internal Recruiter at Monroe Consulting Group and in HR Recruitment at Akulaku Indonesia. Hezron has a keen interest in human resources, social welfare, and mental health issues. Hezron has also won awards in international debate competitions.",
-        achievements: [
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ],
+          achievements: [
+            "President of EDS UI 2023.",
+            "Grand Finalist in the English as a Foreign Language (EFL) category at the World Universities Debating Championships 2024 in Ho Chi Minh, Vietnam. This tournament is one of the largest in the world with over 800 participants from around the globe.",
+            "Semifinalist in the English as a Secondary Language (ESL) category at the Australasian Intervarsity Debating Championships 2023 in Krabi, Thailand. Australs is one of the largest debate tournaments in the world after WUDC.",
+            "Member of the Official Delegation from the Universitas Indonesia.",
+            "First Break and Runner-Up Champion at the UTM AP International Debating Championship 2023, the first virtual edition of the UTM API series.",
+            "Accredited."
+          ],
+          
         experience: [
-          {
-            eTitle: "Customer Experience Consultant - ABeam Consulting",
-            eTime: "October 2023 - Present",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail:
-                "Analyze, optimize, and enhance the end-to-end customer journey, ensuring seamless interactions and satisfaction by implementing strategies that align with business goals and elevate the overall customer experience (CX).",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle: "Project Management Consultant - ABeam Consulting",
-            eTime: "April 2023 - November 2023",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail:
-                "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle: "Project Management Analyst - ABeam Consulting",
-            eTime: "November 2021 - April 2023",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail:
-                "Advise organizations to successfully plan, execute, and complete their Business Process Improvement projects mostly related to Digital Transformation. Work closely with clients to identify their project goals, develop project plans, and oversee project execution from start to finish.",
-              dPoint: [],
-            },
-          },
-          {
-            eTitle: "Customer Development - Nutrifood",
-            eTime: "November 2019 - July 2020",
-            place: "Jakarta, Indonesia",
-            eDesc: {
-              dDetail:
-                "Supervised customer engagement strategy based on data insights, analyzed market trends, and monitored brands marketing activity to achieve engagement targets.",
-              dPoint: [],
-            },
-          },
         ],
       },
     ],
@@ -747,7 +706,7 @@ export const Activities = [
 
   {
     path: "spc",
-    caturnawa : "https://caturnawa.unasfest.com/periodeLKTI",
+    caturnawa: "https://caturnawa.unasfest.com/periodeLKTI",
     title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
@@ -1022,26 +981,7 @@ export const Activities = [
           },
         ],
       },
-      {
-        index: 3,
-        name: "Prof. Dr. Eng. Eniya Listiani Dewi",
-        image: eniyas,
-        lastEducation: "Master's degree from Waseda University. Japan",
-        description:
-          "Prof. Dr. Eng. Eniya Listiani Dewi is one of Indonesia's prominent female scientists. She is an alumna of Waseda University in Japan, having completed her Bachelor's, Master's, and Doctoral degrees there. She pursued her undergraduate program with a scholarship from the Science and Technology Advance Industrial Development (STAID) of the Ministry of Research and Technology. Eniya has made a significant invention: the zinc-air fuel cell (ZAFC), a generator that produces electricity using metal and oxygen as fuel.",
-        achievements: ["..."],
-        experience: [
-          {
-            eTitle: "Lecturer in Government Science at Universitas Pamulang.",
-            eTime: "March 2022 - Present",
-            place: "Indonesia",
-            eDesc: {
-              dDetail: "...",
-              dPoint: [],
-            },
-          },
-        ],
-      },
+      
     ],
     faqs: [
       {
@@ -1153,7 +1093,8 @@ export const Activities = [
         index: 1,
         name: "Jentoni Pakpahan",
         image: jentoni,
-        linkedin : "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
         lastEducation: "Universitas Nasional",
         description: "",
         achievements: [],
@@ -1174,7 +1115,7 @@ export const Activities = [
         index: 2,
         name: "Kusen Dony Hermansyah",
         image: kusen,
-        linedin : "",
+        linedin: "",
         lastEducation:
           "postgraduate program at the Indonesian Institute of the Arts in Surakarta.",
         description:
@@ -1215,7 +1156,8 @@ export const Activities = [
         index: 3,
         name: "Raden Wardana",
         image: Daniel,
-        linkedin : "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/raden-wardana-a737992b9/?jobid=1234",
         lastEducation:
           "Master's degree, Film/Video dan Fotografi at Bond University",
         description:
@@ -1343,7 +1285,7 @@ export const Activities = [
 
   {
     path: "international-seminar",
-    caturnawa : "https://caturnawa.unasfest.com/periodeSM",
+    caturnawa: "https://caturnawa.unasfest.com/periodeSM",
     title: "international seminar",
     coverImage: semnasCover,
     contact: semnasContact,
@@ -1420,7 +1362,8 @@ export const Activities = [
         index: 1,
         name: "Adam Adiwinata",
         image: adam,
-        linkedin : "https://www.linkedin.com/in/adam-adiwinata-9028135b/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/adam-adiwinata-9028135b/?jobid=1234",
         lastEducation:
           "MASTER, Renewable and Clean Energy - University of Dayton",
 
@@ -1504,7 +1447,8 @@ export const Activities = [
         index: 2,
         name: "Prof. Dr. Eng. Eniya Listiani Dewi",
         image: eniyas,
-        linkedin : "https://www.linkedin.com/in/eniya-listiani-dewi-a17b6260/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/eniya-listiani-dewi-a17b6260/?jobid=1234",
         lastEducation: "Master's degree from Waseda University. Japan",
 
         description:
@@ -1590,7 +1534,7 @@ export const Activities = [
         index: 1,
         name: "Jason Amiri",
         image: jason,
-        linkedin : "https://www.linkedin.com/in/jasonamiri/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/jasonamiri/?jobid=1234",
         lastEducation:
           "Master of Science (M.Sc.), Mechanical Engineering - University of Tehran",
         description:
@@ -1617,7 +1561,8 @@ export const Activities = [
         index: 2,
         name: "Judge kdbi 2",
         image: lizie,
-        linkedin : "https://www.linkedin.com/in/lizie-daniela-tentler-prola-175b0934/?jobid=1234",
+        linkedin:
+          "https://www.linkedin.com/in/lizie-daniela-tentler-prola-175b0934/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
@@ -1643,7 +1588,7 @@ export const Activities = [
         index: 3,
         name: "Judge kdbi 3",
         image: ovi,
-        linkedin : "https://www.linkedin.com/in/olding/?jobid=1234",
+        linkedin: "https://www.linkedin.com/in/olding/?jobid=1234",
         lastEducation: "University of Indonesia",
         description:
           "Exercitation est laboris consectetur tempor officia irure sint est incididunt eiusmod. Adipisicing consectetur officia sunt ex exercitation sunt velit magna occaecat anim et tempor. Et commodo incididunt velit ut ad do do. Minim adipisicing esse Lorem aliqua. Consequat exercitation proident quis et. Officia aliqua ipsum duis et deserunt amet et.",
