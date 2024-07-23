@@ -103,7 +103,7 @@ const AboutUsPage = () => {
         <SteeringCommitteeSlider />
       </div>
       {/* Unasfest 2024 committee */}
-      <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
+      {/* <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
         <div className="container flex aspect-square h-full min-h-[300px] w-full max-w-[1180px] flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-contain bg-center md:aspect-video md:max-h-[576px] ">
           <ul className="hidden list-disc items-center justify-center gap-x-10 text-xl font-semibold md:flex">
             <li className="list-none">1 project manager</li>
@@ -122,7 +122,7 @@ const AboutUsPage = () => {
             <Link href="/about-us/committee">meet us</Link>
           </Button>
         </div>
-      </div>
+      </div> */}
 
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">
