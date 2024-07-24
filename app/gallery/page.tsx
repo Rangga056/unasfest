@@ -30,7 +30,7 @@ export default function Gallery() {
 
       <Card className="relative m-auto mb-12 w-full max-w-screen-xl overflow-hidden md:mt-20 lg:w-[90%]">
         <CardTitle className="text-center text-3xl font-semibold uppercase leading-normal tracking-wide md:text-4xl lg:text-5xl">
-          kaleidoscope <span className="text-[#C02424]">unas fest 2024</span>
+          caleidoscope <span className="text-[#C02424]">unas fest 2024</span>
         </CardTitle>
         <CardContent className="pt-10">
           <div className="w-full flex justify-center">

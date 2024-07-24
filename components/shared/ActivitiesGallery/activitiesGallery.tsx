@@ -83,8 +83,8 @@ const ActivitiesGallery = () => {
 
                 />
                 </div>
-                <p className="mt-2 w-full text-start">{activity.desc}</p>
-                <p className="w-full text-start font-[200]">{activity.date}</p>
+                <p className="mt-2 w-full font-semibold text-start">{activity.desc}</p>
+                <p className="w-full text-start font-normal">{activity.date}</p>
               </div>
             ))}
           </div>
@@ -124,10 +124,10 @@ const ActivitiesGallery = () => {
                   className="object-cover object-center"
                 />
                 </div>
-                <p className="mt-2 w-full text-start text-black">
+                <p className="mt-2 w-full font-semibold text-start text-black">
                   {activity.desc}
                 </p>
-                <p className="w-full text-start font-[200] text-black">
+                <p className="w-full text-start font-normal text-black">
                   {activity.date}
                 </p>
               </div>

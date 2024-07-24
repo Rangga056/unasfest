@@ -138,7 +138,7 @@ export const Activities = [
             eDesc: {
               dDetail: "",
               dPoint: [
-                "• Conducting research on political and democracy topics with policy document outputs",
+                "Conducting research on political and democracy topics with policy document outputs",
                 "Running and managing programs in the Institute of Democracy and Human Rights department",
               ],
             },
@@ -172,8 +172,8 @@ export const Activities = [
             eTitle: "Project Researcher - Aliansi Kebangsaan – Jakarta",
             eTime: "September 2023 – December 2023",
             eDesc: {
-              dDetail: "...",
-              dPoint: ["..."],
+              dDetail: "",
+              dPoint: [""],
             },
           },
         ],
@@ -281,7 +281,7 @@ export const Activities = [
             eTime: "October 2022 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [
                 "Streamlining training program coordination by setting up and managing user accounts, courses, and schedules on the Learning Management System(LMS).",
                 "Assisting trainers in delivering seamless courses by providing comprehensive support and meticulously preparing learning materials, resulting in an impressive 95% completion rate for all training programs initiated.",
@@ -295,7 +295,7 @@ export const Activities = [
             eTime: "April 2022 - September 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [
                 "Collaborated with educators and subject-matter experts to design, refine, and update a comprehensive English curriculum tailored to basic and intermediate levels.",
                 "Established evaluation criteria to measure curriculum effectiveness and learning outcomes for junior to high school student.",
@@ -307,7 +307,7 @@ export const Activities = [
             eTime: "March 2022 - June 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [
                 "Executed daily live-stream in e-commerce apps (Shopee and TikTok) as well as on Instagram. Increased 50% of viewers on Shopee live in a month.",
                 "Successfully created TikTok content with 57K views. (LINK: https://bit.ly/ Content- Matsuda).",
@@ -319,7 +319,7 @@ export const Activities = [
             eTime: "September 2021 - January 2022",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Cultivated and maintained relationships with government institutions, agencies, and other relevant stakeholders.",
@@ -334,7 +334,7 @@ export const Activities = [
             eTime: "January 2021 - September 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Developed engaging, interactive, and effective learning materials, including lesson plans, modules, assessments, and supplemental resources.",
@@ -350,7 +350,7 @@ export const Activities = [
             eTime: "September 2020 - December 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Delivered live teaching Indonesian subjects for junior and senior high school including UTBK through AyoBlajar Apps.",
@@ -363,7 +363,7 @@ export const Activities = [
             eTime: "August 2020 - January 2021",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Responsible to teach English to 20 senior high school students both online and offline learning.",
@@ -377,7 +377,7 @@ export const Activities = [
             eTime: "April 2020 - May 2020",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Provided mentor list and strategic partners and reviewed curriculum as well as syllabus for all training classes. Assigned for compiling 200 training databases in 2 weeks.",
@@ -390,7 +390,7 @@ export const Activities = [
             eTime: "Auguts 2018 - November 2018",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
 
               dPoint: [
                 "Provided training administrative support and module to be evaluated in a monthly meeting. Selected as moderator or MC in a monthly meeting.",
@@ -805,7 +805,7 @@ export const Activities = [
             eTime: "2022 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -814,7 +814,7 @@ export const Activities = [
             eTime: "2024 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -823,7 +823,7 @@ export const Activities = [
             eTime: "2022 - Present",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -832,7 +832,7 @@ export const Activities = [
             eTime: "2020 - present",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -842,7 +842,7 @@ export const Activities = [
             eTime: "2020 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -852,7 +852,7 @@ export const Activities = [
             eTime: "2011 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -862,7 +862,7 @@ export const Activities = [
             eTime: "2018 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -872,7 +872,7 @@ export const Activities = [
             eTime: "2017 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -882,7 +882,7 @@ export const Activities = [
             eTime: "2016 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -892,7 +892,7 @@ export const Activities = [
             eTime: "September 2021 - present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -992,7 +992,7 @@ export const Activities = [
             eTime: "January 2022 - December 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [
                 "Fully responsible for fnding and establishing relationships with partners to collaborate or cooperate on programs/projects.",
                 "Market a project or program to the public media and become a spokesperson.",
@@ -1466,7 +1466,7 @@ export const Activities = [
 
         description:
           "User graduated from the University of Indonesia majoring in Mechanical Engineering focusing on energy conversion and has a master's degree in renewable and clean energy from the University of Dayton, Ohio. During their master's study, their focus was on energy efficiency, and they were part of the Building Energy Center at the University of Dayton, where they conducted energy audits for commercial buildings and manufacturers in the Dayton, Ohio area. They assisted customers by assessing energy usage, identifying, and calculating energy-saving opportunities. I am currently working as technical adviser for HEAT Gmbh and managing energy efficiency project all around Indonesia.",
-        achievements: ["..."],
+        achievements: [""],
         experience: [
           {
             eTitle:
@@ -1575,7 +1575,7 @@ export const Activities = [
             eTime: "January 2014 - Present",
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -1587,7 +1587,7 @@ export const Activities = [
             eTime: "November 2018 - September",
             place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -1598,7 +1598,7 @@ export const Activities = [
             eTime: "November 2018 - September",
             place: "MH. Thamrin 8, 10F, Jakarta",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -1609,7 +1609,7 @@ export const Activities = [
             eTime: "July 2014 - September 2015",
             place: "224Bld. Kawasan Puspiptek Serpong",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -1619,7 +1619,7 @@ export const Activities = [
             eTime: "February 2014 - July 2014",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -1648,8 +1648,8 @@ export const Activities = [
             eTime: "March 2022 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
-              dPoint: ["...", "...", "..."],
+              dDetail: "",
+              dPoint: [],
             },
           },
         ],
@@ -1675,8 +1675,8 @@ export const Activities = [
             eTime: "March 2022 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
-              dPoint: ["...", "...", "..."],
+              dDetail: "",
+              dPoint: ["", "", ""],
             },
           },
         ],
@@ -1701,8 +1701,8 @@ export const Activities = [
             eTime: "March 2022 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "...",
-              dPoint: ["...", "...", "..."],
+              dDetail: "",
+              dPoint: [],
             },
           },
         ],
