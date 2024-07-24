@@ -104,18 +104,18 @@ export const activitiesSemin = [
     index: 5,
     img: foto6,
     date: "20 December 2023",
-    desc: "National Seminar",
+    desc: "Final Day-2",
   },
   {
     index: 6,
     img: foto7,
     date: "20 December 2023",
-    desc: "National Seminar",
+    desc: "Debate Competition",
   },
   {
     index: 7,
     img: foto8,
     date: "20 December 2023",
-    desc: "National Seminar",
+    desc: "Debate Competition",
   },
 ];
