@@ -117,7 +117,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah, S.Sos., M.Ip",
+        name: "Fullah Jumaynah., S.Sos., M.Ip",
         image: fullah,
         linkedin: "https://www.linkedin.com/in/fullahjm",
         lastEducation:
@@ -467,53 +467,53 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "The EDC UNAS FEST 2024 International Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi) for State or Private Universities in Indonesia and registered on the official college website for International Universities.",
+          "The EDC UNAS FEST 2024 National and International Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi) for State or Private Universities in Indonesia and registered on the official college website for International Universities.",
       },
       {
         index: 2,
         detail:
-          "The EDC UNAS FEST 2024 International Level participant team is required to register through the link listed on the poster and join the WhatsApp group listed on the UNAS FEST 2024 Website.",
+          "The EDC UNAS FEST 2024 National and International Level participant team is required to register through the link listed on the poster and join the WhatsApp group listed on the UNAS FEST 2024 Website.",
       },
       {
         index: 3,
         detail:
-          "The EDC UNAS FEST 2024 International Level participant team is required to comply with all the Rules/Regulations in the EDC UNAS FEST 2024 International Level activities.",
+          "The EDC UNAS FEST 2024 National and International Level participant team is required to comply with all the Rules/Regulations in the EDC UNAS FEST 2024 International Level activities.",
       },
       {
         index: 4,
         detail:
-          "The EDC UNAS FEST 2024 International Level participating team is required to download the EDC UNAS FEST 2024 guidebook.",
+          "The EDC UNAS FEST 2024 National and International Level participating team is required to download the EDC UNAS FEST 2024 guidebook.",
       },
       {
         index: 5,
         detail:
-          "The team participating in EDC UNAS FEST 2024 International Level is required to attend the International Seminar.",
+          "The team participating in EDC UNAS FEST 2024 National and International Level is required to attend the International Seminar.",
       },
       {
         index: 6,
         detail:
-          "The EDC UNAS FEST 2024 International participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending EDC UNAS FEST 2024 at Universitas Nasional.",
+          "The EDC UNAS FEST 2024 National and International participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending EDC UNAS FEST 2024 at Universitas Nasional.",
       },
       {
         index: 7,
         detail:
-          "The committee has the right to disqualify the EDC UNAS FEST 2024 International Level participant team that violates and does not comply with the Rules/Regulations in the EDC UNAS FEST 2024 International Level.",
+          "The committee has the right to disqualify the EDC UNAS FEST 2024 International Level participant team that violates and does not comply with the Rules/Regulations in the EDC UNAS FEST 2024 National and International Level.",
       },
       {
         index: 8,
         detail:
-          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau in accordance with the objective reality of EDC UNAS FEST 2024 International Level activities.",
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau in accordance with the objective reality of EDC UNAS FEST 2024 National and International Level activities.",
       },
     ],
 
     judgesData: [
       {
         index: 1,
-        name: "Mouliza Kristhopher Donna Sweinstani",
+        name: "Mouliza Kristhopher Donna Sweinstani., S.IP, M.IP",
         image: mouliza,
         linkedin:
           "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
-        lastEducation: "Bachelor of Political Science,",
+        lastEducation: "First Research Expert at Indonesian Institute of Sciences (LIPI)",
         description:
           "I am currently serves as the head of the Political Party Studies research team at the Political Research Center of BRIN (Indonesian National Research and Innovation Agency). Apart from being a researcher, I am also a Lecturer at Department of Government Studies Indonesian Open University (UT) and a Practitioner Lecturer from the Ministry of Education, focusing on Democracy, Election, and Political Parties, in several universities in Indonesia. Several publications on electoral studies, political parties, the role of women in politics, and youth in politics have been published in national and international reputable journals, books, as well as in the mainstream mass media. I am also one of the founders of a youth organisation called the Indonesian Youth Political Institute, established in 2014.",
         achievements: [
@@ -547,7 +547,7 @@ export const Activities = [
             place: "Jakarta Raya, Indonesia",
             eDesc: {
               dDetail: "",
-              dPoint: [""],
+              dPoint: [],
             },
           },
           {
@@ -563,7 +563,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Ahmad Kushay",
+        name: "Ahmad Kushay S.H, S.Si",
         linkedin:
           "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
         image: ahmad,
@@ -584,7 +584,7 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "As debate coach, my job is to provide debate club members with tutelage in the art of coming up with a well-elaborated idea and delivering it in a convincing manner. It comes in the form of :.",
+                "As debate coach, my job is to provide debate club members with tutelage in the art of coming up with a well-elaborated idea and delivering it in a convincing manner. It comes in the from of :",
               dPoint: [
                 "Matter-sharing of rudimentary concepts of various topics such as criminal justice system, international relations, economy, art, politics & governance, etc,",
                 "Speaking drills to deliver arguments with effective wording and compelling rhetorics,",
@@ -659,7 +659,6 @@ export const Activities = [
           "Semifinalist in the English as a Secondary Language (ESL) category at the Australasian Intervarsity Debating Championships 2023 in Krabi, Thailand. Australs is one of the largest debate tournaments in the world after WUDC.",
           "Member of the Official Delegation from the Universitas Indonesia.",
           "First Break and Runner-Up Champion at the UTM AP International Debating Championship 2023, the first virtual edition of the UTM API series.",
-          "Accredited.",
         ],
         experience: [],
       },
@@ -740,12 +739,12 @@ export const Activities = [
       {
         index: 3,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+          "Participants of the UNAS FEST 2024 National Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
       },
       {
         index: 4,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+          "Participants of the UNAS FEST 2024 National Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
       },
       {
         index: 5,
@@ -755,24 +754,24 @@ export const Activities = [
       {
         index: 6,
         detail:
-          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+          "National participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
       },
       {
         index: 7,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+          "Participants of the UNAS FEST 2024 National Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National Competitions, the committee has the right to disqualify participants.",
       },
       {
         index: 8,
         detail:
-          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National Level activities.",
       },
     ],
 
     judgesData: [
       {
         index: 1,
-        name: "Efriza, S.IP, M.Si",
+        name: "Efriza., S.IP, M.Si",
         image: efriza,
         lastEducation:
           "Master's in Social and Political Sciences (Political Science) at the Universitas Nasional",
@@ -1144,46 +1143,45 @@ export const Activities = [
       {
         index: 3,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National and International Level activities.",
+          "Participants of the UNAS FEST 2024 National Competitions are required to comply with all the Rules of Procedure/Rules that exist in the UNAS FEST 2024 National Level activities.",
       },
       {
         index: 4,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
+          "Participants of the UNAS FEST 2024 National Competitions are required to download and follow the regulations listed in the guidebook of each Competition.",
       },
       {
         index: 5,
         detail:
-          "National and International Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
+          "National Level UNAS FEST 2024 Competition Participants are required to attend the International Seminar.",
       },
       {
         index: 6,
         detail:
-          "National and International participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
+          "National participants of UNAS FEST 2024 participants who attend the Seminar location are not allowed to bring or use drugs/substances/sharp weapons/firearms at the Universitas Nasional.",
       },
       {
         index: 7,
         detail:
-          "Participants of the UNAS FEST 2024 National and International Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National and International Competitions, the committee has the right to disqualify participants.",
+          "Participants of the UNAS FEST 2024 National Competitions who violate and do not comply with the Rules/Regulations in the UNAS FEST 2024 National Competitions, the committee has the right to disqualify participants.",
       },
       {
         index: 8,
         detail:
-          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National and International Level activities.",
+          "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau by the objective reality of UNAS FEST 2024 National Level activities.",
       },
     ],
 
     judgesData: [
       {
         index: 1,
-        name: "Jentoni Pakpahan",
+        name: "Jentoni Pakpahan., S.S",
         image: jentoni,
         linkedin:
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
-        lastEducation: "Line Producer At PT MNC Pictures",
+        lastEducation: "Line Producer at PT. MNC Pictures",
         description:
           'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and in the same place, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he also has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer on various film, advertising, and commercial projects. Jentoni Pakpahan has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018). He has also been involved in several other television and film projects. In addition to his experience in the entertainment industry, Jentoni Pakpahan also has skills in drumming, Microsoft Office, Microsoft Excel, and social media.',
-        achievements: [],
         experience: [
           {
             eTitle: "Line Producer - MNC Picture",
@@ -1199,7 +1197,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Kusen Dony Hermansyah",
+        name: "Kusen Dony Hermansyah., S.Sos, S.Sn, M.Sn",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
         lastEducation: "Lecture at Institut Kesenian Jakarta",
@@ -1243,10 +1241,10 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Raden Daniel Wisnu Wardana",
+        name: "Raden Daniel Wisnu Wardhana., S.IP.,M.A",
         image: Daniel,
         linkedin: "https://www.linkedin.com/in/daniel-wardana-21878677",
-        lastEducation: "Chief Operational Officer at PT Aksara Dimensi Perkasa",
+        lastEducation: "Chief Operational Officer at PT. Aksara Dimensi Perkasa",
         description:
           "Raden Daniel Wisnu Wardana has been in broadcasting, cinematography and photography for almost 25 years. He also has several experiences in the broadcast world including being a producer for several TV programmes at Production House Triwarsana led by Helmi Yahya. He has also been involved in the world of Production House for almost 5 years since 2003. In addition, he was a product specialist at Canon Indonesia for almost 3 years. Photography and videography are the main fields that he teaches at several campuses such as Mercubuana University, Sahid University, Trisakti College of Communication Media, and National University since 2011 until now. Since 2021, he has returned to establish a startup company in the audio visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
         achievements: [
@@ -1391,7 +1389,7 @@ export const Activities = [
       "https://drive.google.com/file/d/1JaClPvihVhLYNznt77LTGhCwX3Nu3QQz/view",
     infiniteSlidingText: "International Seminar",
     infiniteSlidingIcon: internationalSeminarIcon,
-    requirementsTitle: "Short Movie Competition requirements",
+    requirementsTitle: "International Seminar requirements",
 
     requirements: [
       {

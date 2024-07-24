@@ -88,14 +88,14 @@ export const timelinesEDC = [
   },
   {
     title: "Day 1 of the EDC Preliminary Round",
-    description: "This round marks the initial phase of the KDBI preliminary round",
+    description: "This round marks the initial phase of the EDC preliminary round",
     month: "SEP",
     date: "18",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Day 1 of the EDC Preliminary Round",
+    title: "Day 2 of the EDC Preliminary Round",
     description: "This round marks the concluding phase of the EDC preliminary round",
     month: "SEP",
     date: "19",
@@ -181,7 +181,7 @@ export const timelinesKDBI = [
   },
   {
     title: "Semi-Final Round of KDBI",
-    description: "to get a chance to advance to the final round",
+    description: "This round to determine which teams will enter the final stage",
     month: "SEP",
     date: "20",
     year: "2024",
@@ -321,7 +321,7 @@ export const timelinesSPC = [
 
   {
     title: "The access for submitting or sending SPC manuscripts is open",
-    description: "Opening of the submission of cripts",
+    description: "Opening of the submission scripts",
     month: "AUG",
     date: "28",
     year: "2024",
@@ -329,7 +329,7 @@ export const timelinesSPC = [
   },
   {
     title: "The access for submitting or sending SPC manuscripts is close",
-    description: "Closing of the submission of scripts",
+    description: "Closing of the submission scripts",
     month: "SEP",
     date: "11",
     year: "2024",
