@@ -426,6 +426,7 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp450.000,-/team",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
@@ -688,6 +689,7 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp550.000,-/team",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
@@ -1354,6 +1356,7 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (12 - 23 August)",
           "General: Rp450.000",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
