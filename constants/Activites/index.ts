@@ -138,7 +138,7 @@ export const Activities = [
             eDesc: {
               dDetail: "",
               dPoint: [
-                "• Conducting research on political and democracy topics with policy document outputs",
+                "Conducting research on political and democracy topics with policy document outputs",
                 "Running and managing programs in the Institute of Democracy and Human Rights department",
               ],
             },
