@@ -59,19 +59,19 @@ export const activitiesLinks = [
   },
   {
     title: "English Debate Competition",
-    url: "/activities/english-debate/",
+    url: "/activities/edc",
   },
   {
     title: "Kompetisi Debat Bahasa Indonesia",
-    url: "/activities/debat-bahasa-indonesia/",
+    url: "/activities/kdbi",
   },
   {
     title: "Short Movie Competition",
-    url: "/activities/short-movie/",
+    url: "/activities/smc",
   },
   {
     title: "Scientific Paper Competition",
-    url: "/activities/scientific-paper/",
+    url: "/activities/spc",
   },
 ];
 

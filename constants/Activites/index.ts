@@ -68,7 +68,7 @@ export const Activities = [
     timeline: timelinesKDBI,
     guideBook:
       "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
-    infiniteSlidingText: "INDONESIAN DEBATE",
+    infiniteSlidingText: "KDBI",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Kompetisi Debat Bahasa Indonesia requirements",
     requirements: [
@@ -424,7 +424,7 @@ export const Activities = [
           "Phase 1 (July 29 - August 11, 2024)",
           "General: Rp400.000,-/team",
           "Universitas Nasional Students: Free",
-          "Phase 2 (August 12 - August 23)",
+          "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp450.000,-/team",
         ],
       },
@@ -460,7 +460,7 @@ export const Activities = [
     timeline: timelinesEDC,
     guideBook:
       "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
-    infiniteSlidingText: "ENGLISH DEBATE",
+    infiniteSlidingText: "EDC",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition requirements",
     requirements: [
@@ -686,7 +686,7 @@ export const Activities = [
           "Phase 1 (July 29 - August 11, 2024)",
           "General: Rp500.000,-/team",
           "Universitas Nasional Students: Free",
-          "Phase 2 (August 12 - August 23)",
+          "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp550.000,-/team",
         ],
       },
@@ -722,7 +722,7 @@ export const Activities = [
     timeline: timelinesSPC,
     guideBook:
       "https://drive.google.com/file/d/1LL51uQ5tO_Z-tBjXzILCKczyRH1MXhVW/view?usp=share_link",
-    infiniteSlidingText: "SCIENTIFIC PAPER",
+    infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
 
@@ -1126,7 +1126,7 @@ export const Activities = [
     timeline: timelinesSMC,
     guideBook:
       "https://drive.google.com/file/d/1SYn9ZbQL6y1yL3Dw0pGngWtqkG4uwlZv/view?usp=share_link ",
-    infiniteSlidingText: "SHORT MOVIE",
+    infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition requirements",
 
@@ -1180,9 +1180,9 @@ export const Activities = [
         image: jentoni,
         linkedin:
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
-        lastEducation: "Movie Producer at MNC",
+        lastEducation: "Line Producer At PT MNC Pictures",
         description:
-          'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and at the same company, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer in various film, advertising, and commercial projects. He has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018). He has also been involved in several other television and film projects. In addition to his experience in the entertainment industry, he also has skills in drumming, Microsoft Office, Microsoft Excel, and social media.',
+          'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and in the same place, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he also has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer on various film, advertising, and commercial projects. Jentoni Pakpahan has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018). He has also been involved in several other television and film projects. In addition to his experience in the entertainment industry, Jentoni Pakpahan also has skills in drumming, Microsoft Office, Microsoft Excel, and social media.',
         achievements: [],
         experience: [
           {
@@ -1202,9 +1202,9 @@ export const Activities = [
         name: "Kusen Dony Hermansyah",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
-        lastEducation: "Lecturer at Jakarta Institute of Arts",
+        lastEducation: "Lecture at Institut Kesenian Jakarta",
         description:
-          "Kusen Dony Hermansyah, better known as Dony or Kusdon,  he is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
+          "Kusen Dony Hermansyah, better known as Dony or Kusdon, he is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program of the Indonesian Institute of Art in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after graduating from a diploma program in 2000, he began to pursue two professions as a lecturer and film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta Creative Media State Polytechnic, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
         achievements: [
           "Please Me Love (2012) - Short Editor",
           "Maryam (2014) - Short Editor",
@@ -1246,9 +1246,9 @@ export const Activities = [
         name: "Raden Daniel Wisnu Wardana",
         image: Daniel,
         linkedin: "https://www.linkedin.com/in/daniel-wardana-21878677",
-        lastEducation: "Chief Operational Officer at NextArt.id",
+        lastEducation: "Chief Operational Officer at PT Aksara Dimensi Perkasa",
         description:
-          "I have been involved in the world of broadcasting, cinematography, and photography for nearly 25 years. Some of my experiences in broadcasting include producing several TV programs at Triwarsana Production House (Helmi Yahya). I have been involved in a production house that I founded for almost 5 years since 2003. I worked as a product specialist at Canon Indonesia for almost 3 years. Photography and videography are my majors in teaching at several universities, such as Universitas Mercubuana, Universitas Sahid, Sekolah Tinggi Media Komunikasi Trisakti, and Universitas Nasional, since 2011 until now. Since 2021, I have built a company in the audio-visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
+          "Raden Daniel Wisnu Wardana has been in broadcasting, cinematography and photography for almost 25 years. He also has several experiences in the broadcast world including being a producer for several TV programmes at Production House Triwarsana led by Helmi Yahya. He has also been involved in the world of Production House for almost 5 years since 2003. In addition, he was a product specialist at Canon Indonesia for almost 3 years. Photography and videography are the main fields that he teaches at several campuses such as Mercubuana University, Sahid University, Trisakti College of Communication Media, and National University since 2011 until now. Since 2021, he has returned to establish a startup company in the audio visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
         achievements: [
           "2013 Favorite Winner of the Documentary Film Festival at SBM Golden Lens, Erasmus Huis Jakarta",
           "2000 DOP Nomination at the Dallas Film Festival",

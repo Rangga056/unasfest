@@ -35,9 +35,11 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
 
   return (
     <section>
-      <div className="container mx-auto sm:mt-10 md:mt-16">
+      <div className="container mx-auto mt-10 md:mt-16">
         <h1
-          className="mb-5 font-bungee text-4xl uppercase leading-none tracking-wide sm:text-center md:mb-9 md:text-start md:font-semibold lg:text-5xl"
+          className={`mb-5 font-bungee uppercase leading-none md:text-4xl tracking-wide ${
+            params.slug === "seminar-international" ? "text-3xl" : "text-2xl"
+          } text-center md:mb-9 md:text-start md:font-semibold lg:text-5xl`}
           style={{ color: competition.color }}
         >
           {competition.title}
