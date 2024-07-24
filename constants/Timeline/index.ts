@@ -234,7 +234,7 @@ export const timelinesSMC = [
   {
     title: "Submission of Short Movie Videos is open",
     description:
-      "the process of submitting short film competition videos is ongoing or has just open",
+      "The process of submitting short film competition videos is ongoing or has just open",
     month: "AUG",
     date: "24",
     year: "2024",
@@ -243,7 +243,7 @@ export const timelinesSMC = [
   {
     title: "Submission of Short Movie Videos is closed",
     description:
-      "the process of submitting short film competition videos is ongoing or has just close",
+      "The process of submitting short film competition videos is ongoing or has just close",
     month: "SEP",
     date: "25",
     year: "2024",

@@ -70,7 +70,7 @@ export const Activities = [
       "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
     infiniteSlidingText: "KDBI",
     infiniteSlidingIcon: kdbiSlidingIcon,
-    requirementsTitle: "Kompetisi Debat Bahasa Indonesia requirements",
+    requirementsTitle: "Kompetisi Debat Bahasa Indonesia Requirements",
     requirements: [
       {
         index: 1,
@@ -462,7 +462,7 @@ export const Activities = [
       "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
     infiniteSlidingText: "EDC",
     infiniteSlidingIcon: edcSlidingIcon,
-    requirementsTitle: "English Debate Competition requirements",
+    requirementsTitle: "English Debate Competition Requirements",
     requirements: [
       {
         index: 1,
@@ -724,7 +724,7 @@ export const Activities = [
       "https://drive.google.com/file/d/1LL51uQ5tO_Z-tBjXzILCKczyRH1MXhVW/view?usp=share_link",
     infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
-    requirementsTitle: "Scientific Paper Competition requirements",
+    requirementsTitle: "Scientific Paper Competition Requirements",
 
     requirements: [
       {
@@ -1128,7 +1128,7 @@ export const Activities = [
       "https://drive.google.com/file/d/1SYn9ZbQL6y1yL3Dw0pGngWtqkG4uwlZv/view?usp=share_link ",
     infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
-    requirementsTitle: "Short Movie Competition requirements",
+    requirementsTitle: "Short Movie Competition Requirements",
 
     requirements: [
       {
@@ -1203,7 +1203,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Kusen Dony Hermansyah, S.Sos, S.Sn, M.Sn.",
+        name: "Kusen Dony Hermansyah, S.Sos., S.Sn., M.Sn.",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
         lastEducation:
@@ -1391,7 +1391,7 @@ export const Activities = [
       "https://drive.google.com/file/d/1JaClPvihVhLYNznt77LTGhCwX3Nu3QQz/view",
     infiniteSlidingText: "International Seminar",
     infiniteSlidingIcon: internationalSeminarIcon,
-    requirementsTitle: "International Seminar requirements",
+    requirementsTitle: "International Seminar Requirements",
 
     requirements: [
       {
