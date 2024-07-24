@@ -1176,7 +1176,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Jentoni Pakpahan., S.S",
+        name: "Jentoni Pakpahan., S.S.",
         image: jentoni,
         linkedin:
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
