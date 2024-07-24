@@ -407,7 +407,7 @@ export const Activities = [
           "How do I register for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer: [
           "Open your web browser and visit caturnawa.unasfest.com",
-          'Scroll down the page until you find the "Indonesian Language Debate Competition" section',
+          'Scroll down the page until you find the "Kompetisi Debat Bahasa Indonesia" section',
           'Click the "Register Now" button',
           "Fill out the registration form and complete all the required information",
           "Review the entered data",
@@ -416,7 +416,7 @@ export const Activities = [
       },
       {
         question:
-          "What is the registration fee for the Indonesian Language Debate Competition (KDBI)?",
+          "What is the registration fee for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer: [
           "Early Bird (July 23 - July 28 , 2024)",
           "General: Rp300.000,-/team",
@@ -430,9 +430,9 @@ export const Activities = [
       },
       {
         question:
-          "When is the registration deadline for the Indonesian Language Debate Competition (KDBI)?",
+          "When is the registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI)?",
         answer:
-          "The registration deadline for the Indonesian Language Debate Competition (KDBI) is August 23, 2024",
+          "The registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI) is August 23, 2024",
       },
       {
         question: "When will the winners be announced?",
