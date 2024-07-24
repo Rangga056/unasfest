@@ -104,7 +104,7 @@ export const timelinesEDC = [
   },
   {
     title: "Semi-Final Round of EDC",
-    description: "to get a chance to advance to the final round",
+    description: "This round to determine which teams will enter the final stage",
     month: "SEP",
     date: "20",
     year: "2024",

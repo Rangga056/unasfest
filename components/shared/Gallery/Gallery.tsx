@@ -49,7 +49,7 @@ const Gallery = () => {
             Flashbacks of the Universitas Nasional Festival{" "}
             <span className="hidden lg:flex">
               {" "}
-              competition held from December 20, 2023 to December 20, 2023.
+              competition held from December 4, 2023 to December 20, 2023.
             </span>
           </p>
         </div>

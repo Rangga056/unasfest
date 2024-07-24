@@ -3,7 +3,7 @@ export const faqsData = [
     index: 0,
     quetion: "How do I register for the competition of UNAS FEST?",
     answer:
-      "Visit the CATURNAWA website, choose one of the Competition 'Kompetisi Debat Bahasa Indonesia', click 'Register Now', fill the form, review, and make the payment",
+      "Visit the <a id='caturnawa' href='https://caturnawa.unasfest.com/'class='text-color-one  '>caturnawa.unasfest.com</a>, choose one of the Competition 'Kompetisi Debat Bahasa Indonesia', click 'Register Now', fill the form, review, and make the payment",
   },
   {
     index: 1,

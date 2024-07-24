@@ -513,7 +513,8 @@ export const Activities = [
         image: mouliza,
         linkedin:
           "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
-        lastEducation: "First Research Expert at Indonesian Institute of Sciences (LIPI)",
+        lastEducation:
+          "First Research Expert at Indonesian Institute of Sciences (LIPI)",
         description:
           "I am currently serves as the head of the Political Party Studies research team at the Political Research Center of BRIN (Indonesian National Research and Innovation Agency). Apart from being a researcher, I am also a Lecturer at Department of Government Studies Indonesian Open University (UT) and a Practitioner Lecturer from the Ministry of Education, focusing on Democracy, Election, and Political Parties, in several universities in Indonesia. Several publications on electoral studies, political parties, the role of women in politics, and youth in politics have been published in national and international reputable journals, books, as well as in the mainstream mass media. I am also one of the founders of a youth organisation called the Indonesian Youth Political Institute, established in 2014.",
         achievements: [
@@ -1181,15 +1182,20 @@ export const Activities = [
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
         lastEducation: "Line Producer at PT. MNC Pictures",
         description:
-          'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and in the same place, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he also has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer on various film, advertising, and commercial projects. Jentoni Pakpahan has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018). He has also been involved in several other television and film projects. In addition to his experience in the entertainment industry, Jentoni Pakpahan also has skills in drumming, Microsoft Office, Microsoft Excel, and social media.',
+          'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and in the same place, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he also has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer on various film, advertising, and commercial projects. Jentoni Pakpahan has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018).',
         experience: [
           {
             eTitle: "Line Producer - MNC Picture",
-            eTime: "October 2020 - Present",
+            eTime: "June 2015 - Present",
             place: "Jakarta, Indonesia",
           },
           {
-            eTitle: "Assistant Producer",
+            eTitle: "Director Video Project - PT. Perfect Nusantara",
+            eTime: "June 2015 - Present",
+            place: "Jakarta, Indonesia",
+          },
+          {
+            eTitle: "Assistant Producer Manager - MD Entertainment",
             eTime: "April 2015 - October 2020",
             place: "Jakarta, Indonesia",
           },
@@ -1200,9 +1206,10 @@ export const Activities = [
         name: "Kusen Dony Hermansyah., S.Sos, S.Sn, M.Sn",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
-        lastEducation: "Lecture at Institut Kesenian Jakarta",
+        lastEducation:
+          "Institut Kesenian Jakarta Faculty of Film & Television, Film Department with a Concentration in Film Editing",
         description:
-          "Kusen Dony Hermansyah, better known as Dony or Kusdon, he is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program of the Indonesian Institute of Art in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after graduating from a diploma program in 2000, he began to pursue two professions as a lecturer and film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta Creative Media State Polytechnic, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
+          "Kusen Dony Hermansyah, better known as Dony or Kusdon, he is a graduate of the Faculty of Film and Television from the Institut Kesenian Jakarta and the Postgraduate Program of the Indonesian Institut Kesenian Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after graduating from a diploma program in 2000, he began to pursue two professions as a lecturer and film editor. Dony also teaches at several institutions, including the Politeknik Negri Media Kreatif Jakarta, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
         achievements: [
           "Please Me Love (2012) - Short Editor",
           "Maryam (2014) - Short Editor",
@@ -1215,27 +1222,21 @@ export const Activities = [
         ],
         experience: [
           {
-            eTitle: "Film Editor, since 1994",
+            eTitle:
+              "Forum Kebudayaan Mahasiswa Indonesia as Founder and Advisor",
             place: "Indonesia",
+          },
+          {
+            eTitle: "Lecturer in World Film History and Basics of Film Art",
+            place: "Politeknik Negeri Media Kreatif Jakarta",
           },
           {
             eTitle:
-              "Lecturer in World Film History and Basics of Film Art, Jakarta Arts Institute",
-            place: "Indonesia",
+              "Editor in the film 'Hidup dan Alasan', directed by Michelle Hendra Production: Michimomo",
           },
           {
             eTitle:
-              "Lecturer in Documentary Film, Jakarta State Polytechnic of Creative Media",
-            place: "Indonesia",
-          },
-          {
-            eTitle:
-              "Assistant Dean of the Faculty of Film & Television, Jakarta Arts Institute",
-            place: "Indonesia",
-          },
-          {
-            eTitle: "Member of the Jakarta Arts and Culture Foundation (YSBJ)",
-            place: "Indonesia",
+              "Editor in the film 'Women and Impact', directed by Kennedy Jennifer Dhillon Production: King of the Day Productions",
           },
         ],
       },
@@ -1244,9 +1245,10 @@ export const Activities = [
         name: "Raden Daniel Wisnu Wardhana., S.IP.,M.A",
         image: Daniel,
         linkedin: "https://www.linkedin.com/in/daniel-wardana-21878677",
-        lastEducation: "Chief Operational Officer at PT. Aksara Dimensi Perkasa",
+        lastEducation:
+          "Chief Operational Officer at PT. Aksara Dimensi Perkasa",
         description:
-          "Raden Daniel Wisnu Wardana has been in broadcasting, cinematography and photography for almost 25 years. He also has several experiences in the broadcast world including being a producer for several TV programmes at Production House Triwarsana led by Helmi Yahya. He has also been involved in the world of Production House for almost 5 years since 2003. In addition, he was a product specialist at Canon Indonesia for almost 3 years. Photography and videography are the main fields that he teaches at several campuses such as Mercubuana University, Sahid University, Trisakti College of Communication Media, and National University since 2011 until now. Since 2021, he has returned to establish a startup company in the audio visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
+          "Raden Daniel Wisnu Wardana has been in broadcasting, cinematography and photography for almost 25 years. He also has several experiences in the broadcast world including being a producer for several TV programmes at Production House Triwarsana led by Helmi Yahya. He has also been involved in the world of Production House for almost 5 years since 2003. In addition, he was a product specialist at Canon Indonesia for almost 3 years. Photography and videography are the main fields that he teaches at several campuses such as Universitas Mercubuana, Universitas Sahid, Universitas Trisakti, and Universitas Nasional since 2011 until now. Since 2021, he has returned to establish a startup company in the audio visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
         achievements: [
           "2013 Favorite Winner of the Documentary Film Festival at SBM Golden Lens, Erasmus Huis Jakarta",
           "2000 DOP Nomination at the Dallas Film Festival",
@@ -1275,7 +1277,7 @@ export const Activities = [
           },
           {
             eTitle:
-              "Secretary of the Communication Science Study Program - Nasional University (UNAS)",
+              "Secretary of the Communication Science Study Program - Universitas Nasional (UNAS)",
             eTime: "January 2014 - January 2018",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -1285,7 +1287,7 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Lecture - Mercu Buana University",
+            eTitle: "Lecture - Universitas Mercubuana",
             eTime: "April 2011 - May 2015",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -1295,7 +1297,7 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Lecture - Sahid University",
+            eTitle: "Lecture - Universitas Sahid",
             eTime: "January 2012 - January 2013",
             place: "Jakarta, Indonesia",
             eDesc: {
