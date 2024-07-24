@@ -321,7 +321,7 @@ export const timelinesSPC = [
 
   {
     title: "The access for submitting or sending SPC manuscripts is open",
-    description: "Opening of the submission or delivery of SPC manuscripts",
+    description: "Opening of the submission of cripts",
     month: "AUG",
     date: "28",
     year: "2024",
@@ -329,7 +329,7 @@ export const timelinesSPC = [
   },
   {
     title: "The access for submitting or sending SPC manuscripts is close",
-    description: "Closing of the submission or delivery of SPC manuscripts",
+    description: "Closing of the submission of scripts",
     month: "SEP",
     date: "11",
     year: "2024",
