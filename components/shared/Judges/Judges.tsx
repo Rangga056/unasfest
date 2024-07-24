@@ -74,16 +74,14 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                     alt={prop.name}
                     className="h-[430px] w-full object-cover md:h-[500px] md:w-[400px] lg:px-4"
                   />
-                  <div className="lg:px-4 font-inter pb-6">
+                  <div className="pb-6 font-inter lg:px-4">
                     <h1 className="text-lg font-bold">{prop.name}</h1>
-                    <h2 className="w-full text-base">
-                      {prop.lastEducation}
-                    </h2>
+                    <h2 className="w-full text-base">{prop.lastEducation}</h2>
                   </div>
                 </div>
                 {hoveredIndex === index && (
                   <div
-                    className={`absolute top-36 md:top-44 md:left-12 bg-black p-5 mx-2 text-white w-72 md:w-[70%]`}
+                    className={`absolute top-36 mx-2 w-72 bg-black p-5 text-white md:left-12 md:top-44 md:w-[70%]`}
                   >
                     <div className="h-[200px] md:h-[250px]">
                       <p className="font-semi bold mb-10 line-clamp-9 text-sm md:text-base">
@@ -116,7 +114,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                             </div>
                             <div className="relative z-50 mx-auto sm:w-[90%] sm:pt-10 md:w-[80%] md:pt-20">
                               <div className="flex flex-wrap">
-                                <h1 className="w-full text-2xl font-semibold uppercase text-center md:w-1/2 md:text-start">
+                                <h1 className="w-full text-center text-2xl font-semibold uppercase md:w-1/2 md:text-start">
                                   summary
                                 </h1>
                                 <p className="w-full sm:mt-5 md:w-1/2 md:text-lg">

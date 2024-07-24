@@ -31,8 +31,8 @@ const AboutUsPage = () => {
           voices and minds knit competitive rhythms at unas fest 2024
         </h1>
         <p className="mx-auto mt-4 text-center text-lg lg:w-3/5 lg:text-xl">
-          Implementation of Technology in Blue Economy Policy to Optimize
-          Sustainable Maritime Innovation in Indonesia.
+          “Exploring the Potential of Renewable Energy Technology Innovation to
+          Achieve Global Green Momentum”
         </p>
       </div>
       {/* Vision and Mission */}
@@ -52,8 +52,8 @@ const AboutUsPage = () => {
               strengthening the spirit of scientific and competitive spirit to
               Indonesian students. There are 4 branches of competition in this
               activity, namely Scientific Writing Competition (SPC), English
-              Debate Competition (EDC), Kompetisi Debat Bahasa Indonesia
-              (KDBI) and short movie competiton.
+              Debate Competition (EDC), Kompetisi Debat Bahasa Indonesia (KDBI)
+              and short movie competiton.
             </p>
             <Button
               variant="secondary"
@@ -243,11 +243,14 @@ const AboutUsPage = () => {
             unas fest 2023 mascot philosophy
           </h1>
           <p className="text-xl">
-            Megalodon has a philosophy as the largest predator, megalodon teeth
-            as a fossil that is found a lot can describe the UNAS FEST committee
-            as a responsible person consisting of 208 Members (Many),
-            Megalodon&apos;s big teeth also describe the great responsibility
-            and strong mentality of the Unas Fest 2023 committee.
+            The orca whale, a top marine predator with a unique black and white
+            body, reflects the spirit of National University students at UNAS
+            FEST 2023, the biggest event on campus. Like orca whales that live
+            in complex social groups and communicate through various sounds, the
+            organizers of UNAS FEST 2023 showcase the diversity of their
+            mindsets and perspectives. The intelligence and strategy of orca
+            whales inspired the structured, integrated, creative, and innovative
+            design of UNAS FEST 2023.
           </p>
         </div>
       </div>
