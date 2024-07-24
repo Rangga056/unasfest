@@ -30,7 +30,7 @@ export interface activitiesData {
     image: StaticImageData;
     lastEducation: string;
     description: string;
-    achievements: string[];
+    achievements?: string[];
     experience: {
       eTitle: string;
       place?: string;

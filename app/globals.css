@@ -222,7 +222,7 @@ html,
     --swiper-pagination-bullet-height: 10px;
     --swiper-pagination-bullet-border-radius: none;
     --swiper-pagination-bullet-inactive-color: #dad6ce;
-    --swiper-pagination-bullet-inactive-opacity: 0,2;
+    --swiper-pagination-bullet-inactive-opacity: 0, 2;
     --swiper-pagination-bullet-opacity: 1;
     --swiper-pagination-bullet-horizontal-gap: 5px;
     --swiper-pagination-bullet-vertical-gap: 6px;
@@ -273,10 +273,16 @@ a[href="https://caturnawa.unasfest.com/"]:hover,a[href="https://caturnawa.unasfe
   .text-color {
     color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 580px */
   }
+  .text-color-one {
+    color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 580px */
+  }
 }
 
 @media screen and (min-width: 581px) and (max-width: 600px) {
   .text-color {
+    color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 581px hingga 600px */
+  }
+  .text-color-one {
     color: white; /* Warna teks untuk tampilan mobile dengan lebar layar 581px hingga 600px */
   }
 }
@@ -285,10 +291,16 @@ a[href="https://caturnawa.unasfest.com/"]:hover,a[href="https://caturnawa.unasfe
   .text-color {
     color: blue; /* Warna teks untuk tampilan mobile dengan lebar layar 601px hingga 760px */
   }
+  .text-color-one {
+    color: blue; /* Warna teks untuk tampilan mobile dengan lebar layar 601px hingga 760px */
+  }
 }
 
 @media screen and (min-width: 761px) and (max-width: 768px) {
   .text-color {
+    color: #fffaf0; /* Warna teks untuk tampilan mobile dengan lebar layar 761px hingga 768px */
+  }
+  .text-color-one {
     color: #fffaf0; /* Warna teks untuk tampilan mobile dengan lebar layar 761px hingga 768px */
   }
 }
@@ -296,5 +308,8 @@ a[href="https://caturnawa.unasfest.com/"]:hover,a[href="https://caturnawa.unasfe
 @media screen and (min-width: 769px) {
   .text-color {
     color: #004aad; /* Warna teks untuk tampilan desktop */
+  }
+  .text-color-one {
+    color: #fffaf0; /* Warna teks untuk tampilan desktop */
   }
 }

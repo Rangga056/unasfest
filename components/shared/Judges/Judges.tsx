@@ -89,7 +89,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                       </p>
                     </div>
                     <Drawer>
-                      <DrawerTrigger className="cursor-pointer underline">
+                      <DrawerTrigger className="cursor-pointer underline overflow-x-hidden">
                         Read More ...
                       </DrawerTrigger>
                       <DrawerPortal>
@@ -131,10 +131,10 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                               </div>
                               <div className="flex flex-wrap pt-14">
                                 <h1 className="w-full text-2xl font-semibold uppercase sm:text-center md:w-1/2 md:text-start">
-                                  honors-awards
+                                  honors-award
                                 </h1>
                                 <ul className="mt-5 w-full list-inside list-disc md:w-1/2">
-                                  {prop.achievements.map((achievement, i) => (
+                                  {prop.achievements && prop.achievements.map((achievement, i) => (
                                     <li
                                       className="sm:mb-2 md:mb-5 md:text-lg"
                                       key={i}

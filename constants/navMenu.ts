@@ -16,7 +16,7 @@ export const navMenu = [
         href: "/activities/edc",
       },
       {
-        name: "Science Paper Competition",
+        name: "Scientific Paper Competition",
         href: "/activities/spc",
       },
       {

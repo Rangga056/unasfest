@@ -244,7 +244,7 @@ const AboutUsPage = () => {
           </h1>
           <p className="text-xl">
             The orca whale, a top marine predator with a unique black and white
-            body, reflects the spirit of National University students at UNAS
+            body, reflects the spirit of Universitas Nasional students at UNAS
             FEST 2023, the biggest event on campus. Like orca whales that live
             in complex social groups and communicate through various sounds, the
             organizers of UNAS FEST 2023 showcase the diversity of their
