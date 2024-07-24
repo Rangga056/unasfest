@@ -27,7 +27,7 @@ const ActivitiesGallery = () => {
   return (
     <section>
       {/* LATEST PHOTOS */}
-      <Card className="relative py-0 m-auto mb-12 max-w-screen-xl rounded-none bg-[#1F1E23] p-5 md:p-16 pb-20 w-[90%] overflow-hidden">
+      <Card className="relative py-0 m-auto mb-12 max-w-screen-xl rounded-none bg-[#1F1E23] p-5 md:p-16 pb-20 overflow-hidden">
         <CardTitle className="mb-5 w-full text-start font-inter text-2xl md:text-3xl font-[900] uppercase text-white lg:ml-16">
           see our <br /> <span className="text-[#C02424]">latest photos</span>
         </CardTitle>

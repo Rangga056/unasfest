@@ -228,6 +228,13 @@ const AboutUsPage = () => {
           ></iframe>
         </div> */}
       </div>
+      <div className="container mt-20 text-center">
+        <h1 className="font-bungee text-5xl font-medium uppercase">
+          past mascots
+        </h1>
+        <p className="text-xl capitalize ">our previous mascots</p>
+        {/* <p className="text-4xl uppercase font-medium font-bungee mt-10">-2023-</p> */}
+      </div>
       {/* Unasfest 2023 mascot */}
       <div className="relative mx-auto mt-36 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-water-pool bg-cover bg-center px-32 py-10 lg:flex-row">
         <div className="flex-[1]">
