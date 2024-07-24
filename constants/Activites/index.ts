@@ -426,13 +426,14 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp450.000,-/team",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
         question:
-          "When is the registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI)?",
+          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI) is August 23, 2024",
+          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -688,6 +689,7 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (August 12 - August 23, 2024)",
           "General: Rp550.000,-/team",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
@@ -1354,6 +1356,7 @@ export const Activities = [
           "Universitas Nasional Students: Free",
           "Phase 2 (12 - 23 August)",
           "General: Rp450.000",
+          "Universitas Nasional Students: Free",
         ],
       },
       {
