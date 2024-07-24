@@ -117,7 +117,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah, S.Sos., M.Ip",
+        name: "Fullah Jumaynah, S.Sos., M.Ip.",
         image: fullah,
         linkedin: "https://www.linkedin.com/in/fullahjm",
         lastEducation:
@@ -261,7 +261,7 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Purwo Besari, S.Pd",
+        name: "Purwo Besari, S.Pd.",
         image: purwo,
         linkedin: "https://www.linkedin.com/in/purwobesari/?jobid=1234",
         lastEducation: "Educational Management at State University of Jakarta",
@@ -509,7 +509,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Mouliza Kristhopher Donna Sweinstani, S.IP, M.IP",
+        name: "Mouliza Kristhopher Donna Sweinstani, S.IP, M.IP.",
         image: mouliza,
         linkedin:
           "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
@@ -564,7 +564,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Ahmad Kushay S.H, S.Si",
+        name: "Ahmad Kushay S.H, S.Si.",
         linkedin:
           "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
         image: ahmad,
@@ -772,7 +772,7 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Efriza, S.IP, M.Si",
+        name: "Efriza, S.IP, M.Si.",
         image: efriza,
         lastEducation:
           "Master's in Social and Political Sciences (Political Science) at the Universitas Nasional",
@@ -1203,7 +1203,7 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Kusen Dony Hermansyah, S.Sos, S.Sn, M.Sn",
+        name: "Kusen Dony Hermansyah, S.Sos, S.Sn, M.Sn.",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
         lastEducation:
@@ -1242,7 +1242,7 @@ export const Activities = [
       },
       {
         index: 3,
-        name: "Raden Daniel Wisnu Wardhana, S.IP.,M.A",
+        name: "Raden Daniel Wisnu Wardhana, S.IP., M.A.",
         image: Daniel,
         linkedin: "https://www.linkedin.com/in/daniel-wardana-21878677",
         lastEducation:
