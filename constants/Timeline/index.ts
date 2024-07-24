@@ -87,7 +87,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "Preliminary Round 1 of EDC",
+    title: "Preliminary Round Day 1 of EDC",
     description: "This round marks the initial phase of the EDC",
     month: "SEP",
     date: "18",
@@ -95,7 +95,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "Preliminary Round 2 of EDC",
+    title: "Preliminary Round Day 2 of EDC",
     description: "This round marks the initial phase of the EDC",
     month: "SEP",
     date: "19",
@@ -103,7 +103,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "EDC Semi-Final Round",
+    title: "Semi-Final Round of EDC",
     description: "to get a chance to advance to the final round",
     month: "SEP",
     date: "20",
@@ -120,7 +120,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "Final Day 1 English Debate Competition",
+    title: "Final Day 1 of English Debate Competition",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "16",
@@ -128,7 +128,7 @@ export const timelinesEDC = [
     color: "#004AAD",
   },
   {
-    title: "Final Day 2 English Debate Competition",
+    title: "Final Day 2 of English Debate Competition",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "17",
@@ -164,7 +164,7 @@ export const timelinesKDBI = [
     color: "#2A9763",
   },
   {
-    title: "Preliminary Round 1 of KDBI",
+    title: "Preliminary Round Day 1 of KDBI",
     description: "This round marks the initial phase of the KDBI",
     month: "SEP",
     date: "18",
@@ -172,7 +172,7 @@ export const timelinesKDBI = [
     color: "#2A9763",
   },
   {
-    title: "Preliminary Round 2 of KDBI",
+    title: "Preliminary Round Day 2 of KDBI",
     description: "This round marks the initial phase of the KDBI",
     month: "SEP",
     date: "19",
@@ -180,7 +180,7 @@ export const timelinesKDBI = [
     color: "#2A9763",
   },
   {
-    title: "KDBI Semi-Final Round",
+    title: "Semi-Final Round of KDBI",
     description: "to get a chance to advance to the final round",
     month: "SEP",
     date: "20",
@@ -197,7 +197,7 @@ export const timelinesKDBI = [
     color: "#2A9763",
   },
   {
-    title: "Final Day 1 KDBI",
+    title: "Final Day 1 of KDBI",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "16",
@@ -205,7 +205,7 @@ export const timelinesKDBI = [
     color: "#2A9763",
   },
   {
-    title: "Final Day 2 KDBI",
+    title: "Final Day 2 of KDBI",
     description: "The final stage to determine who will be the winner",
     month: "OCT",
     date: "17",

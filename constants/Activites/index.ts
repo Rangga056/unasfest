@@ -75,7 +75,7 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "KDBI UNAS FEST 2024 National Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
+          "The KDBI UNAS FEST 2024 National Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi).",
       },
       {
         index: 2,
@@ -100,7 +100,7 @@ export const Activities = [
       {
         index: 6,
         detail:
-          "KDBI UNAS FEST 2024 National participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending KDBI UNAS FEST 2024 at Universitas Nasional.",
+          "The KDBI UNAS FEST 2024 National participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending KDBI UNAS FEST 2024 at Universitas Nasional.",
       },
       {
         index: 7,
@@ -419,13 +419,13 @@ export const Activities = [
           "What is the registration fee for the Indonesian Language Debate Competition (KDBI)?",
         answer: [
           "Early Bird (July 23 - July 28 , 2024)",
-          "General: Rp300.000",
+          "General: Rp300.000,-/team",
           "Universitas Nasional Students: Free",
           "Phase 1 (July 29 - August 11, 2024)",
-          "General: Rp400.000",
+          "General: Rp400.000,-/team",
           "Universitas Nasional Students: Free",
-          "Phase 2 (12 - 23 August)",
-          "General: Rp450.000",
+          "Phase 2 (August 12 - August 23)",
+          "General: Rp450.000,-/team",
         ],
       },
       {
@@ -437,7 +437,7 @@ export const Activities = [
       {
         question: "When will the winners be announced?",
         answer:
-          "The winners will be announced on October 17, 2024, after the final round sessions.",
+          "The winners will be announced on October 17, 2024, after the final round day 2 sessions.",
       },
       {
         question: "Where can I see the winner announcement?",
@@ -467,7 +467,7 @@ export const Activities = [
       {
         index: 1,
         detail:
-          "EDC UNAS FEST 2024 International Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi) for State or Private Universities in Indonesia and registered on the official college website for International Universities.",
+          "The EDC UNAS FEST 2024 International Level debate participants are active students registered in PDDikti (Pangkalan Data Pendidikan Tinggi) for State or Private Universities in Indonesia and registered on the official college website for International Universities.",
       },
       {
         index: 2,
@@ -492,7 +492,7 @@ export const Activities = [
       {
         index: 6,
         detail:
-          "EDC UNAS FEST 2024 International participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending EDC UNAS FEST 2024 at Universitas Nasional.",
+          "The EDC UNAS FEST 2024 International participants are prohibited from bringing or using drugs/substances/sharp weapons/firearms when attending EDC UNAS FEST 2024 at Universitas Nasional.",
       },
       {
         index: 7,
@@ -681,13 +681,13 @@ export const Activities = [
           "What is the registration fee for the English Debate Competition (EDC)?",
         answer: [
           "Early Bird (July 23 - July 28 , 2024)",
-          "General: Rp350.000",
+          "General: Rp350.000,-/team",
           "Universitas Nasional Students: Free",
           "Phase 1 (July 29 - August 11, 2024)",
-          "General: Rp500.000",
+          "General: Rp500.000,-/team",
           "Universitas Nasional Students: Free",
-          "Phase 2 (12 - 23 August)",
-          "General: Rp550.000",
+          "Phase 2 (August 12 - August 23)",
+          "General: Rp550.000,-/team",
         ],
       },
       {
@@ -699,7 +699,7 @@ export const Activities = [
       {
         question: "When will the winners be announced?",
         answer:
-          "The winners will be announced on October 17, 2024, after the final round sessions.",
+          "The winners will be announced on October 17, 2024, after the final round day 2 sessions.",
       },
       {
         question: "Where can I see the winner announcement?",
@@ -718,11 +718,11 @@ export const Activities = [
     contactNumber: "https://wa.me/6282298067962",
     color: "#E27817",
     description:
-      "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and gain recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
+      "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and be recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
       "https://drive.google.com/file/d/1LL51uQ5tO_Z-tBjXzILCKczyRH1MXhVW/view?usp=share_link",
-    infiniteSlidingText: "SCINTIFIC PAPER",
+    infiniteSlidingText: "SCIENTIFIC PAPER",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition requirements",
 
@@ -1204,7 +1204,7 @@ export const Activities = [
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
         lastEducation: "Lecturer at Jakarta Institute of Arts",
         description:
-          "Kusen Dony Hermansyah, better known as Dony or Kusdon, is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
+          "Kusen Dony Hermansyah, better known as Dony or Kusdon,  he is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
         achievements: [
           "Please Me Love (2012) - Short Editor",
           "Maryam (2014) - Short Editor",
