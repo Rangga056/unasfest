@@ -20,7 +20,7 @@ export const activitiesGallery = [
   {
     index: 0,
     img: fotoS,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
   {
@@ -32,37 +32,37 @@ export const activitiesGallery = [
   {
     index: 2,
     img: fotoS3,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
   {
     index: 3,
     img: fotoS4,
-    date: "December 2024",
+    date: "20 4 December 2024",
     desc: "National Seminar",
   },
   {
     index: 4,
     img: fotoS5,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
   {
     index: 5,
     img: fotoS6,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
   {
     index: 6,
     img: fotoS7,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
   {
     index: 7,
     img: fotoS8,
-    date: "December 2024",
+    date: "4 December 2024",
     desc: "National Seminar",
   },
 ];
@@ -71,51 +71,51 @@ export const activitiesSemin = [
   {
     index: 0,
     img: foto,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "Final Day-2",
   },
   {
     index: 1,
     img: foto2,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "Final Day-2",
     
   },
   {
     index: 2,
     img: foto3,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "Final Day-2",
     
   },
   {
     index: 3,
     img: foto4,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "SPC Competition",
   },
   {
     index: 4,
     img: foto5,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "Debate Competition",
   },
   {
     index: 5,
     img: foto6,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "National Seminar",
   },
   {
     index: 6,
     img: foto7,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "National Seminar",
   },
   {
     index: 7,
     img: foto8,
-    date: "December 2024",
+    date: "20 December 2024",
     desc: "National Seminar",
   },
 ];
