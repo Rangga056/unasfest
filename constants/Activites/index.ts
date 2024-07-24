@@ -113,15 +113,15 @@ export const Activities = [
           "Matters that have not been regulated will be regulated later by the Universitas Nasional Student and Alumni Administration Bureau in accordance with the objective reality of KDBI UNAS FEST 2024 National Level activities.",
       },
     ],
-    
 
     judgesData: [
       {
         index: 1,
         name: "Fullah Jumaynah, S.Sos., M.Ip",
         image: fullah,
-        linkedin : "https://www.linkedin.com/in/fullahjm",
-        lastEducation: "Master's Degree Political Science University of Indonesia",
+        linkedin: "https://www.linkedin.com/in/fullahjm",
+        lastEducation:
+          "Master's Degree Political Science University of Indonesia",
         description:
           "She is a researcher focusing on political, democracy, and gender issues at The Habibie Center. She also have 3 years of experience as a practitioner in political research and analysis, political communication strategy consulting, and branding at a political consulting agency. Additionally, She is frequently involved in programs and research at several NGOs and universities.",
         achievements: [
@@ -131,12 +131,12 @@ export const Activities = [
         ],
         experience: [
           {
-            eTitle: "Researcher and Program Assistant - The Habibie Center – Jakarta",
+            eTitle:
+              "Researcher and Program Assistant - The Habibie Center – Jakarta",
             eTime: "Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail:
-                "",
+              dDetail: "",
               dPoint: [
                 "• Conducting research on political and democracy topics with policy document outputs",
                 "Running and managing programs in the Institute of Democracy and Human Rights department",
@@ -144,19 +144,24 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
+            eTitle:
+              "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
             eTime: "Octtober 2023 - Present",
             eDesc: {
               dDetail: "",
-              dPoint: ["Managing the Jubir Warga community project, part of SPD’s program focused on political education and digital campaign/activism for youth in response to the 2024 Presidential and Regional Elections.", "Conducting quantitative and qualitative research on the evaluation of the 2024 Presidential Election and analysis of democracy in Indonesia.", "Analyzing, writing, and publishing research findings in a book and policy documents."],
+              dPoint: [
+                "Managing the Jubir Warga community project, part of SPD’s program focused on political education and digital campaign/activism for youth in response to the 2024 Presidential and Regional Elections.",
+                "Conducting quantitative and qualitative research on the evaluation of the 2024 Presidential Election and analysis of democracy in Indonesia.",
+                "Analyzing, writing, and publishing research findings in a book and policy documents.",
+              ],
             },
           },
           {
-            eTitle: "Political Researcher - Strategi Lingkar Nusantara – Jakarta",
+            eTitle:
+              "Political Researcher - Strategi Lingkar Nusantara – Jakarta",
             eTime: "July 2023 – April 2024",
             eDesc: {
-              dDetail:
-                "",
+              dDetail: "",
             },
             dPoint: [
               "Conducted comprehensive political research (quantitative/surveys and qualitative) on voter behavior, political electability (parties, legislative candidates, and executives), and socio-economic, cultural, and political conditions.",
@@ -506,9 +511,9 @@ export const Activities = [
         index: 1,
         name: "Mouliza Kristhopher Donna Sweinstani",
         image: mouliza,
-        linkedin: "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
-        lastEducation:
-          "Bachelor of Political Science,",
+        linkedin:
+          "https://www.linkedin.com/in/mouliza-kristhopher-donna-sweinstani-a3ba6470",
+        lastEducation: "Bachelor of Political Science,",
         description:
           "I am currently serves as the head of the Political Party Studies research team at the Political Research Center of BRIN (Indonesian National Research and Innovation Agency). Apart from being a researcher, I am also a Lecturer at Department of Government Studies Indonesian Open University (UT) and a Practitioner Lecturer from the Ministry of Education, focusing on Democracy, Election, and Political Parties, in several universities in Indonesia. Several publications on electoral studies, political parties, the role of women in politics, and youth in politics have been published in national and international reputable journals, books, as well as in the mainstream mass media. I am also one of the founders of a youth organisation called the Indonesian Youth Political Institute, established in 2014.",
         achievements: [
@@ -518,39 +523,31 @@ export const Activities = [
         ],
         experience: [
           {
-            eTitle:
-              "Election Violation Analyst - Bawaslu RI",
+            eTitle: "Election Violation Analyst - Bawaslu RI",
             eTime: "January 2017 - December 2017",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail:
-                "",
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Researcher at Research Center for Politics BRIN/LIPI",
+            eTime: "2018 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "",
               dPoint: [],
             },
           },
           {
             eTitle:
-              "Researcher at Research Center for Politics BRIN/LIPI",
-            eTime: "2018 - Present",
-            place: "Indonesia",
-            eDesc: {
-              dDetail:
-                "",
-              dPoint: [
-              
-              ],
-            },
-          },
-          {
-            eTitle: "Tutor in Departemen of Government Studies Indonesia Open Univeristy",
+              "Tutor in Departemen of Government Studies Indonesia Open Univeristy",
             eTime: "2021 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail:
-                "",
-              dPoint: [
-                "",
-              ],
+              dDetail: "",
+              dPoint: [""],
             },
           },
           {
@@ -559,8 +556,7 @@ export const Activities = [
             eTime: "2024 - Present",
             place: "Jakarta Raya, Indonesia",
             eDesc: {
-              dDetail:
-                "",
+              dDetail: "",
             },
           },
         ],
@@ -654,18 +650,17 @@ export const Activities = [
         name: "Hezron Kowardi",
         image: hezron,
         linkedin: "https://www.linkedin.com/in/hezron-kowardi-b27b19206",
-        lastEducation:
-          "University of Indonesia Faculty of Psychology",
+        lastEducation: "University of Indonesia Faculty of Psychology",
         description:
           "Hezron Kowardi is an undergraduate psychology student at the Universitas Indonesia. He has a background in various leadership roles, including as President of the English Debating Society (EDS UI). Hezron has interned as an Internal Recruiter at Monroe Consulting Group and in HR Recruitment at Akulaku Indonesia. Hezron has a keen interest in human resources, social welfare, and mental health issues. Hezron has also won awards in international debate competitions.",
-          achievements: [
-            "President of EDS UI 2023.",
-            "Grand Finalist in the English as a Foreign Language (EFL) category at the World Universities Debating Championships 2024 in Ho Chi Minh, Vietnam. This tournament is one of the largest in the world with over 800 participants from around the globe.",
-            "Semifinalist in the English as a Secondary Language (ESL) category at the Australasian Intervarsity Debating Championships 2023 in Krabi, Thailand. Australs is one of the largest debate tournaments in the world after WUDC.",
-            "Member of the Official Delegation from the Universitas Indonesia.",
-            "First Break and Runner-Up Champion at the UTM AP International Debating Championship 2023, the first virtual edition of the UTM API series.",
-            "Accredited."
-          ],
+        achievements: [
+          "President of EDS UI 2023.",
+          "Grand Finalist in the English as a Foreign Language (EFL) category at the World Universities Debating Championships 2024 in Ho Chi Minh, Vietnam. This tournament is one of the largest in the world with over 800 participants from around the globe.",
+          "Semifinalist in the English as a Secondary Language (ESL) category at the Australasian Intervarsity Debating Championships 2023 in Krabi, Thailand. Australs is one of the largest debate tournaments in the world after WUDC.",
+          "Member of the Official Delegation from the Universitas Indonesia.",
+          "First Break and Runner-Up Champion at the UTM AP International Debating Championship 2023, the first virtual edition of the UTM API series.",
+          "Accredited.",
+        ],
         experience: [],
       },
     ],
@@ -795,13 +790,11 @@ export const Activities = [
             },
           },
           {
-            eTitle:
-              "Founder of Pekamedia.com (Press)",
+            eTitle: "Founder of Pekamedia.com (Press)",
             eTime: "2024 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail:
-                "",
+              dDetail: "",
               dPoint: [],
             },
           },
@@ -824,8 +817,7 @@ export const Activities = [
             },
           },
           {
-            eTitle:
-              "Reviewer at Jurnal Populis (UNAS), Sinta 4",
+            eTitle: "Reviewer at Jurnal Populis (UNAS), Sinta 4",
             eTime: "2022 - Present",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -834,8 +826,7 @@ export const Activities = [
             },
           },
           {
-            eTitle:
-              "Principal Researcher at Citra Institute",
+            eTitle: "Principal Researcher at Citra Institute",
             eTime: "2020 - present",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -844,7 +835,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Weekly Columnist at Telisik.id (Saturday/Sunday), the First Online Media in Southeast Sulawesi",
+            eTitle:
+              "Weekly Columnist at Telisik.id (Saturday/Sunday), the First Online Media in Southeast Sulawesi",
             eTime: "2020 - present",
             place: "Indonesia",
             eDesc: {
@@ -853,7 +845,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Founder and Executive Director, CV Penerbit Kreasi Cendekia Pustaka",
+            eTitle:
+              "Founder and Executive Director, CV Penerbit Kreasi Cendekia Pustaka",
             eTime: "2011 - present",
             place: "Indonesia",
             eDesc: {
@@ -862,7 +855,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Adjunct Lecturer in International Relations, Universitas Satya Negara Indonesia (USNI)",
+            eTitle:
+              "Adjunct Lecturer in International Relations, Universitas Satya Negara Indonesia (USNI)",
             eTime: "2018 - present",
             place: "Indonesia",
             eDesc: {
@@ -871,7 +865,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Adjunct Lecturer in Political Science, Universitas Bung Karno (UBK)",
+            eTitle:
+              "Adjunct Lecturer in Political Science, Universitas Bung Karno (UBK)",
             eTime: "2017 - present",
             place: "Indonesia",
             eDesc: {
@@ -880,7 +875,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Adjunct Lecturer in Political Science, Sekolah Tinggi Ilmu Pemerintahan Abdi Negara (STIP-AN)",
+            eTitle:
+              "Adjunct Lecturer in Political Science, Sekolah Tinggi Ilmu Pemerintahan Abdi Negara (STIP-AN)",
             eTime: "2016 - present",
             place: "Indonesia",
             eDesc: {
@@ -889,7 +885,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Permanent Lecturer in Government Studies, Universitas Sutomo",
+            eTitle:
+              "Permanent Lecturer in Government Studies, Universitas Sutomo",
             eTime: "September 2021 - present",
             place: "Indonesia",
             eDesc: {
@@ -903,22 +900,48 @@ export const Activities = [
         index: 2,
         name: "Desfara Anggreani",
         image: desfara,
-        lastEducation:
-          "Social Activist",
-        description: "I am a bachelor's student in the Faculty of Health Sciences. I learn a lot from people, especially about how connections are created through events. I am skilled in public speaking, which has led me to win debate competitions and participate in international conferences. I have also been involved in several organizations, which has heightened my awareness of social issues. To manifest that interest, I lead a learning guidance program called Rumah Belajar.",
-        achievements: ["Master of Ceremony", "1st Winner Project SDGs in International Youth Experience 2024", "Speaker in International Youth Experience 2024", "Coordinator Volunteer", "Narasumber 'Cerita Anak Perawat'", "Juara 2 Karya Tulis Ilmiah Nasional UNAS Fest 2023", "Juara 1 Essay Competition Nasional Teras Student", "Juara Harapan 1 Cipta Puisi D'Science USU 2023", "Juara 1 Regianol III Public Speaking AIPVIK", "Juara 2 Video Edukasi Kesehatan Poltekkes Kaltim 2023", "Juara 3 Olimpiade Bahasa Inggris PUSPRESNAS", "1st Winner in Infographic Poster Competition Akasara", "FINALIS (Harapan II) Mahasiswa Berprestasi Indonesia Nursing Olympiad 2023", "1st Best Paper in International Youth Exchange and Conferenc", "Best Team Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand", "Leader Team 'Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand'", "Best Author by Meta Publisher", "Youth Summit on Leadership and Entrepreneur in Turkey", "Digital Marketing Skill Digipreneur Akademi Inspiradzi", "Juara 3 Poster PPM School of Management", "Spokesperson event of self esteem", "Delegation of circular economy and sustainable fashion ASEAN Cooperation", "Delegation of visual activism ASEAN Cooperation", "Spokesperson of organization Deep Happiest"],
+        lastEducation: "Social Activist",
+        description:
+          "I am a bachelor's student in the Faculty of Health Sciences. I learn a lot from people, especially about how connections are created through events. I am skilled in public speaking, which has led me to win debate competitions and participate in international conferences. I have also been involved in several organizations, which has heightened my awareness of social issues. To manifest that interest, I lead a learning guidance program called Rumah Belajar.",
+        achievements: [
+          "Master of Ceremony",
+          "1st Winner Project SDGs in International Youth Experience 2024",
+          "Speaker in International Youth Experience 2024",
+          "Coordinator Volunteer",
+          "Narasumber 'Cerita Anak Perawat'",
+          "Juara 2 Karya Tulis Ilmiah Nasional UNAS Fest 2023",
+          "Juara 1 Essay Competition Nasional Teras Student",
+          "Juara Harapan 1 Cipta Puisi D'Science USU 2023",
+          "Juara 1 Regianol III Public Speaking AIPVIK",
+          "Juara 2 Video Edukasi Kesehatan Poltekkes Kaltim 2023",
+          "Juara 3 Olimpiade Bahasa Inggris PUSPRESNAS",
+          "1st Winner in Infographic Poster Competition Akasara",
+          "FINALIS (Harapan II) Mahasiswa Berprestasi Indonesia Nursing Olympiad 2023",
+          "1st Best Paper in International Youth Exchange and Conferenc",
+          "Best Team Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand",
+          "Leader Team 'Youth Leader Exchange and Conference Chapter Singapore, Malaysia and Thailand'",
+          "Best Author by Meta Publisher",
+          "Youth Summit on Leadership and Entrepreneur in Turkey",
+          "Digital Marketing Skill Digipreneur Akademi Inspiradzi",
+          "Juara 3 Poster PPM School of Management",
+          "Spokesperson event of self esteem",
+          "Delegation of circular economy and sustainable fashion ASEAN Cooperation",
+          "Delegation of visual activism ASEAN Cooperation",
+          "Spokesperson of organization Deep Happiest",
+        ],
         experience: [
           {
             eTitle: "Founder of Runut Waktu",
             eTime: "August 2023 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Runut waktu aims to help address social issues around education, health, and the environment with real action. In the time series, there are several programs, namely:",
+              dDetail:
+                "Runut waktu aims to help address social issues around education, health, and the environment with real action. In the time series, there are several programs, namely:",
               dPoint: [
                 "Runut Waktu Bersama Mengajar (RWBM)",
                 "Bincang Aksi (Podcast)",
                 "Talk Quotes",
-                "Sustainable Development Goals (SDGs) News"
+                "Sustainable Development Goals (SDGs) News",
               ],
             },
           },
@@ -927,7 +950,8 @@ export const Activities = [
             eTime: "September 2022 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
+              dDetail:
+                "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
               dPoint: [],
             },
           },
@@ -936,7 +960,8 @@ export const Activities = [
             eTime: "February 2021 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
+              dDetail:
+                "The Eternals is a local brand of perfume for all people to feel memories and love themselves. The eternals I build to give other people's memories every day with love and valuable people, and the eternals don't have alcohol to make pregnant women feel safe",
               dPoint: [],
             },
           },
@@ -945,18 +970,20 @@ export const Activities = [
             eTime: "March 2021 - September 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
-              dPoint: []
-            }
+              dDetail:
+                "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
+              dPoint: [],
+            },
           },
           {
             eTitle: "Partnership of World Inspiration Indonesia",
             eTime: "February 2022 - April 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
-              dPoint: []
-            }
+              dDetail:
+                "Providing mentees with relevant and impactful guidance and training to improve their professional and personal development while keeping them accountable to their goals. Together with the team, I am building a program for mental health journaling called 'Reach to Know Our Emotions with Journaling', reaching over 70 participants.",
+              dPoint: [],
+            },
           },
           {
             eTitle: "Division media partner (HEAD) of IILMIKI",
@@ -967,18 +994,19 @@ export const Activities = [
               dPoint: [
                 "Fully responsible for fnding and establishing relationships with partners to collaborate or cooperate on programs/projects.",
                 "Market a project or program to the public media and become a spokesperson.",
-                "Drafting an MoU, TOR and landing page."
-              ]
-            }
+                "Drafting an MoU, TOR and landing page.",
+              ],
+            },
           },
           {
             eTitle: "Public Relation of Get Wellness Soon",
             eTime: "January 2022 - April 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Get Wellness Soon is an NGO dedicated to upgrading your skills in interpersonal, intrapersonal, and physical health. As a public relationship, I worked on: Maintaining sources well before & after webinar, cooperating with various media partners for media partner purposes, becoming a contact person in terms of media partner submissions from companies /organizations.",
-              dPoint: []
-            }
+              dDetail:
+                "Get Wellness Soon is an NGO dedicated to upgrading your skills in interpersonal, intrapersonal, and physical health. As a public relationship, I worked on: Maintaining sources well before & after webinar, cooperating with various media partners for media partner purposes, becoming a contact person in terms of media partner submissions from companies /organizations.",
+              dPoint: [],
+            },
           },
           {
             eTitle: "Brand Ambassador of Indonesia Milennial Connect",
@@ -990,17 +1018,18 @@ export const Activities = [
                 "Be willing to outreach to the community, city, or region",
                 "Assist in the publicity of MAF events on their respective social media",
                 "Coordinate with every internal organization elements",
-                "Bring or guide events with professional speakers"
-              ]
-            }
+                "Bring or guide events with professional speakers",
+              ],
+            },
           },
           {
             eTitle: "Public Relation of Mengelola Emosi Indonesia",
             eTime: "November 2021 - February 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "ME Indonesia is a nationwide platform that focuses on educating about the importance of mental health issues, particularly in the case of emotional regulation. Projects I worked on: Fully responsible for fnding, contacting, and cooperating with sources every day, meeting the demands and needs of the source at an event, compiling a media partner database for event publication purposes, preparing the administration of media liaison teams such as TOR, MoU, media partner logos, and source material.",
-              dPoint: []
+              dDetail:
+                "ME Indonesia is a nationwide platform that focuses on educating about the importance of mental health issues, particularly in the case of emotional regulation. Projects I worked on: Fully responsible for fnding, contacting, and cooperating with sources every day, meeting the demands and needs of the source at an event, compiling a media partner database for event publication purposes, preparing the administration of media liaison teams such as TOR, MoU, media partner logos, and source material.",
+              dPoint: [],
             },
           },
           {
@@ -1008,18 +1037,20 @@ export const Activities = [
             eTime: "September 2021 - March 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Twinkling Stars is a platform for mental health and specializes in raising awareness of mental health. Duty Description: Building strategic planning for the event, managing and acting as an ofcer, fxing the rundown, becoming a host and PIC for some webinar events.",
-              dPoint: []
-            }
+              dDetail:
+                "Twinkling Stars is a platform for mental health and specializes in raising awareness of mental health. Duty Description: Building strategic planning for the event, managing and acting as an ofcer, fxing the rundown, becoming a host and PIC for some webinar events.",
+              dPoint: [],
+            },
           },
           {
             eTitle: "Head of Human Resources",
             eTime: "September 2021 - January 2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Supporting young people by sharing discussions on critical thinking, practical self‐development, and health through discussion of formal or informal events about gender equality and women's happiness.",
-              dPoint: []
-            }
+              dDetail:
+                "Supporting young people by sharing discussions on critical thinking, practical self‐development, and health through discussion of formal or informal events about gender equality and women's happiness.",
+              dPoint: [],
+            },
           },
           {
             eTitle: "Secretary General of ASEAN Youth Organization",
@@ -1030,13 +1061,12 @@ export const Activities = [
               dPoint: [
                 "Write emails, memos and letters",
                 "Manage database entry and client fles",
-                "Implement and/or develop ofce procedures and record systems"
-              ]
-            }
+                "Implement and/or develop ofce procedures and record systems",
+              ],
+            },
           },
         ],
       },
-      
     ],
     faqs: [
       {
@@ -1150,8 +1180,9 @@ export const Activities = [
         image: jentoni,
         linkedin:
           "https://www.linkedin.com/in/jentoni-pakpahan-609a85169/?jobid=1234",
-        lastEducation: "English Language and Literature - Universitas Nasional",
-        description: "",
+        lastEducation: "Movie Producer at MNC",
+        description:
+          'Jentoni Pakpahan is a graduate of the Faculty of English Language and Literature from the Universitas Nasional (UNAS). He is a professional in the Indonesian entertainment industry with extensive experience in film and television production. Currently, he works as a Line Producer at PT MNC Pictures since October 2020, and at the same company, he also has work experience as an Assistant Producer from April 2015 to October 2020. In addition, he has work experience at MD Entertainment as an Assistant Production Manager from 2010 to 2013, and experience working as a freelancer in various film, advertising, and commercial projects. He has been involved in several successful film projects, including "Kamu Tidak Sendiri" (2021), "Mars and Venus (Collabs Version)" (2020), and "Meet Me After Sunset" (2018). He has also been involved in several other television and film projects. In addition to his experience in the entertainment industry, he also has skills in drumming, Microsoft Office, Microsoft Excel, and social media.',
         achievements: [],
         experience: [
           {
@@ -1171,10 +1202,9 @@ export const Activities = [
         name: "Kusen Dony Hermansyah",
         image: kusen,
         linkedin: "https://www.linkedin.com/in/kusen-dony-535973/",
-        lastEducation:
-          "Faculty of Film and Television, Jakarta Arts Institute",
+        lastEducation: "Lecturer at Jakarta Institute of Arts",
         description:
-          "Kusen Dony Hermansyah, better known as Dony or Kusdon, is a graduate of the Faculty of Film and Television from the Jakarta Arts Institute and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, particularly in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Arts Institute and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
+          "Kusen Dony Hermansyah, better known as Dony or Kusdon, is a graduate of the Faculty of Film and Television from the Jakarta Institute of Arts and the Postgraduate Program at the Indonesian Institute of the Arts in Surakarta. He began his career as a film editor in 1994, especially in documentary films, and after completing his diploma program in 2000, he started working as both a lecturer and a film editor. Dony also teaches at several institutions, including the Jakarta Institute of Arts and the Jakarta State Polytechnic of Creative Media, and has worked in various film genres, including documentaries, soap operas, experimental films, fiction films, and music videos.",
         achievements: [
           "Please Me Love (2012) - Short Editor",
           "Maryam (2014) - Short Editor",
@@ -1183,12 +1213,11 @@ export const Activities = [
           "Dilarang Menyanyi di Kamar Mandi (2019)",
           "Kejarlah Daku Kau Kutangkap: The Series (2022) - TV Series Editor",
           "Married by Accident (2021-2022) - TV Mini Series Editor",
-          "Teori Dasar Editing Film (2009)"
+          "Teori Dasar Editing Film (2009)",
         ],
         experience: [
           {
-            eTitle:
-              "Film Editor, since 1994",
+            eTitle: "Film Editor, since 1994",
             place: "Indonesia",
           },
           {
@@ -1202,7 +1231,8 @@ export const Activities = [
             place: "Indonesia",
           },
           {
-            eTitle: "Assistant Dean of the Faculty of Film & Television, Jakarta Arts Institute",
+            eTitle:
+              "Assistant Dean of the Faculty of Film & Television, Jakarta Arts Institute",
             place: "Indonesia",
           },
           {
@@ -1215,17 +1245,14 @@ export const Activities = [
         index: 3,
         name: "Raden Daniel Wisnu Wardana",
         image: Daniel,
-        linkedin:
-          "https://www.linkedin.com/in/daniel-wardana-21878677",
-        lastEducation:
-          "Master's degree, Film/Video dan Fotografi at Bond University",
+        linkedin: "https://www.linkedin.com/in/daniel-wardana-21878677",
+        lastEducation: "Chief Operational Officer at NextArt.id",
         description:
           "I have been involved in the world of broadcasting, cinematography, and photography for nearly 25 years. Some of my experiences in broadcasting include producing several TV programs at Triwarsana Production House (Helmi Yahya). I have been involved in a production house that I founded for almost 5 years since 2003. I worked as a product specialist at Canon Indonesia for almost 3 years. Photography and videography are my majors in teaching at several universities, such as Universitas Mercubuana, Universitas Sahid, Sekolah Tinggi Media Komunikasi Trisakti, and Universitas Nasional, since 2011 until now. Since 2021, I have built a company in the audio-visual field that collaborates with more than 150 digital platforms such as Spotify, Apple Music, YouTube Music, and others.",
         achievements: [
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Mollit quis sint ad pariatur aliquip anim amet.",
-          "Mollit quis sint ad pariatur aliquip anim amet. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "2013 Favorite Winner of the Documentary Film Festival at SBM Golden Lens, Erasmus Huis Jakarta",
+          "2000 DOP Nomination at the Dallas Film Festival",
+          "2000 DOP Nominations at the Studentfilmfestival.com Film Festival",
         ],
         experience: [
           {
@@ -1360,7 +1387,8 @@ export const Activities = [
     description:
       "The International Seminar is a global forum designed to facilitate knowledge exchange and dialogue among experts, academics, and practitioners from various fields. This seminar provides a platform for discussing cutting-edge research, emerging trends, and innovative solutions on a range of international issues. Participants include researchers, policymakers, industry leaders, and students who come together to share their insights and collaborate on global challenges.",
     timeline: timelinesSemnas,
-    guideBook: "https://drive.google.com/file/d/1JaClPvihVhLYNznt77LTGhCwX3Nu3QQz/view",
+    guideBook:
+      "https://drive.google.com/file/d/1JaClPvihVhLYNznt77LTGhCwX3Nu3QQz/view",
     infiniteSlidingText: "International Seminar",
     infiniteSlidingIcon: internationalSeminarIcon,
     requirementsTitle: "Short Movie Competition requirements",

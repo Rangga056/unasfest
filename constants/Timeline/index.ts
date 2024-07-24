@@ -251,7 +251,7 @@ export const timelinesSMC = [
   },
   {
     title: "Beginning of the Preliminary Round of Short Movie",
-    description: "The process of submitting Short Movie Videos is open",
+    description: "Assesment proccess of submitted Short Movie Videos",
     month: "SEP",
     date: "26",
     year: "2024",
@@ -259,7 +259,7 @@ export const timelinesSMC = [
   },
   {
     title: "End of the Preliminary Round of Short Movie",
-    description: "The process of submitting Short Movie Videos is close",
+    description: "The end of the preliminary round of Short Movie Competition",
     month: "SEP",
     date: "28",
     year: "2024",
@@ -274,7 +274,7 @@ export const timelinesSMC = [
     color: "#C02424",
   },
   {
-    title: "Participants' Technical Meeting",
+    title: "Participants Technical Meeting",
     description:
       "Important Information for Participants about Competition Rules",
     month: "OCT",

@@ -21,7 +21,7 @@ const Hero = () => {
       {/* left section */}
       <div className="order-2 flex h-full w-full flex-col items-start lg:order-1 lg:w-3/5">
         <h1 className="w-full whitespace-break-spaces font-bungee text-[39px] font-medium uppercase leading-tight text-page-blue md:text-[53px] lg:w-4/5">
-          Sign Up Now for the Change competition
+          Sign Up Now for the competition
         </h1>
         <p className="mt-4 w-full text-xl font-semibold md:w-[90%]">
           The Universitas Nasional Festival 2024 (UNAS FEST 2024) is one of the
