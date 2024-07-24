@@ -12,6 +12,7 @@ import luminaVerde from "@/public/assets/images/mascots/Lumina-Verde.png";
 import rektorImg from "@/public/assets/images/steering-committees/rektor_unas.png";
 import wakilRektorAkademikImg from "@/public/assets/images/steering-committees/warek_akademik.png";
 import wakilRektorAdministrasiImg from "@/public/assets/images/steering-committees/warek_administrasi.png";
+import wakilRektorPenelitianImg from "@/public/assets/images/steering-committees/warek_penelitian.png";
 // unas collaborate logo
 import hifiUnas from "@/public/assets/images/about-us/hifi-unas-logo.png";
 import mmUnas from "@/public/assets/images/about-us/MM-unas-logo.png";
@@ -128,6 +129,13 @@ export const steeringCommittees = [
     name: "Prof. Dr. Drs. Eko Sugiyanto, M.Si.",
     position: "Wakil Rektor Bidang Administrasi Umum, Keuangan, dan SDM",
   },
+  {
+    index: 4,
+    img: wakilRektorPenelitianImg,
+    name: "Prof. Dr. Ernawati Sinaga, M.S., Apt.",
+    position:
+      "Wakil Rektor Bidang Penelitian, Pengabdian Kepada Masyarakat dan Kerjasama",
+  },
 ];
 
 export const unasCollaborate = [
@@ -175,5 +183,12 @@ export const DPM = [
     img: wakilRektorAdministrasiImg,
     name: "prof. Dr. Drs. Eko Sugiyanto, M.Si.",
     position: "Wakil Rektor Bidang Administrasi Umum Keuangan, dan SDM",
+  },
+  {
+    index: 4,
+    img: wakilRektorPenelitianImg,
+    name: "Prof. Dr. Ernawati Sinaga, M.S., Apt.",
+    position:
+      "Wakil Rektor Bidang Penelitian, Pengabdian Kepada Masyarakat dan Kerjasama",
   },
 ];
