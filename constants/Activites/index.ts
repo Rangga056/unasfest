@@ -431,9 +431,9 @@ export const Activities = [
       },
       {
         question:
-          "When is the registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI)?",
+          "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahsa Indonesia (KDBI) is August 23, 2024",
+          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024",
       },
       {
         question: "When will the winners be announced?",
