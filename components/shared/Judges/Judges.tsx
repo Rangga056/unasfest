@@ -89,7 +89,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                       </p>
                     </div>
                     <Drawer>
-                      <DrawerTrigger className="cursor-pointer underline overflow-x-hidden">
+                      <DrawerTrigger className="cursor-pointer overflow-x-hidden underline">
                         Read More ...
                       </DrawerTrigger>
                       <DrawerPortal>
@@ -134,14 +134,15 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                                   honors-award
                                 </h1>
                                 <ul className="mt-5 w-full list-inside list-disc md:w-1/2">
-                                  {prop.achievements && prop.achievements.map((achievement, i) => (
-                                    <li
-                                      className="sm:mb-2 md:mb-5 md:text-lg"
-                                      key={i}
-                                    >
-                                      {achievement}
-                                    </li>
-                                  ))}
+                                  {prop.achievements &&
+                                    prop.achievements.map((achievement, i) => (
+                                      <li
+                                        className="sm:mb-2 md:mb-5 md:text-lg"
+                                        key={i}
+                                      >
+                                        {achievement}
+                                      </li>
+                                    ))}
                                 </ul>
                               </div>
                               <div className="flex flex-wrap pt-14">
@@ -187,7 +188,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                                     ))}
                                   </Accordion>
                                   {prop.linkedin && (
-                                    <Link href={prop.linkedin}>
+                                    <Link href={prop.linkedin} target="_blank">
                                       <div className="my-10 flex w-[80%] cursor-pointer items-center justify-center bg-[#1F1E23] py-1 hover:opacity-90">
                                         <Image
                                           src={linkedin}
