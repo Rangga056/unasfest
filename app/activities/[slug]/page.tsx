@@ -37,7 +37,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
     <section>
       <div className="container mx-auto mt-10 md:mt-16">
         <h1
-          className={`mb-5 font-bungee uppercase leading-none md:text-4xl tracking-wide ${
+          className={`mb-5 font-bungee uppercase leading-none tracking-wide md:text-4xl ${
             params.slug === "seminar-international" ? "text-3xl" : "text-2xl"
           } text-center md:mb-9 md:text-start md:font-semibold lg:text-5xl`}
           style={{ color: competition.color }}
@@ -64,18 +64,24 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 {competition.description}
               </CardDescription>
               <div className="mt-10 flex gap-5">
-                <Button
-                  size="xl"
-                  variant="secondary"
-                  className="text-page-black"
-                >
-                  <Link href={competition.caturnawa}>Sign Up</Link>
-                </Button>
-                <Button size="xl" variant="outline" className="bg-transparant">
-                  <Link href="#requirements" className="scroll-smooth">
+                <Link href={competition.caturnawa}>
+                  <Button
+                    size="xl"
+                    variant="secondary"
+                    className="text-page-black"
+                  >
+                    Sign Up
+                  </Button>
+                </Link>
+                <Link href="#requirements" className="scroll-smooth">
+                  <Button
+                    size="xl"
+                    variant="outline"
+                    className="bg-transparant"
+                  >
                     See More
-                  </Link>
-                </Button>
+                  </Button>
+                </Link>
               </div>
             </CardContent>
           </div>
