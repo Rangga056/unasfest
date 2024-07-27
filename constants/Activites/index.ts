@@ -1381,7 +1381,8 @@ export const Activities = [
 
   {
     path: "international-seminar",
-    caturnawa: "https://linktr.ee/unasfest?utm_source=qr_code",
+    caturnawa:
+      "https://docs.google.com/forms/d/e/1FAIpQLSepQOrPn_DW_vkDciVrywPM2DUn-AALnUsyutpRerIqrt7kLw/viewform",
     title: "international seminar",
     coverImage: semnasCover,
     contact: semnasContact,
