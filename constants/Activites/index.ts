@@ -57,7 +57,7 @@ import {
 export const Activities = [
   {
     path: "kdbi",
-    caturnawa: "https://caturnawa.unasfest.com/periodeKDBI",
+    caturnawa: "https://caturnawa.unasfest.com/",
     title: "Kompetisi Debat Bahasa Indonesia",
     coverImage: kdbiCover,
     contact: kdbiContact,
@@ -450,14 +450,14 @@ export const Activities = [
 
   {
     path: "edc",
-    caturnawa: "https://caturnawa.unasfest.com/periodeEDC",
+    caturnawa: "https://caturnawa.unasfest.com/",
     title: "English Debate Competition",
     coverImage: edcCover,
     contact: edcContact,
     contactNumber: "https://wa.me/6285716931400",
     color: "#004AAD",
     description:
-      "The English Debate Competition is an intellectual contest designed to enhance participants' public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
+      "The English Debate Competition is an intellectual contest designed to enhance participants public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
       "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
@@ -713,7 +713,7 @@ export const Activities = [
 
   {
     path: "spc",
-    caturnawa: "https://caturnawa.unasfest.com/periodeLKTI",
+    caturnawa: "https://caturnawa.unasfest.com/",
     title: "Scientific Paper Competition",
     coverImage: scpCover,
     contact: scpContact,
@@ -1117,7 +1117,7 @@ export const Activities = [
 
   {
     path: "smc",
-    caturnawa: "https://caturnawa.unasfest.com/periodeSM",
+    caturnawa: "https://caturnawa.unasfest.com/",
     title: "Short Movie Competition",
     coverImage: smcCover,
     contact: smcContact,

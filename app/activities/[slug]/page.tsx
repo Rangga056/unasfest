@@ -70,7 +70,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                     variant="secondary"
                     className="text-page-black"
                   >
-                    Sign Up
+                    Register
                   </Button>
                 </Link>
                 <Link href="#requirements" className="scroll-smooth">
@@ -115,8 +115,9 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             download guidebook
           </CardTitle>
           <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
-            Download the competition guidebook to find out the overall mechanism
-            of the Universitas Nasional Festival competition
+            {competition.path === "international-seminar"
+              ? "Download the International Seminar guidebook to find out overall mechanism"
+              : "Download the competition guidebook to find out the overall mechanism of the Universitas Nasional Festival competition"}
           </CardDescription>
           <Link href={competition.guideBook} target="_blank">
             <Button
