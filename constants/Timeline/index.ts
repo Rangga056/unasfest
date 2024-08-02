@@ -1,5 +1,13 @@
 export const timelinesHome = [
   {
+    title: "Opening registration of UNAS FEST 2024 International Seminar",
+    description: "Opening registration of UNAS FEST 2024 International Seminar",
+    month: "JULY",
+    date: "18",
+    year: "2024",
+    color: "#1F1E23",
+  },
+  {
     title: "Opening Registration UNAS FEST 2024 ",
     description:
       "Opening registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
@@ -9,10 +17,10 @@ export const timelinesHome = [
     color: "#2A9763",
   },
   {
-    title: "Opening registration of UNAS FEST 2024 International Seminar",
-    description: "Opening registration of UNAS FEST 2024 International Seminar",
+    title: "Closing registration of UNAS FEST 2024 International Seminar",
+    description: "Closing registration of UNAS FEST 2024 International Seminar",
     month: "AUG",
-    date: "13",
+    date: "1",
     year: "2024",
     color: "#1F1E23",
   },
@@ -22,14 +30,6 @@ export const timelinesHome = [
       "Closing registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
     month: "AUG",
     date: "23",
-    year: "2024",
-    color: "#1F1E23",
-  },
-  {
-    title: "Closing registration of UNAS FEST 2024 International Seminar",
-    description: "Closing registration of UNAS FEST 2024 International Seminar",
-    month: "SEP",
-    date: "13",
     year: "2024",
     color: "#1F1E23",
   },
@@ -88,7 +88,8 @@ export const timelinesEDC = [
   },
   {
     title: "Day 1 of the EDC Preliminary Round",
-    description: "This round marks the initial phase of the EDC preliminary round",
+    description:
+      "This round marks the initial phase of the EDC preliminary round",
     month: "SEP",
     date: "18",
     year: "2024",
@@ -96,7 +97,8 @@ export const timelinesEDC = [
   },
   {
     title: "Day 2 of the EDC Preliminary Round",
-    description: "This round marks the concluding phase of the EDC preliminary round",
+    description:
+      "This round marks the concluding phase of the EDC preliminary round",
     month: "SEP",
     date: "19",
     year: "2024",
@@ -104,7 +106,8 @@ export const timelinesEDC = [
   },
   {
     title: "Semi-Final Round of EDC",
-    description: "This round to determine which teams will enter the final stage",
+    description:
+      "This round to determine which teams will enter the final stage",
     month: "SEP",
     date: "20",
     year: "2024",
@@ -165,7 +168,8 @@ export const timelinesKDBI = [
   },
   {
     title: "Day 1 of the KDBI Preliminary Round",
-    description: "This round marks the initial phase of the KDBI preliminary round",
+    description:
+      "This round marks the initial phase of the KDBI preliminary round",
     month: "SEP",
     date: "18",
     year: "2024",
@@ -173,7 +177,8 @@ export const timelinesKDBI = [
   },
   {
     title: "Day 2 of the KDBI Preliminary Round",
-    description: "This round marks the concluding phase of the KDBI preliminary round",
+    description:
+      "This round marks the concluding phase of the KDBI preliminary round",
     month: "SEP",
     date: "19",
     year: "2024",
@@ -181,7 +186,8 @@ export const timelinesKDBI = [
   },
   {
     title: "Semi-Final Round of KDBI",
-    description: "This round to determine which teams will enter the final stage",
+    description:
+      "This round to determine which teams will enter the final stage",
     month: "SEP",
     date: "20",
     year: "2024",
@@ -368,8 +374,8 @@ export const timelinesSemnas = [
     title: "Open Registration for the International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
-    month: "AUG",
-    date: "12",
+    month: "JULY",
+    date: "18",
     year: "2024",
     color: "#853EB6",
   },
@@ -377,8 +383,36 @@ export const timelinesSemnas = [
     title: "Close Registration for the International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
-    month: "SEP",
-    date: "13",
+    month: "AUG",
+    date: "1",
+    year: "2024",
+    color: "#853EB6",
+  },
+  {
+    title:
+      "Announcement International Qualifications for UNAS FEST 2024 Seminar",
+    description:
+      "Announce the opening of qualifications for the International Seminar at UNAS FEST 2024.",
+    month: "AUG",
+    date: "10",
+    year: "2024",
+    color: "#853EB6",
+  },
+  {
+    title: "Announcement Selected Students for UNAS FEST 2024",
+    description:
+      "Announce the selected students for the International Seminar at UNAS FEST 2024",
+    month: "AUG",
+    date: "12",
+    year: "2024",
+    color: "#853EB6",
+  },
+  {
+    title: "Guidance for Selected Students as Presenters at UNAS FEST 2024",
+    description:
+      "Guidance for Selected Participants as International Student Presenters",
+    month: "AUG",
+    date: "23",
     year: "2024",
     color: "#853EB6",
   },
