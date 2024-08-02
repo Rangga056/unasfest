@@ -89,7 +89,7 @@ const Judges: React.FC<judgesProps> = ({ judgesData }) => {
                       </p>
                     </div>
                     <Drawer>
-                      <DrawerTrigger className="cursor-pointer overflow-x-hidden underline">
+                      <DrawerTrigger className="cursor-pointer underline">
                         Read More ...
                       </DrawerTrigger>
                       <DrawerPortal>
