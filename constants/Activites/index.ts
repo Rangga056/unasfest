@@ -723,7 +723,7 @@ export const Activities = [
       "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and be recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
-      "https://drive.google.com/file/d/1skeYKALJM3srkOI9PIT4XVch1w5pMhsX/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1K1wxeFi-U8UvcoLFV-wm_NLbqRWzpAQ9/view?usp=drivesdk",
     infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition Requirements",
