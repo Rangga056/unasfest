@@ -115,28 +115,29 @@ export const steeringCommittees = [
     index: 1,
     img: rektorImg,
     name: "Dr. El Amry Bermawi Putera, M.A.",
-    position: "Rektor unas",
+    position: "Rector of Unas",
   },
   {
     index: 2,
     img: wakilRektorAkademikImg,
     name: "Prof. Dr. Suryono Efendi, S.E., M.B.A., M.M.",
-    position: "Wakil Rektor Bidang Akademik, Kemahasiswaan dan Alumni",
+    position: "Vice Rector for Academic, Student Affairs, and Alumni",
   },
   {
     index: 3,
     img: wakilRektorAdministrasiImg,
     name: "Prof. Dr. Drs. Eko Sugiyanto, M.Si.",
-    position: "Wakil Rektor Bidang Administrasi Umum, Keuangan, dan SDM",
+    position: "Vice Rector for General Administration, Finance, and Human Resources",
   },
   {
     index: 4,
     img: wakilRektorPenelitianImg,
     name: "Prof. Dr. Ernawati Sinaga, M.S., Apt.",
     position:
-      "Wakil Rektor Bidang Penelitian, Pengabdian Kepada Masyarakat dan Kerjasama",
+      "Vice Rector for Research, Community Service, and Cooperation",
   },
 ];
+
 
 export const unasCollaborate = [
   {

@@ -55,13 +55,15 @@ const AboutUsPage = () => {
               Debate Competition (EDC), Kompetisi Debat Bahasa Indonesia (KDBI)
               and short movie competiton.
             </p>
-            <Button
-              variant="secondary"
-              size="lg"
-              className="mt-6 rounded-none px-10 py-6 text-xl font-semibold"
-            >
-              See Our Competition
-            </Button>
+            <Link href="/#activity-slider-section">
+              <Button
+                variant="secondary"
+                size="lg"
+                className="mt-6 rounded-none px-10 py-6 text-xl font-semibold"
+              >
+                See Our Competition
+              </Button>
+            </Link>
           </div>
         </div>
         {/* InfiniteSlidingText */}
@@ -183,7 +185,7 @@ const AboutUsPage = () => {
           </div>
         </div>
         {/* Mascots */}
-        <div className="container mt-20">
+        <div className="mt-20 max-w-screen-xl md:px-10">
           <div className="text-center">
             <h1 className="font-bungee text-5xl font-medium uppercase">
               our mascots
@@ -236,7 +238,7 @@ const AboutUsPage = () => {
         {/* <p className="text-4xl uppercase font-medium font-bungee mt-10">-2023-</p> */}
       </div>
       {/* Unasfest 2023 mascot */}
-      <div className="relative mx-auto mt-36 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-water-pool bg-cover bg-center px-32 py-10 lg:flex-row">
+      <div className="relative mx-auto mt-16 flex min-h-[460px] max-w-[1560px] flex-col items-center gap-x-10 bg-water-pool bg-cover bg-center px-32 py-10 lg:flex-row">
         <div className="flex-[1]">
           <Image
             src={Unasfest2023Macsot}
@@ -249,7 +251,7 @@ const AboutUsPage = () => {
           <h1 className="font-bungee text-5xl font-medium">
             unas fest 2023 mascot philosophy
           </h1>
-          <p className="text-xl">
+          <p className="text-left text-xl md:text-center">
             The orca whale, a top marine predator with a unique black and white
             body, reflects the spirit of Universitas Nasional students at UNAS
             FEST 2023, the biggest event on campus. Like orca whales that live
