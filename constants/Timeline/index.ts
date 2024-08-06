@@ -371,26 +371,26 @@ export const timelinesSPC = [
 
 export const timelinesSemnas = [
   {
-    title: "Open Registration for the International Seminar UNAS FEST 2024",
+    title: "Open Registration for the student representative speaker of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
-    month: "JULY",
-    date: "18",
+    month: "AUG",
+    date: "13",
     year: "2024",
     color: "#853EB6",
   },
   {
-    title: "Close Registration for the International Seminar UNAS FEST 2024",
+    title: "Close Registration for the student representative speaker of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
-    month: "AUG",
-    date: "1",
+    month: "SEP",
+    date: "13",
     year: "2024",
     color: "#853EB6",
   },
   {
     title:
-      "Announcement International Qualifications for UNAS FEST 2024 Seminar",
+      "Announcement International Student Representative Speaker Qualifications for UNAS FEST 2024 Seminar",
     description:
       "Announce the opening of qualifications for the International Seminar at UNAS FEST 2024.",
     month: "AUG",

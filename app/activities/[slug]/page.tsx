@@ -116,7 +116,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
           </CardTitle>
           <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
             {competition.path === "international-seminar"
-              ? "Download the International Seminar guidebook to find out overall mechanism"
+              ? "Download the International Seminar student representative speaker guidebook to find out overall mechanism"
               : "Download the competition guidebook to find out the overall mechanism of the Universitas Nasional Festival competition"}
           </CardDescription>
           <Link href={competition.guideBook} target="_blank">
