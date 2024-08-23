@@ -22,7 +22,7 @@ export const faqsData = [
     quetion:
       "What is the deadline for registration for the UNAS FEST competition?",
     answer:
-      "The deadline for registration for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024.",
+      "The deadline for registration for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 30, 2024.",
   },
   {
     index: 4,

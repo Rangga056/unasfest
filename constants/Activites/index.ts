@@ -146,7 +146,7 @@ export const Activities = [
           {
             eTitle:
               "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
-            eTime: "Octtober 2023 - Present",
+            eTime: "October 2023 - Present",
             eDesc: {
               dDetail: "",
               dPoint: [
@@ -723,7 +723,7 @@ export const Activities = [
       "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and be recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
-      "https://drive.google.com/file/d/1K1wxeFi-U8UvcoLFV-wm_NLbqRWzpAQ9/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1WXPPwAWTvivtn9-D6r5IkruSf2prfass/view?usp=sharing",
     infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition Requirements",
@@ -1090,7 +1090,7 @@ export const Activities = [
           "Phase 1 (July 23 - August 11, 2024)",
           "General: Rp170.000",
           "Universitas Nasional Students: Free",
-          "Phase 2 (August 12 - August 23, 2024)",
+          "Phase 2 (August 12 - August 30, 2024)",
           "General: Rp200.000",
           "Universitas Nasional Students: Free",
         ],
@@ -1099,7 +1099,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the Scientific Paper Competition (SPC)?",
         answer: [
-          "The registration deadline for the Scientific Paper Competition is August 23, 2024",
+          "The registration deadline for the Scientific Paper Competition is August 30, 2024",
         ],
       },
       {
@@ -1127,7 +1127,7 @@ export const Activities = [
       "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
-      "https://drive.google.com/file/d/1SYn9ZbQL6y1yL3Dw0pGngWtqkG4uwlZv/view?usp=share_link ",
+      "https://drive.google.com/file/d/1VkYgOxbfstvTSuV8YZjxFyenblH5lXHb/view?usp=sharing",
     infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition Requirements",
