@@ -25,6 +25,14 @@ export const timelinesHome = [
     color: "#1F1E23",
   },
   {
+    title: "Closing registration of UNAS FEST 2024 International Seminar",
+    description: "Closing registration of UNAS FEST 2024 International Seminar",
+    month: "AUG",
+    date: "11",
+    year: "2024",
+    color: "#1F1E23",
+  },
+  {
     title: "Closing of registration of UNAS FEST 2024",
     description:
       "Closing registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
@@ -233,7 +241,7 @@ export const timelinesSMC = [
     title: "Close Registration SMC",
     description: "Close Registration for SMC",
     month: "AUG",
-    date: "23",
+    date: "30",
     year: "2024",
     color: "#C02424",
   },
@@ -241,8 +249,8 @@ export const timelinesSMC = [
     title: "Submission of Short Movie Videos is open",
     description:
       "The process of submitting short film competition videos is ongoing or has just open",
-    month: "AUG",
-    date: "24",
+    month: "SEP",
+    date: "2",
     year: "2024",
     color: "#C02424",
   },
@@ -251,7 +259,7 @@ export const timelinesSMC = [
     description:
       "The process of submitting short film competition videos is ongoing or has just close",
     month: "SEP",
-    date: "25",
+    date: "23",
     year: "2024",
     color: "#C02424",
   },

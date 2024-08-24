@@ -1127,7 +1127,7 @@ export const Activities = [
       "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
-      "https://drive.google.com/file/d/1SYn9ZbQL6y1yL3Dw0pGngWtqkG4uwlZv/view?usp=share_link ",
+      "https://drive.google.com/file/d/1VkYgOxbfstvTSuV8YZjxFyenblH5lXHb/view?usp=sharing",
     infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition Requirements",
