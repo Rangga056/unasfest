@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="container mt-8 flex flex-col items-center justify-between gap-y-3 lg:flex-row">
+    <div className="container mt-8 flex flex-col items-center justify-between gap-y-3 md:flex-row-reverse">
       {/* right section */}
       <div className="flex h-full w-full items-center justify-center md:w-3/5 lg:order-2 lg:w-2/5">
         <Image
