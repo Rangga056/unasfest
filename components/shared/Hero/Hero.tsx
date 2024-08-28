@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="container mt-8 flex flex-col items-center justify-between gap-y-3 md:flex-row-reverse">
+    <div className="container mt-8 flex flex-col items-center justify-between gap-y-3 md:flex-row-reverse lg:flex-row">
       {/* right section */}
       <div className="flex h-full w-full items-center justify-center md:w-3/5 lg:order-2 lg:w-2/5">
         <Image
@@ -19,7 +19,7 @@ const Hero = () => {
         />
       </div>
       {/* left section */}
-      <div className="order-2 flex h-full w-full flex-col items-start lg:order-1 lg:w-3/5">
+      <div className="order-2 flex h-full w-full flex-col items-start md:w-3/5 lg:order-1">
         <h1 className="w-full whitespace-break-spaces font-bungee text-[39px] font-medium uppercase leading-tight text-page-blue md:text-[53px] lg:w-4/5">
           Sign Up Now for the competition
         </h1>
