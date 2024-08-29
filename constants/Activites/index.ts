@@ -18,6 +18,7 @@ import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 // judges photos spc
 import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
 import desfara from "@/public/assets/images/competition/Desfara.jpeg";
+import tatang from "@/public/assets/images/competition/spc tatang.jpeg";
 
 // judges photos smc
 import jentoni from "@/public/assets/images/competition/sm jentoni.jpg";
@@ -433,7 +434,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024",
+          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -696,7 +697,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the English Debate Competition (EDC)?",
         answer:
-          "The registration deadline for the English Debate Competition is August 23, 2024",
+          "The registration deadline for the English Debate Competition is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -900,6 +901,64 @@ export const Activities = [
       },
       {
         index: 2,
+        name: "Dr.Tatang Mitra Setia, MSi.",
+        image: tatang,
+        lastEducation:
+          "Ph.D. in Biology at the University of Indonesia",
+        description:
+          "Dr. Tatang Mitra Setia, MSi, is a lecturer in the Master's Program in Biology at the Faculty of Biology and Agriculture, Universitas Nasional. Born in Palembang on October 26, 1958, he has made significant contributions to the field of biology in the academic community.",
+        achievements: [],
+        experience: [
+          {
+            eTitle: "Instructor at SCERM Universitas Nasional",
+            eTime: "2019",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Instructor at Universitas Nasional",
+            eTime: "2020",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Instructor at Universitas Nasional",
+            eTime: "2022",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Speaker at Smiling Coral Indonesia (SCI)",
+            eTime: "2023",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Advisor at Smiling Coral Indonesia (SCI)",
+            eTime: "2019 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail: "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
+              dPoint: [],
+            },
+          },
+        ],
+        
+      },
+      {
+        index: 3,
         name: "Desfara Anggreani",
         image: desfara,
         lastEducation: "Social Activist",
@@ -1363,7 +1422,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the Short Movie Competition (SMC)?",
         answer: [
-          "The registration deadline for the Short Movie Competition is August 23, 2024",
+          "The registration deadline for the Short Movie Competition is September 7, 2024",
         ],
       },
       {
