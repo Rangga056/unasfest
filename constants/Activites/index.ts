@@ -433,7 +433,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI)?",
         answer:
-          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is August 23, 2024",
+          "The registration deadline for the Kompetisi Debat Bahasa Indonesia (KDBI) is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -696,7 +696,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the English Debate Competition (EDC)?",
         answer:
-          "The registration deadline for the English Debate Competition is August 23, 2024",
+          "The registration deadline for the English Debate Competition is September 7, 2024",
       },
       {
         question: "When will the winners be announced?",
@@ -1363,7 +1363,7 @@ export const Activities = [
         question:
           "When is the registration deadline for the Short Movie Competition (SMC)?",
         answer: [
-          "The registration deadline for the Short Movie Competition is August 23, 2024",
+          "The registration deadline for the Short Movie Competition is September 7, 2024",
         ],
       },
       {
