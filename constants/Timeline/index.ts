@@ -323,53 +323,66 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
+
   {
-    title: "Announcement of Passing the Administrative Selection",
+    title: "Announcement of Administrative Selection Results",
     description:
-      "Official announcement informing that they have successfully passed the administrative selection stage",
+      "Official announcement of candidates who passed the administrative selection stage.",
     month: "SEP",
+    date: "13",
+    year: "2024",
+    color: "#E27817",
+  },
+
+  {
+    title: "Manuscript Submission Period Opens",
+    description: "Opening of the submission window for SPC manuscripts.",
+    month: "SEP",
+    date: "14",
+    year: "2024",
+    color: "#E27817",
+  },
+
+  {
+    title: "Manuscript Submission Period Closes",
+    description: "Deadline for submitting SPC manuscripts.",
+    month: "SEP",
+    date: "23",
+    year: "2024",
+    color: "#E27817",
+  },
+
+  {
+    title: "Manuscript Evaluation Period",
+    description: "Period for evaluating the submitted manuscripts.",
+    month: "SEP",
+    date: "24",
+    year: "2024",
+    color: "#E27817",
+  },
+
+  {
+    title: "Final Announcement",
+    description: "Announcement of the finalists advancing to the next stage.",
+    month: "OCT",
     date: "4",
     year: "2024",
     color: "#E27817",
   },
 
   {
-    title: "The access for submitting or sending SPC manuscripts is open",
-    description: "Opening of the submission scripts",
-    month: "SEP",
-    date: "5",
-    year: "2024",
-    color: "#E27817",
-  },
-  {
-    title: "The access for submitting or sending SPC manuscripts is close",
-    description: "Closing of the submission scripts",
-    month: "SEP",
-    date: "14",
-    year: "2024",
-    color: "#E27817",
-  },
-  {
-    title: "The announcement of the 6 finalists of SPC",
+    title: "Technical Meeting for finalist Participants",
     description:
-      "The announcement of the 6 finalists of SPC proceeding to the next round",
-    month: "SEP",
-    date: "25",
-    year: "2024",
-    color: "#E27817",
-  },
-  {
-    title: "Participants' Technical Meeting",
-    description:
-      "Important Information for Participants about Competition Rules",
+      "Important information and guidelines for participants regarding competition rules.",
     month: "OCT",
-    date: "5",
+    date: "12",
     year: "2024",
     color: "#E27817",
   },
+
   {
-    title: "Final Scientific Paper Competition",
-    description: "The final stage to determine who will be the winner",
+    title: "Final Round of Scientific Paper Competition",
+    description: "The final stage to determine the winners of the competition.",
     month: "OCT",
     date: "17",
     year: "2024",
@@ -379,7 +392,8 @@ export const timelinesSPC = [
 
 export const timelinesSemnas = [
   {
-    title: "Open Registration for the student representative speaker of International Seminar UNAS FEST 2024",
+    title:
+      "Open Registration for the student representative speaker of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
     month: "AUG",
@@ -388,7 +402,8 @@ export const timelinesSemnas = [
     color: "#853EB6",
   },
   {
-    title: "Close Registration for the student representative speaker of International Seminar UNAS FEST 2024",
+    title:
+      "Close Registration for the student representative speaker of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
     month: "SEP",
