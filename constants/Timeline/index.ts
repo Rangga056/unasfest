@@ -1,13 +1,5 @@
 export const timelinesHome = [
   {
-    title: "Opening registration of UNAS FEST 2024 International Seminar",
-    description: "Opening registration of UNAS FEST 2024 International Seminar",
-    month: "JULY",
-    date: "18",
-    year: "2024",
-    color: "#1F1E23",
-  },
-  {
     title: "Opening Registration UNAS FEST 2024 ",
     description:
       "Opening registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
@@ -17,18 +9,10 @@ export const timelinesHome = [
     color: "#2A9763",
   },
   {
-    title: "Closing registration of UNAS FEST 2024 International Seminar",
+    title: "Opening registration of UNAS FEST 2024 International Seminar",
     description: "Closing registration of UNAS FEST 2024 International Seminar",
     month: "AUG",
-    date: "1",
-    year: "2024",
-    color: "#1F1E23",
-  },
-  {
-    title: "Closing registration of UNAS FEST 2024 International Seminar",
-    description: "Closing registration of UNAS FEST 2024 International Seminar",
-    month: "AUG",
-    date: "11",
+    date: "13",
     year: "2024",
     color: "#1F1E23",
   },
@@ -38,6 +22,14 @@ export const timelinesHome = [
       "Closing registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
     month: "AUG",
     date: "30",
+    year: "2024",
+    color: "#1F1E23",
+  },
+  {
+    title: "Closing registration of UNAS FEST 2024 International Seminar",
+    description: "Closing registration of UNAS FEST 2024 International Seminar",
+    month: "SEP",
+    date: "13",
     year: "2024",
     color: "#1F1E23",
   },
@@ -393,7 +385,7 @@ export const timelinesSPC = [
 export const timelinesSemnas = [
   {
     title:
-      "Open Registration for the student representative speaker of International Seminar UNAS FEST 2024",
+      "Open Registration for the Participant of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now open! Join students, academics, and professionals.",
     month: "AUG",
@@ -403,7 +395,7 @@ export const timelinesSemnas = [
   },
   {
     title:
-      "Close Registration for the student representative speaker of International Seminar UNAS FEST 2024",
+      "Close Registration for the Participant of International Seminar UNAS FEST 2024",
     description:
       "Registration for the International Seminar at UNAS FEST 2024 is now close! Join students, academics, and professionals.",
     month: "SEP",
@@ -413,7 +405,7 @@ export const timelinesSemnas = [
   },
   {
     title:
-      "Announcement International Student Representative Speaker Qualifications for UNAS FEST 2024 Seminar",
+      "Announcement International Participant Qualifications for UNAS FEST 2024 Seminar",
     description:
       "Announce the opening of qualifications for the International Seminar at UNAS FEST 2024.",
     month: "AUG",
@@ -422,16 +414,16 @@ export const timelinesSemnas = [
     color: "#853EB6",
   },
   {
-    title: "Announcement Selected Students for UNAS FEST 2024",
+    title: "Announcement Selected Participant for UNAS FEST 2024",
     description:
-      "Announce the selected students for the International Seminar at UNAS FEST 2024",
+      "Announce the selected Participant for the International Seminar at UNAS FEST 2024",
     month: "AUG",
     date: "12",
     year: "2024",
     color: "#853EB6",
   },
   {
-    title: "Guidance for Selected Students as Presenters at UNAS FEST 2024",
+    title: "Guidance for Selected Participant as Presenters at UNAS FEST 2024",
     description:
       "Guidance for Selected Participants as International Student Presenters",
     month: "AUG",
