@@ -110,25 +110,30 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
         </Card>
 
         {/* DOWNLOAD GUIDE BOOK */}
-        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle sm:w-[90%]">
+        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center align-middle sm:w-[90%]">
           <CardTitle className="mb-5 text-3xl font-semibold leading-normal tracking-wide md:text-4xl lg:text-5xl">
-            download guidebook
-          </CardTitle>
-          <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
             {competition.path === "international-seminar"
-              ? "Download the International Seminar student representative speaker guidebook to find out overall mechanism"
-              : "Download the competition guidebook to find out the overall mechanism of the Universitas Nasional Festival competition"}
-          </CardDescription>
-          <Link href={competition.guideBook} target="_blank">
-            <Button
-              variant="secondary"
-              className="mt-6 flex w-[235px] items-center gap-2 rounded-none py-8 text-xl"
-            >
-              <Download />
-              Download
-              <span></span>
-            </Button>
-          </Link>
+              ? ""
+              : "Download guidebook"}
+          </CardTitle>
+          {competition.path !== "international-seminar" && (
+            <>
+              <CardDescription className="mb-5 max-w-xl text-center font-normal leading-normal tracking-wide text-page-white sm:text-base md:text-xl">
+                Download the competition guidebook to find out the overall
+                mechanism of the Universitas Nasional Festival competition.
+              </CardDescription>
+              <Link href={competition.guideBook || "#"} target="_blank">
+                <Button
+                  variant="secondary"
+                  className="mt-6 flex w-[235px] items-center gap-2 rounded-none py-8 text-xl"
+                >
+                  <Download />
+                  Download
+                  <span></span>
+                </Button>
+              </Link>
+            </>
+          )}
         </Card>
       </div>
 

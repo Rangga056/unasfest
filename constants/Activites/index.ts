@@ -1450,8 +1450,6 @@ export const Activities = [
     description:
       "The International Seminar is a global forum designed to facilitate knowledge exchange and dialogue among experts, academics, and practitioners from various fields. This seminar provides a platform for discussing cutting-edge research, emerging trends, and innovative solutions on a range of international issues. Participants include researchers, policymakers, industry leaders, and students who come together to share their insights and collaborate on global challenges.",
     timeline: timelinesSemnas,
-    guideBook:
-      "https://drive.google.com/file/d/1JaClPvihVhLYNznt77LTGhCwX3Nu3QQz/view",
     infiniteSlidingText: "International Seminar",
     infiniteSlidingIcon: internationalSeminarIcon,
     requirementsTitle: "International Seminar Requirements",
