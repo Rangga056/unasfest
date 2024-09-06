@@ -310,12 +310,20 @@ export const timelinesSPC = [
   {
     title: "Close Registration SPC",
     description: "Close Registration for SPC",
-    month: "AUG",
-    date: "30",
+    month: "SEP",
+    date: "7",
     year: "2024",
     color: "#E27817",
   },
-
+  {
+    title: "Administrative Selection and Evaluation of Achievements",
+    description:
+      "Selection of administration and evaluation of participants' achievements.",
+    month: "SEP",
+    date: "9",
+    year: "2024",
+    color: "#E27817",
+  },
   {
     title: "Announcement of Administrative Selection Results",
     description:
@@ -325,7 +333,6 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
-
   {
     title: "Manuscript Submission Period Opens",
     description: "Opening of the submission window for SPC manuscripts.",
@@ -334,7 +341,6 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
-
   {
     title: "Manuscript Submission Period Closes",
     description: "Deadline for submitting SPC manuscripts.",
@@ -343,16 +349,14 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
-
   {
-    title: "Manuscript Evaluation Period",
-    description: "Period for evaluating the submitted manuscripts.",
+    title: "Manuscript Evaluation by Judges",
+    description: "Period for judges to evaluate the submitted manuscripts.",
     month: "SEP",
     date: "24",
     year: "2024",
     color: "#E27817",
   },
-
   {
     title: "Final Announcement",
     description: "Announcement of the finalists advancing to the next stage.",
@@ -361,9 +365,8 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
-
   {
-    title: "Technical Meeting for finalist Participants",
+    title: "Technical Meeting for Finalist Participants",
     description:
       "Important information and guidelines for participants regarding competition rules.",
     month: "OCT",
@@ -371,7 +374,6 @@ export const timelinesSPC = [
     year: "2024",
     color: "#E27817",
   },
-
   {
     title: "Final Round of Scientific Paper Competition",
     description: "The final stage to determine the winners of the competition.",
@@ -381,6 +383,7 @@ export const timelinesSPC = [
     color: "#E27817",
   },
 ];
+
 
 export const timelinesSemnas = [
   {
