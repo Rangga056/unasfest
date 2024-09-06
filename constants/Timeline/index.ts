@@ -72,24 +72,23 @@ export const timelinesEDC = [
   {
     title: "Close Registration EDC",
     description: "Close Registration for English Debate Competition",
-    month: "AUG",
-    date: "30",
+    month: "SEP",
+    date: "7",
     year: "2024",
     color: "#004AAD",
   },
   {
     title: "Technical Meeting for EDC Participants",
     description:
-      "Important Information for Participants about Competition Rules",
+      "Participants Technical Meeting for English Debate Competition",
     month: "SEP",
-    date: "6",
+    date: "13",
     year: "2024",
     color: "#004AAD",
   },
   {
     title: "Day 1 of the EDC Preliminary Round",
-    description:
-      "This round marks the initial phase of the EDC preliminary round",
+    description: "Day 1 of Preliminary Round for English Debate Competition",
     month: "SEP",
     date: "18",
     year: "2024",
@@ -97,8 +96,7 @@ export const timelinesEDC = [
   },
   {
     title: "Day 2 of the EDC Preliminary Round",
-    description:
-      "This round marks the concluding phase of the EDC preliminary round",
+    description: "Day 2 of Preliminary Round for English Debate Competition",
     month: "SEP",
     date: "19",
     year: "2024",
@@ -106,33 +104,31 @@ export const timelinesEDC = [
   },
   {
     title: "Semi-Final Round of EDC",
-    description:
-      "This round to determine which teams will enter the final stage",
+    description: "Semi-final Round for English Debate Competition",
     month: "SEP",
     date: "20",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Finalists attend Technical Meeting",
-    description:
-      "Finalists attend the Technical Meeting in order to be informed about the mechanism of debate",
+    title: "Finalists Technical Meeting",
+    description: "Finalists Technical Meeting for English Debate Competition",
     month: "OCT",
     date: "5",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Final Day 1 of English Debate Competition",
-    description: "The final stage to determine who will be the winner",
+    title: "Final Day 1 of EDC",
+    description: "Final Day 1 for English Debate Competition",
     month: "OCT",
     date: "16",
     year: "2024",
     color: "#004AAD",
   },
   {
-    title: "Final Day 2 of English Debate Competition",
-    description: "The final stage to determine who will be the winner",
+    title: "Final Day 2 of EDC",
+    description: "Final Day 2 for English Debate Competition",
     month: "OCT",
     date: "17",
     year: "2024",
@@ -383,7 +379,6 @@ export const timelinesSPC = [
     color: "#E27817",
   },
 ];
-
 
 export const timelinesSemnas = [
   {
