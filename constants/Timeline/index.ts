@@ -113,8 +113,8 @@ export const timelinesEDC = [
   {
     title: "Finalists Technical Meeting",
     description: "Finalists Technical Meeting for English Debate Competition",
-    month: "OCT",
-    date: "5",
+    month: "NOV",
+    date: "1",
     year: "2024",
     color: "#004AAD",
   },
@@ -193,8 +193,8 @@ export const timelinesKDBI = [
     title: "Finalists attend Technical Meeting",
     description:
       "Finalists attend the Technical Meeting in order to be informed about the mechanism of debate",
-    month: "OCT",
-    date: "5",
+    month: "NOV",
+    date: "1",
     year: "2024",
     color: "#2A9763",
   },
