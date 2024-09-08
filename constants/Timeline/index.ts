@@ -2,7 +2,7 @@ export const timelinesHome = [
   {
     title: "Opening Registration UNAS FEST 2024 ",
     description:
-      "Opening registration of UNAS FEST 2024 EDC, KDBI, Short Movie, and Scientific Paper Competition",
+      "Opening registration of UNAS FEST 2024 EDC, KDBI, and Scientific Paper Competition",
     month: "JULY",
     date: "23",
     year: "2024",
@@ -13,6 +13,14 @@ export const timelinesHome = [
     description: "Closing registration of UNAS FEST 2024 International Seminar",
     month: "AUG",
     date: "13",
+    year: "2024",
+    color: "#1F1E23",
+  },
+  {
+    title: "Opening Registration Short Movie UNAS FEST 2024 ",
+    description: "Opening registration of UNAS FEST 2024 Short Movie",
+    month: "AUG",
+    date: "23",
     year: "2024",
     color: "#1F1E23",
   },
