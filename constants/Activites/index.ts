@@ -68,7 +68,7 @@ export const Activities = [
       "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
     timeline: timelinesKDBI,
     guideBook:
-      "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
+      "https://drive.google.com/file/d/1b9t_vrDRriV510ZCixKa4GabgL3C_QM4/view?usp=sharing",
     infiniteSlidingText: "KDBI",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Kompetisi Debat Bahasa Indonesia Requirements",
@@ -461,7 +461,7 @@ export const Activities = [
       "The English Debate Competition is an intellectual contest designed to enhance participants public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
-      "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1jQ2CLjQS8SR3y7A2DPONJ81AW2bFV31M/view?usp=sharing",
     infiniteSlidingText: "EDC",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition Requirements",
@@ -724,7 +724,7 @@ export const Activities = [
       "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and be recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
-      "https://drive.google.com/file/d/12ZD-UVGciBVuvRNtJSdXx182050WVWyD/view?usp=drive_link",
+      "https://drive.google.com/file/d/1H30ygWmjcE2GKZtEpsrHtQbNQnQ7m9eO/view?usp=sharing",
     infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition Requirements",
@@ -1186,7 +1186,7 @@ export const Activities = [
       "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
-      "https://drive.google.com/file/d/1VkYgOxbfstvTSuV8YZjxFyenblH5lXHb/view?usp=sharing",
+      "https://drive.google.com/file/d/1k0J4OJ_7g6vAp1Ft8hU6PqWhjo0cI2Rs/view?usp=sharing",
     infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition Requirements",
