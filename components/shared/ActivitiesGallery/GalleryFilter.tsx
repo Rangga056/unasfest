@@ -1,10 +1,11 @@
+"use client";
+
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import {
   activitiesGallery,
   Galleryfilter,
 } from "@/constants/ActivitiesGallery";
 import React, { useEffect } from "react";
-import { Container } from "postcss";
 import { useState } from "react";
 import {
   Select,
@@ -14,14 +15,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import Image from "next/image";
-import { useRouter, useSearchParams } from "next/navigation";
 
 const GalleryFilter = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
-
-  const router = useRouter();
-  const searchParams = useSearchParams();
 
   const handleCategoryChange = (value: string) => {
     setSelectedCategory(value);
