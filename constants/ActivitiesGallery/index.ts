@@ -20,8 +20,8 @@ export const activitiesGallery = [
   {
     index: 0,
     img: fotoS,
-    date: "4 December 2023", // ganti jadi year
-    desc: "National Seminar", // ganti jadi category
+    date: "4 December 2023",
+    desc: "National Seminar",
   },
   {
     index: 1,
@@ -131,48 +131,48 @@ export const Galleryfilter = [
     img: fotoS2,
     year: "2023",
     category: "EDC",
-    desc: "English Debate Competition"
+    desc: "English Debate Competition",
   },
   {
     index: 2,
     img: fotoS3,
     year: "2023",
     category: "SPC",
-    desc: "Scientific Paper Competition"
+    desc: "Scientific Paper Competition",
   },
   {
     index: 3,
     img: fotoS4,
     year: "2024",
     category: "KDBI",
-    desc: "Kompetisi Debat Bahasa Indonesia"
+    desc: "Kompetisi Debat Bahasa Indonesia",
   },
   {
     index: 4,
     img: fotoS5,
     year: "2024",
     category: "EDC",
-    desc: "English Debate Competition"
+    desc: "English Debate Competition",
   },
   {
     index: 5,
     img: fotoS6,
     year: "2024",
     category: "SPC",
-    desc: "Scientific Paper Competition"
+    desc: "Scientific Paper Competition",
   },
   {
     index: 6,
     img: fotoS7,
     year: "2023",
     category: "National Seminar",
-    desc: "National Seminar"
+    desc: "National Seminar",
   },
   {
     index: 7,
     img: fotoS8,
     year: "2024",
     category: "National Seminar",
-    desc: "National seminar"
+    desc: "National seminar",
   },
 ];
