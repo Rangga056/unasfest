@@ -7,6 +7,7 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 
 // judges photos kdbi
 import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
+import Sholahudin from "@/public/assets/images/competition/kdbi-Sholahudin.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 import wahyu from "@/public/assets/images/competition/wahyu.png";
 
@@ -118,63 +119,60 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah, S.Sos., M.IP.",
-        image: fullah,
-        linkedin: "https://www.linkedin.com/in/fullahjm",
+        name: "Sholahudin Al Ayubi, S.Sos., M.IP.",
+        image: Sholahudin,
+        linkedin: "", // no LinkedIn
         lastEducation:
-          "Master's Degree Political Science University of Indonesia",
+          "Master's Degree in Political Science, Universitas Indonesia",
         description:
-          "She is a researcher focusing on political, democracy, and gender issues at The Habibie Center. She also have 3 years of experience as a practitioner in political research and analysis, political communication strategy consulting, and branding at a political consulting agency. Additionally, She is frequently involved in programs and research at several NGOs and universities.",
+          "Experienced as a program manager, policy analyst, and campaigner with 7 years of work in civil society organizations focusing on energy and natural resources issues. Skilled in writing, research, content production, and event organizing.",
         achievements: [
-          "Champion of Top Challenge of Physics for Junior High School 2016",
-          "2nd Runner Up of PINGFEST! IT Venture 2019",
-          "Champion of Universitas Nasional Debating Championship 2022",
+          "Speaker at the fourth debate of the 2024 presidential election - JPM TV, 2024",
+          "Speaker of Polarization on Energy Transition and Climate: Colombia, Brazil and Indonesia - IBASE, 2023",
+          "Indonesian delegate of the Forum for East Asia-Latin America Cooperation Youth Conference",
         ],
         experience: [
           {
             eTitle:
-              "Researcher and Program Assistant - The Habibie Center – Jakarta",
-            eTime: "Present",
-            place: "Jakarta Raya, Indonesia",
+              "Climate Justice Associate & Project Manager - Indonesia Cerah | Global NGO",
+            eTime: "2022 – Present",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
               dPoint: [
-                "Conducting research on political and democracy topics with policy document outputs",
-                "Running and managing programs in the Institute of Democracy and Human Rights department",
+                "Managing climate justice projects and programs.",
+                "Collaborating with various stakeholders in energy transition campaigns.",
               ],
             },
           },
           {
             eTitle:
-              "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
-            eTime: "October 2023 - Present",
+              "Communication & Program Manager - Publish What You Pay Indonesia | International NGO",
+            eTime: "2019 – 2021",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
               dPoint: [
-                "Managing the Jubir Warga community project, part of SPD’s program focused on political education and digital campaign/activism for youth in response to the 2024 Presidential and Regional Elections.",
-                "Conducting quantitative and qualitative research on the evaluation of the 2024 Presidential Election and analysis of democracy in Indonesia.",
-                "Analyzing, writing, and publishing research findings in a book and policy documents.",
+                "Led communication strategies and program management for transparency and accountability in the energy sector.",
               ],
             },
           },
           {
             eTitle:
-              "Political Researcher - Strategi Lingkar Nusantara – Jakarta",
-            eTime: "July 2023 – April 2024",
+              "Campaigner & Knowledge Management - Konsorsium Pembaruan Agraria | National NGO",
+            eTime: "2016 – 2019",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
+              dPoint: ["Focused on agrarian reform and land rights campaigns."],
             },
-            dPoint: [
-              "Conducted comprehensive political research (quantitative/surveys and qualitative) on voter behavior, political electability (parties, legislative candidates, and executives), and socio-economic, cultural, and political conditions.",
-              " Analyzed research findings to produce reports used for developing political strategies and communication.",
-            ],
           },
           {
-            eTitle: "Project Researcher - Aliansi Kebangsaan – Jakarta",
-            eTime: "September 2023 – December 2023",
+            eTitle: "Chairman - Youth on The Move Community",
+            eTime: "2015 – 2017",
             eDesc: {
               dDetail: "",
-              dPoint: [""],
+              dPoint: ["Organized youth empowerment and activism programs."],
             },
           },
         ],
@@ -903,8 +901,7 @@ export const Activities = [
         index: 2,
         name: "Dr.Tatang Mitra Setia, MSi.",
         image: tatang,
-        lastEducation:
-          "Ph.D. in Biology at the University of Indonesia",
+        lastEducation: "Ph.D. in Biology at the University of Indonesia",
         description:
           "Dr. Tatang Mitra Setia, MSi, is a lecturer in the Master's Program in Biology at the Faculty of Biology and Agriculture, Universitas Nasional. Born in Palembang on October 26, 1958, he has made significant contributions to the field of biology in the academic community.",
         achievements: [],
@@ -914,7 +911,8 @@ export const Activities = [
             eTime: "2019",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
+              dDetail:
+                "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
               dPoint: [],
             },
           },
@@ -923,7 +921,8 @@ export const Activities = [
             eTime: "2020",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
+              dDetail:
+                "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
               dPoint: [],
             },
           },
@@ -932,7 +931,8 @@ export const Activities = [
             eTime: "2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
+              dDetail:
+                "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
               dPoint: [],
             },
           },
@@ -941,7 +941,8 @@ export const Activities = [
             eTime: "2023",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
+              dDetail:
+                "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
               dPoint: [],
             },
           },
@@ -950,12 +951,12 @@ export const Activities = [
             eTime: "2019 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
+              dDetail:
+                "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
               dPoint: [],
             },
           },
         ],
-        
       },
       {
         index: 3,
