@@ -7,6 +7,7 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 
 // judges photos kdbi
 import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
+import Sholahudin from "@/public/assets/images/competition/kdbi-Sholahudin.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 import wahyu from "@/public/assets/images/competition/wahyu.png";
 
@@ -68,7 +69,7 @@ export const Activities = [
       "Kompetisi Debat Bahasa Indonesia is a prestigious event where students debate on contemporary issues in the Indonesian language. This competition aims to develop participants analytical and public speaking skills, as well as their ability to engage in constructive discourse. Participants must construct coherent arguments, refute the opposing team's points, and convince the judges with their eloquence and reasoning. Topics cover a wide range of issues including national policy, social justice, and cultural debates. The competition is judged based on the clarity of arguments, effectiveness of rebuttals, and overall presentation. This event helps participants develop a deeper appreciation of national and social issues and enhances their ability to communicate effectively in the Indonesian language.",
     timeline: timelinesKDBI,
     guideBook:
-      "https://drive.google.com/file/d/14nrL990Y_JlewA1cydvI5dKtsC-sJz5O/view?usp=sharing",
+      "https://drive.google.com/file/d/1b9t_vrDRriV510ZCixKa4GabgL3C_QM4/view?usp=sharing",
     infiniteSlidingText: "KDBI",
     infiniteSlidingIcon: kdbiSlidingIcon,
     requirementsTitle: "Kompetisi Debat Bahasa Indonesia Requirements",
@@ -118,63 +119,60 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Fullah Jumaynah, S.Sos., M.IP.",
-        image: fullah,
-        linkedin: "https://www.linkedin.com/in/fullahjm",
+        name: "Sholahudin Al Ayubi, S.Sos., M.IP.",
+        image: Sholahudin,
+        linkedin: "", // no LinkedIn
         lastEducation:
-          "Master's Degree Political Science University of Indonesia",
+          "Master's Degree in Political Science, Universitas Indonesia",
         description:
-          "She is a researcher focusing on political, democracy, and gender issues at The Habibie Center. She also have 3 years of experience as a practitioner in political research and analysis, political communication strategy consulting, and branding at a political consulting agency. Additionally, She is frequently involved in programs and research at several NGOs and universities.",
+          "Experienced as a program manager, policy analyst, and campaigner with 7 years of work in civil society organizations focusing on energy and natural resources issues. Skilled in writing, research, content production, and event organizing.",
         achievements: [
-          "Champion of Top Challenge of Physics for Junior High School 2016",
-          "2nd Runner Up of PINGFEST! IT Venture 2019",
-          "Champion of Universitas Nasional Debating Championship 2022",
+          "Speaker at the fourth debate of the 2024 presidential election - JPM TV, 2024",
+          "Speaker of Polarization on Energy Transition and Climate: Colombia, Brazil and Indonesia - IBASE, 2023",
+          "Indonesian delegate of the Forum for East Asia-Latin America Cooperation Youth Conference",
         ],
         experience: [
           {
             eTitle:
-              "Researcher and Program Assistant - The Habibie Center – Jakarta",
-            eTime: "Present",
-            place: "Jakarta Raya, Indonesia",
+              "Climate Justice Associate & Project Manager - Indonesia Cerah | Global NGO",
+            eTime: "2022 – Present",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
               dPoint: [
-                "Conducting research on political and democracy topics with policy document outputs",
-                "Running and managing programs in the Institute of Democracy and Human Rights department",
+                "Managing climate justice projects and programs.",
+                "Collaborating with various stakeholders in energy transition campaigns.",
               ],
             },
           },
           {
             eTitle:
-              "Researcher and Program Volunteer - Sindikasi Pemilu dan Demokrasi (SPD) – Jakarta",
-            eTime: "October 2023 - Present",
+              "Communication & Program Manager - Publish What You Pay Indonesia | International NGO",
+            eTime: "2019 – 2021",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
               dPoint: [
-                "Managing the Jubir Warga community project, part of SPD’s program focused on political education and digital campaign/activism for youth in response to the 2024 Presidential and Regional Elections.",
-                "Conducting quantitative and qualitative research on the evaluation of the 2024 Presidential Election and analysis of democracy in Indonesia.",
-                "Analyzing, writing, and publishing research findings in a book and policy documents.",
+                "Led communication strategies and program management for transparency and accountability in the energy sector.",
               ],
             },
           },
           {
             eTitle:
-              "Political Researcher - Strategi Lingkar Nusantara – Jakarta",
-            eTime: "July 2023 – April 2024",
+              "Campaigner & Knowledge Management - Konsorsium Pembaruan Agraria | National NGO",
+            eTime: "2016 – 2019",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
+              dPoint: ["Focused on agrarian reform and land rights campaigns."],
             },
-            dPoint: [
-              "Conducted comprehensive political research (quantitative/surveys and qualitative) on voter behavior, political electability (parties, legislative candidates, and executives), and socio-economic, cultural, and political conditions.",
-              " Analyzed research findings to produce reports used for developing political strategies and communication.",
-            ],
           },
           {
-            eTitle: "Project Researcher - Aliansi Kebangsaan – Jakarta",
-            eTime: "September 2023 – December 2023",
+            eTitle: "Chairman - Youth on The Move Community",
+            eTime: "2015 – 2017",
             eDesc: {
               dDetail: "",
-              dPoint: [""],
+              dPoint: ["Organized youth empowerment and activism programs."],
             },
           },
         ],
@@ -461,7 +459,7 @@ export const Activities = [
       "The English Debate Competition is an intellectual contest designed to enhance participants public speaking, critical thinking, and persuasive skills. Participants engage in structured arguments on diverse topics, ranging from social issues to global politics. Each team is given a motion and must present a well-reasoned case, counter the opposition's points, and aim to persuade the judges with their rhetoric and oratory skills. Judges evaluate teams based on their arguments, rebuttals, delivery, and overall presentation. This competition not only fosters a deeper understanding of global issues but also encourages participants to articulate their thoughts clearly and confidently.",
     timeline: timelinesEDC,
     guideBook:
-      "https://drive.google.com/file/d/10eoMbg81y0dkYzHTxEpHOg3guH-8CcGI/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1jQ2CLjQS8SR3y7A2DPONJ81AW2bFV31M/view?usp=sharing",
     infiniteSlidingText: "EDC",
     infiniteSlidingIcon: edcSlidingIcon,
     requirementsTitle: "English Debate Competition Requirements",
@@ -724,7 +722,7 @@ export const Activities = [
       "The Scientific Paper Competition is an academic contest where participants present their research findings on various scientific topics. This competition is designed to promote scientific inquiry, rigorous research, and the dissemination of knowledge. Participants submit papers that are evaluated on originality, methodology, analysis, and contribution to the field. The competition provides a platform for young researchers to showcase their work, receive feedback from experts, and be recognition for their contributions. Participants have the opportunity to present their findings in a formal setting, engage in discussions with peers and judges, and enhance their understanding of scientific research processes.",
     timeline: timelinesSPC,
     guideBook:
-      "https://drive.google.com/file/d/12ZD-UVGciBVuvRNtJSdXx182050WVWyD/view?usp=drive_link",
+      "https://drive.google.com/file/d/1H30ygWmjcE2GKZtEpsrHtQbNQnQ7m9eO/view?usp=sharing",
     infiniteSlidingText: "SCIENTIFIC PAPER COMPETITION",
     infiniteSlidingIcon: spcSlidingIcon,
     requirementsTitle: "Scientific Paper Competition Requirements",
@@ -903,8 +901,7 @@ export const Activities = [
         index: 2,
         name: "Dr.Tatang Mitra Setia, MSi.",
         image: tatang,
-        lastEducation:
-          "Ph.D. in Biology at the University of Indonesia",
+        lastEducation: "Ph.D. in Biology at the University of Indonesia",
         description:
           "Dr. Tatang Mitra Setia, MSi, is a lecturer in the Master's Program in Biology at the Faculty of Biology and Agriculture, Universitas Nasional. Born in Palembang on October 26, 1958, he has made significant contributions to the field of biology in the academic community.",
         achievements: [],
@@ -914,7 +911,8 @@ export const Activities = [
             eTime: "2019",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
+              dDetail:
+                "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
               dPoint: [],
             },
           },
@@ -923,7 +921,8 @@ export const Activities = [
             eTime: "2020",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
+              dDetail:
+                "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
               dPoint: [],
             },
           },
@@ -932,7 +931,8 @@ export const Activities = [
             eTime: "2022",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
+              dDetail:
+                "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
               dPoint: [],
             },
           },
@@ -941,7 +941,8 @@ export const Activities = [
             eTime: "2023",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
+              dDetail:
+                "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
               dPoint: [],
             },
           },
@@ -950,12 +951,12 @@ export const Activities = [
             eTime: "2019 - Present",
             place: "Indonesia",
             eDesc: {
-              dDetail: "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
+              dDetail:
+                "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
               dPoint: [],
             },
           },
         ],
-        
       },
       {
         index: 3,
@@ -1186,7 +1187,7 @@ export const Activities = [
       "The Short Movie Competition invites aspiring filmmakers to create and showcase their original short films. This competition aims to encourage creativity and innovation in the field of filmmaking. Participants are given the opportunity to express their unique perspectives through storytelling, direction, and technical execution. Each short film is evaluated based on criteria such as creativity, narrative structure, cinematography, editing, and overall impact. This competition provides a platform for new voices in the film industry and helps participants develop their cinematic skills. It also fosters a community of filmmakers who can learn from each other and collaborate on future projects.",
     timeline: timelinesSMC,
     guideBook:
-      "https://drive.google.com/file/d/1VkYgOxbfstvTSuV8YZjxFyenblH5lXHb/view?usp=sharing",
+      "https://drive.google.com/file/d/1k0J4OJ_7g6vAp1Ft8hU6PqWhjo0cI2Rs/view?usp=sharing",
     infiniteSlidingText: "SHORT MOVIE COMPETITION",
     infiniteSlidingIcon: smcSlidingIcon,
     requirementsTitle: "Short Movie Competition Requirements",

@@ -11,7 +11,16 @@ import {
   activitiesSemin,
 } from "@/constants/ActivitiesGallery";
 import Image from "next/image";
+import { Container } from "postcss";
 import { useState } from "react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import GalleryFilter from "./GalleryFilter";
 
 const ActivitiesGallery = () => {
   const [showAll, setShowAll] = useState(false);
@@ -134,6 +143,9 @@ const ActivitiesGallery = () => {
           </div>
         </CardContent>
       </Card>
+
+      {/* MEMORIES FROM THE PAST */}
+      <GalleryFilter />
     </section>
   );
 };
