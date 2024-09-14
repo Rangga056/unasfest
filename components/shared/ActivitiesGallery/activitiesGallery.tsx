@@ -27,11 +27,11 @@ const ActivitiesGallery = () => {
   return (
     <section>
       {/* LATEST PHOTOS */}
-      <Card className="relative py-0 m-auto mb-12 max-w-screen-xl rounded-none bg-[#1F1E23] p-5 md:p-16 pb-20 overflow-hidden">
-        <CardTitle className="mb-5 w-full text-start font-inter text-2xl md:text-3xl font-[900] uppercase text-white lg:ml-16">
+      <Card className="relative m-auto mb-12 max-w-screen-xl overflow-hidden rounded-none bg-[#1F1E23] p-5 py-0 pb-20 md:p-16">
+        <CardTitle className="mb-5 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
           see our <br /> <span className="text-[#C02424]">latest photos</span>
         </CardTitle>
-        <CardContent className="flex flex-wrap justify-center gap-5 p-0">
+        <div className="flex flex-wrap justify-center gap-5 bg-red-400 p-0">
           {activitiesGallery.slice(0, 3).map((activity) => (
             <div key={activity.index}>
               <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
@@ -46,13 +46,13 @@ const ActivitiesGallery = () => {
               <p className="font-[200] text-white">{activity.date}</p>
             </div>
           ))}
-        </CardContent>
+        </div>
       </Card>
 
       {/* OUR COMPETITION */}
       <Card className="relative m-auto max-w-screen-xl rounded-none pb-20">
-        <div className="mx-auto flex-none md:flex w-[80%] justify-between">
-          <CardTitle className="md:mb-5 font-inter text-xl md:text-3xl uppercase text-black">
+        <div className="mx-auto w-[80%] flex-none justify-between md:flex">
+          <CardTitle className="font-inter text-xl uppercase text-black md:mb-5 md:text-3xl">
             our competition
           </CardTitle>
           <Accordion defaultValue="item-0" type="single" collapsible>
@@ -73,17 +73,17 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
-              <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
-                
-                <Image
-                  src={activity.img}
-                  alt={activity.desc}
-                  fill
-                  className="object-cover object-center"
-
-                />
+                <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
+                  <Image
+                    src={activity.img}
+                    alt={activity.desc}
+                    fill
+                    className="object-cover object-center"
+                  />
                 </div>
-                <p className="mt-2 w-full font-semibold text-start">{activity.desc}</p>
+                <p className="mt-2 w-full text-start font-semibold">
+                  {activity.desc}
+                </p>
                 <p className="w-full text-start font-normal">{activity.date}</p>
               </div>
             ))}
@@ -93,8 +93,8 @@ const ActivitiesGallery = () => {
 
       {/* INTERNATIONAL SEMINAR */}
       <Card className="relative m-auto mb-12 max-w-screen-xl rounded-none pb-20 pt-0">
-        <div className="mx-auto flex-none md:flex w-[80%] justify-between">
-          <CardTitle className="md:mb-5 font-inter text-xl md:text-3xl uppercase text-black">
+        <div className="mx-auto w-[80%] flex-none justify-between md:flex">
+          <CardTitle className="font-inter text-xl uppercase text-black md:mb-5 md:text-3xl">
             international seminar
           </CardTitle>
           <Accordion defaultValue="item-0" type="single" collapsible>
@@ -115,16 +115,15 @@ const ActivitiesGallery = () => {
                 key={index}
                 className="flex flex-col items-center justify-center"
               >
-              <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
-                
-                <Image
-                  src={activity.img}
-                  alt={activity.desc}
-                  fill
-                  className="object-cover object-center"
-                />
+                <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
+                  <Image
+                    src={activity.img}
+                    alt={activity.desc}
+                    fill
+                    className="object-cover object-center"
+                  />
                 </div>
-                <p className="mt-2 w-full font-semibold text-start text-black">
+                <p className="mt-2 w-full text-start font-semibold text-black">
                   {activity.desc}
                 </p>
                 <p className="w-full text-start font-normal text-black">
