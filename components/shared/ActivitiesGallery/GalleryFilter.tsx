@@ -39,11 +39,11 @@ const GalleryFilter = () => {
 
   return (
     <Card className="relative m-auto mb-12 max-w-screen-xl overflow-hidden rounded-none bg-[#1F1E23] p-5 py-0 pb-20 md:p-16">
-      <CardTitle className="mb-5 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
-        MEMORIES FROM <span className="text-[#2A9763]">THE PAST</span>
+      <CardTitle className="mb-5 w-full mt-12 text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16 md:mt-0">
+        MEMORIES FROM <span className="text-[#2A9763]"><br className="md:hidden" />THE PAST</span>
         <div className="ml-auto flex items-center">
           <Select onValueChange={handleCategoryChange}>
-            <SelectTrigger className=" my-4 h-[35px] w-[175px] rounded-none bg-black">
+            <SelectTrigger className=" my-4 h-[35px] w-[175px] rounded-none bg-black font-normal">
               <SelectValue placeholder="Competition Title" />
             </SelectTrigger>
             <SelectContent>
@@ -53,14 +53,14 @@ const GalleryFilter = () => {
               <SelectItem value="SPC">SPC</SelectItem>
             </SelectContent>
           </Select>
-          <span className="my-4 ml-5 justify-end text-[15px] text-white">
+          <span className="my-4 ml-5 justify-end text-[15px] text-white font-normal">
             From
           </span>
           <Select onValueChange={handleYearChange}>
-            <SelectTrigger className="ml-2 h-[35px] w-[175px] rounded-none bg-black">
+            <SelectTrigger className="ml-2 h-[35px] w-[100px] rounded-none bg-black font-normal">
               <SelectValue placeholder="Year" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="font-normal">
               <SelectItem value="2023">2023</SelectItem>
               <SelectItem value="2024">2024</SelectItem>
             </SelectContent>
