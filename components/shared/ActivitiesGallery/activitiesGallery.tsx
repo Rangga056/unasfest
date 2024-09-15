@@ -37,10 +37,10 @@ const ActivitiesGallery = () => {
     <section>
       {/* LATEST PHOTOS */}
       <Card className="relative m-auto mb-12 max-w-screen-xl overflow-hidden rounded-none bg-[#1F1E23] p-5 py-0 pb-20 md:p-16">
-        <CardTitle className="mb-5 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
+        <CardTitle className="mb-5 w-full mt-6 text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16 md:mt-0">
           see our <br /> <span className="text-[#C02424]">latest photos</span>
         </CardTitle>
-        <div className="flex flex-wrap justify-center gap-5 bg-red-400 p-0">
+        <CardContent className="flex flex-wrap justify-center gap-5 p-0">
           {activitiesGallery.slice(0, 3).map((activity) => (
             <div key={activity.index}>
               <div className="relative h-[180px] w-[300px] md:h-[230px] md:w-[380px]">
@@ -55,7 +55,7 @@ const ActivitiesGallery = () => {
               <p className="font-[200] text-white">{activity.date}</p>
             </div>
           ))}
-        </div>
+        </CardContent>
       </Card>
 
       {/* OUR COMPETITION */}
