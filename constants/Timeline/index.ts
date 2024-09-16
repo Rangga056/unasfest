@@ -416,34 +416,6 @@ export const timelinesSemnas = [
     color: "#853EB6",
   },
   {
-    title:
-      "Announcement International Participant Qualifications for UNAS FEST 2024 Seminar",
-    description:
-      "Announce the opening of qualifications for the International Seminar at UNAS FEST 2024.",
-    month: "AUG",
-    date: "10",
-    year: "2024",
-    color: "#853EB6",
-  },
-  {
-    title: "Announcement Selected Participant for UNAS FEST 2024",
-    description:
-      "Announce the selected Participant for the International Seminar at UNAS FEST 2024",
-    month: "AUG",
-    date: "12",
-    year: "2024",
-    color: "#853EB6",
-  },
-  {
-    title: "Guidance for Selected Participant as Presenters at UNAS FEST 2024",
-    description:
-      "Guidance for Selected Participants as International Student Presenters",
-    month: "AUG",
-    date: "23",
-    year: "2024",
-    color: "#853EB6",
-  },
-  {
     title: "International Seminar",
     description: "International Seminar Day",
     month: "SEP",
