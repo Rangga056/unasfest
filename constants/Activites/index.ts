@@ -185,7 +185,7 @@ export const Activities = [
         linkedin: "",
         lastEducation: "Bachelor of Law at Universitas Negeri Semarang",
         description:
-          'He is a Bachelor of Laws graduate who has experience as a judge of the Indonesian Language Debate Competition for the Scientific Week of the STAN 2022, experienced as a presenter of the UNWAHAS Faculty of Law Student Basic Management Skills Training 2022 and has won 2nd place in the Sam Ratulangi Law Fair II LDHK UNSRAT National Legal Debate Competition 2021. He is also the author of a book entitled "Bunga Rampai Sinergi Perubahan: Knitting Asa from the Conservation Campus".',
+          'He is a Bachelor of Laws graduate who has experience as a judge of the Indonesian Language Debate Competition for the Scientific Week of the Sekolah Tinggi Akutansi Negara (STAN) 2022, experienced as a presenter of the Universitas Wahid Hasyim (UNWAHAS) Faculty of Law Student Basic Management Skills Training 2022 and has won 2nd place in the Sam Ratulangi Law Fair II Debat Hukum dan Konstitusi (LDHK) Universitas Sam Ratulangi (UNSRAT) National Legal Debate Competition 2021. He is also the author of a book entitled "Bunga Rampai Sinergi Perubahan: Knitting Asa from the Conservation Campus".',
         achievements: [
           "Jury of Indonesian Debate Competition Pekan Ilmiah Perguruan Tinggi Kedinasan STAN 2022",
           "Speaker at Basic Student Management Skills Training, Faculty of Law UNWAHAS 2022",
