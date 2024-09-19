@@ -10,11 +10,11 @@ import bankDKI from "@/public/assets/images/Partnership/Bank DKI.png";
 import baznas from "@/public/assets/images/Partnership/BAZNAS RI.png";
 import kebab from "@/public/assets/images/Partnership/Kebab Monster Logo_240711_145235_1.jpg";
 import weRent from "@/public/assets/images/Partnership/We.Rent.jpg";
-import makarizo from "@/public/assets/images/Partnership/sariroti.png"; // Using Sari Roti's image
-import mujigae from "@/public/assets/images/Partnership/sariroti.png"; // Using Sari Roti's image
-import aliansi from "@/public/assets/images/Partnership/sariroti.png"; // Using Sari Roti's image
-import antangin from "@/public/assets/images/Partnership/sariroti.png"; // Using Sari Roti's image
-import momita from "@/public/assets/images/Partnership/sariroti.png"; // Using Sari Roti's image
+import makarizo from "@/public/assets/images/Partnership/makarizo.png";
+import mujigae from "@/public/assets/images/Partnership/mujigae.png";
+import aliansi from "@/public/assets/images/Partnership/aliansi.png";
+import antangin from "@/public/assets/images/Partnership/antangin.png";
+import momita from "@/public/assets/images/Partnership/momita_catering.png";
 
 export const partnership = [
     {
