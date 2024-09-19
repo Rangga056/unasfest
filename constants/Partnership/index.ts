@@ -129,4 +129,11 @@ export const partnership = [
         description: "We.Rent is a rental platform for various products and services, offering convenience for renting according to your needs.",
         link: "https://www.instagram.com/we.rentjakarta/"
     },
+    {
+        index: 16,
+        image: kebab,
+        title: "kebab monster",
+        description: "Kebab Monster menyajikan kebab lezat dengan porsi besar dan bahan berkualitas. Cek Instagram kami untuk info lebih lanjut!",
+        link: "https://www.instagram.com/kebabmonster_/"
+    },
 ];
