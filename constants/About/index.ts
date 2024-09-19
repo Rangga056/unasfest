@@ -18,6 +18,13 @@ import hifiUnas from "@/public/assets/images/about-us/hifi-unas-logo.png";
 import mmUnas from "@/public/assets/images/about-us/MM-unas-logo.png";
 import unasTv from "@/public/assets/images/about-us/unastv-logo.png";
 import unasRadio from "@/public/assets/images/about-us/unasradio-logo.png";
+import himasbisdig from "@/public/assets/images/Partnership/himabisdig.jpg"
+import himaskeb from "@/public/assets/images/Partnership/himakeb.jpg"
+import himajem from "@/public/assets/images/Partnership/himajem.jpg"
+import himakep from "@/public/assets/images/Partnership/himakep.jpg"
+import himasos from "@/public/assets/images/Partnership/himasos.jpg"
+import himapar from "@/public/assets/images/Partnership/jimapar.jpg"
+import himasasing from "@/public/assets/images/Partnership/himasasing.jpg"
 
 export const missions = [
   {
@@ -164,7 +171,50 @@ export const unasCollaborate = [
     alt: "Unas Radio",
     desc: "unas radio 107.9fm",
   },
+  {
+    index: 4,
+    img: himasbisdig,
+    alt: "HIMASBISDIG",
+    desc: "Himpunan Mahasiswa Bisnis Digital",
+  },
+  {
+    index: 5,
+    img: himaskeb,
+    alt: "HIMASKEB",
+    desc: "Himpunan Mahasiswa Kebidanan",
+  },
+  {
+    index: 6,
+    img: himajem,
+    alt: "HIMAJEM",
+    desc: "Himpunan Mahasiswa Manajemen",
+  },
+  {
+    index: 7,
+    img: himakep,
+    alt: "HIMAKEP",
+    desc: "Himpunan Mahasiswa Keperawatan",
+  },
+  {
+    index: 8,
+    img: himasos,
+    alt: "HIMASOS",
+    desc: "Himpunan Mahasiswa Sosiologi",
+  },
+  {
+    index: 9,
+    img: himapar,
+    alt: "HIMAPAR",
+    desc: "Himpunan Mahasiswa Pariwisata",
+  },
+  {
+    index: 10,
+    img: himasasing,
+    alt: "HIMASASING",
+    desc: "Himpunan Mahasiswa Sastra Inggris",
+  },
 ];
+
 
 export const DPM = [
   {

@@ -37,7 +37,7 @@ const ActivitiesGallery = () => {
     <section>
       {/* LATEST PHOTOS */}
       <Card className="relative m-auto mb-12 max-w-screen-xl overflow-hidden rounded-none bg-[#1F1E23] p-5 py-0 pb-20 md:p-16">
-        <CardTitle className="mb-5 w-full mt-6 text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16 md:mt-0">
+        <CardTitle className="mb-5 mt-7 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
           see our <br /> <span className="text-[#C02424]">latest photos</span>
         </CardTitle>
         <CardContent className="flex flex-wrap justify-center gap-5 p-0">
