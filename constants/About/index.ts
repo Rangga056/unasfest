@@ -32,11 +32,13 @@ import seputarinfo from "@/public/assets/images/Partnership/seputarinfo.jpg"
 import lombaIlmiah from "@/public/assets/images/Partnership/lombailmiah.png"
 import edaranEvent from "@/public/assets/images/Partnership/edaranevent.png"
 import kawalEvent from "@/public/assets/images/Partnership/kawalevent.png"
-import sejutaEvent from "@/public/assets/images/Partnership/seputarinfo.jpg"
+import sejutaLomba from "@/public/assets/images/Partnership/sejutalomab.jpg"
 import mitraLomba from "@/public/assets/images/Partnership/mitralomba.jpg"
 import ikutEvent from "@/public/assets/images/Partnership/ikutevent.png"
 import lue from "@/public/assets/images/Partnership/ule.png"
 import metroTv from "@/public/assets/images/Partnership/Metro tv.png"
+import climite from "@/public/assets/images/Partnership/cropped-logo-dark.png"
+import { ClipboardMinus } from "lucide-react";
 
 export const missions = [
   {
@@ -183,6 +185,12 @@ export const unasCollaborate = [
     alt: "Unas Radio",
     desc: "unas radio 107.9fm",
   },
+  {
+    index: 4,
+    img: climite,
+    alt: "climite",
+    desc: "The Climite reality project",
+  },
 ];
 
 export const mediaPartnership = [
@@ -209,6 +217,12 @@ export const mediaPartnership = [
     img: lombaIlmiah,
     alt: "Lomba Ilmiah",
     desc: "Lomba Ilmiah",
+  },
+  {
+    index: 4,
+    img: sejutaLomba,
+    alt: "Sejuta Lomba",
+    desc: "Sejuta Lomba",
   },
   {
     index: 5,
