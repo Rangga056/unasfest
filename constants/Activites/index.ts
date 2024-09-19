@@ -10,6 +10,7 @@ import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
 import Sholahudin from "@/public/assets/images/competition/kdbi-Sholahudin.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 import wahyu from "@/public/assets/images/competition/wahyu.png";
+import irfan from "@/public/assets/images/competition/kdbi_irvan.jpg";
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
@@ -179,83 +180,65 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Prof. Dr. Wahyu Wibowo",
-        image: wahyu,
+        name: "Irfan Mursyid Setyawan, S.H.",
+        image: irfan,
         linkedin: "",
-        lastEducation: "Ph.D. in Philosophy at Gadjah Mada University",
+        lastEducation: "Bachelor of Law at Universitas Negeri Semarang",
         description:
-          'PhD in Philosophy from Gadjah Mada University (UGM) Yogyakarta with a dissertation titled: "An Analytical Philosophy Study on Journalistic Language Expressions: Its Relevance for the Development of Press Ethics." Lecturer at Universitas Nasional, Jakarta, in the courses of Philosophy of Language, Philosophy of Science, Creative Writing, Writing Skills, and Journalism.',
+          "Fresh graduate in Law with a passion for learning, organizational leadership, and research experience. Specializing in legal drafting, analysis, and compliance in the fintech industry. Previously led student delegations and organized national debate competitions.",
         achievements: [
-          "Recorded as an Indonesian literary figure of the 2000s generation",
-          "Obtained Journalist Certification as a Senior Journalist from the Press Council (No. 092-WU/DP/V/2011, May 2011)",
+          "Jury of Indonesian Debate Competition Pekan Ilmiah Perguruan Tinggi Kedinasan STAN 2022",
+          "Speaker at Basic Student Management Skills Training, Faculty of Law UNWAHAS 2022",
+          "TOP 8 in National Law Election Enforcement Debate Competition II BAWASLU 2022",
+          "2nd Place in National Legal Debate Competition Sam Ratulangi Law Fair II LDHK UNSRAT 2021",
+          "Author of a chapter in the book 'Bunga Rampai Sinergi Perubahan: Merajut Asa Dari Kampus Konservasi' (2021)",
         ],
         experience: [
           {
-            eTitle: "Lecturer at Universitas Nasional",
-            eTime: "1986 - Present",
-            place: "Jakarta, Indonesia",
+            eTitle: "Legal Officer at PT Square Gate One",
+            eTime: "Nov 2023 - Present",
+            place: "Tangerang, Indonesia",
             eDesc: {
               dDetail:
-                "Lecturer at Universitas Nasional in the courses of Philosophy of Language, Philosophy of Science, Creative Writing, Writing Skills, and Journalism",
+                "Responsible for drafting contracts, reviewing legal documents, and managing legal risks in a fintech environment.",
             },
           },
           {
-            eTitle: "Dean of the Faculty of Literature at Universitas Nasional",
-            eTime: "April 2019 - May 2013",
-            place: "Jakarta, Indonesia",
-          },
-          {
-            eTitle:
-              "Member of the Evaluation Team for the Research Grant Program for Lecturers, Region III Higher Education Service Institutio",
-            eTime: "2008 - Present",
-            place: "Jakarta, Indonesia",
-          },
-          {
-            eTitle:
-              "Founder of the Betawi Study Center at Universitas Nasional",
-            eTime: "2004",
-            place: "Jakarta, Indonesia",
-          },
-          {
-            eTitle:
-              "Member of the Training Team for Scientific Article Writing for Lecturers throughout Indonesia",
-            eTime: "2006 - Present",
-            place: "Indonesia",
+            eTitle: "Legal Officer at PT Pembayaran Lintas Usaha Sukses",
+            eTime: "Nov 2023 - Present",
+            place: "Tangerang, Indonesia",
             eDesc: {
               dDetail:
-                "Member of the Training Team for Scientific Article Writing for Lecturers throughout Indonesia, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+                "Ensures regulatory compliance and provides legal consultation for the fintech industry.",
             },
           },
           {
-            eTitle:
-              "Member of the Evaluation Team (reviewer) for the Textbook Writing Grant Program for Lecturers",
-            eTime: "2006 - Present",
-            place: "Indonesia",
+            eTitle: "Legal Intern at Broto Hastono & Associates",
+            eTime: "Jul 2022 - Sept 2022",
+            place: "Semarang, Indonesia",
             eDesc: {
               dDetail:
-                "Member of the Evaluation Team (reviewer) for the Textbook Writing Grant Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+                "Assisted in drafting legal documents, provided client support, and handled case representation at legal institutions.",
             },
           },
           {
-            eTitle:
-              "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers",
-            eTime: "2006 - Present",
-            place: "Indonesia",
+            eTitle: "Chairman of UKM Debat FH UNNES",
+            eTime: "Jan 2022 - Dec 2022",
+            place: "Semarang, Indonesia",
             eDesc: {
               dDetail:
-                "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+                "Led the student debate organization, organized national debate competitions, and managed annual work programs.",
             },
           },
           {
-            eTitle:
-              "Deputy General Leader/Editor-in-Chief of Paron tabloid, Jakarta",
-            eTime: "1993 - 2000",
-            place: "Indonesia",
+            eTitle: "Vice Minister of Strategic Studies at BEM KM UNNES",
+            eTime: "Feb 2021 - Jan 2022",
+            place: "Semarang, Indonesia",
             eDesc: {
-              dDetail:
-                "Member of the Evaluation Team (reviewer) for the Book Incentive Program for Lecturers, Directorate of Research and Community Service, Ministry of Research, Technology, and Higher Education of the Republic of Indonesia",
+                dDetail:
+                  "Developed strategic work programs and conducted research on human rights and democracy.",
+              },
             },
-          },
         ],
       },
       {
