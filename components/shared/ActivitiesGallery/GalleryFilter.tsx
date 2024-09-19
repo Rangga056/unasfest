@@ -39,7 +39,7 @@ const GalleryFilter = () => {
 
   return (
     <Card className="relative m-auto mb-12 max-w-screen-xl overflow-hidden rounded-none bg-[#1F1E23] p-5 py-0 pb-20 md:p-16">
-      <CardTitle className="mb-5 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
+      <CardTitle className="mb-5 mt-7 w-full text-start font-inter text-2xl font-[900] uppercase text-white md:text-3xl lg:ml-16">
         MEMORIES FROM <span className="text-[#2A9763]">THE PAST</span>
         <div className="ml-auto flex items-center">
           <Select onValueChange={handleCategoryChange}>
