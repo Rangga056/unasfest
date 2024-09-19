@@ -18,6 +18,8 @@ import hifiUnas from "@/public/assets/images/about-us/hifi-unas-logo.png";
 import mmUnas from "@/public/assets/images/about-us/MM-unas-logo.png";
 import unasTv from "@/public/assets/images/about-us/unastv-logo.png";
 import unasRadio from "@/public/assets/images/about-us/unasradio-logo.png";
+
+//MEDIA PARTNERSHIP
 import himasbisdig from "@/public/assets/images/Partnership/himabisdig.jpg"
 import himaskeb from "@/public/assets/images/Partnership/himakeb.jpg"
 import himajem from "@/public/assets/images/Partnership/himajem.jpg"
@@ -25,6 +27,16 @@ import himakep from "@/public/assets/images/Partnership/himakep.jpg"
 import himasos from "@/public/assets/images/Partnership/himasos.jpg"
 import himapar from "@/public/assets/images/Partnership/jimapar.jpg"
 import himasasing from "@/public/assets/images/Partnership/himasasing.jpg"
+import infoevent from "@/public/assets/images/Partnership/infoevent.png"
+import seputarinfo from "@/public/assets/images/Partnership/seputarinfo.jpg"
+import lombaIlmiah from "@/public/assets/images/Partnership/lombailmiah.png"
+import edaranEvent from "@/public/assets/images/Partnership/edaranevent.png"
+import kawalEvent from "@/public/assets/images/Partnership/kawalevent.png"
+import sejutaEvent from "@/public/assets/images/Partnership/seputarinfo.jpg"
+import mitraLomba from "@/public/assets/images/Partnership/mitralomba.jpg"
+import ikutEvent from "@/public/assets/images/Partnership/ikutevent.png"
+import lue from "@/public/assets/images/Partnership/ule.png"
+import metroTv from "@/public/assets/images/Partnership/Metro tv.png"
 
 export const missions = [
   {
@@ -171,44 +183,101 @@ export const unasCollaborate = [
     alt: "Unas Radio",
     desc: "unas radio 107.9fm",
   },
+];
+
+export const mediaPartnership = [
+  {
+    index: 1,
+    img: metroTv,
+    alt: "Metro TV",
+    desc: "Metro TV",
+  },
+  {
+    index: 2,
+    img: infoevent,
+    alt: "Info Event",
+    desc: "Info Event",
+  },
+  {
+    index: 3,
+    img: ikutEvent,
+    alt: "Ikut Event",
+    desc: "Ikut Event",
+  },
   {
     index: 4,
+    img: lombaIlmiah,
+    alt: "Lomba Ilmiah",
+    desc: "Lomba Ilmiah",
+  },
+  {
+    index: 5,
+    img: edaranEvent,
+    alt: "Edaran Event",
+    desc: "Edaran Event",
+  },
+  {
+    index: 6,
+    img: seputarinfo,
+    alt: "Seputar Info",
+    desc: "Seputar Info",
+  },
+  {
+    index: 7,
+    img: mitraLomba,
+    alt: "Mitra Lomba",
+    desc: "Mitra Lomba",
+  },
+  {
+    index: 8,
+    img: kawalEvent,
+    alt: "Kawal Event",
+    desc: "Kawal Event",
+  },
+  {
+    index: 9,
+    img: lue,
+    alt: "ULE",
+    desc: "Update Lomba event",
+  },
+  {
+    index: 10,
     img: himasbisdig,
     alt: "HIMASBISDIG",
     desc: "Himpunan Mahasiswa Bisnis Digital",
   },
   {
-    index: 5,
+    index: 11,
     img: himaskeb,
     alt: "HIMASKEB",
     desc: "Himpunan Mahasiswa Kebidanan",
   },
   {
-    index: 6,
+    index: 12,
     img: himajem,
     alt: "HIMAJEM",
     desc: "Himpunan Mahasiswa Manajemen",
   },
   {
-    index: 7,
+    index: 13,
     img: himakep,
     alt: "HIMAKEP",
     desc: "Himpunan Mahasiswa Keperawatan",
   },
   {
-    index: 8,
+    index: 14,
     img: himasos,
     alt: "HIMASOS",
     desc: "Himpunan Mahasiswa Sosiologi",
   },
   {
-    index: 9,
+    index: 15,
     img: himapar,
     alt: "HIMAPAR",
     desc: "Himpunan Mahasiswa Pariwisata",
   },
   {
-    index: 10,
+    index: 16,
     img: himasasing,
     alt: "HIMASASING",
     desc: "Himpunan Mahasiswa Sastra Inggris",
