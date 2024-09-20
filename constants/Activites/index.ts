@@ -120,27 +120,28 @@ export const Activities = [
         index: 1,
         name: "Laila Amalia Khaerani, S.Pd",
         image: leila,
-        linkedin: "", 
+        linkedin: "",
         lastEducation:
           "Bachelor's Degree in History Education, State University of Jakarta ",
         description:
           "Is a graduate of History Education at the State University of Jakarta. Has an outstanding record in various national debate competitions, such as being the chief judge of the Jakarta State University Hysteric national debate competition 2023, the chief judge of the Gunadarma University Leipzig national debate competition 2023, the chief judge of the Tetralogy national debate competition SMAN 58 Jakarta 2023, the chief judge of the Jakarta State University KIPK debate competition 2023, the invitation judge of the UNJ National Debate Competition 2023, the judge of the UNJ CNDC national debate competition 2023, the invitation judge of the UNSRI CNC national debate competition 2021, invitation judge of FYG UIN Jakarta national debate competition 2021, Independent GCE UNMUL judge 2021, National KDMI UNJ Institution judge 2021, 1st place winner of FESTKA UNM debate competition 2023, 1st place winner of Esa Unggul national debate competition 2023, 1st place winner of UNTAN National Education Fair debate competition 2022, 1st place in the UNJ KDMI competition 2022, 1st place in the national debate competition at the State University of Malang Rhetoric Festival 2021, 1st place in the Sociology Fair debate competition at Andalas University 2021, 5 best speakers in the PIF debate competition at Andalas University 2021, and 3rd place in the UNJ KDMI selection 2021.",
-          achievements: [
-            "1st place in FESTKA UNM Debate Competition, 2023",
-            "1st place in Esa Unggul National Debate Competition, 2023",
-            "3rd place in Pertiwi IDN Debate Competition, 2023",
-            "4th place in Fastweak X Debate Competition, 2023",
-            "Top 10 Best Speaker in Fastweak X Debate Competition, 2023",
-            "1st place in National Education Fair Debate Competition at UNTAN, 2022",
-            "1st place in KDMI UNJ Debate Competition, 2022",
-            "2nd Best Speaker in KDMI UNJ Debate Competition, 2022",
-            "UNJ Delegate for KDMI, 2022",
-            "3rd place in FEBI Debate Competition, 2022",
-            "Best Speaker in Fastweek Debate Competition, 2022",
-        ],        
+        achievements: [
+          "1st place in FESTKA UNM Debate Competition, 2023",
+          "1st place in Esa Unggul National Debate Competition, 2023",
+          "3rd place in Pertiwi IDN Debate Competition, 2023",
+          "4th place in Fastweak X Debate Competition, 2023",
+          "Top 10 Best Speaker in Fastweak X Debate Competition, 2023",
+          "1st place in National Education Fair Debate Competition at UNTAN, 2022",
+          "1st place in KDMI UNJ Debate Competition, 2022",
+          "2nd Best Speaker in KDMI UNJ Debate Competition, 2022",
+          "UNJ Delegate for KDMI, 2022",
+          "3rd place in FEBI Debate Competition, 2022",
+          "Best Speaker in Fastweek Debate Competition, 2022",
+        ],
         experience: [
           {
-            eTitle: "Chief Judge - Hysteric National Debate Competition, Jakarta State University",
+            eTitle:
+              "Chief Judge - Hysteric National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -149,7 +150,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - Leipzig National Debate Competition, Gunadarma University",
+            eTitle:
+              "Chief Judge - Leipzig National Debate Competition, Gunadarma University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -158,7 +160,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - Tetralogy National Debate Competition, SMAN 58 Jakarta",
+            eTitle:
+              "Chief Judge - Tetralogy National Debate Competition, SMAN 58 Jakarta",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -167,7 +170,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - KIPK Debate Competition, Jakarta State University",
+            eTitle:
+              "Chief Judge - KIPK Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -176,7 +180,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - National Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -185,7 +190,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Judge - CNDC National Debate Competition, Jakarta State University",
+            eTitle:
+              "Judge - CNDC National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -194,7 +200,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - HCG National Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - HCG National Debate Competition, Jakarta State University",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -203,7 +210,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - Hysteric Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - Hysteric Debate Competition, Jakarta State University",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -212,7 +220,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Judge - Pilar Politik National Debate Competition, UIN Jakarta",
+            eTitle:
+              "Judge - Pilar Politik National Debate Competition, UIN Jakarta",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -230,7 +239,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - FYG National Debate Competition, UIN Jakarta",
+            eTitle:
+              "Invitation Judge - FYG National Debate Competition, UIN Jakarta",
             eTime: "2021",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -247,67 +257,86 @@ export const Activities = [
               dPoint: [],
             },
           },
-        ],        
+        ],
       },
       {
         index: 2,
-        name: "Prof. Dr. Wahyu Wibowo",
+        name: "Lasman, S.H.",
         image: lasman,
         linkedin: "",
-        lastEducation: "Bachelor of Law at Universitas Negeri Semarang",
+        lastEducation: "Bachelor of Law at Universitas Padjadjaran",
         description:
-          'He is a Bachelor of Laws graduate who has experience as a judge of the Indonesian Language Debate Competition for the Scientific Week of the Sekolah Tinggi Akutansi Negara (STAN) 2022, experienced as a presenter of the Universitas Wahid Hasyim (UNWAHAS) Faculty of Law Student Basic Management Skills Training 2022 and has won 2nd place in the Sam Ratulangi Law Fair II Debat Hukum dan Konstitusi (LDHK) Universitas Sam Ratulangi (UNSRAT) National Legal Debate Competition 2021. He is also the author of a book entitled "Bunga Rampai Sinergi Perubahan: Knitting Asa from the Conservation Campus".',
+          "Lasman is a Bachelor of Law graduate from Universitas Padjadjaran. He is an outstanding debater from Samarinda, East Kalimantan. He earned the Silver and Bronze medals as the Best Speaker in the Indonesian Student Debate Competition (KDMI) by the National Achievement Center, Kemdikbudristek RI, at the National Level in 2021 and 2022. In 2019, he secured 3rd place (Bronze Medal) and Best Speaker (Gold Medal) in the National Indonesian High School Debate Competition by the same institution. He has also coached debate teams at national and international levels, including teams representing Indonesian Overseas Schools in Jeddah, Saudi Arabia.",
         achievements: [
-          "Jury of Indonesian Debate Competition Pekan Ilmiah Perguruan Tinggi Kedinasan STAN 2022",
-          "Speaker at Basic Student Management Skills Training, Faculty of Law UNWAHAS 2022",
-          "TOP 8 in National Law Election Enforcement Debate Competition II BAWASLU 2022",
-          "2nd Place in National Legal Debate Competition Sam Ratulangi Law Fair II LDHK UNSRAT 2021",
-          "Author of a chapter in the book 'Bunga Rampai Sinergi Perubahan: Merajut Asa Dari Kampus Konservasi' (2021)",
+          "Silver and Bronze Best Speaker,  Kompetisi Debat Mahasiswa Indonesia (KDMI), National Level, 2021 & 2022",
+          "3rd Place and Best Speaker, Indonesian High School Debate Competition, National Level, 2019",
+          "Invited Judge, Indonesian High School Debate Competition, Padjadjaran Governance Competition, 2023",
+          "Coach for the Official Debate Team of LDBI Overseas Indonesian Schools, National and International Levels, 2023",
+          "Coach for the Indonesian Overseas High School Debate Team, Jeddah, Saudi Arabia, 2024",
         ],
         experience: [
           {
-            eTitle: "Legal Officer at PT Square Gate One",
-            eTime: "Nov 2023 - Present",
+            eTitle: "Debate Coach at LDBI Overseas Indonesian Schools",
+            eTime: "2023 - Present",
+            place: "Jeddah, Saudi Arabia",
+            eDesc: {
+              dDetail:
+                "Coaching Indonesian high school debate teams for national and international competitions, providing mentorship, and preparing strategies for success.",
+            },
+          },
+          {
+            eTitle: "Judge at Indonesian Student Debate Competitions",
+            eTime: "2021 - Present",
+            place: "Various locations, Indonesia",
+            eDesc: {
+              dDetail:
+                "Served as an invited judge in various national-level student debate competitions, assessing debating skills and performance.",
+            },
+          },
+          {
+            eTitle: "Trainer for Indonesian High School Debate Teams",
+            eTime: "2019 - Present",
+            place: "Various locations, Indonesia",
+            eDesc: {
+              dDetail:
+                "Trained debate teams for national-level competitions, focusing on argument development, speech delivery, and critical thinking.",
+            },
+          },
+          {
+            eTitle:
+              "Chairman of the Indonesian High School Debate (LDBI) Judges Committee",
+            eTime: "2024",
             place: "Tangerang, Indonesia",
             eDesc: {
               dDetail:
-                "Responsible for drafting contracts, reviewing legal documents, and managing legal risks in a fintech environment.",
+                "Led the judging committee for various high school debate competitions in Tangerang, including regional and national levels, ensuring fair and thorough assessment of participants.",
             },
           },
           {
-            eTitle: "Legal Officer at PT Pembayaran Lintas Usaha Sukses",
-            eTime: "Nov 2023 - Present",
-            place: "Tangerang, Indonesia",
+            eTitle: "Invited Judge for Various National Debate Competitions",
+            eTime: "2021 - Present",
+            place: "Indonesia",
             eDesc: {
               dDetail:
-                "Ensures regulatory compliance and provides legal consultation for the fintech industry.",
+                "Invited as a judge for national debate competitions such as the 'Padjadjaran Governance Competition,' 'Viva Legislativa STMKG,' and 'Plant Protection Debate' at Universitas Padjadjaran, contributing to the evaluation and mentoring of debaters.",
             },
           },
           {
-            eTitle: "Legal Intern at Broto Hastono & Associates",
-            eTime: "Jul 2022 - Sept 2022",
-            place: "Semarang, Indonesia",
+            eTitle: "Debate Trainer for Indonesian National Debate Teams",
+            eTime: "2022 - Present",
+            place: "Indonesia and International Schools",
             eDesc: {
               dDetail:
-                "Assisted in drafting legal documents, provided client support, and handled case representation at legal institutions.",
+                "Served as a trainer for national and international Indonesian debate teams, including those representing Indonesian Overseas Schools in Jeddah and Malaysia, providing guidance in preparation for competitions such as LDBI and KDMI.",
             },
           },
           {
-            eTitle: "Chairman of UKM Debat FH UNNES",
-            eTime: "Jan 2022 - Dec 2022",
-            place: "Semarang, Indonesia",
+            eTitle: "Speaker at National Debate Webinars and Workshops",
+            eTime: "2021 - Present",
+            place: "Indonesia",
             eDesc: {
               dDetail:
-                "Led the student debate organization, organized national debate competitions, and managed annual work programs.",
-            },
-          },
-          {
-            eTitle: "Vice Minister of Strategic Studies at BEM KM UNNES",
-            eTime: "Feb 2021 - Jan 2022",
-            place: "Semarang, Indonesia",
-            eDesc: {
-              dDetail:
-                "Developed strategic work programs and conducted research on human rights and democracy.",
+                "Delivered speeches and training sessions at multiple debate workshops and webinars, including 'Starting Your Journey to Be the Next Champion' and 'Kick-Start Your Journey to Become a Pro-Debater' aimed at improving debating skills among university and high school students.",
             },
           },
         ],
