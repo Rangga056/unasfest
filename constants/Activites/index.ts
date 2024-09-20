@@ -6,10 +6,9 @@ import smcContact from "@/public/assets/images/home/contactUs/smcContact.png";
 import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.png";
 
 // judges photos kdbi
-import fullah from "@/public/assets/images/competition/kdbi fullah.jpg";
-import Sholahudin from "@/public/assets/images/competition/kdbi-Sholahudin.jpg";
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
-import wahyu from "@/public/assets/images/competition/wahyu.png";
+import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
+import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
@@ -119,68 +118,141 @@ export const Activities = [
     judgesData: [
       {
         index: 1,
-        name: "Sholahudin Al Ayubi, S.Sos., M.IP.",
-        image: Sholahudin,
-        linkedin: "", // no LinkedIn
+        name: "Laila Amalia Khaerani, S.Pd",
+        image: leila,
+        linkedin: "", 
         lastEducation:
-          "Master's Degree in Political Science, Universitas Indonesia",
+          "Bachelor's Degree in History Education, State University of Jakarta ",
         description:
-          "Experienced as a program manager, policy analyst, and campaigner with 7 years of work in civil society organizations focusing on energy and natural resources issues. Skilled in writing, research, content production, and event organizing.",
-        achievements: [
-          "Speaker at the fourth debate of the 2024 presidential election - JPM TV, 2024",
-          "Speaker of Polarization on Energy Transition and Climate: Colombia, Brazil and Indonesia - IBASE, 2023",
-          "Indonesian delegate of the Forum for East Asia-Latin America Cooperation Youth Conference",
-        ],
+          "Is a graduate of History Education at the State University of Jakarta. Has an outstanding record in various national debate competitions, such as being the chief judge of the Jakarta State University Hysteric national debate competition 2023, the chief judge of the Gunadarma University Leipzig national debate competition 2023, the chief judge of the Tetralogy national debate competition SMAN 58 Jakarta 2023, the chief judge of the Jakarta State University KIPK debate competition 2023, the invitation judge of the UNJ National Debate Competition 2023, the judge of the UNJ CNDC national debate competition 2023, the invitation judge of the UNSRI CNC national debate competition 2021, invitation judge of FYG UIN Jakarta national debate competition 2021, Independent GCE UNMUL judge 2021, National KDMI UNJ Institution judge 2021, 1st place winner of FESTKA UNM debate competition 2023, 1st place winner of Esa Unggul national debate competition 2023, 1st place winner of UNTAN National Education Fair debate competition 2022, 1st place in the UNJ KDMI competition 2022, 1st place in the national debate competition at the State University of Malang Rhetoric Festival 2021, 1st place in the Sociology Fair debate competition at Andalas University 2021, 5 best speakers in the PIF debate competition at Andalas University 2021, and 3rd place in the UNJ KDMI selection 2021.",
+          achievements: [
+            "1st place in FESTKA UNM Debate Competition, 2023",
+            "1st place in Esa Unggul National Debate Competition, 2023",
+            "3rd place in Pertiwi IDN Debate Competition, 2023",
+            "4th place in Fastweak X Debate Competition, 2023",
+            "Top 10 Best Speaker in Fastweak X Debate Competition, 2023",
+            "1st place in National Education Fair Debate Competition at UNTAN, 2022",
+            "1st place in KDMI UNJ Debate Competition, 2022",
+            "2nd Best Speaker in KDMI UNJ Debate Competition, 2022",
+            "UNJ Delegate for KDMI, 2022",
+            "3rd place in FEBI Debate Competition, 2022",
+            "Best Speaker in Fastweek Debate Competition, 2022",
+        ],        
         experience: [
           {
-            eTitle:
-              "Climate Justice Associate & Project Manager - Indonesia Cerah | Global NGO",
-            eTime: "2022 – Present",
+            eTitle: "Chief Judge - Hysteric National Debate Competition, Jakarta State University",
+            eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
-              dPoint: [
-                "Managing climate justice projects and programs.",
-                "Collaborating with various stakeholders in energy transition campaigns.",
-              ],
+              dPoint: [],
             },
           },
           {
-            eTitle:
-              "Communication & Program Manager - Publish What You Pay Indonesia | International NGO",
-            eTime: "2019 – 2021",
+            eTitle: "Chief Judge - Leipzig National Debate Competition, Gunadarma University",
+            eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
-              dPoint: [
-                "Led communication strategies and program management for transparency and accountability in the energy sector.",
-              ],
+              dPoint: [],
             },
           },
           {
-            eTitle:
-              "Campaigner & Knowledge Management - Konsorsium Pembaruan Agraria | National NGO",
-            eTime: "2016 – 2019",
+            eTitle: "Chief Judge - Tetralogy National Debate Competition, SMAN 58 Jakarta",
+            eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
-              dPoint: ["Focused on agrarian reform and land rights campaigns."],
+              dPoint: [],
             },
           },
           {
-            eTitle: "Chairman - Youth on The Move Community",
-            eTime: "2015 – 2017",
+            eTitle: "Chief Judge - KIPK Debate Competition, Jakarta State University",
+            eTime: "2023",
+            place: "Jakarta, Indonesia",
             eDesc: {
               dDetail: "",
-              dPoint: ["Organized youth empowerment and activism programs."],
+              dPoint: [],
             },
           },
-        ],
+          {
+            eTitle: "Invitation Judge - National Debate Competition, Jakarta State University",
+            eTime: "2023",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Judge - CNDC National Debate Competition, Jakarta State University",
+            eTime: "2023",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Invitation Judge - HCG National Debate Competition, Jakarta State University",
+            eTime: "2022",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Invitation Judge - Hysteric Debate Competition, Jakarta State University",
+            eTime: "2022",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Judge - Pilar Politik National Debate Competition, UIN Jakarta",
+            eTime: "2022",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Invitation Judge - CNC National Debate Competition, UNSRI",
+            eTime: "2021",
+            place: "Palembang, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Invitation Judge - FYG National Debate Competition, UIN Jakarta",
+            eTime: "2021",
+            place: "Jakarta, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Independent Judge - GCE Debate Competition, UNMUL",
+            eTime: "2021",
+            place: "Samarinda, Indonesia",
+            eDesc: {
+              dDetail: "",
+              dPoint: [],
+            },
+          },
+        ],        
       },
       {
         index: 2,
         name: "Prof. Dr. Wahyu Wibowo",
-        image: wahyu,
+        image: lasman,
         linkedin: "",
         lastEducation: "Ph.D. in Philosophy at Gadjah Mada University",
         description:
