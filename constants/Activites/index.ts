@@ -19,6 +19,7 @@ import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
 import desfara from "@/public/assets/images/competition/Desfara.jpeg";
 import tatang from "@/public/assets/images/competition/spc tatang.jpeg";
+import agung from "@/public/assets/images/competition/SPC_AgungIswadi.jpeg";
 
 // judges photos smc
 import jentoni from "@/public/assets/images/competition/sm jentoni.jpg";
@@ -982,65 +983,99 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Dr.Tatang Mitra Setia, MSi.",
-        image: tatang,
-        lastEducation: "Ph.D. in Biology at the University of Indonesia",
+        name: "Agung Iswadi, S.Si., M.Sc, Ph.D.",
+        image: agung,
+        lastEducation:
+          "Ph.D. in Marine Renewable Energy at Heriot-Watt University",
         description:
-          "Dr. Tatang Mitra Setia, MSi, is a lecturer in the Master's Program in Biology at the Faculty of Biology and Agriculture, Universitas Nasional. Born in Palembang on October 26, 1958, he has made significant contributions to the field of biology in the academic community.",
-        achievements: [],
+          "Dr. Agung Iswadi is a materials engineer and renewable energy enthusiast, with research interests in biofouling and corrosion of marine renewable energy infrastructures. He is a Research Fellow at the Centre for Sustainable Energy and Resources Management (CSERM) Universitas Nasional. Dr. Iswadi has been involved in various international projects, including those funded by the Global Challenge Research Fund (UKRI), the British Council Newton Fund, and the Department for International Development (DfID), UK.",
+        achievements: [
+          "Established Indonesia Blue Energy for Blue Economy Centre of Excellence (IBEC) (2020) - Key role in creating a consortium partnership between the UK and Indonesia, focused on developing Blue Energy projects for sustainable economic growth in coastal areas.",
+          "Project Manager for GCRF Blue Communities Project (2017-2019) - Led the marine renewable energy case study in Indonesia, contributing to sustainable marine and coastal planning in Takabonerate Biosphere Reserve.",
+          "Contributor to British Council Newton Fund (2017-2019) - Supported innovative research on marine renewable energy and sustainable community development through the prestigious Newton Fund programme.",
+          "Published Research Papers in International Journals (2013-2023) - Authored numerous publications on biofouling, marine energy infrastructure, and corrosion, contributing valuable insights to the global renewable energy community.",
+        ],
+        honorAward: [
+          "Project Manager for GCRF Blue Communities Project – Indonesia Case Study (2017-2019) - Led Indonesia’s marine renewable energy development in the prestigious GCRF Blue Communities Project, contributing to international sustainability and conservation efforts.",
+          "British Council Institutional Links Award (2014) - Received the British Council Institutional Links Award for conducting a feasibility study on marine energy in Indonesia as a Visiting Fellow at Robert Gordon University, UK.",
+          "Mentari Prosperity Fund Programme (2020-Present) - Acknowledged for contributions to the Mentari Programme, supporting Indonesia’s energy transition and Blue Energy development under the Prosperity Fund Programme.",
+          "Newton Fund Contributor (2017-2019) - Honored for supporting the British Council Newton Fund initiative, advancing sustainable energy and community development in coastal areas of Indonesia.",
+        ],
         experience: [
           {
-            eTitle: "Instructor at SCERM Universitas Nasional",
-            eTime: "2019",
+            eTitle: "Research Fellow at CSERM Universitas Nasional",
+            eTime: "2015 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
+                "Conducting research in renewable energy, specializing in marine biofouling, corrosion, and sustainability, while managing and contributing to multiple international collaborations and projects.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Instructor at Universitas Nasional",
-            eTime: "2020",
+            eTitle: "Consultant at Aquatera Ltd.",
+            eTime: "2020 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
+                "Consulting on energy transition, renewable energy, and blue economy projects, including support for the UK-Indonesia Blue Energy Centre of Excellence initiative.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Instructor at Universitas Nasional",
-            eTime: "2022",
+            eTitle: "Project Manager for GCRF Blue Communities Project",
+            eTime: "2017 - 2019",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
+                "Led the Indonesia Case Study focused on marine renewable energy development in the Takabonerate Biosphere Reserve, a high-profile international collaboration.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Speaker at Smiling Coral Indonesia (SCI)",
-            eTime: "2023",
-            place: "Indonesia",
+            eTitle: "Visiting Fellow at Robert Gordon University",
+            eTime: "2014",
+            place: "United Kingdom",
             eDesc: {
               dDetail:
-                "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
+                "Conducted a feasibility study on marine energy potential in Indonesia, funded by the British Council's prestigious Institutional Links programme.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Advisor at Smiling Coral Indonesia (SCI)",
-            eTime: "2019 - Present",
+            eTitle: "Project Consultant for the British Council Newton Fund",
+            eTime: "2017 - 2019",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
+                "Supported the Newton Fund initiative on sustainable energy, contributing expertise in marine renewable infrastructures for community development in Indonesia.",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle:
+              "Researcher at Indonesian Ocean Energy Association (INOCEAN)",
+            eTime: "2012 - 2015",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Engaged in groundbreaking research on ocean energy, supporting the development of Indonesia's marine renewable energy sector.",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Mentor for Mentari – Prosperity Fund Programme",
+            eTime: "2020 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Provided strategic advice and technical support for the Mentari Programme, focusing on energy transition and blue energy initiatives in Indonesia.",
               dPoint: [],
             },
           },
         ],
       },
+
       {
         index: 3,
         name: "Desfara Anggreani",
