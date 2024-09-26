@@ -17,60 +17,60 @@ import fotoS7 from "@/public/assets/images/gallery/activitiesGallery/semin/7.png
 import fotoS8 from "@/public/assets/images/gallery/activitiesGallery/semin/8.png";
 
 // Seminar Internasional 2024
-import fotosi1 from "@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1455.jpg"
-import fotosi2 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1476.jpg'
-import fotosi3 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1606.jpg';
-import fotosi4 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1609.jpg';
-import fotosi5 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1633.jpg';
-import fotosi6 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1708.jpg';
-import fotosi7 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1726.jpg';
-import fotosi8 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1739.jpg';
-import fotosi9 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1745.jpg';
-import fotosi10 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1749.jpg';
+import fotosi1 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi1.jpg";
+import fotosi2 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi2.jpg";
+import fotosi3 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi3.jpg";
+import fotosi4 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi4.jpg";
+import fotosi5 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi5.jpg";
+import fotosi6 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi6.jpg";
+import fotosi7 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi7.jpg";
+import fotosi8 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi8.jpg";
+import fotosi9 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi9.jpg";
+import fotosi10 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi10.jpg";
 
-import fotosi11 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1753.jpg';
-import fotosi12 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1756.jpg';
-import fotosi13 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1760.jpg';
-import fotosi14 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1768.jpg';
-import fotosi15 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1769.jpg';
-import fotosi16 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1784.jpg';
-import fotosi17 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1793.jpg';
-import fotosi18 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1881.jpg';
-import fotosi19 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_1996.jpg';
-import fotosi20 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2008.jpg';
+import fotosi11 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi11.jpg";
+import fotosi12 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi12.jpg";
+import fotosi13 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi13.jpg";
+import fotosi14 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi14.jpg";
+import fotosi15 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi15.jpg";
+import fotosi16 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi16.jpg";
+import fotosi17 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi17.jpg";
+import fotosi18 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi18.jpg";
+import fotosi19 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi19.jpg";
+import fotosi20 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi20.jpg";
 
-import fotosi21 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2102.jpg';
-import fotosi22 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2120.jpg';
-import fotosi23 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2128.jpg';
-import fotosi24 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2169.jpg';
-import fotosi25 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2173.jpg';
-import fotosi26 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2217.jpg';
-import fotosi27 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2245.jpg';
-import fotosi28 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2274.jpg';
-import fotosi29 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2294.jpg';
-import fotosi30 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2358.jpg';
+import fotosi21 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi21.jpg";
+import fotosi22 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi22.jpg";
+import fotosi23 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi23.jpg";
+import fotosi24 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi24.jpg";
+import fotosi25 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi25.jpg";
+import fotosi26 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi26.jpg";
+import fotosi27 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi27.jpg";
+import fotosi28 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi28.jpg";
+import fotosi29 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi29.jpg";
+import fotosi30 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi30.jpg";
 
-import fotosi31 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2375.jpg';
-import fotosi32 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2437.jpg';
-import fotosi33 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2444.jpg';
-import fotosi34 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2449.jpg';
-import fotosi35 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2453.jpg';
-import fotosi36 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2459.jpg';
-import fotosi37 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2476.jpg';
-import fotosi38 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2479.jpg';
-import fotosi39 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2523.jpg';
-import fotosi40 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2558.jpg';
+import fotosi31 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi31.jpg";
+import fotosi32 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi32.jpg";
+import fotosi33 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi33.jpg";
+import fotosi34 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi34.jpg";
+import fotosi35 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi35.jpg";
+import fotosi36 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi36.jpg";
+import fotosi37 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi37.jpg";
+import fotosi38 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi38.jpg";
+import fotosi39 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi39.jpg";
+import fotosi40 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi40.jpg";
 
-import fotosi41 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2596.jpg';
-import fotosi42 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2621.jpg';
-import fotosi43 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2625.jpg';
-import fotosi44 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2639.jpg';
-import fotosi45 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2690.jpg';
-import fotosi46 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2721.jpg';
-import fotosi47 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2754.jpg';
-import fotosi48 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2769.jpg';
-import fotosi49 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2778.jpg';
-import fotosi50 from '@/public/assets/images/gallery/activitiesGallery/semin2024/IMG_2806.jpg';
+import fotosi41 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi41.jpg";
+import fotosi42 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi42.jpg";
+import fotosi43 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi43.jpg";
+import fotosi44 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi44.jpg";
+import fotosi45 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi45.jpg";
+import fotosi46 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi46.jpg";
+import fotosi47 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi47.jpg";
+import fotosi48 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi48.jpg";
+import fotosi49 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi49.jpg";
+import fotosi50 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi50.jpg";
 
 export const activitiesGallery = [
   {
@@ -583,8 +583,8 @@ export const Galleryfilter = [
     index: 50,
     img: fotoS,
     year: "2023",
-    category: "KDBI",
-    desc: "Kompetisi Debat Bahasa Indonesia",
+    category: "Seminar Nasional",
+    desc: "Seminar Nasional",
   },
   {
     index: 51,
