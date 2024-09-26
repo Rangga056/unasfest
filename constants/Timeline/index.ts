@@ -270,7 +270,7 @@ export const timelinesSMC = [
     title: "End of Preliminary Round Judging",
     description: "End of the judging process for the preliminary round",
     month: "OCT",
-    date: "23",
+    date: "22",
     year: "2024",
     color: "#C02424",
   },
