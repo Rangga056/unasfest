@@ -8,12 +8,17 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 // judges photos kdbi
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
 import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
 =======
 import wahyu from "@/public/assets/images/competition/wahyu.png";
 import irfan from "@/public/assets/images/competition/kdbi_irvan.jpg";
 >>>>>>> 5366a1dfcad5a246f1c55da6065f63d939f7f6b7
+=======
+import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
+import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
+>>>>>>> ad5bee8276e1997b3351009deaa1c4eccee2fe8b
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
@@ -257,12 +262,17 @@ export const Activities = [
       {
         index: 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: "Prof. Dr. Wahyu Wibowo",
         image: lasman,
 =======
         name: "Irfan Mursyid Setyawan, S.H.",
         image: irfan,
 >>>>>>> 5366a1dfcad5a246f1c55da6065f63d939f7f6b7
+=======
+        name: "Prof. Dr. Wahyu Wibowo",
+        image: lasman,
+>>>>>>> ad5bee8276e1997b3351009deaa1c4eccee2fe8b
         linkedin: "",
         lastEducation: "Bachelor of Law at Universitas Negeri Semarang",
         description:
