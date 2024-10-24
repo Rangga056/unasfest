@@ -12,6 +12,7 @@ import SpecialBanner from "@/components/shared/Home/SpecialBanner";
 import Star from "@/public/assets/icons/star.png";
 import ActivitySlider from "@/components/shared/Home/ActivitySlider";
 import ContactHome from "@/components/shared/Home/ContactHome";
+import FinalisSMC from "@/components/shared/Home/FinalisSMC";
 
 export default function Home() {
   const InfiniteSlidingProps = {
@@ -35,6 +36,10 @@ export default function Home() {
       {/* Benefit  */}
       <div className="container mt-20 flex items-center justify-center">
         <SpecialBanner />
+      </div>
+      <div className="mt-20">
+        {/* Finalis SMC */}
+        <FinalisSMC/>
       </div>
       <div className="mt-20">
         {/* Special Banner */}
