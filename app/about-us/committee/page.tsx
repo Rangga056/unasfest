@@ -38,6 +38,7 @@ const page = () => {
         </ul>
       </div>
       {/* Project Manager */}
+      {/* TOOD: Change to seperate main committe component */}
       <div className="mx-auto mt-32 max-w-[1560px] md:pl-10">
         <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
           {/* Image */}
