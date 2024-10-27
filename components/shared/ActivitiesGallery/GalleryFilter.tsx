@@ -47,13 +47,18 @@ const GalleryFilter = () => {
               <SelectValue placeholder="Competition Title" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="National Seminar">National Seminar</SelectItem>
+              <SelectItem value="Seminar Internasional">
+                Seminar Internasional
+              </SelectItem>
+              <SelectItem value="Seminar Nasional">
+                Seminar Nasional
+              </SelectItem>
               <SelectItem value="KDBI">KDBI</SelectItem>
               <SelectItem value="EDC">EDC</SelectItem>
               <SelectItem value="SPC">SPC</SelectItem>
             </SelectContent>
           </Select>
-          <span className="my-4 ml-5 justify-end text-[15px] text-white font-normal">
+          <span className="my-4 ml-5 justify-end text-[15px] font-normal text-white">
             From
           </span>
           <Select onValueChange={handleYearChange}>

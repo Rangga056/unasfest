@@ -16,6 +16,9 @@ import Unasfest2023Macsot from "@/public/assets/images/mascots/unasfest2023masco
 import Gallery from "@/components/shared/Gallery/Gallery";
 import SteeringCommitteeSlider from "@/components/shared/AboutUs/SteeringCommitteSlider";
 import Link from "next/link";
+import projectManagerImg from "@/public/assets/images/about-us/project-manager.png";
+import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
+import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -91,40 +94,73 @@ const AboutUsPage = () => {
           <Slider props={missions} />
         </div>
       </div>
-      {/* Steering Commitee */}
-      <div className="container mt-24">
-        <h1 className="text-center font-bungee text-5xl font-medium uppercase text-page-black">
-          steering commitee
+
+      {/* MAIN COMMITE */}
+      <div className="container mt-20 gap-x-10 text-center font-semibold">
+        <h1 className="font-bungee text-5xl font-bold uppercase">
+          main committe
         </h1>
-        <p className="mt-2 text-center text-xl capitalize">
-          steering committee list
-        </p>
-      </div>
-      {/* Steering commitee slider */}
-      <div className="container pr-0">
-        <SteeringCommitteeSlider />
-      </div>
-      {/* Unasfest 2024 committee */}
-      {/* <div className="mx-auto mt-20 w-full bg-page-black p-8 text-page-white md:p-12 lg:p-[130px]">
-        <div className="container flex aspect-square h-full min-h-[300px] w-full max-w-[1180px] flex-col items-center justify-center gap-y-6 bg-unasfest-committee bg-contain bg-center md:aspect-video md:max-h-[576px] ">
-          <ul className="hidden list-disc items-center justify-center gap-x-10 text-xl font-semibold md:flex">
-            <li className="list-none">1 project manager</li>
-            <li>4 deputy manager</li>
-            <li>15 assistant project manager</li>
-            <li>161 committee</li>
-          </ul>
-          <h1 className="text-center font-bungee text-2xl font-medium uppercase md:text-5xl">
-            our unas fest 2024 <br /> committee
-          </h1>
-          <Button
-            variant="secondary"
-            size="lg"
-            className="rounded-none text-base font-medium capitalize md:text-xl"
-          >
-            <Link href="/about-us/committee">meet us</Link>
-          </Button>
+        <h3 className="mt-3 text-lg font-normal">Main Committe List</h3>
+        <h4 className="mt-8 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+          project manager
+        </h4>
+        <div className="mx-auto mt-20 max-w-[1560px] md:pl-10">
+          <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
+            {/* Image */}
+            <div className="-left-8 -top-8 p-5 md:absolute md:p-0">
+              <Image
+                src={projectManagerImg}
+                alt="project manager"
+                width={380}
+                height={530}
+                className="h-full w-full object-contain md:w-auto"
+              />
+            </div>
+            {/* description */}
+            <div className="mx-auto flex w-full max-w-[678px] flex-col items-center justify-center gap-y-6 p-5 text-left text-xl text-page-white md:h-[530px] md:w-3/4 md:p-0 md:pl-[160px]">
+              <div className="flex w-full flex-col items-start gap-y-3">
+                <p>Project Manager UNAS FEST 2024</p>
+                <h1 className="font-bungee text-5xl font-medium uppercase">
+                  shafa sabrina
+                </h1>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation{" "}
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor{" "}
+              </p>
+            </div>
+            {/* social media links */}
+            <div className="absolute right-10 top-0 z-0 flex h-[200px] w-[54px] flex-col items-center justify-end gap-y-2 bg-page-green pb-5 text-3xl text-page-white md:right-32">
+              <Link href="/">
+                <Image
+                  src={linkedinIcon}
+                  alt="instagramIcon"
+                  width={32}
+                  height={32}
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src={instagramIcon}
+                  alt="instagramIcon"
+                  width={32}
+                  height={32}
+                />
+              </Link>
+            </div>
+          </div>
         </div>
-      </div> */}
+
+        {/* DPM */}
+        <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+          deputy project manager
+        </h4>
+      </div>
 
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">

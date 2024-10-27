@@ -29,6 +29,7 @@ import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
 import desfara from "@/public/assets/images/competition/Desfara.jpeg";
 import tatang from "@/public/assets/images/competition/spc tatang.jpeg";
+import agung from "@/public/assets/images/competition/SPC_AgungIswadi.jpeg";
 
 // judges photos smc
 import jentoni from "@/public/assets/images/competition/sm jentoni.jpg";
@@ -130,27 +131,28 @@ export const Activities = [
         index: 1,
         name: "Laila Amalia Khaerani, S.Pd",
         image: leila,
-        linkedin: "", 
+        linkedin: "",
         lastEducation:
           "Bachelor's Degree in History Education, State University of Jakarta ",
         description:
           "Is a graduate of History Education at the State University of Jakarta. Has an outstanding record in various national debate competitions, such as being the chief judge of the Jakarta State University Hysteric national debate competition 2023, the chief judge of the Gunadarma University Leipzig national debate competition 2023, the chief judge of the Tetralogy national debate competition SMAN 58 Jakarta 2023, the chief judge of the Jakarta State University KIPK debate competition 2023, the invitation judge of the UNJ National Debate Competition 2023, the judge of the UNJ CNDC national debate competition 2023, the invitation judge of the UNSRI CNC national debate competition 2021, invitation judge of FYG UIN Jakarta national debate competition 2021, Independent GCE UNMUL judge 2021, National KDMI UNJ Institution judge 2021, 1st place winner of FESTKA UNM debate competition 2023, 1st place winner of Esa Unggul national debate competition 2023, 1st place winner of UNTAN National Education Fair debate competition 2022, 1st place in the UNJ KDMI competition 2022, 1st place in the national debate competition at the State University of Malang Rhetoric Festival 2021, 1st place in the Sociology Fair debate competition at Andalas University 2021, 5 best speakers in the PIF debate competition at Andalas University 2021, and 3rd place in the UNJ KDMI selection 2021.",
-          achievements: [
-            "1st place in FESTKA UNM Debate Competition, 2023",
-            "1st place in Esa Unggul National Debate Competition, 2023",
-            "3rd place in Pertiwi IDN Debate Competition, 2023",
-            "4th place in Fastweak X Debate Competition, 2023",
-            "Top 10 Best Speaker in Fastweak X Debate Competition, 2023",
-            "1st place in National Education Fair Debate Competition at UNTAN, 2022",
-            "1st place in KDMI UNJ Debate Competition, 2022",
-            "2nd Best Speaker in KDMI UNJ Debate Competition, 2022",
-            "UNJ Delegate for KDMI, 2022",
-            "3rd place in FEBI Debate Competition, 2022",
-            "Best Speaker in Fastweek Debate Competition, 2022",
-        ],        
+        achievements: [
+          "1st place in FESTKA UNM Debate Competition, 2023",
+          "1st place in Esa Unggul National Debate Competition, 2023",
+          "3rd place in Pertiwi IDN Debate Competition, 2023",
+          "4th place in Fastweak X Debate Competition, 2023",
+          "Top 10 Best Speaker in Fastweak X Debate Competition, 2023",
+          "1st place in National Education Fair Debate Competition at UNTAN, 2022",
+          "1st place in KDMI UNJ Debate Competition, 2022",
+          "2nd Best Speaker in KDMI UNJ Debate Competition, 2022",
+          "UNJ Delegate for KDMI, 2022",
+          "3rd place in FEBI Debate Competition, 2022",
+          "Best Speaker in Fastweek Debate Competition, 2022",
+        ],
         experience: [
           {
-            eTitle: "Chief Judge - Hysteric National Debate Competition, Jakarta State University",
+            eTitle:
+              "Chief Judge - Hysteric National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -159,7 +161,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - Leipzig National Debate Competition, Gunadarma University",
+            eTitle:
+              "Chief Judge - Leipzig National Debate Competition, Gunadarma University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -168,7 +171,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - Tetralogy National Debate Competition, SMAN 58 Jakarta",
+            eTitle:
+              "Chief Judge - Tetralogy National Debate Competition, SMAN 58 Jakarta",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -177,7 +181,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Chief Judge - KIPK Debate Competition, Jakarta State University",
+            eTitle:
+              "Chief Judge - KIPK Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -186,7 +191,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - National Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -195,7 +201,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Judge - CNDC National Debate Competition, Jakarta State University",
+            eTitle:
+              "Judge - CNDC National Debate Competition, Jakarta State University",
             eTime: "2023",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -204,7 +211,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - HCG National Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - HCG National Debate Competition, Jakarta State University",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -213,7 +221,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - Hysteric Debate Competition, Jakarta State University",
+            eTitle:
+              "Invitation Judge - Hysteric Debate Competition, Jakarta State University",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -222,7 +231,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Judge - Pilar Politik National Debate Competition, UIN Jakarta",
+            eTitle:
+              "Judge - Pilar Politik National Debate Competition, UIN Jakarta",
             eTime: "2022",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -240,7 +250,8 @@ export const Activities = [
             },
           },
           {
-            eTitle: "Invitation Judge - FYG National Debate Competition, UIN Jakarta",
+            eTitle:
+              "Invitation Judge - FYG National Debate Competition, UIN Jakarta",
             eTime: "2021",
             place: "Jakarta, Indonesia",
             eDesc: {
@@ -257,13 +268,11 @@ export const Activities = [
               dPoint: [],
             },
           },
-        ],        
+        ],
       },
       {
         index: 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-        name: "Prof. Dr. Wahyu Wibowo",
+        name: "Lasman, S.H.",
         image: lasman,
 =======
         name: "Irfan Mursyid Setyawan, S.H.",
@@ -274,60 +283,79 @@ export const Activities = [
         image: lasman,
 >>>>>>> ad5bee8276e1997b3351009deaa1c4eccee2fe8b
         linkedin: "",
-        lastEducation: "Bachelor of Law at Universitas Negeri Semarang",
+        lastEducation: "Bachelor of Law at Universitas Padjadjaran",
         description:
-          'He is a Bachelor of Laws graduate who has experience as a judge of the Indonesian Language Debate Competition for the Scientific Week of the Sekolah Tinggi Akutansi Negara (STAN) 2022, experienced as a presenter of the Universitas Wahid Hasyim (UNWAHAS) Faculty of Law Student Basic Management Skills Training 2022 and has won 2nd place in the Sam Ratulangi Law Fair II Debat Hukum dan Konstitusi (LDHK) Universitas Sam Ratulangi (UNSRAT) National Legal Debate Competition 2021. He is also the author of a book entitled "Bunga Rampai Sinergi Perubahan: Knitting Asa from the Conservation Campus".',
+          "Lasman is a Bachelor of Law graduate from Universitas Padjadjaran. He is an outstanding debater from Samarinda, East Kalimantan. He earned the Silver and Bronze medals as the Best Speaker in the Indonesian Student Debate Competition (KDMI) by the National Achievement Center, Kemdikbudristek RI, at the National Level in 2021 and 2022. In 2019, he secured 3rd place (Bronze Medal) and Best Speaker (Gold Medal) in the National Indonesian High School Debate Competition by the same institution. He has also coached debate teams at national and international levels, including teams representing Indonesian Overseas Schools in Jeddah, Saudi Arabia.",
         achievements: [
-          "Jury of Indonesian Debate Competition Pekan Ilmiah Perguruan Tinggi Kedinasan STAN 2022",
-          "Speaker at Basic Student Management Skills Training, Faculty of Law UNWAHAS 2022",
-          "TOP 8 in National Law Election Enforcement Debate Competition II BAWASLU 2022",
-          "2nd Place in National Legal Debate Competition Sam Ratulangi Law Fair II LDHK UNSRAT 2021",
-          "Author of a chapter in the book 'Bunga Rampai Sinergi Perubahan: Merajut Asa Dari Kampus Konservasi' (2021)",
+          "Silver and Bronze Best Speaker,  Kompetisi Debat Mahasiswa Indonesia (KDMI), National Level, 2021 & 2022",
+          "3rd Place and Best Speaker, Indonesian High School Debate Competition, National Level, 2019",
+          "Invited Judge, Indonesian High School Debate Competition, Padjadjaran Governance Competition, 2023",
+          "Coach for the Official Debate Team of LDBI Overseas Indonesian Schools, National and International Levels, 2023",
+          "Coach for the Indonesian Overseas High School Debate Team, Jeddah, Saudi Arabia, 2024",
         ],
         experience: [
           {
-            eTitle: "Legal Officer at PT Square Gate One",
-            eTime: "Nov 2023 - Present",
+            eTitle: "Debate Coach at LDBI Overseas Indonesian Schools",
+            eTime: "2023 - Present",
+            place: "Jeddah, Saudi Arabia",
+            eDesc: {
+              dDetail:
+                "Coaching Indonesian high school debate teams for national and international competitions, providing mentorship, and preparing strategies for success.",
+            },
+          },
+          {
+            eTitle: "Judge at Indonesian Student Debate Competitions",
+            eTime: "2021 - Present",
+            place: "Various locations, Indonesia",
+            eDesc: {
+              dDetail:
+                "Served as an invited judge in various national-level student debate competitions, assessing debating skills and performance.",
+            },
+          },
+          {
+            eTitle: "Trainer for Indonesian High School Debate Teams",
+            eTime: "2019 - Present",
+            place: "Various locations, Indonesia",
+            eDesc: {
+              dDetail:
+                "Trained debate teams for national-level competitions, focusing on argument development, speech delivery, and critical thinking.",
+            },
+          },
+          {
+            eTitle:
+              "Chairman of the Indonesian High School Debate (LDBI) Judges Committee",
+            eTime: "2024",
             place: "Tangerang, Indonesia",
             eDesc: {
               dDetail:
-                "Responsible for drafting contracts, reviewing legal documents, and managing legal risks in a fintech environment.",
+                "Led the judging committee for various high school debate competitions in Tangerang, including regional and national levels, ensuring fair and thorough assessment of participants.",
             },
           },
           {
-            eTitle: "Legal Officer at PT Pembayaran Lintas Usaha Sukses",
-            eTime: "Nov 2023 - Present",
-            place: "Tangerang, Indonesia",
+            eTitle: "Invited Judge for Various National Debate Competitions",
+            eTime: "2021 - Present",
+            place: "Indonesia",
             eDesc: {
               dDetail:
-                "Ensures regulatory compliance and provides legal consultation for the fintech industry.",
+                "Invited as a judge for national debate competitions such as the 'Padjadjaran Governance Competition,' 'Viva Legislativa STMKG,' and 'Plant Protection Debate' at Universitas Padjadjaran, contributing to the evaluation and mentoring of debaters.",
             },
           },
           {
-            eTitle: "Legal Intern at Broto Hastono & Associates",
-            eTime: "Jul 2022 - Sept 2022",
-            place: "Semarang, Indonesia",
+            eTitle: "Debate Trainer for Indonesian National Debate Teams",
+            eTime: "2022 - Present",
+            place: "Indonesia and International Schools",
             eDesc: {
               dDetail:
-                "Assisted in drafting legal documents, provided client support, and handled case representation at legal institutions.",
+                "Served as a trainer for national and international Indonesian debate teams, including those representing Indonesian Overseas Schools in Jeddah and Malaysia, providing guidance in preparation for competitions such as LDBI and KDMI.",
             },
           },
           {
-            eTitle: "Chairman of UKM Debat FH UNNES",
-            eTime: "Jan 2022 - Dec 2022",
-            place: "Semarang, Indonesia",
+            eTitle: "Speaker at National Debate Webinars and Workshops",
+            eTime: "2021 - Present",
+            place: "Indonesia",
             eDesc: {
               dDetail:
-                "Led the student debate organization, organized national debate competitions, and managed annual work programs.",
-            },
-          },
-          {
-            eTitle: "Vice Minister of Strategic Studies at BEM KM UNNES",
-            eTime: "Feb 2021 - Jan 2022",
-            place: "Semarang, Indonesia",
-            eDesc: {
-              dDetail:
-                "Developed strategic work programs and conducted research on human rights and democracy.",
+                "Delivered speeches and training sessions at multiple debate workshops and webinars, including 'Starting Your Journey to Be the Next Champion' and 'Kick-Start Your Journey to Become a Pro-Debater' aimed at improving debating skills among university and high school students.",
             },
           },
         ],
@@ -973,65 +1001,99 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Dr.Tatang Mitra Setia, MSi.",
-        image: tatang,
-        lastEducation: "Ph.D. in Biology at the University of Indonesia",
+        name: "Agung Iswadi, S.Si., M.Sc, Ph.D.",
+        image: agung,
+        lastEducation:
+          "Ph.D. in Marine Renewable Energy at Heriot-Watt University",
         description:
-          "Dr. Tatang Mitra Setia, MSi, is a lecturer in the Master's Program in Biology at the Faculty of Biology and Agriculture, Universitas Nasional. Born in Palembang on October 26, 1958, he has made significant contributions to the field of biology in the academic community.",
-        achievements: [],
+          "Dr. Agung Iswadi is a materials engineer and renewable energy enthusiast, with research interests in biofouling and corrosion of marine renewable energy infrastructures. He is a Research Fellow at the Centre for Sustainable Energy and Resources Management (CSERM) Universitas Nasional. Dr. Iswadi has been involved in various international projects, including those funded by the Global Challenge Research Fund (UKRI), the British Council Newton Fund, and the Department for International Development (DfID), UK.",
+        achievements: [
+          "Established Indonesia Blue Energy for Blue Economy Centre of Excellence (IBEC) (2020) - Key role in creating a consortium partnership between the UK and Indonesia, focused on developing Blue Energy projects for sustainable economic growth in coastal areas.",
+          "Project Manager for GCRF Blue Communities Project (2017-2019) - Led the marine renewable energy case study in Indonesia, contributing to sustainable marine and coastal planning in Takabonerate Biosphere Reserve.",
+          "Contributor to British Council Newton Fund (2017-2019) - Supported innovative research on marine renewable energy and sustainable community development through the prestigious Newton Fund programme.",
+          "Published Research Papers in International Journals (2013-2023) - Authored numerous publications on biofouling, marine energy infrastructure, and corrosion, contributing valuable insights to the global renewable energy community.",
+        ],
+        honorAward: [
+          "Project Manager for GCRF Blue Communities Project – Indonesia Case Study (2017-2019) - Led Indonesia’s marine renewable energy development in the prestigious GCRF Blue Communities Project, contributing to international sustainability and conservation efforts.",
+          "British Council Institutional Links Award (2014) - Received the British Council Institutional Links Award for conducting a feasibility study on marine energy in Indonesia as a Visiting Fellow at Robert Gordon University, UK.",
+          "Mentari Prosperity Fund Programme (2020-Present) - Acknowledged for contributions to the Mentari Programme, supporting Indonesia’s energy transition and Blue Energy development under the Prosperity Fund Programme.",
+          "Newton Fund Contributor (2017-2019) - Honored for supporting the British Council Newton Fund initiative, advancing sustainable energy and community development in coastal areas of Indonesia.",
+        ],
         experience: [
           {
-            eTitle: "Instructor at SCERM Universitas Nasional",
-            eTime: "2019",
+            eTitle: "Research Fellow at CSERM Universitas Nasional",
+            eTime: "2015 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Development of ecotourism based on biodiversity potential in Tambolongan Island and Polassi Island, Selayar Regency, South Sulawesi",
+                "Conducting research in renewable energy, specializing in marine biofouling, corrosion, and sustainability, while managing and contributing to multiple international collaborations and projects.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Instructor at Universitas Nasional",
-            eTime: "2020",
+            eTitle: "Consultant at Aquatera Ltd.",
+            eTime: "2020 - Present",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Development of tourism based on biodiversity potential in several urban green spaces in Manis City Pangkalan Bun, Central Kalimantan",
+                "Consulting on energy transition, renewable energy, and blue economy projects, including support for the UK-Indonesia Blue Energy Centre of Excellence initiative.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Instructor at Universitas Nasional",
-            eTime: "2022",
+            eTitle: "Project Manager for GCRF Blue Communities Project",
+            eTime: "2017 - 2019",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Nature conservation training and marine biota introduction to support marine ecotourism in Kelapa Island, Thousand Islands, DKI Jakarta",
+                "Led the Indonesia Case Study focused on marine renewable energy development in the Takabonerate Biosphere Reserve, a high-profile international collaboration.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Speaker at Smiling Coral Indonesia (SCI)",
-            eTime: "2023",
-            place: "Indonesia",
+            eTitle: "Visiting Fellow at Robert Gordon University",
+            eTime: "2014",
+            place: "United Kingdom",
             eDesc: {
               dDetail:
-                "Ecotourism socialization based on marine biota in front of tourist group participants from Burung Indonesia in Pramuka Island, Thousand Islands",
+                "Conducted a feasibility study on marine energy potential in Indonesia, funded by the British Council's prestigious Institutional Links programme.",
               dPoint: [],
             },
           },
           {
-            eTitle: "Advisor at Smiling Coral Indonesia (SCI)",
-            eTime: "2019 - Present",
+            eTitle: "Project Consultant for the British Council Newton Fund",
+            eTime: "2017 - 2019",
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "Education, research, and ecotourism activities at Smiling Coral Indonesia (SCI), an NGO engaged in marine resource conservation, research, marine ecosystem restoration, ecotourism development, and capacity building for coastal community human resources",
+                "Supported the Newton Fund initiative on sustainable energy, contributing expertise in marine renewable infrastructures for community development in Indonesia.",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle:
+              "Researcher at Indonesian Ocean Energy Association (INOCEAN)",
+            eTime: "2012 - 2015",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Engaged in groundbreaking research on ocean energy, supporting the development of Indonesia's marine renewable energy sector.",
+              dPoint: [],
+            },
+          },
+          {
+            eTitle: "Mentor for Mentari – Prosperity Fund Programme",
+            eTime: "2020 - Present",
+            place: "Indonesia",
+            eDesc: {
+              dDetail:
+                "Provided strategic advice and technical support for the Mentari Programme, focusing on energy transition and blue energy initiatives in Indonesia.",
               dPoint: [],
             },
           },
         ],
       },
+
       {
         index: 3,
         name: "Desfara Anggreani",
