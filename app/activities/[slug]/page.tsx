@@ -18,11 +18,13 @@ import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
 import toa from "@/public/assets/images/competition/toa.png";
 import { Download } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 type DetailCompetitionProps = { params: { slug: string } };
 
 export default function DetailCompetition(props: DetailCompetitionProps) {
   const { params } = props;
+  const { toast } = useToast();
   const competition = Activities.find((comp) => comp.path === params.slug);
   if (!competition) {
     return <div>Kompetisi tidak ditemukan</div>;
@@ -33,6 +35,13 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
     text: competition.infiniteSlidingText,
   };
 
+  function passRegist() {
+    toast({
+      duration: 2000,
+      variant: "destructive",
+      title: "Registration Period Ended",
+    });
+  }
   return (
     <section>
       <div className="container mx-auto mt-10 md:mt-16">
@@ -64,15 +73,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 {competition.description}
               </CardDescription>
               <div className="mt-10 flex gap-5">
-                <Link href={competition.caturnawa}>
-                  <Button
-                    size="xl"
-                    variant="secondary"
-                    className="text-page-black"
-                  >
-                    Register
-                  </Button>
-                </Link>
+                <Button
+                  size="xl"
+                  variant="secondary"
+                  className="text-page-black"
+                  onClick={() => passRegist()}
+                >
+                  Register
+                </Button>
                 <Link href="#requirements" className="scroll-smooth">
                   <Button
                     size="xl"

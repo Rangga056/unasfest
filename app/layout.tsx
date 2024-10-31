@@ -3,6 +3,7 @@ import { Bungee, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Footer from "@/components/shared/Footer/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const bungee = Bungee({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
         {/* Navbar */}
         <Navbar />
         {children}
+        <Toaster />
         {/* Footer */}
         <Footer />
       </body>
