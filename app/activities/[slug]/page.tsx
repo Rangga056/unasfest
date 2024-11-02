@@ -73,23 +73,14 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 {competition.description}
               </CardDescription>
               <div className="mt-10 flex gap-5">
-                {/* <Button
+                <Button
                   size="xl"
                   variant="secondary"
                   className="text-page-black"
                   onClick={() => passRegist()}
                 >
                   Register
-                </Button> */}
-                <Link href={competition.caturnawa}>
-                  <Button
-                    size="xl"
-                    variant="secondary"
-                    className="text-page-black"
-                  >
-                    Register
-                  </Button>
-                </Link>
+                </Button>
                 <Link href="#requirements" className="scroll-smooth">
                   <Button
                     size="xl"
