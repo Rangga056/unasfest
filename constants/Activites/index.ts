@@ -7,18 +7,8 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 
 // judges photos kdbi
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
 import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
-=======
-import wahyu from "@/public/assets/images/competition/wahyu.png";
-import irfan from "@/public/assets/images/competition/kdbi_irvan.jpg";
->>>>>>> 5366a1dfcad5a246f1c55da6065f63d939f7f6b7
-=======
-import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
-import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
->>>>>>> ad5bee8276e1997b3351009deaa1c4eccee2fe8b
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
@@ -271,95 +261,87 @@ export const Activities = [
         ],
       },
       {
-        index: 2,
-        name: "Lasman, S.H.",
-        image: lasman,
-=======
-        name: "Irfan Mursyid Setyawan, S.H.",
-        image: irfan,
->>>>>>> 5366a1dfcad5a246f1c55da6065f63d939f7f6b7
-=======
-        name: "Prof. Dr. Wahyu Wibowo",
-        image: lasman,
->>>>>>> ad5bee8276e1997b3351009deaa1c4eccee2fe8b
-        linkedin: "",
-        lastEducation: "Bachelor of Law at Universitas Padjadjaran",
-        description:
-          "Lasman is a Bachelor of Law graduate from Universitas Padjadjaran. He is an outstanding debater from Samarinda, East Kalimantan. He earned the Silver and Bronze medals as the Best Speaker in the Indonesian Student Debate Competition (KDMI) by the National Achievement Center, Kemdikbudristek RI, at the National Level in 2021 and 2022. In 2019, he secured 3rd place (Bronze Medal) and Best Speaker (Gold Medal) in the National Indonesian High School Debate Competition by the same institution. He has also coached debate teams at national and international levels, including teams representing Indonesian Overseas Schools in Jeddah, Saudi Arabia.",
-        achievements: [
-          "Silver and Bronze Best Speaker,  Kompetisi Debat Mahasiswa Indonesia (KDMI), National Level, 2021 & 2022",
-          "3rd Place and Best Speaker, Indonesian High School Debate Competition, National Level, 2019",
-          "Invited Judge, Indonesian High School Debate Competition, Padjadjaran Governance Competition, 2023",
-          "Coach for the Official Debate Team of LDBI Overseas Indonesian Schools, National and International Levels, 2023",
-          "Coach for the Indonesian Overseas High School Debate Team, Jeddah, Saudi Arabia, 2024",
-        ],
-        experience: [
-          {
-            eTitle: "Debate Coach at LDBI Overseas Indonesian Schools",
-            eTime: "2023 - Present",
-            place: "Jeddah, Saudi Arabia",
-            eDesc: {
-              dDetail:
-                "Coaching Indonesian high school debate teams for national and international competitions, providing mentorship, and preparing strategies for success.",
+          index: 2,
+          name: "Lasman, S.H.",
+          image: lasman,
+          linkedin: "",
+          lastEducation: "Bachelor of Law at Universitas Padjadjaran",
+          description:
+            "Lasman is a Bachelor of Law graduate from Universitas Padjadjaran. He is an outstanding debater from Samarinda, East Kalimantan. He earned the Silver and Bronze medals as the Best Speaker in the Indonesian Student Debate Competition (KDMI) by the National Achievement Center, Kemdikbudristek RI, at the National Level in 2021 and 2022. In 2019, he secured 3rd place (Bronze Medal) and Best Speaker (Gold Medal) in the National Indonesian High School Debate Competition by the same institution. He has also coached debate teams at national and international levels, including teams representing Indonesian Overseas Schools in Jeddah, Saudi Arabia.",
+          achievements: [
+            "Silver and Bronze Best Speaker,  Kompetisi Debat Mahasiswa Indonesia (KDMI), National Level, 2021 & 2022",
+            "3rd Place and Best Speaker, Indonesian High School Debate Competition, National Level, 2019",
+            "Invited Judge, Indonesian High School Debate Competition, Padjadjaran Governance Competition, 2023",
+            "Coach for the Official Debate Team of LDBI Overseas Indonesian Schools, National and International Levels, 2023",
+            "Coach for the Indonesian Overseas High School Debate Team, Jeddah, Saudi Arabia, 2024",
+          ],
+          experience: [
+            {
+              eTitle: "Debate Coach at LDBI Overseas Indonesian Schools",
+              eTime: "2023 - Present",
+              place: "Jeddah, Saudi Arabia",
+              eDesc: {
+                dDetail:
+                  "Coaching Indonesian high school debate teams for national and international competitions, providing mentorship, and preparing strategies for success.",
+              },
             },
-          },
-          {
-            eTitle: "Judge at Indonesian Student Debate Competitions",
-            eTime: "2021 - Present",
-            place: "Various locations, Indonesia",
-            eDesc: {
-              dDetail:
-                "Served as an invited judge in various national-level student debate competitions, assessing debating skills and performance.",
+            {
+              eTitle: "Judge at Indonesian Student Debate Competitions",
+              eTime: "2021 - Present",
+              place: "Various locations, Indonesia",
+              eDesc: {
+                dDetail:
+                  "Served as an invited judge in various national-level student debate competitions, assessing debating skills and performance.",
+              },
             },
-          },
-          {
-            eTitle: "Trainer for Indonesian High School Debate Teams",
-            eTime: "2019 - Present",
-            place: "Various locations, Indonesia",
-            eDesc: {
-              dDetail:
-                "Trained debate teams for national-level competitions, focusing on argument development, speech delivery, and critical thinking.",
+            {
+              eTitle: "Trainer for Indonesian High School Debate Teams",
+              eTime: "2019 - Present",
+              place: "Various locations, Indonesia",
+              eDesc: {
+                dDetail:
+                  "Trained debate teams for national-level competitions, focusing on argument development, speech delivery, and critical thinking.",
+              },
             },
-          },
-          {
-            eTitle:
-              "Chairman of the Indonesian High School Debate (LDBI) Judges Committee",
-            eTime: "2024",
-            place: "Tangerang, Indonesia",
-            eDesc: {
-              dDetail:
-                "Led the judging committee for various high school debate competitions in Tangerang, including regional and national levels, ensuring fair and thorough assessment of participants.",
+            {
+              eTitle:
+                "Chairman of the Indonesian High School Debate (LDBI) Judges Committee",
+              eTime: "2024",
+              place: "Tangerang, Indonesia",
+              eDesc: {
+                dDetail:
+                  "Led the judging committee for various high school debate competitions in Tangerang, including regional and national levels, ensuring fair and thorough assessment of participants.",
+              },
             },
-          },
-          {
-            eTitle: "Invited Judge for Various National Debate Competitions",
-            eTime: "2021 - Present",
-            place: "Indonesia",
-            eDesc: {
-              dDetail:
-                "Invited as a judge for national debate competitions such as the 'Padjadjaran Governance Competition,' 'Viva Legislativa STMKG,' and 'Plant Protection Debate' at Universitas Padjadjaran, contributing to the evaluation and mentoring of debaters.",
+            {
+              eTitle: "Invited Judge for Various National Debate Competitions",
+              eTime: "2021 - Present",
+              place: "Indonesia",
+              eDesc: {
+                dDetail:
+                  "Invited as a judge for national debate competitions such as the 'Padjadjaran Governance Competition,' 'Viva Legislativa STMKG,' and 'Plant Protection Debate' at Universitas Padjadjaran, contributing to the evaluation and mentoring of debaters.",
+              },
             },
-          },
-          {
-            eTitle: "Debate Trainer for Indonesian National Debate Teams",
-            eTime: "2022 - Present",
-            place: "Indonesia and International Schools",
-            eDesc: {
-              dDetail:
-                "Served as a trainer for national and international Indonesian debate teams, including those representing Indonesian Overseas Schools in Jeddah and Malaysia, providing guidance in preparation for competitions such as LDBI and KDMI.",
+            {
+              eTitle: "Debate Trainer for Indonesian National Debate Teams",
+              eTime: "2022 - Present",
+              place: "Indonesia and International Schools",
+              eDesc: {
+                dDetail:
+                  "Served as a trainer for national and international Indonesian debate teams, including those representing Indonesian Overseas Schools in Jeddah and Malaysia, providing guidance in preparation for competitions such as LDBI and KDMI.",
+              },
             },
-          },
-          {
-            eTitle: "Speaker at National Debate Webinars and Workshops",
-            eTime: "2021 - Present",
-            place: "Indonesia",
-            eDesc: {
-              dDetail:
-                "Delivered speeches and training sessions at multiple debate workshops and webinars, including 'Starting Your Journey to Be the Next Champion' and 'Kick-Start Your Journey to Become a Pro-Debater' aimed at improving debating skills among university and high school students.",
+            {
+              eTitle: "Speaker at National Debate Webinars and Workshops",
+              eTime: "2021 - Present",
+              place: "Indonesia",
+              eDesc: {
+                dDetail:
+                  "Delivered speeches and training sessions at multiple debate workshops and webinars, including 'Starting Your Journey to Be the Next Champion' and 'Kick-Start Your Journey to Become a Pro-Debater' aimed at improving debating skills among university and high school students.",
+              },
             },
-          },
-        ],
-      },
+          ],
+        },
       {
         index: 3,
         name: "Purwo Besari, S.Pd.",
