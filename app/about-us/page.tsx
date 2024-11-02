@@ -21,6 +21,7 @@ import projectManagerImg from "@/public/assets/images/about-us/project-manager.p
 import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Committe from "@/components/shared/Committe/Committe";
+import { postersData } from "@/constants/Posters/posterDatas";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -98,7 +99,9 @@ const AboutUsPage = () => {
       </div>
 
       {/* MAIN COMMITE */}
-      <Committe />
+      <div className="container mt-20">
+        <Committe />
+      </div>
 
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">

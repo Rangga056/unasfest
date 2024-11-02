@@ -42,6 +42,9 @@ const config = {
         '2xl': '0 25px 25px rgba(0, 0, 0, 0.15)',
         'none': 'none',
       },
+      innerShadow: {
+        'inner-shadow': 'inset 0 -55px 30px rgba(100, 0, 0, 0.5)',
+      },
       color: {
         all: "#1F1E23",
       },

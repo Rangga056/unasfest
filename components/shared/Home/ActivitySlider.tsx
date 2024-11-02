@@ -26,7 +26,6 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
   return (
     <div className="relative">
       <Swiper
-
         slidesPerView={"auto"}
         spaceBetween={30}
         pagination={{
@@ -75,4 +74,3 @@ const ActivitySlider: React.FC<PropsTypes> = ({ props }) => {
 };
 
 export default ActivitySlider;
-
