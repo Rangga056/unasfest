@@ -22,6 +22,7 @@ import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Committe from "@/components/shared/Committe/Committe";
 import { postersData } from "@/constants/Posters/posterDatas";
+import Visionaries from "@/components/shared/Visionaries/Visionaries";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -240,6 +241,16 @@ const AboutUsPage = () => {
           </p>
         </div>
       </div>
+
+      {/* VISIONARIES */}
+      {/* <div className="container mt-20 text-center">
+        <h1 className="font-bungee text-5xl font-medium uppercase">
+          meet our visionaries
+        </h1>
+        <p className="text-xl capitalize ">Our participants, driven by innovation, craft remarkalbe works</p>
+        <Visionaries />
+      </div> */}
+      
       {/* Gallery Component */}
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />
