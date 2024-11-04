@@ -22,7 +22,6 @@ import { Download, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import React from "react";
 
-// type DetailCompetitionProps = { params: { slug: string } };
 type DetailCompetitionProps = { params: Promise<{ slug: string }> };
 
 export default function DetailCompetition({ params }: DetailCompetitionProps) {
