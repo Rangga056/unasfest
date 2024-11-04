@@ -8,12 +8,12 @@ import semnasContact from "@/public/assets/images/home/contactUs/semnasContact.p
 // judges photos kdbi
 import purwo from "@/public/assets/images/competition/kdbi Purwo Besari.jpg";
 import leila from "@/public/assets/images/competition/KDBI LEILA.jpg";
-import lasman from "@/public/assets/images/competition/KDBI LASMAN.jpg";
+import insani from "@/public/assets/images/competition/kdbi insani.jpg";
 
 // judges photos edc
 import mouliza from "@/public/assets/images/competition/mouliza.jpeg";
-import ahmad from "@/public/assets/images/competition/edc Ahmad Kushay.jpg";
 import hezron from "@/public/assets/images/competition/edc hezron.jpg";
+import cecilia from "@/public/assets/images/competition/EDC Cecilia.png";
 
 // judges photos spc
 import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
@@ -261,87 +261,108 @@ export const Activities = [
         ],
       },
       {
-          index: 2,
-          name: "Lasman, S.H.",
-          image: lasman,
-          linkedin: "",
-          lastEducation: "Bachelor of Law at Universitas Padjadjaran",
-          description:
-            "Lasman is a Bachelor of Law graduate from Universitas Padjadjaran. He is an outstanding debater from Samarinda, East Kalimantan. He earned the Silver and Bronze medals as the Best Speaker in the Indonesian Student Debate Competition (KDMI) by the National Achievement Center, Kemdikbudristek RI, at the National Level in 2021 and 2022. In 2019, he secured 3rd place (Bronze Medal) and Best Speaker (Gold Medal) in the National Indonesian High School Debate Competition by the same institution. He has also coached debate teams at national and international levels, including teams representing Indonesian Overseas Schools in Jeddah, Saudi Arabia.",
-          achievements: [
-            "Silver and Bronze Best Speaker,  Kompetisi Debat Mahasiswa Indonesia (KDMI), National Level, 2021 & 2022",
-            "3rd Place and Best Speaker, Indonesian High School Debate Competition, National Level, 2019",
-            "Invited Judge, Indonesian High School Debate Competition, Padjadjaran Governance Competition, 2023",
-            "Coach for the Official Debate Team of LDBI Overseas Indonesian Schools, National and International Levels, 2023",
-            "Coach for the Indonesian Overseas High School Debate Team, Jeddah, Saudi Arabia, 2024",
-          ],
-          experience: [
-            {
-              eTitle: "Debate Coach at LDBI Overseas Indonesian Schools",
-              eTime: "2023 - Present",
-              place: "Jeddah, Saudi Arabia",
-              eDesc: {
-                dDetail:
-                  "Coaching Indonesian high school debate teams for national and international competitions, providing mentorship, and preparing strategies for success.",
-              },
+        index: 2,
+        name: "Insani Khausari",
+        image: insani,
+        linkedin: "https://www.linkedin.com/in/insanykhausari/",
+        lastEducation: "Industrial Engineering at President University",
+        description:
+          "An Industrial Engineering student with over 1 year of experience in the business field, specifically in the home industry, by creating the company profile and arranging the production report, with strong critical analytical abilities. I have participated in 20+ debate competitions and served as a breaking adjudicator for judging the debate competitions with excellent scores. Additionally, I have experience in essay writing, as well as in academic and non-academic Olympiads and scientific paper competitions.",
+        achievements: [
+          "Juri Independen Terbaik NDCC Pra-LDBI 2024 by National Debate Community Center (September 2024)",
+          "Juri Terakrediatasi NDCC Pra-LDBI 2024 Asian Parlementer by National Debate Community Center (September 2024)",
+          "Best Independent Adjudicator 3 of TACTICS debate competition 2024 by Universitas Bunda Mulia (June 2024)",
+          "Breaking Adjudicator dan Juri Terakreditas DSK Open 2024 British Parlementer by Debate Sinergi Kebhinekaan (August 2024)",
+          "Core Adjudicators Panel (Ketua Juri) Teenaction Debate Competition 2024 by SMAN 5 Bekasi (August 2024)",
+          "National Delegate of N1 independent adjudicator KDMI 2023 and KDMI 2024 by PUSPERNAS (September 2023 & July 2024)",
+          "Judge for Management Introduction Debate Session by PUMA Management President Univ 2023",
+          "Invited Adjudicator of HIPOTEX Debate Competition 2024 by IPB University",
+          "Invited Adjudicator of VSCE Debate Competition 2024 by IPB University",
+          "Invited Adjudicator of KOMBATNAS Debate Competition 2024 by Universitas Negeri Malang",
+          "Invited Adjudicator of English Festival Debate Competition 2024 by Universitas Riau",
+          "Invited Adjudicator of Baris Science Festival Debate Competition 2024 by Universitas Brawijaya",
+          "3rd Winner of Debate NSEDC 2024 by Universitas Mataram (September 2024)",
+          "4th Winner of Cogito National Debate Competition 5.0 by Universitas Sriwijaya (September 2024)",
+          "10th Best Speaker of Economic Debate Competition by Universitas Andalas (October 2024)",
+          "Best Speaker 5 Viva Legislativa Debate Competition - STMKG 2024 (June 2024)",
+          "Octofinalist of Kompetisi Debat Nusantara by Debat Nusantara (May 2024)",
+          "Best Speaker of Freshman Trophy Debate Competition by President University (October 2023)",
+          "Grand finalist of PUDN Debate Competition by President University (June 2023)",
+          "Grand finalist of VETION Day Debate Competition by Institut Pertanian Bogor (April 2023)",
+          "Octofinalist of Newbies UI English Debate Competition by Universitas Indonesia (November 2022)",
+          "10th Best Paper of Scientific Paper by Universitas Kristen Indonesia (August 2021)",
+          "National Delegate MTQMN English Quran Debate Competition by PUSPERNAS (November 2023)",
+          "Official Delegate of APBN Olympics by KEMENKEU INDONESIA in Region Area (July 2021)",
+          "Official Delegate of English Debate Competition (ATMA OPEN 2023, ASIAN ENGLISH OLYMPICS 2023, and others)",
+          "2nd Winner of Indonesia Debate FLS2N Competition 2018",
+        ],
+        experience: [
+          {
+            eTitle: "Financial Advisor - Home Industry “SNACK 98”",
+            eTime: "January 2023 - Present",
+            place: "Tanjungpinang, Riau Archipelago",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Responsible for advising by creating reports using Ms. Excel like financial and production reports and analyzing them to get decisions from the data results.",
+                "Create a company profile for sending to the Indonesia Ministry of Industry.",
+              ],
             },
-            {
-              eTitle: "Judge at Indonesian Student Debate Competitions",
-              eTime: "2021 - Present",
-              place: "Various locations, Indonesia",
-              eDesc: {
-                dDetail:
-                  "Served as an invited judge in various national-level student debate competitions, assessing debating skills and performance.",
-              },
+          },
+          {
+            eTitle:
+              "Head of Division of Human Resources - Investment Club President University",
+            eTime: "July 2023 - Present",
+            place: "",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Responsible for making the monthly report for the best member using Key Performance Indicator (KPI) using Ms. Excel.",
+                "Supervisor for Leadership Training Events, Monthly Big Meetings and Regeneration, and the Inauguration of Investment Club and also being Vice Project Manager in Financial Planning Event.",
+                "Responsible for being a counselor of members in the investment club in monthly consulting session.",
+              ],
             },
-            {
-              eTitle: "Trainer for Indonesian High School Debate Teams",
-              eTime: "2019 - Present",
-              place: "Various locations, Indonesia",
-              eDesc: {
-                dDetail:
-                  "Trained debate teams for national-level competitions, focusing on argument development, speech delivery, and critical thinking.",
-              },
+          },
+          {
+            eTitle:
+              "Member of Human Resources - Investment Club President University",
+            eTime: "November 2022 - July 2023",
+            place: "",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Responsible for being Project Manager of Big Meeting 3 and Big Meeting 5 by arranging the schedule and the rundown.",
+                "Responsible for being an Event Organizer in some investment club events (Exhibition Investment 2023, Essay Competition 2023, and Regeneration of Investment Club 2023.",
+              ],
             },
-            {
-              eTitle:
-                "Chairman of the Indonesian High School Debate (LDBI) Judges Committee",
-              eTime: "2024",
-              place: "Tangerang, Indonesia",
-              eDesc: {
-                dDetail:
-                  "Led the judging committee for various high school debate competitions in Tangerang, including regional and national levels, ensuring fair and thorough assessment of participants.",
-              },
+          },
+          {
+            eTitle:
+              "Vice of Division Debate Department - President University Debate Society",
+            eTime: "October 2023 - Present",
+            place: "",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Responsible for arranging the job desk for each member of the debate department.",
+                "Responsible for checking the work of each member debate department to successfully the timeline.",
+              ],
             },
-            {
-              eTitle: "Invited Judge for Various National Debate Competitions",
-              eTime: "2021 - Present",
-              place: "Indonesia",
-              eDesc: {
-                dDetail:
-                  "Invited as a judge for national debate competitions such as the 'Padjadjaran Governance Competition,' 'Viva Legislativa STMKG,' and 'Plant Protection Debate' at Universitas Padjadjaran, contributing to the evaluation and mentoring of debaters.",
-              },
+          },
+          {
+            eTitle:
+              "Member of Debate Department - President University Debate Society",
+            eTime: "July 2023 - October 2023",
+            place: "",
+            eDesc: {
+              dDetail: "",
+              dPoint: [
+                "Responsible for making the schedule and making the motion bank for weekly training.",
+              ],
             },
-            {
-              eTitle: "Debate Trainer for Indonesian National Debate Teams",
-              eTime: "2022 - Present",
-              place: "Indonesia and International Schools",
-              eDesc: {
-                dDetail:
-                  "Served as a trainer for national and international Indonesian debate teams, including those representing Indonesian Overseas Schools in Jeddah and Malaysia, providing guidance in preparation for competitions such as LDBI and KDMI.",
-              },
-            },
-            {
-              eTitle: "Speaker at National Debate Webinars and Workshops",
-              eTime: "2021 - Present",
-              place: "Indonesia",
-              eDesc: {
-                dDetail:
-                  "Delivered speeches and training sessions at multiple debate workshops and webinars, including 'Starting Your Journey to Be the Next Champion' and 'Kick-Start Your Journey to Become a Pro-Debater' aimed at improving debating skills among university and high school students.",
-              },
-            },
-          ],
-        },
+          },
+        ],
+      },
       {
         index: 3,
         name: "Purwo Besari, S.Pd.",
@@ -648,20 +669,26 @@ export const Activities = [
       },
       {
         index: 2,
-        name: "Ahmad Kushay S.H, S.Si.",
+        name: "Cecilia Tiara Liong",
         linkedin:
-          "https://www.linkedin.com/in/ahmad-kushay-9a57a8104/?jobid=1234",
-        image: ahmad,
-        lastEducation:
-          "Bachelor's degree, Chemistry - Institut Teknologi Bandung (ITB)",
+          "https://www.linkedin.com/in/cecilia-tiara-liong-5388b41b8/?jobid=1234",
+        image: cecilia,
+        lastEducation: "Undergraduate Students Universitas Indonesia",
         description:
-          "I am interested in research, teaching, public speaking, and critical thinking, which mainly manifests in my active participation in parliamentary debating, joining various competitions, teaching at numerous institutions, and initiating efforts to proliferate debating across Indonesia.",
+          "Cecilia Tiara Liong, a Korean Studies student at the University of Indonesia, has a passion for Public Relations and extensive experience in the field. She has been a Public Relations Intern at Sunday, managing marketing materials and media monitoring, as well as serving as one of the National Campaign Team's Board of Experts in preparation for the presidential campaign debates. She is also the Head of External Affairs at the English Debating Society (EDS UI) and Social Media Manager at Indonesia Youth for SMEs. In the field of debating, she has achieved awards as a Grand Finalist and 5th Best Speaker at the Asian English Olympics 2023, and as 1st Runner-Up and 3rd Best Speaker at ALSA Diponegoro University 2022.",
         achievements: [
-          "Debating Achievements (2 regional, 21 national, and 2 international competitions in total)",
-          "ITB's Most Outstanding Student Award (3 times)",
-          "Finalist of Airlangga Creativepreneur (ACTION) Business Case Competition",
-          "Champion of Indonesian National Round of International Humanitarian Law Moot Court Competition 2023",
+          "Debate Coach, Singapore Intercultural School: August 2022 - Present",
+          "Head of externals, EDS UI: December 2021 - December 2022",
+          "Grandfinalist & 5th Best Speaker at the Asian English Olympics Debate Competition 2023",
+          "1st Runner-Up & 3rd Best Speaker at ALSA Universitas Diponegoro 2022",
+          "3rd Runner-Up & 10th Best Speaker at the National IDEA Debate Competition 2021",
+          "Institutional Adjudicator at Korea Worlds Debating University Championship 2021",
+          "Semifinalist at the Varsity English Debate Competition of AUI 2021",
+          "Grandfinalist at Varsity Debate of PURPOSEVED 2021",
+          "Champion & 2nd Best Speaker at DUNNO 2021",
+          "2nd Runner-Up & 7th Best Speaker at Newbies 2020",
         ],
+
         experience: [
           {
             eTitle: "Self Employed Debate Coach",
@@ -669,64 +696,79 @@ export const Activities = [
             place: "Indonesia",
             eDesc: {
               dDetail:
-                "As debate coach, my job is to provide debate club members with tutelage in the art of coming up with a well-elaborated idea and delivering it in a convincing manner. It comes in the from of :",
+                "As debate coach, my job is to provide debate club members with tutelage in the art of coming up with a well-elaborated idea and delivering it in a convincing manner. It comes in the form of:",
               dPoint: [
-                "Matter-sharing of rudimentary concepts of various topics such as criminal justice system, international relations, economy, art, politics & governance, etc,",
-                "Speaking drills to deliver arguments with effective wording and compelling rhetorics,",
+                "Matter-sharing of rudimentary concepts of various topics such as criminal justice system, international relations, economy, art, politics & governance, etc.",
+                "Speaking drills to deliver arguments with effective wording and compelling rhetorics.",
                 "Teamwork practice to ensure that every debate team are able to cover each other's weaknesses and collaborate cohesively.",
               ],
             },
           },
           {
-            eTitle: "President - Student English Forum (SEF) ITB",
-            eTime: "May 2018 - May 2019",
-            place: "Bandung Area, West Java, Indonesia",
+            eTitle: "Debate Coach",
+            eTime: "August 2022 - Present",
+            place: "Singapore Intercultural School, Jakarta Metropolitan Area",
+          },
+          {
+            eTitle: "Public Relations Intern",
+            eTime: "February 2024 - May 2024",
+            place: "Jakarta, Indonesia",
             eDesc: {
-              dDetail:
-                "Student English Forum ITB is ITB's debate club and one of Indonesia's varsity debating powerhouses. SEF ITB participates in various national and international debating competitions often winning titles. SEF ITB also provides coaching services to other universities or high schools in Indonesia. Apart from debating-related activities, SEF ITB also provides translation services and is often trusted by ITB to represent ITB in international conferences. My contributions are:",
               dPoint: [
-                "Coordinate practice of members, ensuring absence of conflict and sustained growth in preparation of competitions.",
-                "Constantly in touch and represent SEF ITB with internal ITB elements such as UPT Bahasa ITB, Lembaga Kemahasiswaan ITB, and Kabinet Keluarga Mahasiswa ITB.",
-                "Establish communications with other institutions for cooperation opportunities such as joint practices, participation in competitions, etc.",
+                "- Assisted in the development of marketing materials, such as banners and merchandise, to support promotional strategies and enhance brand recognition.",
+                "- Conducted thorough media monitoring, including updating news and performing competitor benchmarks, to inform marketing strategies and decision-making.",
+                "- Supported event organization efforts, contributing to the planning and execution of events to maximize audience engagement.",
               ],
             },
           },
           {
-            eTitle: "Head of Matter and Curriculum Division",
-            eTime: "April 2017 - May 2018",
-            place: "Bandung Area, West Java, Indonesia",
+            eTitle: "Secretariat Member",
+            eTime: "November 2023 - February 2024",
+            place:
+              "Dewan Pakar Tim Kampanye Nasional, Jakarta Metropolitan Area",
             eDesc: {
-              dDetail:
-                "Student English Forum ITB is ITB's debate club and one of Indonesia's varsity debating powerhouses. SEF ITB participates in various national and international debating competitions often winning titles. SEF ITB also provides coaching services to other universities or high schools in Indonesia. Apart from debating-related activities, SEF ITB also provides translation services and is often trusted by ITB to represent ITB in international conferences. My contributions are :",
               dPoint: [
-                "Compiling learning materials from various sources and simplifying it so that it would be easier for other members to study.",
-                "Designing individualized practice methods for every member participating in a competition.",
+                "- Assisting expert member of Dewan Pakar TKN in developing Vision and Mission statement for one of the presidency candidates through project monitoring, external research and internal FGD.",
+                "- Preparing key materials for presidential elections debate, including but not limited to cue card, opening and closing statements, and key information to be delivered.",
               ],
             },
           },
           {
-            eTitle: "English Lecturer - Institut Teknologi Bandung",
-            eTime: "August 2018 - November 2018",
-            place: "Bandung Area, West Java, Indonesia",
+            eTitle: "Social Media Manager",
+            eTime: "August 2023 - December 2023",
+            place:
+              "Indonesia Youth for Small and Medium Enterprises (SMEs), Jakarta, Indonesia",
+          },
+          {
+            eTitle: "Head of Externals",
+            eTime: "December 2021 - December 2022",
+            place: "EDS UI",
             eDesc: {
-              dDetail:
-                "UPT Bahasa ITB is an operational wing of ITB that provides various classes that aims to improve language proficiency. My responsibilities were to lead two classes of around 10-15 people each in English conversation. There were no strict curriculum on the class and the way it is run is left to the lecturers, as long as it achieves the goal of making all class participants proactive in conversing and expressing their opinion. Lessons on grammar and English language theory was also included although it is secondary in nature.",
-              dPoint: [],
+              dPoint: [
+                "- Led social media and public relations strategies for EDS UI, achieving exceptionally brand visibility and engagement.",
+                "- Proactively managed external job offers and collaborated with key stakeholders (schools, other partner universities and Ministry of Education) to identify and secure valuable partnerships.",
+              ],
             },
           },
           {
-            eTitle: "English Lecturer - Institut Teknologi Bandung",
-            eTime: "August 2018 - November 2018",
-            place: "Bandung Area, West Java, Indonesia",
+            eTitle: "Deputy Chief Adjudicator",
+            eTime: "April 2022 - August 2022",
+            place: "ALSA E-Comp 2022, Depok, West Java, Indonesia",
             eDesc: {
-              dDetail:
-                "GO-Academy is GO-JEK's initiative that aims to bridge the gap between engineering fresh graduates' skills and the demand of the industry. The skills includes:",
               dPoint: [
-                "Cooperation & negotiation skills",
-                "A non-rigid problem solving mindset",
-                "Learning enthusiasm and perseverance",
+                "- Developed strategic and thought-provoking debate motions for one of the most prestigious debate competitions in Indonesia, and actively monitored competition proceedings to provide real-time feedback and insights, ensuring the highest quality standards of competition.",
               ],
             },
+          },
+          {
+            eTitle: "Social Media Staff",
+            eTime: "April 2021 - July 2021",
+            place: "Korean Fair",
+          },
+          {
+            eTitle: "Information and Registration Staff",
+            eTime: "October 2020 - March 2021",
+            place: "SAIMALA UI",
           },
         ],
       },

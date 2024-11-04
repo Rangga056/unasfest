@@ -44,11 +44,11 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
         {props.map((member) => (
           <SwiperSlide
             key={member.id}
-            className={`mx-auto`}
+            className={`mx-auto md:max-w-[${maxWidth}px]`}
             style={{ maxWidth: `${maxWidth}px` }} // Set maxWidth dynamically
           >
             <div>
-              <Card className="flex flex-shrink-0 flex-col justify-center rounded-none text-page-black">
+              <Card className="flex flex-shrink-0 flex-col justify-center rounded-none text-page-black -mt-5">
                 <CardContent className="relative flex flex-col text-left">
                   <div
                     className="-mb-5 flex aspect-[4/6] w-full items-end bg-cover bg-center"

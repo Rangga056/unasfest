@@ -1,5 +1,5 @@
 import React from "react";
-import projectManagerImg from "@/public/assets/images/about-us/project-manager.png";
+import projectManagerImg from "@/public/assets/images/about-us/committee/shafa.webp";
 import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Image from "next/image";
@@ -16,13 +16,13 @@ const Committe = () => {
         main committee
       </h1>
       <h3 className="mt-3 text-lg font-normal">Main Committee List</h3>
-      <h4 className="mt-8 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+      <h4 className="mt-8 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
         project manager
       </h4>
-      <div className="mx-auto mt-20 max-w-[1560px] md:pl-10">
+      <div className="mx-auto mt-10 md:mt-20 max-w-[1560px] md:pl-10">
         <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
           {/* Image */}
-          <div className="-left-8 -top-8 p-5 md:absolute md:p-0">
+          <div className="-left-8 -top-8 p-5 md:absolute aspect-[380/480] md:p-0">
             <Image
               src={projectManagerImg}
               alt="project manager"
@@ -72,13 +72,13 @@ const Committe = () => {
       </div>
 
       {/* DPM */}
-      <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+      <h4 className="mt-10 md:mt-16 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
         deputy <br /> project manager
       </h4>
       <div>
         <SliderCommittee props={DPM} maxWidth={400} isDPM={true} />
       </div>
-      <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+      <h4 className="mt-16 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
         asistant <br /> project manager
       </h4>
       <div>

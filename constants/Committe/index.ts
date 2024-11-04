@@ -32,6 +32,13 @@ export interface DPMItem {
   image: StaticImageData;
 }
 
+export interface APMItem {
+  id: number;
+  name: string;
+  role: string;
+  // image: StaticImageData;
+}
+
 export const DPM: DPMItem[] = [
   {
     id: 1,
@@ -150,3 +157,241 @@ export const APM: DPMItem[] = [
     image: zalma,
   },
 ];
+
+export const Maskot: DPMItem[] = [
+  {
+    id: 1,
+    name: "Adelin Vinico Yuanita",
+    role: "Maskot UNAS FEST 2023 dan logo UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 2,
+    name: "Muhammad Bisyr",
+    role: "Maskot UNAS FEST 2024",
+    image: zalma,
+  },
+];
+
+export const Music: DPMItem[] = [
+  {
+    id: 1,
+    name: "Ronald Lakhomizaro Gulo",
+    role: "Producer Music",
+    image: zalma,
+  },
+  {
+    id: 2,
+    name: "Syafira Fairuz",
+    role: "Song Writer Anthem UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 3,
+    name: "Tegar Budiman",
+    role: "Song Writer Anthem UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 4,
+    name: "Farhani Kurniayu",
+    role: "Singer Anthem UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 5,
+    name: "Alfarizky Esah Raffliansyah",
+    role: "Singer Anthem UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 6,
+    name: "Maimunahwaroh Heta Warman",
+    role: "Singer Anthem UNAS FEST",
+    image: zalma,
+  },
+  {
+    id: 7,
+    name: "Camelia Nur Hidayah",
+    role: "Seminar Nasional",
+    image: zalma,
+  },
+  {
+    id: 8,
+    name: "Dian Sarah Purba",
+    role: "Seminar Nasional",
+    image: zalma,
+  },
+  {
+    id: 9,
+    name: "Tegar Budiman",
+    role: "Seminar Nasional",
+    image: zalma,
+  },
+  {
+    id: 10,
+    name: "Nabila Shafa Sabrina",
+    role: "Seminar Nasional",
+    image: zalma,
+  },
+  {
+    id: 11,
+    name: "Nirvana Putri Rizal",
+    role: "Dubbing Voice Over Lumina Verde",
+    image: zalma,
+  },
+  {
+    id: 12,
+    name: "Ronald Lakhomizaro Gulo",
+    role: "Producer & Arranger Music",
+    image: zalma,
+  },
+  {
+    id: 13,
+    name: "Joshua Pratama Martinus",
+    role: "Producer & Arranger Music",
+    image: zalma,
+  },
+  {
+    id: 14,
+    name: "Johanes Nathanael Bimambang",
+    role: "Producer & Arranger Music",
+    image: zalma,
+  },
+  {
+    id: 15,
+    name: "Albert Deniel Sitorus",
+    role: "BFX",
+    image: zalma,
+  },
+  {
+    id: 16,
+    name: "Beby Alya Rahman Nasution",
+    role: "BFX",
+    image: zalma,
+  },
+  {
+    id: 17,
+    name: "Jihan Fauziah",
+    role: "Koreografer",
+    image: zalma,
+  },
+];
+
+export const Web: DPMItem[] = [
+  {
+    id: 1,
+    name: "Achmad Maulana Alawi",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 2,
+    name: "Muhammad Rangga Miftahul Falah",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 3,
+    name: "Heni Fitriany",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 4,
+    name: "Hawra Fathiya Zahra",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 5,
+    name: "Muhammad Raihan Putra Febrianto",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 6,
+    name: "Moch Rafindra Aditias",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 7,
+    name: "Ferdiansyach",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 8,
+    name: "Afzal Khairahmansyach",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 9,
+    name: "Pancar Hizkia",
+    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
+    image: zalma,
+  },
+  {
+    id: 10,
+    name: "Hansen Chandra",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 11,
+    name: "Ciptoningaji Guridno",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 12,
+    name: "Ronald Lakhomizaro Gulo",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 13,
+    name: "Rizky Wahyu Sugandhi",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 14,
+    name: "Rian Hidayat",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 15,
+    name: "Abija Bohdan P.",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 16,
+    name: "Arga Mahesa Putra",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 17,
+    name: "Govinda Marcelino",
+    role: "Website UNAS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 18,
+    name: "Duhan Maulana Artline",
+    role: "Caturnawa UANS FEST 2023",
+    image: zalma,
+  },
+  {
+    id: 19,
+    name: "Jepplin Sinaga",
+    role: "Caturnawa UANS FEST 2023",
+    image: zalma,
+  },
+];
+
