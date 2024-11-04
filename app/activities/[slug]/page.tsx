@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Activities } from "@/constants/Activites";
 import Image from "next/image";
 import {
@@ -17,22 +18,52 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Slider from "@/components/shared/Slider/Slider";
 import toa from "@/public/assets/images/competition/toa.png";
-import { Download } from "lucide-react";
+import { Download, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import React from "react";
 
-type DetailCompetitionProps = { params: { slug: string } };
+// type DetailCompetitionProps = { params: { slug: string } };
+type DetailCompetitionProps = { params: Promise<{ slug: string }> };
 
-export default function DetailCompetition(props: DetailCompetitionProps) {
-  const { params } = props;
+export default function DetailCompetition({ params }: DetailCompetitionProps) {
+  const [competition, setCompetition] = useState<any>(null);
   const { toast } = useToast();
-  const competition = Activities.find((comp) => comp.path === params.slug);
+
+  useEffect(() => {
+    async function fetchCompetition() {
+      const resolvedParams = await params; // Unwrap params (async)
+
+      // Find the competition based on the slug
+      const foundCompetition = Activities.find(
+        (comp) => comp.path === resolvedParams.slug,
+      );
+
+      if (!foundCompetition) {
+        toast({
+          duration: 2000,
+          variant: "destructive",
+          title: "Kompetisi tidak ditemukan",
+        });
+      } else {
+        setCompetition(foundCompetition);
+      }
+    }
+
+    fetchCompetition();
+  }, [params, toast]);
+
   if (!competition) {
-    return <div>Kompetisi tidak ditemukan</div>;
+    return (
+      <div className="flex h-full min-h-[90vh] w-full items-center justify-center">
+        <Loader2 className="h-4 w-4 animate-spin text-primary" />
+      </div>
+    );
   }
-  const requirementsData = competition.requirements;
+
+  const requirementsData = competition.requirements || [];
   const InfiniteSlidingProps = {
-    icon: competition.infiniteSlidingIcon.src,
-    text: competition.infiniteSlidingText,
+    icon: competition.infiniteSlidingIcon?.src || "",
+    text: competition.infiniteSlidingText || "",
   };
 
   function passRegist() {
@@ -42,12 +73,15 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       title: "Registration Period Ended",
     });
   }
+
   return (
     <section>
       <div className="container mx-auto mt-10 md:mt-16">
         <h1
           className={`mb-5 font-bungee uppercase leading-none tracking-wide md:text-4xl ${
-            params.slug === "seminar-international" ? "text-3xl" : "text-2xl"
+            competition.path === "seminar-international"
+              ? "text-3xl"
+              : "text-2xl"
           } text-center md:mb-9 md:text-start md:font-semibold lg:text-5xl`}
           style={{ color: competition.color }}
         >
@@ -77,7 +111,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                   size="xl"
                   variant="secondary"
                   className="text-page-black"
-                  onClick={() => passRegist()}
+                  onClick={passRegist}
                 >
                   Register
                 </Button>
@@ -85,7 +119,7 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                   <Button
                     size="xl"
                     variant="outline"
-                    className="bg-transparant"
+                    className="bg-transparent"
                   >
                     See More
                   </Button>
@@ -112,7 +146,6 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
             {competition.requirementsTitle}
           </CardDescription>
           <CardContent className="p-0 pb-16 md:p-6">
-            {/* <RequirementsSwipe requirements={competition.requirements} /> */}
             <Slider props={requirementsData} />
           </CardContent>
         </Card>
@@ -137,7 +170,6 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
                 >
                   <Download />
                   Download
-                  <span></span>
                 </Button>
               </Link>
             </>
@@ -153,57 +185,28 @@ export default function DetailCompetition(props: DetailCompetitionProps) {
       />
 
       {/* JUDGES */}
-
-      {params.slug !== "international-seminar" && (
-        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
-          <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
-            competition judges
+      {competition.path !== "international-seminar" && (
+        <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center align-middle lg:w-[90%]">
+          <CardTitle className="text-3xl font-semibold leading-normal tracking-wide lg:text-5xl">
+            Competition Judges
           </CardTitle>
           <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
             Competition Judges List
           </CardDescription>
           <CardContent className="h-full w-full px-0">
-            <Judges judgesData={competition.judgesData} />
+            <Judges judgesData={competition.judgesData || []} />
           </CardContent>
         </Card>
       )}
 
-      {/* {params.slug === "international-seminar" && (
-        <div>
-          <Card className="relative m-auto mb-12 flex w-full max-w-screen-xl flex-col items-center justify-center overflow-hidden rounded-none pb-20 text-center  align-middle lg:w-[90%]">
-            <CardTitle className="tracrking-wide text-3xl font-semibold leading-normal lg:text-5xl">
-              seminar speakers
-            </CardTitle>
-            <CardDescription className="mb-16 text-sm font-normal leading-normal tracking-wide lg:text-xl">
-              Seminar Speaker List
-            </CardDescription>
-            <CardContent className="h-full w-full">
-              <h1 className="p-1 text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
-                agency government
-              </h1>
-              <Judges judgesData={competition.judgesData} />
-            </CardContent>
-
-            <CardContent className="mt-10 h-full w-full">
-              <h1 className="text-center text-2xl font-semibold uppercase md:w-[20%] md:text-start md:text-3xl">
-                agency non-government
-              </h1>
-              {competition.judgesData2 && (
-                <Judges judgesData={competition.judgesData2} />
-              )}
-            </CardContent>
-          </Card>
-        </div>
-      )} */}
-
       {/* FAQ */}
       <div className="relative m-auto max-w-screen-xl">
-        <Card className="relative flex  min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
+        <Card className="relative flex min-h-60 w-full flex-col overflow-hidden rounded-none sm:justify-center lg:w-[90%] lg:justify-start">
           <CardTitle className="pb-5 text-3xl font-semibold leading-normal tracking-wide sm:text-center lg:w-3/5 lg:pl-12 lg:text-start lg:text-5xl">
-            frequently asked questions
+            Frequently Asked Questions
           </CardTitle>
           <CardContent className="lg:w-3/4 lg:pl-12">
-            <FaqActivities faqs={competition.faqs} />
+            <FaqActivities faqs={competition.faqs || []} />
           </CardContent>
         </Card>
         <Image
