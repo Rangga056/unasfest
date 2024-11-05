@@ -16,19 +16,19 @@ const Committe = () => {
         main committee
       </h1>
       <h3 className="mt-3 text-lg font-normal">Main Committee List</h3>
-      <h4 className="mt-8 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
+      <h4 className="mt-8 flex justify-start text-start text-2xl font-semibold uppercase md:text-3xl">
         project manager
       </h4>
-      <div className="mx-auto mt-10 md:mt-20 max-w-[1560px] md:pl-10">
+      <div className="mx-auto mt-10 max-w-[1560px] md:mt-20 md:pl-10">
         <div className="relative ml-auto mr-6 flex w-full flex-col bg-page-black md:max-w-[1380px] md:flex-row">
           {/* Image */}
-          <div className="-left-8 -top-8 p-5 md:absolute aspect-[380/480] md:p-0">
+          <div className="-left-8 -top-8 aspect-[3/4] p-5 md:absolute md:p-0">
             <Image
               src={projectManagerImg}
               alt="project manager"
               width={380}
-              height={530}
-              className="h-full w-full object-contain md:w-auto"
+              height={560}
+              className="h-full w-full object-cover object-center"
             />
           </div>
           {/* description */}
@@ -72,13 +72,13 @@ const Committe = () => {
       </div>
 
       {/* DPM */}
-      <h4 className="mt-10 md:mt-16 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
+      <h4 className="mt-10 flex justify-start text-start text-2xl font-semibold uppercase md:mt-16 md:text-3xl">
         deputy <br /> project manager
       </h4>
       <div>
         <SliderCommittee props={DPM} maxWidth={400} isDPM={true} />
       </div>
-      <h4 className="mt-16 flex justify-start text-start text-2xl md:text-3xl font-semibold uppercase">
+      <h4 className="mt-16 flex justify-start text-start text-2xl font-semibold uppercase md:text-3xl">
         asistant <br /> project manager
       </h4>
       <div>
@@ -89,79 +89,3 @@ const Committe = () => {
 };
 
 export default Committe;
-// "use client";
-
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import { Card, CardContent } from "@/components/ui/card";
-// import { Pagination, Navigation } from "swiper/modules";
-// import "swiper/css/pagination";
-// import { MoveRight } from "lucide-react";
-// import Image from "next/image";
-// import Link from "next/link";
-
-// type Prop = {
-//   index: number;
-//   image: string;
-//   name: string;
-//   path: string;
-// };
-
-// type Props = Prop[];
-
-// type PropsTypes = {
-//   props: Props;
-// };
-
-// const Commmitee: React.FC<PropsTypes> = ({ props }) => {
-//   return (
-//     <div className="relative">
-//       <Swiper
-//         slidesPerView={"auto"}
-//         spaceBetween={30}
-//         pagination={{
-//           clickable: true,
-//           el: ".custom-pagination-home",
-//         }}
-//         navigation={{
-//           nextEl: ".swiper-button-next",
-//         }}
-//         modules={[Pagination, Navigation]}
-//         className="overflow-hidden"
-//       >
-//         {props.map((prop) => (
-//           <SwiperSlide
-//             key={prop.index}
-//             className="h-auto w-full max-w-[249px] md:max-w-[320px]"
-//           >
-//             <Link href={prop.path} className="">
-//               <Card className=" flex h-full w-fit flex-shrink-0 cursor-pointer flex-col justify-between rounded-none p-0 text-page-white active:cursor-grabbing">
-//                 <CardContent className="relative flex flex-col p-0">
-//                   {/* <h1 className="font-bungee uppercase font-medium text-[27px]"> */}
-//                   {/*   {prop.name} */}
-//                   {/* </h1> */}
-//                   <Image
-//                     src={prop.image}
-//                     alt="activity poster"
-//                     width={366}
-//                     height={483}
-//                     className="relative h-auto w-[249px] object-contain md:w-[320px] lg:w-[366px]"
-//                   />
-//                 </CardContent>
-//               </Card>
-//             </Link>
-//           </SwiperSlide>
-//         ))}
-//       </Swiper>
-//       {/* Custom Pagination and Navigation Container */}
-//       <div className="absolute -bottom-16 left-0 z-10 flex items-center space-x-4 lg:hidden">
-//         <div className="custom-pagination-home" />
-//         <div className="swiper-button-next cursor-pointer bg-transparent p-2 ">
-//           <MoveRight size={40} className="text-page-black" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Commmitee;
