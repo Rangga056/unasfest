@@ -1,6 +1,6 @@
 import React from "react";
 import projectManagerImg from "@/public/assets/images/about-us/committee/shafa.webp";
-import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg"; 
+import linkedinIcon from "@/public/assets/icons/LinkedIn-icon-white.svg";
 import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,7 +32,7 @@ const Committe = () => {
             />
           </div>
           {/* description */}
-          <div className="mx-auto flex w-full max-w-[678px] flex-col items-center justify-center gap-y-6 p-5 text-left text-xl text-page-white md:h-[530px] md:w-3/4 md:p-0 md:pl-[160px]">
+          <div className="mx-auto flex w-full max-w-[878px] flex-col items-center justify-center gap-y-6 p-5 text-left text-xl text-page-white md:h-[530px] md:w-3/4 md:p-0 md:pl-[160px]">
             <div className="flex w-full flex-col items-start gap-y-3">
               <p>Project Manager UNAS FEST 2024</p>
               <h1 className="font-bungee text-5xl font-medium uppercase">
