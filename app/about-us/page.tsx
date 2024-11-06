@@ -100,7 +100,7 @@ const AboutUsPage = () => {
       </div>
 
       {/* MAIN COMMITE */}
-      <div className="container mt-20">
+      <div className="container mt-20 px-0">
         <Committe />
       </div>
 
@@ -250,7 +250,7 @@ const AboutUsPage = () => {
         <p className="text-xl capitalize ">Our participants, driven by innovation, craft remarkalbe works</p>
         <Visionaries />
       </div> */}
-      
+
       {/* Gallery Component */}
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">
         <Gallery />

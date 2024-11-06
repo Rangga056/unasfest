@@ -20,24 +20,24 @@ import unasTv from "@/public/assets/images/about-us/unastv-logo.png";
 import unasRadio from "@/public/assets/images/about-us/unasradio-logo.png";
 
 //MEDIA PARTNERSHIP
-import himasbisdig from "@/public/assets/images/Partnership/himabisdig.jpg"
-import himaskeb from "@/public/assets/images/Partnership/himakeb.jpg"
-import himajem from "@/public/assets/images/Partnership/himajem.jpg"
-import himakep from "@/public/assets/images/Partnership/himakep.jpg"
-import himasos from "@/public/assets/images/Partnership/himasos.jpg"
-import himapar from "@/public/assets/images/Partnership/jimapar.jpg"
-import himasasing from "@/public/assets/images/Partnership/himasasing.jpg"
-import infoevent from "@/public/assets/images/Partnership/infoevent.png"
-import seputarinfo from "@/public/assets/images/Partnership/seputarinfo.jpg"
-import lombaIlmiah from "@/public/assets/images/Partnership/lombailmiah.png"
-import edaranEvent from "@/public/assets/images/Partnership/edaranevent.png"
-import kawalEvent from "@/public/assets/images/Partnership/kawalevent.png"
-import sejutaLomba from "@/public/assets/images/Partnership/sejutalomab.jpg"
-import mitraLomba from "@/public/assets/images/Partnership/mitralomba.jpg"
-import ikutEvent from "@/public/assets/images/Partnership/ikutevent.png"
-import lue from "@/public/assets/images/Partnership/ule.png"
-import metroTv from "@/public/assets/images/Partnership/Metro tv.png"
-import climite from "@/public/assets/images/Partnership/cropped-logo-dark.png"
+import himasbisdig from "@/public/assets/images/Partnership/himabisdig.jpg";
+import himaskeb from "@/public/assets/images/Partnership/himakeb.jpg";
+import himajem from "@/public/assets/images/Partnership/himajem.jpg";
+import himakep from "@/public/assets/images/Partnership/himakep.jpg";
+import himasos from "@/public/assets/images/Partnership/himasos.jpg";
+import himapar from "@/public/assets/images/Partnership/jimapar.jpg";
+import himasasing from "@/public/assets/images/Partnership/himasasing.jpg";
+import infoevent from "@/public/assets/images/Partnership/infoevent.png";
+import seputarinfo from "@/public/assets/images/Partnership/seputarinfo.jpg";
+import lombaIlmiah from "@/public/assets/images/Partnership/lombailmiah.png";
+import edaranEvent from "@/public/assets/images/Partnership/edaranevent.png";
+import kawalEvent from "@/public/assets/images/Partnership/kawalevent.png";
+import sejutaLomba from "@/public/assets/images/Partnership/sejutalomab.jpg";
+import mitraLomba from "@/public/assets/images/Partnership/mitralomba.jpg";
+import ikutEvent from "@/public/assets/images/Partnership/ikutevent.png";
+import lue from "@/public/assets/images/Partnership/ule.png";
+import metroTv from "@/public/assets/images/Partnership/Metro tv.png";
+import climite from "@/public/assets/images/Partnership/cropped-logo-dark.png";
 import { ClipboardMinus } from "lucide-react";
 
 export const missions = [
@@ -148,17 +148,16 @@ export const steeringCommittees = [
     index: 3,
     img: wakilRektorAdministrasiImg,
     name: "Prof. Dr. Drs. Eko Sugiyanto, M.Si.",
-    position: "Vice Rector for General Administration, Finance, and Human Resources",
+    position:
+      "Vice Rector for General Administration, Finance, and Human Resources",
   },
   {
     index: 4,
     img: wakilRektorPenelitianImg,
     name: "Prof. Dr. Ernawati Sinaga, M.S., Apt.",
-    position:
-      "Vice Rector for Research, Community Service, and Cooperation",
+    position: "Vice Rector for Research, Community Service, and Cooperation",
   },
 ];
-
 
 export const unasCollaborate = [
   {
@@ -195,25 +194,25 @@ export const unasCollaborate = [
 
 export const mediaPartnership = [
   {
-    index: 1,
+    index: 0,
     img: metroTv,
     alt: "Metro TV",
     desc: "Metro TV",
   },
   {
-    index: 2,
+    index: 1,
     img: infoevent,
     alt: "Info Event",
     desc: "Info Event",
   },
   {
-    index: 3,
+    index: 2,
     img: ikutEvent,
     alt: "Ikut Event",
     desc: "Ikut Event",
   },
   {
-    index: 4,
+    index: 3,
     img: lombaIlmiah,
     alt: "Lomba Ilmiah",
     desc: "Lomba Ilmiah",
@@ -297,7 +296,6 @@ export const mediaPartnership = [
     desc: "Himpunan Mahasiswa Sastra Inggris",
   },
 ];
-
 
 export const DPM = [
   {
