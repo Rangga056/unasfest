@@ -14,11 +14,14 @@ const Visionaries = () => {
         </div>
       </div>
       <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
-        our <br /> mascot creators
+        our <br /> website creators
       </h4>
-      <div className="my-10">
+      <div>
         <SliderCommittee props={Web} maxWidth={320} isDPM={false}/>
       </div>
+      <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
+        our <br /> music creators
+      </h4>
       <div>
         <SliderCommittee props={Music} maxWidth={320} isDPM={false} />
       </div>
