@@ -243,13 +243,13 @@ const AboutUsPage = () => {
       </div>
 
       {/* VISIONARIES */}
-      {/* <div className="container mt-20 text-center">
+      <div className="container mt-20 text-center">
         <h1 className="font-bungee text-5xl font-medium uppercase">
           meet our visionaries
         </h1>
         <p className="text-xl capitalize ">Our participants, driven by innovation, craft remarkalbe works</p>
         <Visionaries />
-      </div> */}
+      </div>
 
       {/* Gallery Component */}
       <div className="mx-auto mt-20 max-w-[1400px] px-3 md:container">

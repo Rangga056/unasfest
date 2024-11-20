@@ -10,14 +10,14 @@ const Visionaries = () => {
       </h4>
       <div className="flex flex-col items-center">
         <div className="mx-auto flex items-center">
-          <SliderCommittee props={Maskot} maxWidth={320} isDPM={false} />
+          <SliderCommittee props={Maskot} maxWidth={320} isDPM={false} responsivePagination={true}/>
         </div>
       </div>
       <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
         our <br /> mascot creators
       </h4>
-      <div>
-        <SliderCommittee props={Web} maxWidth={320} isDPM={false} />
+      <div className="my-10">
+        <SliderCommittee props={Web} maxWidth={320} isDPM={false}/>
       </div>
       <div>
         <SliderCommittee props={Music} maxWidth={320} isDPM={false} />
@@ -27,3 +27,5 @@ const Visionaries = () => {
 };
 
 export default Visionaries;
+
+
