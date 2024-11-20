@@ -19,12 +19,16 @@ type SliderCommitteeProps = {
   props: DPMItem[];
   maxWidth?: number;
   isDPM?: boolean;
+  showPagination?: boolean;
+  responsivePagination?: boolean;
 };
 
 const SliderCommittee: React.FC<SliderCommitteeProps> = ({
   props,
   maxWidth = 400,
   isDPM = true,
+  showPagination = true,
+  responsivePagination = false,
 }) => {
   return (
     <div className="relative">
@@ -39,7 +43,7 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
           nextEl: ".swiper-button-next",
         }}
         modules={[Pagination, Navigation]}
-        className="overflow-hidden"
+        className="overflow-hidden "
       >
         {props.map((member) => (
           <SwiperSlide
@@ -48,15 +52,18 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
             style={{ maxWidth: `${maxWidth}px` }} // Set maxWidth dynamically
           >
             <div>
-              <Card className="flex flex-shrink-0 flex-col justify-center rounded-none text-page-black -mt-5">
+              <Card className="-mt-5 flex flex-shrink-0 flex-col justify-center rounded-none text-page-black">
                 <CardContent className="relative flex flex-col text-left">
                   <div
-                    className="-mb-5 flex aspect-[4/6] w-full items-end bg-cover bg-center"
+                    className="relative -mb-5 flex aspect-[4/6] w-full items-end bg-cover bg-center"
                     style={{ backgroundImage: `url(${member.image.src})` }} // Using the image URL as background
                   >
+                    {/* Shadow overlay */}
+                    <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-[rgba(0,0,0,1)] to-[rgba(0,0,0,0)]"></div>
+
                     {/* Overlay text for APM */}
                     {!isDPM && (
-                      <div className="flex flex-col p-4  text-white">
+                      <div className="relative z-10 flex flex-col p-4 text-white">
                         <h1 className="font-inter text-lg">{member.name}</h1>
                         <p className="text-base font-normal">{member.role}</p>
                       </div>
@@ -76,12 +83,14 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
         ))}
       </Swiper>
       {/* Custom Pagination and Navigation Container */}
-      <div className="absolute -bottom-14 left-0 z-10 flex h-14 items-center space-x-4">
-        <div className="custom-pagination-commitee" />
-        <div className="swiper-button-next cursor-pointer bg-transparent p-2">
-          <MoveRight />
+      {showPagination && (
+        <div className={`absolute -bottom-14 left-0 z-10 flex h-14 items-center space-x-4 ${responsivePagination ? "hidden md:hidden" : ""}`}>
+          <div className="custom-pagination-commitee" />
+          <div className="swiper-button-next cursor-pointer bg-transparent p-2">
+            <MoveRight />
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

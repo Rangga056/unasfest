@@ -25,6 +25,38 @@ import adin from "@/public/assets/images/about-us/committee/adin.webp";
 import zalma from "@/public/assets/images/about-us/committee/salma.webp";
 import { StaticImageData } from "next/image";
 
+// creator
+import adelin from "@/public/assets/images/about-us/creator/panit2023/adeline.jpg";
+import bisyr from "@/public/assets/images/about-us/creator/panit2023/bisyr.jpg";
+import abija from "@/public/assets/images/about-us/creator/panit2023/abija.jpg";
+import camel from "@/public/assets/images/about-us/creator/panit2023/camel.jpg";
+import duhan from "@/public/assets/images/about-us/creator/panit2023/duhan.jpg";
+import govin from "@/public/assets/images/about-us/creator/panit2023/govin.jpg";
+import hansen from "@/public/assets/images/about-us/creator/panit2023/hansen.jpg";
+import jeplin from "@/public/assets/images/about-us/creator/panit2023/jeplin.jpg";
+import syafira from "@/public/assets/images/about-us/creator/panit2023/syafira.jpg";
+import nirvana from "@/public/assets/images/about-us/creator/panit2023/nirvana.jpg";
+
+import rafi from "@/public/assets/images/about-us/creator/IT/rafi.jpg";
+import rehan from "@/public/assets/images/about-us/creator/IT/rehan.jpg";
+import rangga from "@/public/assets/images/about-us/creator/IT/rangga.jpg";
+import iyan from "@/public/assets/images/about-us/creator/IT/iyan.jpg";
+import pancar from "@/public/assets/images/about-us/creator/IT/pancar.jpg";
+import afzal from "@/public/assets/images/about-us/creator/IT/afzal.jpg";
+import heni from "@/public/assets/images/about-us/creator/IT/heni.jpg";
+import hawra from "@/public/assets/images/about-us/creator/IT/aura.jpg";
+
+import albert from "@/public/assets/images/about-us/creator/Entertaint/albert.jpg";
+import beby from "@/public/assets/images/about-us/creator/Entertaint/beby.jpg";
+import dian from "@/public/assets/images/about-us/creator/Entertaint/dian.jpg";
+import farhani from "@/public/assets/images/about-us/creator/Entertaint/farhani.jpg";
+import jihan from "@/public/assets/images/about-us/creator/Entertaint/jihan.jpg";
+import fira from "@/public/assets/images/about-us/creator/Entertaint/fira.jpg";
+import johannes from "@/public/assets/images/about-us/creator/Entertaint/johannes.jpg";
+import joshua from "@/public/assets/images/about-us/creator/Entertaint/joshua.jpg";
+import mamay from "@/public/assets/images/about-us/creator/Entertaint/mamay.jpg";
+import tegar from "@/public/assets/images/about-us/creator/Entertaint/tegar.jpg";
+
 export interface DPMItem {
   id: number;
   name: string;
@@ -146,8 +178,8 @@ export const APM: DPMItem[] = [
   },
   {
     id: 14,
-    name: "Adin Fadillah",
-    role: "Dept. Adinda Pramestia",
+    name: "Adinda Pramestia",
+    role: "Dept. Secretarial Affairs Department",
     image: adin,
   },
   {
@@ -162,14 +194,14 @@ export const Maskot: DPMItem[] = [
   {
     id: 1,
     name: "Adelin Vinico Yuanita",
-    role: "Maskot UNAS FEST 2023 dan logo UNAS FEST",
-    image: zalma,
+    role: "Maskot UNAS FEST 2023 and logo UNAS FEST",
+    image: adelin,
   },
   {
     id: 2,
     name: "Muhammad Bisyr",
     role: "Maskot UNAS FEST 2024",
-    image: zalma,
+    image: bisyr,
   },
 ];
 
@@ -178,55 +210,55 @@ export const Music: DPMItem[] = [
     id: 1,
     name: "Ronald Lakhomizaro Gulo",
     role: "Producer Music",
-    image: zalma,
+    image: ronald,
   },
   {
     id: 2,
     name: "Syafira Fairuz",
     role: "Song Writer Anthem UNAS FEST",
-    image: zalma,
+    image: syafira,
   },
   {
     id: 3,
     name: "Tegar Budiman",
     role: "Song Writer Anthem UNAS FEST",
-    image: zalma,
+    image: tegar,
   },
   {
     id: 4,
     name: "Farhani Kurniayu",
     role: "Singer Anthem UNAS FEST",
-    image: zalma,
+    image: farhani,
   },
   {
     id: 5,
     name: "Alfarizky Esah Raffliansyah",
     role: "Singer Anthem UNAS FEST",
-    image: zalma,
+    image: rafli,
   },
   {
     id: 6,
     name: "Maimunahwaroh Heta Warman",
     role: "Singer Anthem UNAS FEST",
-    image: zalma,
+    image: mamay,
   },
   {
     id: 7,
     name: "Camelia Nur Hidayah",
     role: "Seminar Nasional",
-    image: zalma,
+    image: camel,
   },
   {
     id: 8,
     name: "Dian Sarah Purba",
     role: "Seminar Nasional",
-    image: zalma,
+    image: dian,
   },
   {
     id: 9,
     name: "Tegar Budiman",
     role: "Seminar Nasional",
-    image: zalma,
+    image: tegar,
   },
   {
     id: 10,
@@ -238,7 +270,7 @@ export const Music: DPMItem[] = [
     id: 11,
     name: "Nirvana Putri Rizal",
     role: "Dubbing Voice Over Lumina Verde",
-    image: zalma,
+    image: nirvana,
   },
   {
     id: 12,
@@ -250,31 +282,31 @@ export const Music: DPMItem[] = [
     id: 13,
     name: "Joshua Pratama Martinus",
     role: "Producer & Arranger Music",
-    image: zalma,
+    image: joshua,
   },
   {
     id: 14,
     name: "Johanes Nathanael Bimambang",
     role: "Producer & Arranger Music",
-    image: zalma,
+    image: johannes,
   },
   {
     id: 15,
     name: "Albert Deniel Sitorus",
     role: "BFX",
-    image: zalma,
+    image: albert,
   },
   {
     id: 16,
     name: "Beby Alya Rahman Nasution",
     role: "BFX",
-    image: zalma,
+    image: beby,
   },
   {
     id: 17,
     name: "Jihan Fauziah",
     role: "Koreografer",
-    image: zalma,
+    image: jihan,
   },
 ];
 
@@ -282,62 +314,62 @@ export const Web: DPMItem[] = [
   {
     id: 1,
     name: "Achmad Maulana Alawi",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: alawi,
   },
   {
     id: 2,
     name: "Muhammad Rangga Miftahul Falah",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: rangga,
   },
   {
     id: 3,
     name: "Heni Fitriany",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: heni,
   },
   {
     id: 4,
     name: "Hawra Fathiya Zahra",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: hawra,
   },
   {
     id: 5,
     name: "Muhammad Raihan Putra Febrianto",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: rehan,
   },
   {
     id: 6,
     name: "Moch Rafindra Aditias",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: rafi,
   },
   {
     id: 7,
     name: "Ferdiansyach",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: iyan,
   },
   {
     id: 8,
     name: "Afzal Khairahmansyach",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: afzal,
   },
   {
     id: 9,
     name: "Pancar Hizkia",
-    role: "Website UNAS FEST 2024, dan Caturnawa 2024",
-    image: zalma,
+    role: "Website UNAS FEST 2024 and Caturnawa 2024",
+    image: pancar,
   },
   {
     id: 10,
     name: "Hansen Chandra",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: hansen,
   },
   {
     id: 11,
@@ -349,13 +381,13 @@ export const Web: DPMItem[] = [
     id: 12,
     name: "Ronald Lakhomizaro Gulo",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: ronald,
   },
   {
     id: 13,
     name: "Rizky Wahyu Sugandhi",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: ghandi,
   },
   {
     id: 14,
@@ -367,7 +399,7 @@ export const Web: DPMItem[] = [
     id: 15,
     name: "Abija Bohdan P.",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: abija,
   },
   {
     id: 16,
@@ -379,19 +411,18 @@ export const Web: DPMItem[] = [
     id: 17,
     name: "Govinda Marcelino",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: govin,
   },
   {
     id: 18,
     name: "Duhan Maulana Artline",
     role: "Caturnawa UANS FEST 2023",
-    image: zalma,
+    image: duhan,
   },
   {
     id: 19,
     name: "Jepplin Sinaga",
     role: "Caturnawa UANS FEST 2023",
-    image: zalma,
+    image: jeplin,
   },
 ];
-
