@@ -91,17 +91,18 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                           <h1 className="font-inter text-lg">{member.name}</h1>
                           <p className="text-base font-normal">{member.role}</p>
                         </div>
-                        {/* {hoveredIndex === index && (
+                        {hoveredIndex === index && (
                           <div className="absolute inset-0 z-20 flex items-center justify-center pt-10">
                             <div className="w-[80%] rounded bg-white bg-opacity-85 p-4">
                               <p className="font-semi bold mb-10 line-clamp-9 text-sm text-black md:text-base">
                                 {member.description}
                               </p>
-                              <Drawer>
+                              {/*<Drawer>
                                 <DrawerTrigger className="text-black cursor-pointer underline">
                                   Open...
                                 </DrawerTrigger>
                                 <DrawerContent>
+                                  <div className="mx-auto w-full max-w-[1440px] pb-12">
                                   <DrawerHeader>
                                     <DrawerTitle>
                                       Are you absolutely sure?
@@ -110,11 +111,23 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                                       This action cannot be undone.
                                     </DrawerDescription>
                                   </DrawerHeader>
+                                  <div>
+                                    //  List Anggota tiap departemen 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eveniet assumenda eligendi aperiam inventore perferendis ad voluptates quasi obcaecati atque sequi, soluta magnam enim et nam! Voluptates atque rerum dolor.
+                                  </div>
+                                  </div>
                                 </DrawerContent>
-                              </Drawer>
+                              </Drawer> */}
                             </div>
                           </div>
-                        )} */}
+                        )}
                       </>
                     )}
                   </div>
