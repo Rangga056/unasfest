@@ -1,3 +1,6 @@
+// PROJECT MANAGER
+import shafa from "@/public/assets/images/about-us/committee/shafa.webp";
+
 // DEPUTY PROJECT MANAGER
 import taqi from "@/public/assets/images/about-us/committee/taqi.jpg";
 import adel from "@/public/assets/images/about-us/committee/adel.webp";
@@ -57,17 +60,22 @@ import joshua from "@/public/assets/images/about-us/creator/Entertaint/joshua.jp
 import mamay from "@/public/assets/images/about-us/creator/Entertaint/mamay.jpg";
 import tegar from "@/public/assets/images/about-us/creator/Entertaint/tegar.jpg";
 
+import user from "@/public/assets/images/about-us/avatar-placeholder.png";
+
 export interface DPMItem {
   id: number;
   name: string;
   role: string;
   image: StaticImageData;
+  description?: string;
+  member?: string[];
 }
 
 export interface APMItem {
   id: number;
   name: string;
   role: string;
+  member?: string;
   // image: StaticImageData;
 }
 
@@ -99,6 +107,11 @@ export const APM: DPMItem[] = [
     name: "Salysia Manif Fatiha",
     role: "Dept. Debate",
     image: salysia,
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officia molestiae dolorem porro accusantium rerum magnam quaerat sunt dolore? Cumque!",
+    member: [
+      "user  1",
+      "user  2",
+    ]
   },
   {
     id: 2,
@@ -264,7 +277,7 @@ export const Music: DPMItem[] = [
     id: 10,
     name: "Nabila Shafa Sabrina",
     role: "Seminar Nasional",
-    image: zalma,
+    image: shafa,
   },
   {
     id: 11,
@@ -276,7 +289,7 @@ export const Music: DPMItem[] = [
     id: 12,
     name: "Ronald Lakhomizaro Gulo",
     role: "Producer & Arranger Music",
-    image: zalma,
+    image: ronald,
   },
   {
     id: 13,
@@ -375,7 +388,7 @@ export const Web: DPMItem[] = [
     id: 11,
     name: "Ciptoningaji Guridno",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: user,
   },
   {
     id: 12,
@@ -393,7 +406,7 @@ export const Web: DPMItem[] = [
     id: 14,
     name: "Rian Hidayat",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: user,
   },
   {
     id: 15,
@@ -405,7 +418,7 @@ export const Web: DPMItem[] = [
     id: 16,
     name: "Arga Mahesa Putra",
     role: "Website UNAS FEST 2023",
-    image: zalma,
+    image: user,
   },
   {
     id: 17,
