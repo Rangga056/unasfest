@@ -16,6 +16,7 @@ import {
   DrawerDescription,
   DrawerFooter,
   DrawerHeader,
+  DrawerOverlay,
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
@@ -28,6 +29,7 @@ type DPMItem = {
   member?: string[];
   description?: string;
   image: StaticImageData;
+  position?: string[];
 };
 
 type SliderCommitteeProps = {
@@ -36,6 +38,7 @@ type SliderCommitteeProps = {
   isDPM?: boolean;
   showPagination?: boolean;
   responsivePagination?: boolean;
+  hovered?: boolean;
 };
 
 const SliderCommittee: React.FC<SliderCommitteeProps> = ({
@@ -44,6 +47,7 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
   isDPM = true,
   showPagination = true,
   responsivePagination = false,
+  hovered = true,
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -91,30 +95,55 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                           <h1 className="font-inter text-lg">{member.name}</h1>
                           <p className="text-base font-normal">{member.role}</p>
                         </div>
-                        {/* {hoveredIndex === index && (
+                        {hovered && hoveredIndex === index && (
                           <div className="absolute inset-0 z-20 flex items-center justify-center pt-10">
                             <div className="w-[80%] rounded bg-white bg-opacity-85 p-4">
                               <p className="font-semi bold mb-10 line-clamp-9 text-sm text-black md:text-base">
                                 {member.description}
                               </p>
                               <Drawer>
-                                <DrawerTrigger className="text-black cursor-pointer underline">
+                                <DrawerTrigger className="cursor-pointer text-black underline">
                                   Open...
                                 </DrawerTrigger>
-                                <DrawerContent>
-                                  <DrawerHeader>
-                                    <DrawerTitle>
-                                      Are you absolutely sure?
+                                <DrawerOverlay />
+                                <DrawerContent className="h-full w-full font-inter overflow-y-auto">
+                                    <DrawerTitle className="bg-[#1F1E23] p-14">
+                                      <div className="w-full text-center md:text-start md:w-1/2 text-white">
+                                        <p className="mb-5 font-semibold sm:text-3xl  md:text-5xl uppercase">
+                                          {member.role}
+                                        </p>
+                                        <p className="md:w-[80%] font-normal">
+                                          {member.description}
+                                        </p>
+                                      </div>
                                     </DrawerTitle>
-                                    <DrawerDescription>
-                                      This action cannot be undone.
-                                    </DrawerDescription>
-                                  </DrawerHeader>
+                                    <div className="mx-10 md:mx-44 mt-14 md:flex md:gap-4 ">
+                                      <div className="font-bold text-2xl mb-5 md:text-3xl md:mr-28 text-black uppercase">
+                                        Member List
+                                      </div>
+                                      <div className="flex flex-col gap-2 text-start">
+                                        {member.member &&
+                                          member.member.map((m, idx) => (
+                                            <div key={idx}>
+                                            <div
+                                              className="flex gap-20 justify-between pb-3"
+                                            >
+                                              <p className="text-xl text-black">{m}</p>
+                                              <p className="text-xl font-normal">
+                                                {member.position &&
+                                                  member.position[idx]}
+                                              </p>
+                                            </div>
+                                            <hr className="absolute w-[86%] md:w-[60%] border-t border-gray-500" />
+                                            </div>
+                                          ))}
+                                      </div>
+                                    </div>
                                 </DrawerContent>
                               </Drawer>
                             </div>
                           </div>
-                        )} */}
+                        )}
                       </>
                     )}
                   </div>
