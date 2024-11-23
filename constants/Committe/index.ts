@@ -69,6 +69,7 @@ export interface DPMItem {
   image: StaticImageData;
   description?: string;
   member?: string[];
+  position?: string[];
 }
 
 export interface APMItem {
@@ -111,7 +112,11 @@ export const APM: DPMItem[] = [
     member: [
       "user  1",
       "user  2",
-    ]
+    ],
+    position: [
+      "Chairman",
+      "Vice Chairman",
+    ],
   },
   {
     id: 2,
