@@ -92,7 +92,7 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                     {!isDPM && (
                       <>
                         <div className="relative z-10 flex flex-col p-4 text-white">
-                          <h1 className="font-inter text-lg">{member.name}</h1>
+                          <h1 className="font-inter text-lg font-semibold">{member.name}</h1>
                           <p className="text-base font-normal">{member.role}</p>
                         </div>
                         {hovered && hoveredIndex === index && (
@@ -140,10 +140,11 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                                       </div>
                                     </div>
                                 </DrawerContent>
-                              </Drawer>
+                              </Drawer> 
                             </div>
                           </div>
                         )}
+                        
                       </>
                     )}
                   </div>
