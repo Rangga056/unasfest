@@ -77,7 +77,7 @@ const Committe = () => {
         </div>
       </div>
 
-      {/* DPM */}
+      {/* DPM and APM */}
       <div className="container">
         <h4 className="mt-10 flex justify-start text-start text-2xl font-semibold uppercase md:mt-16 md:text-3xl">
           deputy <br /> project manager

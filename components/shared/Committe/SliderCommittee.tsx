@@ -92,7 +92,9 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                     {!isDPM && (
                       <>
                         <div className="relative z-10 flex flex-col p-4 text-white">
-                          <h1 className="font-inter text-lg font-semibold">{member.name}</h1>
+                          <h1 className="font-inter text-lg font-semibold">
+                            {member.name}
+                          </h1>
                           <p className="text-base font-normal">{member.role}</p>
                         </div>
                         {hovered && hoveredIndex === index && (
@@ -106,45 +108,44 @@ const SliderCommittee: React.FC<SliderCommitteeProps> = ({
                                   Open...
                                 </DrawerTrigger>
                                 <DrawerOverlay />
-                                <DrawerContent className="h-full w-full font-inter overflow-y-auto">
-                                    <DrawerTitle className="bg-[#1F1E23] p-14">
-                                      <div className="w-full text-center md:text-start md:w-1/2 text-white">
-                                        <p className="mb-5 font-semibold sm:text-3xl  md:text-5xl uppercase">
-                                          {member.role}
-                                        </p>
-                                        <p className="md:w-[80%] font-normal">
-                                          {member.description}
-                                        </p>
-                                      </div>
-                                    </DrawerTitle>
-                                    <div className="mx-10 md:mx-44 mt-14 md:flex md:gap-4 ">
-                                      <div className="font-bold text-2xl mb-5 md:text-3xl md:mr-28 text-black uppercase">
-                                        Member List
-                                      </div>
-                                      <div className="flex flex-col gap-2 text-start">
-                                        {member.member &&
-                                          member.member.map((m, idx) => (
-                                            <div key={idx}>
-                                            <div
-                                              className="flex gap-20 justify-between pb-3"
-                                            >
-                                              <p className="text-xl text-black">{m}</p>
+                                <DrawerContent className="h-full w-full overflow-y-scroll font-inter">
+                                  <DrawerTitle className="bg-[#1F1E23] p-14">
+                                    <div className="w-full text-center text-white md:w-1/2 md:text-start">
+                                      <p className="mb-5 font-semibold uppercase  sm:text-3xl md:text-5xl">
+                                        {member.role}
+                                      </p>
+                                      <p className="font-normal md:w-[80%]">
+                                        {member.description}
+                                      </p>
+                                    </div>
+                                  </DrawerTitle>
+                                  <div className="mx-10 mt-14 md:mx-44 md:flex md:gap-4 ">
+                                    <div className="mb-5 text-2xl font-bold uppercase text-black md:mr-28 md:text-3xl">
+                                      Member List
+                                    </div>
+                                    <div className="z-50 flex w-full flex-col gap-2 text-start">
+                                      {member.member &&
+                                        member.member.map((m, idx) => (
+                                          <div key={idx}>
+                                            <div className="flex w-full justify-between gap-20 pb-3">
+                                              <p className="text-xl text-black">
+                                                {m}
+                                              </p>
                                               <p className="text-xl font-normal">
                                                 {member.position &&
                                                   member.position[idx]}
                                               </p>
                                             </div>
-                                            <hr className="absolute w-[86%] md:w-[60%] border-t border-gray-500" />
-                                            </div>
-                                          ))}
-                                      </div>
+                                            <hr className="absolute w-[86%] border-t border-gray-500 md:w-[67%]" />
+                                          </div>
+                                        ))}
                                     </div>
+                                  </div>
                                 </DrawerContent>
-                              </Drawer> 
+                              </Drawer>
                             </div>
                           </div>
                         )}
-                        
                       </>
                     )}
                   </div>
