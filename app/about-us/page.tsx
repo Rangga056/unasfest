@@ -244,8 +244,8 @@ const AboutUsPage = () => {
 
       {/* VISIONARIES */}
       <div className="container mt-20 text-center">
-        <h1 className="font-bungee text-5xl font-medium uppercase">
-          meet our visionaries
+        <h1 className="font-bungee text-3xl md:text-5xl font-medium uppercase">
+        meet our visionaries
         </h1>
         <p className="text-xl capitalize ">Our participants, driven by innovation, craft remarkalbe works</p>
         <Visionaries />
