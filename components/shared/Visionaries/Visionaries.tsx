@@ -4,7 +4,7 @@ import { DPM, APM, Maskot, Web, Music } from "@/constants/Committe";
 
 const Visionaries = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <h4 className="mt-16 flex justify-start gap-x-10 text-start text-3xl font-semibold uppercase">
         our <br /> mascot creators
       </h4>
