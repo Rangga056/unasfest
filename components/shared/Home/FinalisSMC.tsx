@@ -14,7 +14,7 @@ const FinalisSMC = () => {
           finalist short movie competition
         </h1>
         <p className="font-inter text-sm font-medium capitalize md:text-xl">
-          top 3 finalist with the best short movie
+          3 finalists with the best short movies
         </p>
       </div>
       <div className="mt-12 flex flex-col items-center justify-center gap-x-8 gap-y-6 text-center md:flex-row">
@@ -30,7 +30,7 @@ const FinalisSMC = () => {
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/70 opacity-0 transition-opacity group-hover:opacity-100">
                 <span className="flex items-center gap-x-2 text-base font-medium capitalize text-white md:text-xl">
-                  See Movie <ExternalLink />
+                  Watch Movie <ExternalLink />
                 </span>
               </div>
             </div>
@@ -52,7 +52,7 @@ const FinalisSMC = () => {
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/70 opacity-0 transition-opacity group-hover:opacity-100">
                 <span className="flex items-center gap-x-2 text-base font-medium capitalize text-white md:text-xl">
-                  See Movie <ExternalLink />
+                  Watch Movie <ExternalLink />
                 </span>
               </div>
             </div>
@@ -72,7 +72,7 @@ const FinalisSMC = () => {
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/70 opacity-0 transition-opacity group-hover:opacity-100">
                 <span className="flex items-center gap-x-2 text-base font-medium capitalize text-white md:text-xl">
-                  See Movie <ExternalLink />
+                  Watch Movie <ExternalLink />
                 </span>
               </div>
             </div>
