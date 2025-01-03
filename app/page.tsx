@@ -37,11 +37,12 @@ export default function Home() {
       <div className="container mt-20 flex items-center justify-center">
         <SpecialBanner />
       </div>
+
       {/* Uncomment after the finalist has been announced */}
-      {/* <div className="mt-20"> */}
-      {/* Finalis SMC */}
-      {/* <FinalisSMC/> */}
-      {/* </div> */}
+      <div className="mt-20">
+        {/* Finalis SMC */}
+        <FinalisSMC />
+      </div>
       <div className="mt-20">
         {/* Special Banner */}
         <Benefit />
