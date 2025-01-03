@@ -41,7 +41,11 @@ const FinalisSMC = () => {
           <p className="md:text-xl">Agricinema</p>
         </div>
         <div className="group relative flex flex-col gap-y-2">
-          <Link href={"https://youtu.be/X_Q9og7gHtA"}>
+          <Link
+            href={
+              "https://drive.google.com/file/d/1p4I995Havbhyiyy7FPUPnMRTLthf_XCg/view?usp=sharing"
+            }
+          >
             <div className="relative">
               <Image
                 src={dibalikkandang}
@@ -61,7 +65,7 @@ const FinalisSMC = () => {
           <p className="md:text-xl">Politeknik Negeri Media Kreatif Jakarta</p>
         </div>{" "}
         <div className="group relative flex flex-col gap-y-2">
-          <Link href={"https://youtu.be/X_Q9og7gHtA"}>
+          <Link href={"https://youtu.be/4_eYDbkEZ4M?si=hnfjYMAsmGLV6-WA"}>
             <div className="relative">
               <Image
                 src={greenbusiness}
