@@ -16,9 +16,6 @@ const Committe = () => {
         main committee
       </h1>
       <h3 className="mt-3 text-lg font-normal">Main Committee List</h3>
-      <h4 className="mt-8 flex justify-start text-start text-2xl font-semibold uppercase md:text-3xl">
-        project manager
-      </h4>
       <div className="mx-auto mt-10 max-w-[1560px] md:mt-20 md:pl-10">
         <div className="relative ml-auto flex w-full flex-col bg-page-black pb-8 md:mr-6 md:max-w-[1380px] md:flex-row">
           {/* Image */}
