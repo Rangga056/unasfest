@@ -1,43 +1,61 @@
 // KDBI 2023
-import kdbio1 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio1.jpg"
-import kdbio2 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio2.jpg"
-import kdbio3 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio3.jpg"
-import kdbio4 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio4.jpg"
-import kdbio5 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio5.jpg"
-import kdbio6 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio6.jpg"
-import kdbio7 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio7.jpg"
-import kdbio8 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio8.jpg"
-import kdbio9 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio9.jpg"
-import kdbio10 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio10.jpg"
-import kdbio11 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio11.jpg"
-import kdbio12 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio12.jpg"
-import kdbio13 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio13.jpg"
-import kdbio14 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio14.jpg"
-import kdbio15 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio15.jpg"
-import kdbio16 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio16.jpg"
-import kdbio17 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio17.jpg"
+import kdbio1 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio1.jpg";
+import kdbio2 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio2.jpg";
+import kdbio3 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio3.jpg";
+import kdbio4 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio4.jpg";
+import kdbio5 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio5.jpg";
+import kdbio6 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio6.jpg";
+import kdbio7 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio7.jpg";
+import kdbio8 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio8.jpg";
+import kdbio9 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio9.jpg";
+import kdbio10 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio10.jpg";
+import kdbio11 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio11.jpg";
+import kdbio12 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio12.jpg";
+import kdbio13 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio13.jpg";
+import kdbio14 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio14.jpg";
+import kdbio15 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio15.jpg";
+import kdbio16 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio16.jpg";
+import kdbio17 from "@/public/assets/images/gallery/activitiesGallery/kdbi23/kdbio17.jpg";
+
+// KDBI 2024
+import kdbio241 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi241.jpg";
+import kdbio242 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi242.jpg";
+import kdbio243 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi243.jpg";
+import kdbio244 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi244.jpg";
+import kdbio245 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi245.jpg";
+import kdbio246 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi246.jpg";
+import kdbio247 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi247.jpg";
+import kdbio248 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi248.jpg";
 
 //English Debate Competition
-import edco1 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco1.jpg"
-import edco2 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco2.jpg"
-import edco3 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco3.jpg"
-import edco4 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco4.jpg"
-import edco5 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco5.jpg"
-import edco6 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco6.jpg"
-import edco7 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco7.jpg"
+import edco1 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco1.jpg";
+import edco2 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco2.jpg";
+import edco3 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco3.jpg";
+import edco4 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco4.jpg";
+import edco5 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco5.jpg";
+import edco6 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco6.jpg";
+import edco7 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco7.jpg";
+
+//English Debate Competition 2024
+import edco241 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc241.jpg";
+import edco242 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc242.jpg";
+import edco243 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc243.jpg";
+import edco244 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc244.jpg";
+import edco245 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc245.jpg";
+import edco246 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc246.jpg";
 
 //Seminar Nasional 2023
-import semnas1 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas1.jpg"
-import semnas2 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas2.jpg"
-import semnas3 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas3.jpg"
-import semnas4 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas4.jpg"
-import semnas5 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas5.jpg"
-import semnas6 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas6.jpg"
-import semnas7 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas7.jpg"
-import semnas8 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas8.jpg"
-import semnas9 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas9.jpg"
-import semnas10 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas10.jpg"
-import semnas11 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas11.jpg"
+import semnas1 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas1.jpg";
+import semnas2 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas2.jpg";
+import semnas3 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas3.jpg";
+import semnas4 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas4.jpg";
+import semnas5 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas5.jpg";
+import semnas6 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas6.jpg";
+import semnas7 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas7.jpg";
+import semnas8 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas8.jpg";
+import semnas9 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas9.jpg";
+import semnas10 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas10.jpg";
+import semnas11 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas11.jpg";
 
 // Seminar Internasional 2024
 import fotosi1 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi1.jpg";
@@ -647,6 +665,7 @@ export const Galleryfilter = [
     category: "KDBI",
     desc: "Kompetisi Debat Bahasa Indonesia",
   },
+
   {
     index: 59,
     img: kdbio10,
@@ -656,118 +675,216 @@ export const Galleryfilter = [
   },
   {
     index: 60,
+    img: kdbio241,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 61,
+    img: kdbio242,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 62,
+    img: kdbio243,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 63,
+    img: kdbio244,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 64,
+    img: kdbio245,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 65,
+    img: kdbio246,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 66,
+    img: kdbio247,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 67,
+    img: kdbio248,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 1",
+  },
+  {
+    index: 68,
     img: edco1,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 61,
+    index: 69,
     img: edco2,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 62,
+    index: 70,
     img: edco3,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 63,
+    index: 71,
     img: edco4,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 64,
+    index: 72,
     img: edco5,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 65,
+    index: 73,
     img: edco6,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 66,
+    index: 74,
+    img: edco241,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 75,
+    img: edco242,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 76,
+    img: edco243,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 77,
+    img: edco244,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 78,
+    img: edco245,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 79,
+    img: edco246,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 1",
+  },
+  {
+    index: 80,
     img: semnas1,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 67,
+    index: 81,
     img: semnas2,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 68,
+    index: 82,
     img: semnas3,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 69,
+    index: 83,
     img: semnas4,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 70,
+    index: 84,
     img: semnas5,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 71,
+    index: 85,
     img: semnas6,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 72,
+    index: 86,
     img: semnas7,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 73,
+    index: 87,
     img: semnas8,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 74,
+    index: 88,
     img: semnas9,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 75,
+    index: 89,
     img: semnas10,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 76,
+    index: 90,
     img: semnas11,
     year: "2023",
     category: "Seminar Nasional",
