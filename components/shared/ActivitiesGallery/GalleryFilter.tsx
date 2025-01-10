@@ -56,7 +56,7 @@ const GalleryFilter = () => {
               <SelectItem value="KDBI">KDBI</SelectItem>
               <SelectItem value="EDC">EDC</SelectItem>
               <SelectItem value="SPC">SPC</SelectItem>
-              <SelectItem value="SPC">SMC</SelectItem>
+              <SelectItem value="SMC">SMC</SelectItem>
             </SelectContent>
           </Select>
           <span className="my-4 ml-5 justify-end text-[15px] font-normal text-white">
