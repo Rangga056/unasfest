@@ -26,6 +26,24 @@ import kdbio245 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kd
 import kdbio246 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi246.jpg";
 import kdbio247 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi247.jpg";
 import kdbio248 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi248.jpg";
+import kdbio251 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi251.jpg";
+import kdbio252 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi252.jpg";
+import kdbio253 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi253.jpg";
+import kdbio254 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi254.jpg";
+import kdbio255 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi255.jpg";
+import kdbio256 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi256.jpg";
+import kdbio257 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi257.jpg";
+import kdbio258 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi258.jpg";
+import kdbio259 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi259.jpg";
+import kdbio261 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi261.jpg";
+import kdbio262 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi262.jpg";
+import kdbio263 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi263.jpg";
+import kdbio264 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi264.jpg";
+import kdbio265 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi265.jpg";
+import kdbio266 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi266.jpg";
+import kdbio268 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi268.jpg";
+import kdbio269 from "@/public/assets/images/gallery/activitiesGallery/kdbi24/kdbi269.jpg";
+
 
 //English Debate Competition
 import edco1 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco1.jpg";
@@ -36,13 +54,31 @@ import edco5 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco5.
 import edco6 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco6.jpg";
 import edco7 from "@/public/assets/images/gallery/activitiesGallery/edc23/edco7.jpg";
 
-//English Debate Competition 2024
+// English Debate Competition 2024
 import edco241 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc241.jpg";
 import edco242 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc242.jpg";
 import edco243 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc243.jpg";
 import edco244 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc244.jpg";
 import edco245 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc245.jpg";
 import edco246 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc246.jpg";
+import edco247 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc247.jpg";
+import edco248 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc248.jpg";
+import edco249 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc249.jpg";
+import edco251 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc251.jpg";
+import edco252 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc252.jpg";
+import edco253 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc253.jpg";
+import edco254 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc254.jpg";
+import edco255 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc255.jpg";
+import edco256 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc256.jpg";
+import edco257 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc257.jpg";
+import edco258 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc258.jpg";
+import edco259 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc259.jpg";
+import edco261 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc261.jpg";
+import edco262 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc262.jpg";
+import edco263 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc263.jpg";
+import edco264 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc264.jpg";
+import edco265 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc265.jpg";
+import edco266 from "@/public/assets/images/gallery/activitiesGallery/edc24/edc266.jpg";
 
 //Seminar Nasional 2023
 import semnas1 from "@/public/assets/images/gallery/activitiesGallery/semin/semnas1.jpg";
@@ -112,6 +148,40 @@ import fotosi47 from "@/public/assets/images/gallery/activitiesGallery/semin2024
 import fotosi48 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi48.jpg";
 import fotosi49 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi49.jpg";
 import fotosi50 from "@/public/assets/images/gallery/activitiesGallery/semin2024/fotosi50.jpg";
+
+//Short Movies Competition
+import smc1 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc01.jpg";
+import smc2 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc02.jpg";
+import smc3 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc03.jpg";
+import smc4 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc04.jpg";
+import smc5 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc05.jpg";
+import smc6 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc06.jpg";
+import smc7 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc07.jpg";
+import smc8 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc08.jpg";
+import smc9 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc09.jpg";
+import smc10 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc10.jpg";
+import smc11 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc11.jpg";
+import smc12 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc12.jpg";
+import smc13 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc13.jpg";
+import smc14 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc14.jpg";
+import smc15 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc15.jpg";
+import smc16 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc16.jpg";
+import smc17 from "@/public/assets/images/gallery/activitiesGallery/smc24/smc17.jpg";
+
+import spc1 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc1.jpg";
+import spc2 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc2.jpg";
+import spc3 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc3.jpg";
+import spc4 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc4.jpg";
+import spc5 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc5.jpg";
+import spc6 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc6.jpg";
+import spc7 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc7.jpg";
+import spc8 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc8.jpg";
+import spc9 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc9.jpg";
+import spc10 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc10.jpg";
+import spc11 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc11.jpg";
+import spc12 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc12.jpg";
+import spc13 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc13.jpg";
+import spc14 from "@/public/assets/images/gallery/activitiesGallery/spc24/spc14.jpg";
 
 export const activitiesGallery = [
   {
@@ -731,163 +801,618 @@ export const Galleryfilter = [
   },
   {
     index: 68,
+    img: kdbio251,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 69,
+    img: kdbio252,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 70,
+    img: kdbio253,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 71,
+    img: kdbio254,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 72,
+    img: kdbio255,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 73,
+    img: kdbio256,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 74,
+    img: kdbio257,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 75,
+    img: kdbio258,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 76,
+    img: kdbio259,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 78,
+    img: kdbio261,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 79,
+    img: kdbio262,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 80,
+    img: kdbio263,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 81,
+    img: kdbio264,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 82,
+    img: kdbio265,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 83,
+    img: kdbio266,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 85,
+    img: kdbio268,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 86,
+    img: kdbio269,
+    year: "2024",
+    category: "KDBI",
+    desc: "Kompetisi Debat Bahasa Indonesia Day 2",
+  },
+  {
+    index: 88,
     img: edco1,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 69,
+    index: 89,
     img: edco2,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 70,
+    index: 90,
     img: edco3,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 71,
+    index: 91,
     img: edco4,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 72,
+    index: 92,
     img: edco5,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 73,
+    index: 93,
     img: edco6,
     year: "2023",
     category: "EDC",
     desc: "English Debate Competition",
   },
   {
-    index: 74,
+    index: 94,
     img: edco241,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 75,
+    index: 95,
     img: edco242,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 76,
+    index: 96,
     img: edco243,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 77,
+    index: 97,
     img: edco244,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 78,
+    index: 98,
     img: edco245,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 79,
+    index: 99,
     img: edco246,
     year: "2024",
     category: "EDC",
     desc: "English Debate Competition Day 1",
   },
   {
-    index: 80,
+    index: 100,
+    img: edco247,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 101,
+    img: edco248,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 102,
+    img: edco249,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 103,
+    img: edco251,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 104,
+    img: edco252,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 105,
+    img: edco253,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 106,
+    img: edco254,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 107,
+    img: edco255,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 108,
+    img: edco256,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 109,
+    img: edco257,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 110,
+    img: edco258,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 111,
+    img: edco259,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 112,
+    img: edco261,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 113,
+    img: edco262,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 114,
+    img: edco263,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 115,
+    img: edco264,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 116,
+    img: edco265,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 117,
+    img: edco266,
+    year: "2024",
+    category: "EDC",
+    desc: "English Debate Competition Day 2",
+  },
+  {
+    index: 118,
     img: semnas1,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 81,
+    index: 119,
     img: semnas2,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 82,
+    index: 120,
     img: semnas3,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 83,
+    index: 121,
     img: semnas4,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 84,
+    index: 122,
     img: semnas5,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 85,
+    index: 123,
     img: semnas6,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 86,
+    index: 124,
     img: semnas7,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 87,
+    index: 125,
     img: semnas8,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 88,
+    index: 126,
     img: semnas9,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 89,
+    index: 127,
     img: semnas10,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
   },
   {
-    index: 90,
+    index: 128,
     img: semnas11,
     year: "2023",
     category: "Seminar Nasional",
     desc: "Seminar Nasional",
+  },
+  {
+    index: 129,
+    img: smc1,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 130,
+    img: smc2,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 131,
+    img: smc3,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 132,
+    img: smc4,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 133,
+    img: smc5,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 134,
+    img: smc6,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 135,
+    img: smc7,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 136,
+    img: smc8,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 137,
+    img: smc9,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 138,
+    img: smc10,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 139,
+    img: smc11,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 140,
+    img: smc12,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 141,
+    img: smc13,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 142,
+    img: smc14,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 143,
+    img: smc15,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 144,
+    img: smc16,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 145,
+    img: smc17,
+    year: "2024",
+    category: "SMC",
+    desc: "Short Movie Competition",
+  },
+  {
+    index: 146,
+    img: spc1,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 147,
+    img: spc2,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 148,
+    img: spc3,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 149,
+    img: spc4,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 150,
+    img: spc5,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 151,
+    img: spc6,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 152,
+    img: spc7,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 153,
+    img: spc9,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 154,
+    img: spc10,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 155,
+    img: spc11,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 156,
+    img: spc12,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 157,
+    img: spc13,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
+  },
+  {
+    index: 158,
+    img: spc14,
+    year: "2024",
+    category: "SPC",
+    desc: "Science Paper Competition",
   },
 ];
