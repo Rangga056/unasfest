@@ -16,7 +16,7 @@ import hezron from "@/public/assets/images/competition/edc hezron.jpg";
 import cecilia from "@/public/assets/images/competition/EDC Cecilia.png";
 
 // judges photos spc
-import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si..png";
+import efriza from "@/public/assets/images/competition/edc Efriza, S.I.P., M.Si.png";
 import desfara from "@/public/assets/images/competition/Desfara.jpeg";
 import tatang from "@/public/assets/images/competition/spc tatang.jpeg";
 import agung from "@/public/assets/images/competition/SPC_AgungIswadi.jpeg";

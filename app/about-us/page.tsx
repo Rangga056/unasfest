@@ -209,7 +209,7 @@ const AboutUsPage = () => {
         </div> */}
       </div>
       <div className="container mt-20 text-center">
-        <h1 className="font-bungee text-5xl font-medium uppercase">
+        <h1 className="font-bungee text-3xl md:text-5xl font-medium uppercase">
           past mascots
         </h1>
         <p className="text-xl capitalize ">our previous mascots</p>
@@ -226,7 +226,7 @@ const AboutUsPage = () => {
           />
         </div>
         <div className="flex flex-[2] flex-col items-center justify-center gap-y-10 text-center">
-          <h1 className="font-bungee text-5xl font-medium">
+          <h1 className="font-bungee text-3xl md:text-5xl font-medium">
             unas fest 2023 mascot philosophy
           </h1>
           <p className="text-left text-xl md:text-center">
