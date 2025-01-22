@@ -47,8 +47,8 @@ const GalleryFilter = () => {
               <SelectValue placeholder="Competition Title" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="Seminar Internasional">
-                Seminar Internasional
+              <SelectItem value="International Seminar">
+                International Seminar
               </SelectItem>
               <SelectItem value="Seminar Nasional">
                 Seminar Nasional
