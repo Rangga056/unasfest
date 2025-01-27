@@ -10,7 +10,7 @@ const bungee = Bungee({
   weight: ["400"],
   variable: "--font-bungee",
   display: "optional",
-  adjustFontFallback: false,
+  adjustFontFallback: true,
 });
 
 const inter = Inter({
