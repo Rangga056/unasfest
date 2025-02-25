@@ -23,6 +23,7 @@ import instagramIcon from "@/public/assets/icons/instagram-icon-white.svg";
 import Committe from "@/components/shared/Committe/Committe";
 import { postersData } from "@/constants/Posters/posterDatas";
 import Visionaries from "@/components/shared/Visionaries/Visionaries";
+import Yb from "@/components/shared/YearBook/Yb";
 
 const AboutUsPage = () => {
   const InfiniteSlidingProps = {
@@ -104,6 +105,10 @@ const AboutUsPage = () => {
         <Committe />
       </div>
 
+      {/* YEARBOOK */}
+      <div className="container mt-20 px-0">
+        <Yb />
+      </div>
       {/* Logo and Mascot Section */}
       <div className="container text-page-black">
         <div className="mt-20 text-center">
